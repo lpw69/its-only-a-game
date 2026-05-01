@@ -362,7 +362,14 @@ def push_to_typefully(post_text):
     if not social_set_id:
         return None
 
-    # Try a few platform key names since Typefully's docs are sparse and the API rebranded
+    # Schedule the draft to publish at a future time so it auto-posts.
+    # Stagger published times across drafts in this run so they don't all fire at once.
+    # Pick a random minute between 30 and 180 mins ahead.
+    minutes_ahead = random.randint(30, 180)
+    schedule_dt = datetime.datetime.utcnow() + datetime.timedelta(minutes=minutes_ahead)
+    # Typefully expects ISO 8601 with timezone, so use UTC Z suffix
+    schedule_str = schedule_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+
     platform_keys_to_try = ["x", "twitter_x", "twitter"]
 
     for platform_key in platform_keys_to_try:
@@ -378,22 +385,22 @@ def push_to_typefully(post_text):
                         "enabled": True,
                         "posts": [{"text": post_text}],
                     }
-                }
+                },
+                "schedule-date": schedule_str,
             },
             timeout=15,
         )
         if r.status_code in (200, 201):
             data = r.json()
+            print(f"    Scheduled for {schedule_str}")
             return data.get("share_url") or data.get("id")
-        # If 422 with "extra_forbidden", that key isn't valid — try the next
         if r.status_code == 422 and "extra_forbidden" in r.text:
             print(f"  Platform key '{platform_key}' rejected, trying next...")
             continue
-        # Any other error, log and stop
         print(f"  Typefully draft error {r.status_code}: {r.text[:300]}")
         return None
 
-    # All platform keys failed — try without the platforms wrapper at all
+    # All platform keys failed — try minimal payload with schedule
     print("  All platform keys rejected. Trying minimal payload...")
     r = requests.post(
         f"https://api.typefully.com/v2/social-sets/{social_set_id}/drafts",
@@ -401,7 +408,7 @@ def push_to_typefully(post_text):
             "Authorization": f"Bearer {TYPEFULLY_API_KEY}",
             "Content-Type": "application/json",
         },
-        json={"text_to_tweet": post_text},
+        json={"text_to_tweet": post_text, "schedule-date": schedule_str},
         timeout=15,
     )
     if r.status_code in (200, 201):
