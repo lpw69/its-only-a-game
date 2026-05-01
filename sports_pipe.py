@@ -350,26 +350,53 @@ def push_to_typefully(post_text):
     social_set_id = get_typefully_social_set()
     if not social_set_id:
         return None
+
+    # Try a few platform key names since Typefully's docs are sparse and the API rebranded
+    platform_keys_to_try = ["x", "twitter_x", "twitter"]
+
+    for platform_key in platform_keys_to_try:
+        r = requests.post(
+            f"https://api.typefully.com/v2/social-sets/{social_set_id}/drafts",
+            headers={
+                "Authorization": f"Bearer {TYPEFULLY_API_KEY}",
+                "Content-Type": "application/json",
+            },
+            json={
+                "platforms": {
+                    platform_key: {
+                        "enabled": True,
+                        "posts": [{"text": post_text}],
+                    }
+                }
+            },
+            timeout=15,
+        )
+        if r.status_code in (200, 201):
+            data = r.json()
+            return data.get("share_url") or data.get("id")
+        # If 422 with "extra_forbidden", that key isn't valid — try the next
+        if r.status_code == 422 and "extra_forbidden" in r.text:
+            print(f"  Platform key '{platform_key}' rejected, trying next...")
+            continue
+        # Any other error, log and stop
+        print(f"  Typefully draft error {r.status_code}: {r.text[:300]}")
+        return None
+
+    # All platform keys failed — try without the platforms wrapper at all
+    print("  All platform keys rejected. Trying minimal payload...")
     r = requests.post(
         f"https://api.typefully.com/v2/social-sets/{social_set_id}/drafts",
         headers={
             "Authorization": f"Bearer {TYPEFULLY_API_KEY}",
             "Content-Type": "application/json",
         },
-        json={
-            "platforms": {
-                "twitter": {
-                    "enabled": True,
-                    "posts": [{"text": post_text}],
-                }
-            }
-        },
+        json={"text_to_tweet": post_text},
         timeout=15,
     )
     if r.status_code in (200, 201):
         data = r.json()
         return data.get("share_url") or data.get("id")
-    print(f"  Typefully draft error {r.status_code}: {r.text[:300]}")
+    print(f"  Final fallback failed: {r.status_code}: {r.text[:300]}")
     return None
 
 
