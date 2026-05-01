@@ -362,72 +362,67 @@ def push_to_typefully(post_text):
     if not social_set_id:
         return None
 
-    # Calculate a future publish time so the draft auto-publishes
-    minutes_ahead = random.randint(30, 180)
-    schedule_dt = datetime.datetime.utcnow() + datetime.timedelta(minutes=minutes_ahead)
-    schedule_iso = schedule_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+    # Try to create-and-publish in one call. Typefully has documented this in
+    # different shapes across versions; we try the most likely flags in order.
+    publish_attempts = [
+        # Most common pattern: a top-level publish flag
+        {"publish": True},
+        {"published": True},
+        # "post immediately" flags some APIs use
+        {"post_now": True},
+        {"send_now": True},
+        # Set scheduled date to 'now' + 1 minute (many APIs accept a past/now date as immediate publish)
+        {"schedule_date": (datetime.datetime.utcnow() + datetime.timedelta(minutes=1)).strftime("%Y-%m-%dT%H:%M:%SZ")},
+    ]
 
-    # Step 1: create the draft (working format from earlier runs - platform key 'x')
+    base_payload = {
+        "platforms": {
+            "x": {
+                "enabled": True,
+                "posts": [{"text": post_text}],
+            }
+        }
+    }
+
+    for extra in publish_attempts:
+        payload = {**base_payload, **extra}
+        r = requests.post(
+            f"https://api.typefully.com/v2/social-sets/{social_set_id}/drafts",
+            headers={
+                "Authorization": f"Bearer {TYPEFULLY_API_KEY}",
+                "Content-Type": "application/json",
+            },
+            json=payload,
+            timeout=15,
+        )
+        if r.status_code in (200, 201):
+            data = r.json()
+            label = list(extra.keys())[0]
+            print(f"    Created with '{label}': {extra[label]}")
+            return data.get("share_url") or data.get("id")
+        if r.status_code == 422 and "extra_forbidden" in r.text:
+            # That parameter isn't accepted, try the next
+            continue
+        # Some other error — log and stop
+        print(f"  Typefully error {r.status_code}: {r.text[:300]}")
+        return None
+
+    # Fallback: create draft with no publish flag (will sit as draft for manual review)
+    print("  No publish flag accepted. Creating draft only (manual schedule needed).")
     r = requests.post(
         f"https://api.typefully.com/v2/social-sets/{social_set_id}/drafts",
         headers={
             "Authorization": f"Bearer {TYPEFULLY_API_KEY}",
             "Content-Type": "application/json",
         },
-        json={
-            "platforms": {
-                "x": {
-                    "enabled": True,
-                    "posts": [{"text": post_text}],
-                }
-            }
-        },
+        json=base_payload,
         timeout=15,
     )
-    if r.status_code not in (200, 201):
-        print(f"  Typefully draft error {r.status_code}: {r.text[:300]}")
-        return None
-
-    draft_data = r.json()
-    draft_id = draft_data.get("id")
-    if not draft_id:
-        print(f"  Draft created but no ID returned: {draft_data}")
-        return draft_data.get("share_url")
-
-    # Step 2: schedule the draft using the dedicated schedule endpoint
-    # Try a few likely endpoint shapes since Typefully docs are sparse
-    schedule_attempts = [
-        # PATCH on the draft itself with a schedule field
-        ("PATCH", f"https://api.typefully.com/v2/drafts/{draft_id}", {"schedule_date": schedule_iso}),
-        ("PATCH", f"https://api.typefully.com/v2/drafts/{draft_id}", {"scheduled_at": schedule_iso}),
-        ("PATCH", f"https://api.typefully.com/v2/drafts/{draft_id}", {"publish_at": schedule_iso}),
-        # POST to a /schedule subroute
-        ("POST", f"https://api.typefully.com/v2/drafts/{draft_id}/schedule", {"schedule_date": schedule_iso}),
-        ("POST", f"https://api.typefully.com/v2/drafts/{draft_id}/schedule", {"scheduled_at": schedule_iso}),
-    ]
-
-    scheduled = False
-    for method, url, body in schedule_attempts:
-        sr = requests.request(
-            method, url,
-            headers={
-                "Authorization": f"Bearer {TYPEFULLY_API_KEY}",
-                "Content-Type": "application/json",
-            },
-            json=body,
-            timeout=15,
-        )
-        if sr.status_code in (200, 201, 204):
-            print(f"    Scheduled for {schedule_iso} ({method} {url.split('/')[-1]} body={list(body.keys())[0]})")
-            scheduled = True
-            break
-
-    if not scheduled:
-        print(f"    Draft created but scheduling failed. Will sit as draft.")
-        # Print last attempt's error so we can diagnose
-        print(f"    Last response {sr.status_code}: {sr.text[:200]}")
-
-    return draft_data.get("share_url") or draft_id
+    if r.status_code in (200, 201):
+        data = r.json()
+        return data.get("share_url") or data.get("id")
+    print(f"  Final fallback failed: {r.status_code}: {r.text[:300]}")
+    return None
 
 
 # --- commit ---
