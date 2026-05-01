@@ -55,7 +55,9 @@ You react to a SPECIFIC news event the user gives you. Take that event, find the
 NON-NEGOTIABLE RULES (output is auto-rejected if you break any)
 
 1. POST IS MAX 280 CHARACTERS. Hard cap.
-2. POST IS 2-3 LINES MAX. One opening line, one or two follow-up lines. No long essays.
+2. POST IS 2-3 LINES MAX. Use \\n\\n between beats — every post longer than one short sentence MUST have at least one line break. Mobile reads like one wall of text otherwise. Example layout:
+   "BREAKING: [news fact].\\n\\n[the dig]."
+   Or: "[opening reaction line].\\n\\n[follow-up beat].\\n\\n[final line]."
 3. NO EM DASHES (—). NO EN DASHES (–). Use commas, full stops, or colons.
 4. NO HASHTAGS.
 5. NEVER FABRICATE FACTS. The names, scores, transfers, and quotes in your post must come from the source news event you've been given. Do not invent player names, results, or quotes.
@@ -133,6 +135,12 @@ BANNED_REGEX_PATTERNS = [
     (r",\s+not\s+\w+\.\s*$", "antithesis tail ', not Y.' at end of post"),
     (r"\b(on|by|with|for|in|of|to|and|but|or|the|a|an|that|which|from|as|at|into|onto|upon|via|though)\.\s*$",
      "stealth cliffhanger (post ends mid-thought)"),
+    # "That's not X. That's Y." / "That's not X, that's Y." — common AI antithesis
+    (r"\bthat'?s\s+not\s+.{2,40}[,.]\s+that'?s\s+", "'That's not X. That's Y.' antithesis"),
+    # "It's not X. It's Y."
+    (r"\bit'?s\s+not\s+.{2,40}[,.]\s+it'?s\s+", "'It's not X. It's Y.' antithesis"),
+    # Fragment-then-explanation: "Two years. That's how long..." / "Five goals. That's what happens..."
+    (r"\b\w+\s+\w+\.\s+that'?s\s+(how|what|why|when|where)\s+", "fragment-then-explanation auto-rhythm"),
 ]
 
 
@@ -233,6 +241,9 @@ def validate_post(post):
         problems.append("contains em dash (—)")
     if "–" in post:
         problems.append("contains en dash (–)")
+    # Strict line-spacing: any post over 80 chars must have at least one \n\n break
+    if len(post) > 80 and "\n\n" not in post:
+        problems.append("missing line break (use \\n\\n between beats; one or two breaks for readability on mobile)")
     # Two-three lines: count non-empty paragraphs separated by \n\n
     paragraphs = [p for p in post.split("\n\n") if p.strip()]
     if len(paragraphs) > 3:
