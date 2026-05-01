@@ -31,7 +31,7 @@ TYPEFULLY_SOCIAL_SET_ID  = os.environ.get("TYPEFULLY_GAME_SOCIAL_SET_ID", "")
 # --- config ---
 SEED_HANDLES        = ["FabrizioRomano", "David_Ornstein", "BBCSport", "SkySportsNews"]
 NEWS_LOOKBACK_HOURS = 12
-POSTS_PER_RUN       = 6
+POSTS_PER_RUN       = 2
 MIN_NEWS_LENGTH     = 60
 POSTED_LOG          = "posted_news.json"
 
