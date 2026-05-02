@@ -31,7 +31,7 @@ TYPEFULLY_SOCIAL_SET_ID  = os.environ.get("TYPEFULLY_GAME_SOCIAL_SET_ID", "")
 # --- config ---
 SEED_HANDLES        = ["FabrizioRomano", "David_Ornstein", "BBCSport", "SkySportsNews"]
 NEWS_LOOKBACK_HOURS = 12
-POSTS_PER_RUN       = 2
+POSTS_PER_RUN       = 1
 MIN_NEWS_LENGTH     = 60
 POSTED_LOG          = "posted_news.json"
 
@@ -362,66 +362,35 @@ def push_to_typefully(post_text):
     if not social_set_id:
         return None
 
-    # Try to create-and-publish in one call. Typefully has documented this in
-    # different shapes across versions; we try the most likely flags in order.
-    publish_attempts = [
-        # Most common pattern: a top-level publish flag
-        {"publish": True},
-        {"published": True},
-        # "post immediately" flags some APIs use
-        {"post_now": True},
-        {"send_now": True},
-        # Set scheduled date to 'now' + 1 minute (many APIs accept a past/now date as immediate publish)
-        {"schedule_date": (datetime.datetime.utcnow() + datetime.timedelta(minutes=1)).strftime("%Y-%m-%dT%H:%M:%SZ")},
-    ]
-
-    base_payload = {
+    # publish_at:"now" tells Typefully to publish immediately (per their v2 API docs).
+    # Other valid values: "next-free-slot", or ISO 8601 timestamp like "2025-01-25T10:00:00Z".
+    payload = {
         "platforms": {
             "x": {
                 "enabled": True,
                 "posts": [{"text": post_text}],
             }
-        }
+        },
+        "publish_at": "now",
     }
 
-    for extra in publish_attempts:
-        payload = {**base_payload, **extra}
-        r = requests.post(
-            f"https://api.typefully.com/v2/social-sets/{social_set_id}/drafts",
-            headers={
-                "Authorization": f"Bearer {TYPEFULLY_API_KEY}",
-                "Content-Type": "application/json",
-            },
-            json=payload,
-            timeout=15,
-        )
-        if r.status_code in (200, 201):
-            data = r.json()
-            label = list(extra.keys())[0]
-            print(f"    Created with '{label}': {extra[label]}")
-            return data.get("share_url") or data.get("id")
-        if r.status_code == 422 and "extra_forbidden" in r.text:
-            # That parameter isn't accepted, try the next
-            continue
-        # Some other error — log and stop
-        print(f"  Typefully error {r.status_code}: {r.text[:300]}")
-        return None
-
-    # Fallback: create draft with no publish flag (will sit as draft for manual review)
-    print("  No publish flag accepted. Creating draft only (manual schedule needed).")
     r = requests.post(
         f"https://api.typefully.com/v2/social-sets/{social_set_id}/drafts",
         headers={
             "Authorization": f"Bearer {TYPEFULLY_API_KEY}",
             "Content-Type": "application/json",
         },
-        json=base_payload,
+        json=payload,
         timeout=15,
     )
+
     if r.status_code in (200, 201):
         data = r.json()
+        status = data.get("status", "unknown")
+        print(f"    Created with publish_at:now (status={status})")
         return data.get("share_url") or data.get("id")
-    print(f"  Final fallback failed: {r.status_code}: {r.text[:300]}")
+
+    print(f"  Typefully error {r.status_code}: {r.text[:300]}")
     return None
 
 
