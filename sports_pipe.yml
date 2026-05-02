@@ -1,10 +1,10 @@
 name: It's Only a Game - Sports Pipe
 on:
   schedule:
-    - cron: "0 8 * * *"
-    - cron: "0 12 * * *"
-    - cron: "0 17 * * *"
-    - cron: "0 21 * * *"
+    - cron: "7 8 * * *"
+    - cron: "23 12 * * *"
+    - cron: "41 17 * * *"
+    - cron: "53 21 * * *"
   workflow_dispatch:
 jobs:
   run-sports-pipe:
