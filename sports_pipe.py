@@ -69,7 +69,7 @@ A. NEWS HEADLINE (about 25% of posts) — lead with one of these and then ruin i
    "BREAKING: ...", "JUST IN:", "HUGE NEWS:", "TEAM NEWS:", "RESULT:", "FULL-TIME:", "EXCLUSIVE:", "BOMBSHELL:", "UPDATE:"
    Example: "BREAKING: Michael Jackson appointed Burnley interim manager. He'll heal Turf Moor, make it a better place."
 
-B. CONVERSATIONAL REACTION (about 35% of posts) — no prefix, just deliver the dig
+B. CONVERSATIONAL REACTION (about 25% of posts) — no prefix, just deliver the dig
    Example: "Arne Slot complaining that English clubs don't want to play football, then taking Liverpool to Paris with a back five. Funny."
 
 C. QUOTE-MARK SARCASM (about 15% of posts) — let the quotes do the work
@@ -78,8 +78,13 @@ C. QUOTE-MARK SARCASM (about 15% of posts) — let the quotes do the work
 D. ALL-CAPS OUTBURST (about 10% of posts) — Aldi-style emotional reaction
    Example: "ARSENAL'S TREBLE PARADE STATUS: cancelled, cancelled, ???, ???"
 
-E. DEADPAN OBSERVATION (about 15% of posts) — straight-faced absurd take
+E. DEADPAN OBSERVATION (about 10% of posts) — straight-faced absurd take
    Example: "Liverpool fans really buying into the whole 'Emptyhad' thing by leaving in their droves after 60 minutes."
+
+F. MOCKING IMPRESSION (about 15% of posts) — "Ooh look at me I'm [team/player], I'm gonna [stupid choice they made]" then verdict line. Voice the club or person making fun of their own logic. End with a one-word verdict like "Pathetic.", "Lovely.", "Mental.", "Sound.", "Brilliant."
+   Example: "Ooh look at me, I'm Aston Villa and I'm gonna prioritise my European Semi-final instead of relegating Spurs for a laugh.\\n\\nPathetic."
+   Example: "Ooh look at me, I'm Pep Guardiola and I'm gonna make 8 substitutions in a 4-0 win because the centre-backs needed minutes.\\n\\nMental."
+   The mocking voice REQUIRES a real decision the team or person actually made. Don't invent it.
 
 CLUB / FIGURE STEREOTYPES — fire ONLY when the news triggers them
 
@@ -104,7 +109,9 @@ Don't force these. Use only when the news pattern matches.
 - NFL — JETS MISERY / COWBOYS CHOKE: triggered on those teams losing in big moments.
 
 BANNED PHRASES (auto-rejected)
-"Most people think...", "Here's the thing...", "The real play", "Plot twist:", "Real talk", "The bottom line", "The kicker", "This changes everything", "Imagine if...", "What if I told you...", "It's not about X, it's about Y" patterns. "Not X. Not Y." staccato. "X, not Y." antithesis tails. Three-part rhythmic lists. Single-word sentences for emphasis. Trailing ellipsis (...). Sports cliches: "absolute scenes", "what a moment", "level on points", "as it stands", "can't see past", "make no mistake".
+"Most people think...", "Here's the thing...", "The real play", "Plot twist:", "Real talk", "The bottom line", "The kicker", "This changes everything", "Imagine if...", "What if I told you...", "It's not about X, it's about Y" patterns. "Not X. Not Y." staccato. "X, not Y." antithesis tails. Three-part rhythmic lists. Single-word sentences for emphasis (UNLESS it's the verdict line in a MOCKING IMPRESSION post, where one-word verdicts like "Pathetic." or "Mental." are correct). Trailing ellipsis (...). Sports cliches: "absolute scenes", "what a moment", "level on points", "as it stands", "can't see past", "make no mistake".
+
+DO NOT USE "MATE" IN POSTS. It appears too often and reads as forced. Use it at most once every 20 posts, and only when the context genuinely calls for direct address. Most posts should never use it.
 
 OUTPUT
 Valid JSON only. No code fences. No commentary. Use \\n\\n between lines for mobile spacing.
@@ -124,6 +131,8 @@ BANNED_SUBSTRINGS = [
     # Sports clichés specifically
     "absolute scenes", "what a moment", "make no mistake",
     "as it stands", "can't see past", "talk about a",
+    # "Mate" overuse — model leans on this too much
+    " mate.", " mate,", " mate?", " mate!",
 ]
 
 BANNED_REGEX_PATTERNS = [
