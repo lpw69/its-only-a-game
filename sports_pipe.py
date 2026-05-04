@@ -86,6 +86,30 @@ F. MOCKING IMPRESSION (about 15% of posts) — "Ooh look at me I'm [team/player]
    Example: "Ooh look at me, I'm Pep Guardiola and I'm gonna make 8 substitutions in a 4-0 win because the centre-backs needed minutes.\\n\\nMental."
    The mocking voice REQUIRES a real decision the team or person actually made. Don't invent it.
 
+COMEDIC TECHNIQUES — your jokes should land using these moves, not by stating something is funny
+
+1. REDUCTIVE PARAPHRASE: take a complex/serious decision someone made and restate it in childish terms to expose the absurdity. "Hansi Flick has agreed a new Barcelona deal" becomes "Hansi Flick decides to stay on a sinking ship for two more years. Brave."
+
+2. FAUX-NAIVE QUESTION: pretend not to understand something obvious to highlight it. "Chelsea team news leaked by Cucurella's barber. Which raises the question: why does a footballer have a barber?"
+
+3. SPECIFIC ABSURD DETAIL: when describing a scene, the comedy is in choosing one ridiculously precise detail. "Fulham fans discussing whether M&S or Waitrose smoked salmon is better" works because of the specific brand pairing.
+
+4. CULTURAL CALLBACK REWRITE: take a famous quote, lyric, or cliché and twist the ending. "Football is a simple game; 22 men chase a ball and at the end of it all, Arsenal finish second again." (Lineker callback). "Michael Jackson appointed Burnley interim. He'll heal Turf Moor, make it a better place." (Heal The World callback).
+
+5. DEADPAN SCENE SETUP, STING ENDING: describe a small mundane scene seriously, then sting it. "John Terry currently standing outside Stamford Bridge in full kit. Just watching. Waiting."
+
+6. EARNEST QUOTE, RUINED BY CONTEXT: take a player or manager's actual quote (use the source quote) and pair it with a fact that undermines them. "'We must improve' says manager whose team has just lost 5-0 for the third time this month."
+
+7. UNDERREACTION TO BIG NEWS: treat a huge story with bored disinterest as if it's normal. "Man United have sacked another manager. Tuesday."
+
+8. OVERREACTION TO SMALL NEWS: treat a tiny detail with operatic horror. "BREAKING: A Tottenham fan was photographed smiling. Investigation underway."
+
+9. THE LIST WITH ONE WRONG ITEM: build a list where one item is comically out of place. "On Pep's mind today: tactics, formation, lineup, what colour cardigan to wear, the meaning of life."
+
+10. ANTI-EUPHEMISM: when something is being euphemistically described, use the bluntest possible word for it. Sacked, robbed, screwed, brutal.
+
+USE THESE INSTEAD OF JUST OBSERVING THINGS. A post that just observes "Chelsea lost 3-0" isn't funny. A post that uses any of the above techniques to land the same fact IS funny.
+
 CLUB / FIGURE STEREOTYPES — fire ONLY when the news triggers them
 
 Don't force these. Use only when the news pattern matches.
@@ -131,8 +155,6 @@ BANNED_SUBSTRINGS = [
     # Sports clichés specifically
     "absolute scenes", "what a moment", "make no mistake",
     "as it stands", "can't see past", "talk about a",
-    # "Mate" overuse — model leans on this too much
-    " mate.", " mate,", " mate?", " mate!",
 ]
 
 BANNED_REGEX_PATTERNS = [
@@ -150,6 +172,8 @@ BANNED_REGEX_PATTERNS = [
     (r"\bit'?s\s+not\s+.{2,40}[,.]\s+it'?s\s+", "'It's not X. It's Y.' antithesis"),
     # Fragment-then-explanation: "Two years. That's how long..." / "Five goals. That's what happens..."
     (r"\b\w+\s+\w+\.\s+that'?s\s+(how|what|why|when|where)\s+", "fragment-then-explanation auto-rhythm"),
+    # "Mate" used as direct address — the model leans on this too hard
+    (r"\bmate\b", "uses 'mate' (model overuses this; rephrase without it)"),
 ]
 
 
