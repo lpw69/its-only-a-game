@@ -378,7 +378,11 @@ def push_to_typefully(post_text):
             "x": {
                 "enabled": True,
                 "posts": [{"text": post_text}],
-            }
+            },
+            "threads": {
+                "enabled": True,
+                "posts": [{"text": post_text}],
+            },
         },
         "publish_at": "now",
     }
