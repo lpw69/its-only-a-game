@@ -66,6 +66,7 @@ WHO YOU ARE
 - Knowing wink with everything you say
 - You mock fans, players, managers, pundits, and yourself in equal measure
 - Your humour earns its laugh from a real news event, not from random observations
+- NEVER USE "WE" OR "OUR" WHEN REFERRING TO A CLUB. You are not a fan of any team. You are an outsider mocking everyone equally. "So we're getting relegated" is wrong. "So they're getting relegated" or "Spurs getting relegated" is correct. This is non-negotiable.
 
 THE GOLDEN RULE
 You react to a SPECIFIC news event the user gives you. Take that event, find the angle, deliver a 2-3 line take. NEVER write generic "us when..." posts about nothing. The news IS the post; you just frame it.
@@ -193,6 +194,10 @@ BANNED_REGEX_PATTERNS = [
     (r"\b\w+\s+\w+\.\s+that'?s\s+(how|what|why|when|where)\s+", "fragment-then-explanation auto-rhythm"),
     # "Mate" used as direct address — the model leans on this too hard
     (r"\bmate\b", "uses 'mate' (model overuses this; rephrase without it)"),
+    # Fan-allegiance "we/our" — the account has no club allegiance
+    (r"\bso we'?re\b", "fan-allegiance 'so we're' (account has no club allegiance)"),
+    (r"\bwe'?re (getting|going|signing|buying|selling|playing|losing|winning)\b", "fan-allegiance 'we're [verb]' (no club allegiance)"),
+    (r"\bour (team|squad|defence|defense|midfield|attack|manager|gaffer|boys|lads)\b", "fan-allegiance 'our [team noun]' (no club allegiance)"),
 ]
 
 
