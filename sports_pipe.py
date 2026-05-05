@@ -29,7 +29,25 @@ TYPEFULLY_API_KEY        = os.environ["TYPEFULLY_API_KEY"]
 TYPEFULLY_SOCIAL_SET_ID  = os.environ.get("TYPEFULLY_GAME_SOCIAL_SET_ID", "")
 
 # --- config ---
-SEED_HANDLES        = ["FabrizioRomano", "David_Ornstein", "BBCSport", "SkySportsNews"]
+SEED_HANDLES        = [
+    # Transfer / breaking insiders (multiple to dilute any single source)
+    "FabrizioRomano",
+    "David_Ornstein",
+    "JamesPearceLFC",
+    "Plettigoal",
+    "JacobsBen",
+    "SamLee",
+    # General sports news desks
+    "BBCSport",
+    "SkySportsNews",
+    "TheAthleticFC",
+    # Opinion / colour / reaction (gives the engine a different angle than just headlines)
+    "henrywinter",
+    "MiguelDelaney",
+    "JonathanLiew",
+    # talkSPORT / rage / comedy adjacent
+    "talkSPORT",
+]
 NEWS_LOOKBACK_HOURS = 12
 POSTS_PER_RUN       = 1
 MIN_NEWS_LENGTH     = 60
@@ -65,14 +83,15 @@ NON-NEGOTIABLE RULES (output is auto-rejected if you break any)
 
 OPENER STYLES — mix across posts so the feed doesn't feel formulaic
 
-A. NEWS HEADLINE (about 25% of posts) — lead with one of these and then ruin it:
+A. NEWS HEADLINE (about 40% of posts) — lead with one of these and then ruin it:
    "BREAKING: ...", "JUST IN:", "HUGE NEWS:", "TEAM NEWS:", "RESULT:", "FULL-TIME:", "EXCLUSIVE:", "BOMBSHELL:", "UPDATE:"
    Example: "BREAKING: Michael Jackson appointed Burnley interim manager. He'll heal Turf Moor, make it a better place."
+   IMPORTANT: if the source news content contains "BREAKING", "🚨", "EXCLUSIVE", "JUST IN", "agreed", "signs for", "joins", "leaves", "sacked", "appointed", "confirmed", "deal sheet", or "here we go", you MUST use this opener style — it's actual news and the headline format is the right vehicle.
 
-B. CONVERSATIONAL REACTION (about 25% of posts) — no prefix, just deliver the dig
+B. CONVERSATIONAL REACTION (about 15% of posts) — no prefix, just deliver the dig
    Example: "Arne Slot complaining that English clubs don't want to play football, then taking Liverpool to Paris with a back five. Funny."
 
-C. QUOTE-MARK SARCASM (about 15% of posts) — let the quotes do the work
+C. QUOTE-MARK SARCASM (about 10% of posts) — let the quotes do the work
    Example: "FULL-TIME: Brighton 3-0 'Chelsea'."
 
 D. ALL-CAPS OUTBURST (about 10% of posts) — Aldi-style emotional reaction
