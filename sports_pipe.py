@@ -53,7 +53,15 @@ POSTS_PER_RUN       = 1
 MIN_NEWS_LENGTH     = 60
 POSTED_LOG          = "posted_news.json"
 
-NEWSLETTER_URL = ""  # not used here, no newsletter funnel for this brand yet
+GUIDE_URL = "https://medium.com/illumination/how-i-made-50k-beating-the-bookies-at-their-own-game-79119261d51c"
+CTA_PROBABILITY = 0.33  # ~1 in 3 posts get a casual CTA reply
+
+CTA_LINES = [
+    f"Btw, found a way to make easy cash with bookie bonuses. Literally paid for my house deposit. Guide here: {GUIDE_URL}",
+    f"P.S. Please don't tell me you're still losing money on accas? Do this instead: {GUIDE_URL}",
+    f"P.S. Wrote a guide on the bookie bonus thing. It's free. Mates have made a few grand off it already: {GUIDE_URL}",
+    f"Btw, still blows my mind more people don't do this. Bookies literally hand you free money and most people just gamble it back. Guide: {GUIDE_URL}",
+]
 
 
 # --- voice profile, distilled from Paddy Power + Aldi scrape ---
@@ -414,22 +422,27 @@ def get_typefully_social_set():
     return sets[0]["id"]
 
 
-def push_to_typefully(post_text):
+def push_to_typefully(post_text, cta_text=None):
     social_set_id = get_typefully_social_set()
     if not social_set_id:
         return None
 
-    # publish_at:"now" tells Typefully to publish immediately (per their v2 API docs).
-    # Other valid values: "next-free-slot", or ISO 8601 timestamp like "2025-01-25T10:00:00Z".
+    # Build posts array. If CTA is provided, it becomes a reply-to-self (thread).
+    posts_x = [{"text": post_text}]
+    posts_threads = [{"text": post_text}]
+    if cta_text:
+        posts_x.append({"text": cta_text})
+        posts_threads.append({"text": cta_text})
+
     payload = {
         "platforms": {
             "x": {
                 "enabled": True,
-                "posts": [{"text": post_text}],
+                "posts": posts_x,
             },
             "threads": {
                 "enabled": True,
-                "posts": [{"text": post_text}],
+                "posts": posts_threads,
             },
         },
         "publish_at": "now",
@@ -516,7 +529,13 @@ def main():
         preview = post.replace("\n", " ")[:80]
         print(f"\n  Post ({len(post)} chars): {preview}...")
 
-        tid = push_to_typefully(post)
+        # Roll for CTA reply (only if GUIDE_URL is set)
+        cta = None
+        if GUIDE_URL and random.random() < CTA_PROBABILITY:
+            cta = random.choice(CTA_LINES)
+            print(f"    + CTA attached")
+
+        tid = push_to_typefully(post, cta_text=cta)
         if tid:
             drafts_pushed += 1
             print(f"    Typefully draft: {tid}")
