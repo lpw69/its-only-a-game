@@ -54,7 +54,7 @@ MIN_NEWS_LENGTH     = 60
 POSTED_LOG          = "posted_news.json"
 
 GUIDE_URL = "https://medium.com/illumination/how-i-made-50k-beating-the-bookies-at-their-own-game-79119261d51c"
-CTA_PROBABILITY = 0.33  # ~1 in 3 posts get a casual CTA reply
+CTA_PROBABILITY = None  # randomised per post between 0.25 and 0.33 in main loop
 
 CTA_LINES = [
     f"Btw, found a way to make easy cash with bookie bonuses. Literally paid for my house deposit. Guide here: {GUIDE_URL}",
@@ -531,7 +531,7 @@ def main():
 
         # Roll for CTA reply (only if GUIDE_URL is set)
         cta = None
-        if GUIDE_URL and random.random() < CTA_PROBABILITY:
+        if GUIDE_URL and random.random() < random.uniform(0.25, 0.33):
             cta = random.choice(CTA_LINES)
             print(f"    + CTA attached")
 
