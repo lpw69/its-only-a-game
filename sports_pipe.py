@@ -54,7 +54,7 @@ MIN_NEWS_LENGTH     = 60
 POSTED_LOG          = "posted_news.json"
 
 GUIDE_URL = "https://medium.com/illumination/how-i-made-50k-beating-the-bookies-at-their-own-game-79119261d51c"
-CTA_PROBABILITY = None  # randomised per post between 0.25 and 0.33 in main loop
+CTA_EVERY_N = 3  # Every 3rd post gets a CTA. Guaranteed, no randomness.
 
 CTA_LINES = [
     f"Btw, found a way to make easy cash with bookie bonuses. Literally paid for my house deposit. Guide here: {GUIDE_URL}",
@@ -213,12 +213,15 @@ BANNED_REGEX_PATTERNS = [
 
 def load_posted_log():
     if not os.path.exists(POSTED_LOG):
-        return {"news_ids": []}
+        return {"news_ids": [], "post_count": 0}
     try:
         with open(POSTED_LOG) as f:
-            return json.load(f)
+            data = json.load(f)
+            if "post_count" not in data:
+                data["post_count"] = 0
+            return data
     except (json.JSONDecodeError, OSError):
-        return {"news_ids": []}
+        return {"news_ids": [], "post_count": 0}
 
 
 def save_posted_log(log):
@@ -427,7 +430,6 @@ def push_to_typefully(post_text, cta_text=None):
     if not social_set_id:
         return None
 
-    # Build posts array. If CTA is provided, it becomes a reply-to-self (thread).
     posts_x = [{"text": post_text}]
     posts_threads = [{"text": post_text}]
     if cta_text:
@@ -447,6 +449,11 @@ def push_to_typefully(post_text, cta_text=None):
         },
         "publish_at": "now",
     }
+
+    # Log exactly what we're sending
+    print(f"    Typefully payload: {len(posts_x)} post(s) to X, {len(posts_threads)} post(s) to Threads")
+    if cta_text:
+        print(f"    CTA text: {cta_text[:80]}...")
 
     r = requests.post(
         f"https://api.typefully.com/v2/social-sets/{social_set_id}/drafts",
@@ -529,11 +536,14 @@ def main():
         preview = post.replace("\n", " ")[:80]
         print(f"\n  Post ({len(post)} chars): {preview}...")
 
-        # Roll for CTA reply (only if GUIDE_URL is set)
+        # Deterministic CTA: every Nth post gets a CTA
         cta = None
-        if GUIDE_URL and random.random() < random.uniform(0.25, 0.33):
+        posted_log["post_count"] = posted_log.get("post_count", 0) + 1
+        if GUIDE_URL and posted_log["post_count"] % CTA_EVERY_N == 0:
             cta = random.choice(CTA_LINES)
-            print(f"    + CTA attached")
+            print(f"    + CTA attached (post #{posted_log['post_count']})")
+        else:
+            print(f"    No CTA this post (#{posted_log['post_count']}, next CTA at #{((posted_log['post_count'] // CTA_EVERY_N) + 1) * CTA_EVERY_N})")
 
         tid = push_to_typefully(post, cta_text=cta)
         if tid:
