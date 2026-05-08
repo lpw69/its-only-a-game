@@ -57,10 +57,10 @@ GUIDE_URL = "https://medium.com/illumination/how-i-made-50k-beating-the-bookies-
 CTA_EVERY_N = 3  # Every 3rd post gets a CTA. Guaranteed, no randomness.
 
 CTA_LINES = [
-    f"Btw, found a way to make easy cash with bookie bonuses. Literally paid for my house deposit. Guide here: {GUIDE_URL}",
-    f"P.S. Please don't tell me you're still losing money on accas? Do this instead: {GUIDE_URL}",
-    f"P.S. Wrote a guide on the bookie bonus thing. It's free. Mates have made a few grand off it already: {GUIDE_URL}",
-    f"Btw, still blows my mind more people don't do this. Bookies literally hand you free money and most people just gamble it back. Guide: {GUIDE_URL}",
+    "Btw, found a way to make easy cash with bookie bonuses. Literally paid for my house deposit. Guide's in the bio.",
+    "P.S. Please don't tell me you're still losing money on accas? Check the bio.",
+    "P.S. Wrote a guide on the bookie bonus thing. It's free. Mates have made a few grand off it already. Bio.",
+    "Btw, still blows my mind more people don't do this. Bookies literally hand you free money and most people just gamble it back. Guide's in the bio.",
 ]
 
 
@@ -430,10 +430,10 @@ def push_to_typefully(post_text, cta_text=None):
     if not social_set_id:
         return None
 
+    # CTA only goes to Threads (Auto-Plug handles X CTAs separately)
     posts_x = [{"text": post_text}]
     posts_threads = [{"text": post_text}]
     if cta_text:
-        posts_x.append({"text": cta_text})
         posts_threads.append({"text": cta_text})
 
     payload = {
@@ -453,7 +453,7 @@ def push_to_typefully(post_text, cta_text=None):
     # Log exactly what we're sending
     print(f"    Typefully payload: {len(posts_x)} post(s) to X, {len(posts_threads)} post(s) to Threads")
     if cta_text:
-        print(f"    CTA text: {cta_text[:80]}...")
+        print(f"    CTA to Threads only: {cta_text[:80]}...")
 
     r = requests.post(
         f"https://api.typefully.com/v2/social-sets/{social_set_id}/drafts",
@@ -472,6 +472,32 @@ def push_to_typefully(post_text, cta_text=None):
         return data.get("share_url") or data.get("id")
 
     print(f"  Typefully error {r.status_code}: {r.text[:300]}")
+
+    # Fallback: if publish failed and we had a CTA, retry without it so main post still goes out
+    if cta_text:
+        print("  Retrying without CTA...")
+        fallback_payload = {
+            "platforms": {
+                "x": {"enabled": True, "posts": [{"text": post_text}]},
+                "threads": {"enabled": True, "posts": [{"text": post_text}]},
+            },
+            "publish_at": "now",
+        }
+        r2 = requests.post(
+            f"https://api.typefully.com/v2/social-sets/{social_set_id}/drafts",
+            headers={
+                "Authorization": f"Bearer {TYPEFULLY_API_KEY}",
+                "Content-Type": "application/json",
+            },
+            json=fallback_payload,
+            timeout=15,
+        )
+        if r2.status_code in (200, 201):
+            data = r2.json()
+            print(f"    Main post published without CTA (status={data.get('status', 'unknown')})")
+            return data.get("share_url") or data.get("id")
+        print(f"  Fallback also failed: {r2.status_code}: {r2.text[:200]}")
+
     return None
 
 
