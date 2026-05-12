@@ -53,14 +53,14 @@ POSTS_PER_RUN       = 1
 MIN_NEWS_LENGTH     = 60
 POSTED_LOG          = "posted_news.json"
 
-GUIDE_URL = "https://medium.com/illumination/how-i-made-50k-beating-the-bookies-at-their-own-game-79119261d51c"
-CTA_EVERY_N = 3
+GUIDE_URL = "https://www.oddsmonkey.com/affiliates/affiliate.php?id=56154"
+CTA_EVERY_N = 2  # Every 2nd post gets a CTA. 50/50 split.
 
 CTA_LINES = [
-    f"Btw, found a way to make easy cash with bookie bonuses. Literally paid for my house deposit. Guide here: {GUIDE_URL}",
-    f"P.S. Please don't tell me you're still losing money on accas? Do this instead: {GUIDE_URL}",
-    f"P.S. Wrote a guide on the bookie bonus thing. It's free. Mates have made a few grand off it already: {GUIDE_URL}",
-    f"Btw, still blows my mind more people don't do this. Bookies literally hand you free money and most people just gamble it back. Guide: {GUIDE_URL}",
+    f"Btw, found a way to make easy cash with bookie bonuses. Literally paid for my house deposit. This is the tool I used: {GUIDE_URL}",
+    f"P.S. Please don't tell me you're still losing money on accas? This changed everything for me: {GUIDE_URL}",
+    f"P.S. There's a tool that turns bookie sign-up offers into guaranteed cash. Mates have made a few grand off it already: {GUIDE_URL}",
+    f"Btw, still blows my mind more people don't do this. Bookies literally hand you free money and most people just gamble it back. Tool here: {GUIDE_URL}",
 ]
 
 
