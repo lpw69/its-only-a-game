@@ -48,12 +48,12 @@ Stereotypes only fire when the news pattern triggers them. No forced jokes.
 
 ## Telegram notifications
 
-Every published tweet's live URL is sent to a Telegram group. After the post goes
-out via Typefully, the pipe polls the draft for its live permalinks
-(`x_published_url` / `threads_published_url` — publishing is async, so it waits up
-to ~2 min), then sends the post text plus the X and Threads links to the group. If
-the live URL isn't ready in time it falls back to the Typefully deep link so a
-message always goes out.
+Every published tweet's live X URL is sent to a Telegram group. After the post
+goes out via Typefully, the pipe polls the draft for its live X permalink
+(`x_published_url` — publishing is async and X can lag Threads, so it waits up to
+~2 min), then sends the post text plus the X link to the group. If the X URL isn't
+ready in time it falls back to the Typefully deep link so a message always goes
+out. (The Threads permalink is still recorded in `posted_news.json` for auditing.)
 
 Set two secrets to enable it (if unset, the pipe just skips the notification):
 

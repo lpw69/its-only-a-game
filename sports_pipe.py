@@ -585,11 +585,12 @@ PUBLISH_POLL_INTERVAL = 6  # seconds — up to ~2 min waiting for the async live
 
 
 def get_published_urls(draft_id):
-    """Poll Typefully for the live X / Threads permalinks of a just-published draft.
+    """Poll Typefully for the live X permalink of a just-published draft.
 
-    Publishing is async (the create call returns before the post is live), so we
-    poll the draft until a published URL appears. Returns a dict with 'x' and
-    'threads' (either may be None) plus a Typefully 'fallback' deep link."""
+    Publishing is async (the create call returns before the post is live), and X
+    can lag Threads, so we poll the draft until the X URL appears. Returns a dict
+    with 'x' and 'threads' (threads kept for the audit log) plus a Typefully
+    'fallback' deep link."""
     social_set_id = get_typefully_social_set()
     fallback = f"https://typefully.com/?d={draft_id}&a={social_set_id}" if social_set_id else ""
     if not social_set_id:
@@ -609,13 +610,13 @@ def get_published_urls(draft_id):
             fallback = d.get("private_url") or fallback
             x_url = d.get("x_published_url")
             th_url = d.get("threads_published_url")
-            if x_url or th_url:
+            if x_url:
                 return {"x": x_url, "threads": th_url, "fallback": fallback}
         else:
             print(f"    URL poll HTTP {r.status_code}: {r.text[:150]}")
         time.sleep(PUBLISH_POLL_INTERVAL)
 
-    print("    Live URL not ready after polling; using Typefully fallback link.")
+    print("    X URL not ready after polling; using Typefully fallback link.")
     return {"x": None, "threads": None, "fallback": fallback}
 
 
@@ -640,17 +641,16 @@ def send_to_telegram(text):
 
 
 def notify_published(post, urls):
-    """Send the published tweet's live URL(s) (with the post text) to Telegram."""
-    links = []
+    """Send the published tweet's live X URL (with the post text) to Telegram."""
     if urls.get("x"):
-        links.append(f"X: {urls['x']}")
-    if urls.get("threads"):
-        links.append(f"Threads: {urls['threads']}")
-    if not links and urls.get("fallback"):
-        links.append(f"Typefully (live URL not ready yet): {urls['fallback']}")
-    body = post + ("\n\n" + "\n".join(links) if links else "")
+        link = urls["x"]
+    elif urls.get("fallback"):
+        link = f"{urls['fallback']} (X URL not ready yet)"
+    else:
+        link = ""
+    body = post + ("\n\n" + link if link else "")
     if send_to_telegram(body):
-        print("    Sent live URL to Telegram.")
+        print("    Sent X URL to Telegram.")
 
 
 # --- commit ---
