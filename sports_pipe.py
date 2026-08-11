@@ -19,7 +19,7 @@ Required secrets:
   GITHUB_TOKEN                  (auto-provided by Actions)
 """
 
-import os, re, sys, json, random, datetime, subprocess, requests
+import os, re, sys, json, time, random, datetime, subprocess, requests
 import anthropic
 
 # --- env ---
@@ -27,6 +27,8 @@ ANTHROPIC_API_KEY        = os.environ["ANTHROPIC_API_KEY"]
 APIFY_API_TOKEN          = os.environ["APIFY_API_TOKEN"]
 TYPEFULLY_API_KEY        = os.environ["TYPEFULLY_API_KEY"]
 TYPEFULLY_SOCIAL_SET_ID  = os.environ.get("TYPEFULLY_GAME_SOCIAL_SET_ID", "")
+TELEGRAM_BOT_TOKEN       = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+TELEGRAM_CHAT_ID         = os.environ.get("TELEGRAM_CHAT_ID", "")
 
 # --- config ---
 SEED_HANDLES        = [
@@ -544,7 +546,7 @@ def push_to_typefully(post_text, cta_text=None):
         data = r.json()
         status = data.get("status", "unknown")
         print(f"    Created with publish_at:now (status={status})")
-        return data.get("share_url") or data.get("id")
+        return data.get("id")
 
     print(f"  Typefully error {r.status_code}: {r.text[:300]}")
 
@@ -570,10 +572,85 @@ def push_to_typefully(post_text, cta_text=None):
         if r2.status_code in (200, 201):
             data = r2.json()
             print(f"    Main post published without CTA (status={data.get('status', 'unknown')})")
-            return data.get("share_url") or data.get("id")
+            return data.get("id")
         print(f"  Fallback also failed: {r2.status_code}: {r2.text[:200]}")
 
     return None
+
+
+# --- telegram notify (send every published tweet's live URL to a group) ---
+
+PUBLISH_POLL_ATTEMPTS = 20
+PUBLISH_POLL_INTERVAL = 6  # seconds — up to ~2 min waiting for the async live URL
+
+
+def get_published_urls(draft_id):
+    """Poll Typefully for the live X / Threads permalinks of a just-published draft.
+
+    Publishing is async (the create call returns before the post is live), so we
+    poll the draft until a published URL appears. Returns a dict with 'x' and
+    'threads' (either may be None) plus a Typefully 'fallback' deep link."""
+    social_set_id = get_typefully_social_set()
+    fallback = f"https://typefully.com/?d={draft_id}&a={social_set_id}" if social_set_id else ""
+    if not social_set_id:
+        return {"x": None, "threads": None, "fallback": fallback}
+
+    url = f"https://api.typefully.com/v2/social-sets/{social_set_id}/drafts/{draft_id}"
+    headers = {"Authorization": f"Bearer {TYPEFULLY_API_KEY}"}
+    for attempt in range(PUBLISH_POLL_ATTEMPTS):
+        try:
+            r = requests.get(url, headers=headers, timeout=15)
+        except requests.RequestException as e:
+            print(f"    URL poll error: {e}")
+            time.sleep(PUBLISH_POLL_INTERVAL)
+            continue
+        if r.status_code == 200:
+            d = r.json()
+            fallback = d.get("private_url") or fallback
+            x_url = d.get("x_published_url")
+            th_url = d.get("threads_published_url")
+            if x_url or th_url:
+                return {"x": x_url, "threads": th_url, "fallback": fallback}
+        else:
+            print(f"    URL poll HTTP {r.status_code}: {r.text[:150]}")
+        time.sleep(PUBLISH_POLL_INTERVAL)
+
+    print("    Live URL not ready after polling; using Typefully fallback link.")
+    return {"x": None, "threads": None, "fallback": fallback}
+
+
+def send_to_telegram(text):
+    """Send a plain-text message to the configured Telegram group."""
+    if not (TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID):
+        print("    Telegram not configured (TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID unset); skipping.")
+        return False
+    try:
+        r = requests.post(
+            f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
+            json={"chat_id": TELEGRAM_CHAT_ID, "text": text, "disable_web_page_preview": False},
+            timeout=15,
+        )
+    except requests.RequestException as e:
+        print(f"    Telegram send error: {e}")
+        return False
+    if r.status_code == 200:
+        return True
+    print(f"    Telegram error {r.status_code}: {r.text[:200]}")
+    return False
+
+
+def notify_published(post, urls):
+    """Send the published tweet's live URL(s) (with the post text) to Telegram."""
+    links = []
+    if urls.get("x"):
+        links.append(f"X: {urls['x']}")
+    if urls.get("threads"):
+        links.append(f"Threads: {urls['threads']}")
+    if not links and urls.get("fallback"):
+        links.append(f"Typefully (live URL not ready yet): {urls['fallback']}")
+    body = post + ("\n\n" + "\n".join(links) if links else "")
+    if send_to_telegram(body):
+        print("    Sent live URL to Telegram.")
 
 
 # --- commit ---
@@ -651,11 +728,18 @@ def main():
             drafts_pushed += 1
             print(f"    Typefully draft: {tid}")
             posted_log["news_ids"].append(news["id"])
+
+            # Every published tweet: fetch its live URL and send it to Telegram.
+            urls = get_published_urls(tid)
+            notify_published(post, urls)
+
             posted_log.setdefault("posts", []).append({
                 "at": datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
                 "source_author": news["author"],
                 "source": news["text"],
                 "post": post,
+                "x_url": urls.get("x"),
+                "threads_url": urls.get("threads"),
             })
         else:
             print("    Failed to push to Typefully.")
