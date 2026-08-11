@@ -7,10 +7,31 @@ Pulls breaking sports news from Fabrizio Romano, David Ornstein, BBC Sport and S
 ## Architecture
 
 ```
-Apify (X scraper) → Claude Haiku (voice + validator) → Typefully (draft) → Threads
+Apify (X scraper) → Claude Haiku (voice) → style validator → Claude Sonnet (fact gate) → Typefully → Threads
 ```
 
-Single Python script, single GitHub Actions workflow, runs four times daily.
+Single Python script, single GitHub Actions workflow.
+
+## Fact checking
+
+Haiku writes the joke, but Haiku's training data is stale — it will happily say a
+player is at a club he left two seasons ago, invent a nationality, or fire an
+"Arsenal bottle" joke on a day Arsenal actually won. To stop that, every post that
+clears the style validator is run through a second model (**Claude Sonnet**, in
+`fact_check_post`) that sees *only* the source tweet plus the generated post and
+judges two things:
+
+1. Does every checkable claim in the post (club, nationality, score, who won, who
+   was signed/sacked) follow from the source tweet? It is told to use **no outside
+   knowledge** — if the source doesn't establish it, the post may not assert it.
+2. Does the joke's premise match what actually happened? (No mocking a team for
+   losing when the source says they won.)
+
+A post that fails is fed the rejection reason and regenerated (up to 3 attempts);
+if it still can't pass, it is **dropped rather than published**. On a fact-gate API
+error the post is treated as unsafe and dropped — the pipe never publishes an
+unchecked post. Every post that does go out is recorded (source + text) under
+`posts` in `posted_news.json` so you can audit what the account is saying.
 
 ## Voice
 
@@ -48,7 +69,8 @@ Manual trigger:
 Actions → It's Only a Game - Sports Pipe → Run workflow
 ```
 
-Or wait for the cron. Each run aims for ~6 drafts.
+Or wait for the cron. Each run reacts to the single most-liked fresh news item
+(one post per run).
 
 ## Tuning the voice
 
@@ -56,7 +78,7 @@ The system prompt lives in `SPORTS_SYSTEM_PROMPT` near the top of `sports_pipe.p
 
 ## Cost
 
-- Anthropic API: ~$5/month at this volume
+- Anthropic API: ~$5-15/month at this volume (Haiku writer + Sonnet fact gate)
 - Apify: ~$1/month
 - Typefully: $0 (existing Enterprise account)
 - GitHub Actions: $0 (free tier)

@@ -219,13 +219,18 @@ def load_posted_log():
             data = json.load(f)
             if "post_count" not in data:
                 data["post_count"] = 0
+            if "posts" not in data:
+                data["posts"] = []
             return data
     except (json.JSONDecodeError, OSError):
-        return {"news_ids": [], "post_count": 0}
+        return {"news_ids": [], "post_count": 0, "posts": []}
 
 
 def save_posted_log(log):
     log["news_ids"] = log["news_ids"][-500:]
+    # Keep an audit trail of what actually went out (the source news + the post text),
+    # so a human can review what the account is publishing without watching the feed.
+    log["posts"] = log.get("posts", [])[-200:]
     with open(POSTED_LOG, "w") as f:
         json.dump(log, f, indent=2)
 
@@ -337,8 +342,61 @@ def sanitize_post(post):
     return post.rstrip()
 
 
+# --- fact gate (second model, grounds strictly on the source news) ---
+
+FACT_GATE_MODEL = "claude-sonnet-5"
+
+FACT_GATE_SYSTEM = """You are the fact-checker for "It's Only a Game", a UK sports comedy account. You are given the SOURCE news item a joke is based on, and the POST that reacts to it. Decide whether the POST is safe to publish, judging it STRICTLY against the SOURCE.
+
+Use ONLY the SOURCE. Do NOT use any outside knowledge about players, clubs, transfers, results, managers, or football history. Your training data is stale and rosters change constantly, so anything the SOURCE does not establish must be treated as unknown, not as something you remember.
+
+REJECT the post if ANY of these is true:
+1. It states a checkable fact that the SOURCE does not support: a player being at a particular club, a person's nationality or where they are from, a scoreline, who won or lost, who was signed / sacked / appointed, or a specific quote.
+2. Its joke contradicts what actually happened in the SOURCE. For example, it mocks a team for losing, bottling, choking, or getting relegated when the SOURCE says that team won or succeeded (or the reverse).
+3. It names a player, manager, or club that is not in the SOURCE and is not clearly implied by it.
+4. It fires a stereotype ("Spursy", "Arsenal bottle", "Man Utd chaos", "City empty seats", etc.) that the actual SOURCE event does not support.
+
+PASS the post only if every factual claim in it is supported by the SOURCE and the joke's premise matches the actual outcome in the SOURCE. Comedic exaggeration, opinion, and tone are fine as long as no false checkable fact is asserted.
+
+When you are unsure whether a claim is supported, REJECT.
+
+Respond with valid JSON only, no code fences: {"verdict": "pass" | "reject", "reason": "<one short sentence>"}"""
+
+
+def fact_check_post(post, news_item):
+    """Second-model gate: is every factual claim in the post grounded in the
+    source news, and does the joke's premise match what actually happened?
+
+    Returns (ok: bool, reason: str). On any API or parse error, returns
+    (False, ...) so a post is treated as unsafe rather than shipped unchecked."""
+    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+    source = (
+        f"SOURCE news (@{news_item['author']}):\n{news_item['text']}\n\n"
+        f"POST to check:\n{post}"
+    )
+    try:
+        response = client.messages.create(
+            model=FACT_GATE_MODEL,
+            max_tokens=200,
+            thinking={"type": "disabled"},  # fast, deterministic verdict
+            system=FACT_GATE_SYSTEM,
+            messages=[{"role": "user", "content": source}],
+        )
+        raw = next((b.text for b in response.content if b.type == "text"), "").strip()
+        raw = re.sub(r"^```(?:json)?\s*|\s*```$", "", raw)
+        data = json.loads(raw)
+        verdict = str(data.get("verdict", "")).lower()
+        reason = str(data.get("reason", "")).strip()
+        if verdict == "pass":
+            return True, reason
+        return False, reason or "failed fact-check"
+    except (anthropic.APIError, json.JSONDecodeError, KeyError, IndexError) as e:
+        print(f"  Fact-gate error: {e}")
+        return False, "fact-gate error (treated as unsafe)"
+
+
 def generate_post_from_news(news_item):
-    """Generate one short post reacting to a news item."""
+    """Generate one short post reacting to a news item, then fact-check it."""
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
     source = (
@@ -351,10 +409,11 @@ def generate_post_from_news(news_item):
         f"{source}\n\n"
         f"Write ONE short Threads post reacting to this news. 2-3 lines max. "
         f"Pick the sharpest angle. Use a stereotype joke ONLY if the news triggers one naturally. "
-        f"Output the JSON object."
+        f"Do NOT state any fact (a player's club, a person's nationality, a scoreline, who won) "
+        f"that is not in the source news above. Output the JSON object."
     )
 
-    last_post = None
+    last_post = None  # only holds a candidate that failed on STYLE (still fact-checkable)
     feedback = ""
 
     for attempt in range(3):
@@ -362,7 +421,8 @@ def generate_post_from_news(news_item):
         if feedback:
             msg = (
                 f"YOUR PREVIOUS ATTEMPT FAILED THESE CHECKS:\n{feedback}\n\n"
-                f"Rewrite the post with all problems fixed. Stay 2-3 lines. Anchor on the actual news.\n\n" + msg
+                f"Rewrite the post with all problems fixed. Stay 2-3 lines. Anchor on the actual news, "
+                f"and do not assert any fact that isn't in the source.\n\n" + msg
             )
 
         response = client.messages.create(
@@ -382,23 +442,38 @@ def generate_post_from_news(news_item):
             print(f"  Raw output: {raw[:300]}")
             continue
 
-        last_post = post
         ok, problems = validate_post(post)
-        if ok:
+        if not ok:
+            print(f"  Style validation failed (attempt {attempt + 1}):")
+            for p in problems:
+                print(f"    - {p}")
+            feedback = "\n".join(f"- {p}" for p in problems)
+            last_post = post  # style-only failure: keep as a sanitise candidate
+            continue
+
+        # Style passed. Now the fact gate: is it actually true to the source news?
+        fact_ok, reason = fact_check_post(post, news_item)
+        if fact_ok:
             return post
 
-        print(f"  Validation failed (attempt {attempt + 1}):")
-        for p in problems:
-            print(f"    - {p}")
-        feedback = "\n".join(f"- {p}" for p in problems)
+        print(f"  Fact-check rejected (attempt {attempt + 1}): {reason}")
+        feedback = f"- factually inconsistent with the source news: {reason}"
+        last_post = None  # never salvage a factually wrong post via sanitising
+        continue
 
+    # Fallback only applies to a post that failed on style but was never fact-checked.
+    # It must clear BOTH gates before shipping — we never publish unchecked.
     if last_post:
         sanitized = sanitize_post(last_post)
         ok, _ = validate_post(sanitized)
         if ok:
-            print("  Sanitised and shipping.")
-            return sanitized
-        print("  Failed even after sanitising. Dropping.")
+            fact_ok, reason = fact_check_post(sanitized, news_item)
+            if fact_ok:
+                print("  Sanitised and shipping.")
+                return sanitized
+            print(f"  Sanitised post failed fact-check ({reason}). Dropping.")
+        else:
+            print("  Failed style even after sanitising. Dropping.")
     return None
 
 
@@ -576,6 +651,12 @@ def main():
             drafts_pushed += 1
             print(f"    Typefully draft: {tid}")
             posted_log["news_ids"].append(news["id"])
+            posted_log.setdefault("posts", []).append({
+                "at": datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
+                "source_author": news["author"],
+                "source": news["text"],
+                "post": post,
+            })
         else:
             print("    Failed to push to Typefully.")
 
