@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2072758513491718485",
     "2073129511411941822",
     "2073215777839161703",
     "2073126761513001307",
@@ -499,9 +498,10 @@
     "2087434156665917858",
     "2087457486370386153",
     "2087412513839223264",
-    "2087443662355505292"
+    "2087443662355505292",
+    "2087262265602933004"
   ],
-  "post_count": 1264,
+  "post_count": 1265,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -597,6 +597,14 @@
       "source": "\ud83d\udea8 Paris Saint-Germain close to agreement with Barcelona for Ferran Torres. Talks ongoing as small price gap but deal expected to be finalised this week. All parties decided 26yo should not resume #FCBarcelona training as #PSG transfer nears @TheAthleticFC https://t.co/J4VWMle6eJ",
       "post": "BREAKING: PSG and Barcelona close to agreement on Ferran Torres.\n\nBarcelona have decided he shouldn't train with them while the deal gets done. Lovely bit of \"we've mentally moved you on already\" energy.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2087550883538276362",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-12 15:08 UTC",
+      "source_author": "Plettigoal",
+      "source": "\ud83d\udea8\u23f3 BREAKING | Borussia Dortmund are on the verge of submitting a \u20ac55m offer (50+5) for Said El Mala.\n\nNothing has arrived at 1. FC K\u00f6ln yet. #Effzeh \n\nEl Mala has already agreed personal terms with #BVB and is now waiting for the final decision.\n\n@berger_pj | @SkySportDE \ud83c\udde9\ud83c\uddea https://t.co/iGNp31SmOf",
+      "post": "BREAKING: Dortmund about to spend 55 million euros on a player nobody's heard of.\n\nAt least when it all goes wrong, the Bundesliga will have someone new to blame.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2087556905149628527",
       "threads_url": null
     }
   ]
