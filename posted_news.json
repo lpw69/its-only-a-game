@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2073215777839161703",
     "2073126761513001307",
     "2073311851069198752",
     "2073271908158537890",
@@ -499,9 +498,10 @@
     "2087412513839223264",
     "2087443662355505292",
     "2087262265602933004",
-    "2084685922033934632"
+    "2084685922033934632",
+    "2087452321152155825"
   ],
-  "post_count": 1266,
+  "post_count": 1267,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -613,6 +613,14 @@
       "source": "\ud83d\udea8 Ipswich Town complete deal to sign Florentino Luis from Burnley. Deal between clubs for 26yo #BurnleyFC midfielder worth initial \u00a316m + \u00a33m in potential add-ons. Medical done &amp; Portuguese joining #ITFC on 5yr contract until summer of 2031 @TheAthleticFC https://t.co/RNp3EzLVI5",
       "post": "BREAKING: Ipswich sign Florentino Luis from Burnley for \u00a316m.\n\nBurnley selling midfielders for decent money while Ipswich are out here spending like they've just won the league. One of these plans will end badly.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2087577454366052847",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-12 17:11 UTC",
+      "source_author": "SkySportsNews",
+      "source": "BREAKING: Chelsea have announced the signing of Pep Chavarria from La Liga side Rayo Vallecano \ud83d\udea8 https://t.co/AQ8hjBtyza",
+      "post": "BREAKING: Chelsea have signed Pep Chavarria from Rayo Vallecano.\n\nThey've finally found a player whose career trajectory matches their transfer strategy: absolutely no idea where he'll end up next.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2087587787096850933",
       "threads_url": null
     }
   ]
