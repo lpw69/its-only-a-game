@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2070615062734098656",
     "2072782471184138344",
     "2072983590942523734",
     "2073069901569306694",
@@ -499,9 +498,10 @@
     "2087051001287069880",
     "2087240462297931928",
     "2087199530676564411",
-    "2086780181235024228"
+    "2086780181235024228",
+    "2087246735236100527"
   ],
-  "post_count": 1259,
+  "post_count": 1260,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -557,6 +557,14 @@
       "source": "\ud83d\udea8 Crystal Palace in process of finalising deal to sign Anan Khalaili from Union Saint-Gilloise. 21yo right-back underwent medical yesterday &amp; #CPFC now working to complete agreement with #USG on ~\u00a321m fee. 5+1yr contract in place. W/ @SebSB @TheAthleticFC https://t.co/Bf67H0wmfv",
       "post": "BREAKING: Crystal Palace signing a 21-year-old right-back for \u00a321m.\n\nThey're really committing to the full-back pipeline while everyone else is buying strikers. Brave strategy.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2087458408412938508",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-12 09:32 UTC",
+      "source_author": "SkySportsNews",
+      "source": "Tottenham are in talks with Inter over the sale of Djed Spence \ud83d\udea8\n\nInter believe a total package of \u00a330m could be enough to get a deal done. Spurs are understood to be willing to sell if they receive an acceptable offer. https://t.co/ESgMi8kImU",
+      "post": "BREAKING: Tottenham in talks to sell Djed Spence to Inter for \u00a330m.\n\nSpurs finally found a way to make money: getting rid of players they paid actual money for. Efficiency.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2087472153289785409",
       "threads_url": null
     }
   ]
