@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2073271908158537890",
     "2073093565052334359",
     "2071260187223085334",
     "2073291457335558487",
@@ -499,9 +498,10 @@
     "2084685922033934632",
     "2087452321152155825",
     "2087577174454800596",
-    "2087616203200065537"
+    "2087616203200065537",
+    "2086351387068154169"
   ],
-  "post_count": 1269,
+  "post_count": 1270,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -637,6 +637,14 @@
       "source": "\ud83d\udea8\ud83c\uddf3\ud83c\uddf1 BREAKING: Xavi has agreed to become new Dutch national team head coach, done deal.\n\nAgreement signed today for former Barcelona head coach. \ud83d\udca5 https://t.co/x9QTa4u3sb",
       "post": "BREAKING: Xavi agrees to manage the Dutch national team.\n\nSo he's going from a club that won't spend money to a country that won't either. Lateral move.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2087628005199974885",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-12 20:07 UTC",
+      "source_author": "henrywinter",
+      "source": "Leeds United have a bucket statue in celebration of Marcelo Bielsa\u2019s epic time at the club. \ud83d\udcf8 @MrTomClayton #LUFC https://t.co/MNMWNcKqym",
+      "post": "Leeds United have erected a bucket statue to celebrate Marcelo Bielsa.\n\nThis is the most Leeds thing ever. They've literally memorialised chaos.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2087632091664293957",
       "threads_url": null
     }
   ]
