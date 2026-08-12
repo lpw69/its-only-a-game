@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2072984426749829578",
     "2070615062734098656",
     "2072782471184138344",
     "2072983590942523734",
@@ -499,9 +498,10 @@
     "2087143336066908203",
     "2087051001287069880",
     "2087240462297931928",
-    "2087199530676564411"
+    "2087199530676564411",
+    "2086780181235024228"
   ],
-  "post_count": 1258,
+  "post_count": 1259,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -549,6 +549,14 @@
       "source": "\ud83d\udd34\ud83d\udd35 Luis Enrique on Ferran Torres deal: \u201cI\u2019m not here to talk about the transfer market\u2026 only about the players who are currently at PSG\u201d. https://t.co/ZoJAlOKO5J",
       "post": "BREAKING: Luis Enrique refuses to discuss Ferran Torres transfer.\n\nOoh look at me, I'm a manager and I'm gonna dodge every question about the one thing everyone wants to know.\n\nBrilliant.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2087269741425799366",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-12 08:37 UTC",
+      "source_author": "David_Ornstein",
+      "source": "\ud83d\udea8 Crystal Palace in process of finalising deal to sign Anan Khalaili from Union Saint-Gilloise. 21yo right-back underwent medical yesterday &amp; #CPFC now working to complete agreement with #USG on ~\u00a321m fee. 5+1yr contract in place. W/ @SebSB @TheAthleticFC https://t.co/Bf67H0wmfv",
+      "post": "BREAKING: Crystal Palace signing a 21-year-old right-back for \u00a321m.\n\nThey're really committing to the full-back pipeline while everyone else is buying strikers. Brave strategy.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2087458408412938508",
       "threads_url": null
     }
   ]
