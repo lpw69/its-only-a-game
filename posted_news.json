@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2072612663989862421",
     "2073505110857011566",
     "2073713497607647691",
     "2073768132225737092",
@@ -499,9 +498,10 @@
     "2087915062920876538",
     "2087903434120855805",
     "2087902715842080979",
-    "2087962977123045397"
+    "2087962977123045397",
+    "2087984351698890858"
   ],
-  "post_count": 1282,
+  "post_count": 1283,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -741,6 +741,14 @@
       "source": "\ud83d\udea8\ud83d\udd34\ud83d\udd35 BREAKING: Ferran Torres to Paris Saint-Germain, HERE WE GO! \ud83d\udca5\n\nDeal confirmed for World Cup final hero as Bar\u00e7a receive a fee worth \u20ac50m from PSG.\n\nFerran only wanted Paris and the agreement has been sealed after being at final stages for several days. All done. https://t.co/4siCHz3yIc",
       "post": "BREAKING: Ferran Torres to PSG, here we go.\n\nBar\u00e7a sell their World Cup final hero for 50m. Nothing says 'we're absolutely finished' like flogging your best players to Paris in January.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2087993204042010799",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-13 22:02 UTC",
+      "source_author": "JacobsBen",
+      "source": "\ud83d\udea8 Understand agent Moussa Sissoko\nis set to sign Khvicha Kvaratskhelia. https://t.co/rqMz3xDSYP",
+      "post": "BREAKING: Moussa Sissoko about to sign Khvicha Kvaratskhelia.\n\nFor those keeping track at home, that's an agent representing a player. Revolutionary stuff.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2088023269387714756",
       "threads_url": null
     }
   ]
