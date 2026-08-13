@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2073319400774766725",
     "2073323679081988248",
     "2073458225454747755",
     "2073482797864337866",
@@ -499,9 +498,10 @@
     "2086351387068154169",
     "2087632573866332167",
     "2087644311508623519",
-    "2087606921083920873"
+    "2087606921083920873",
+    "2087637768297906563"
   ],
-  "post_count": 1273,
+  "post_count": 1274,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -669,6 +669,14 @@
       "source": "\ud83d\udea8\ud83e\udd81 More on the exclusive news: There is no agreement yet between Gabriel Martinelli and Galatasaray.\n\nGalatasaray\u2019s main priority is now to reach an agreement with Arsenal first. The \u20ac45m offer including add-ons was submitted in writing today.\n\nRafael Leao remains on their shortlist, but a deal would be very difficult to realise. Martinelli is internally considered Galatasaray\u2019s current top target for the wing. @SkySportDE \ud83c\udde7\ud83c\uddf7",
       "post": "BREAKING: Galatasaray submit \u20ac45m offer for Martinelli.\n\nArsenal internally considering whether they'd rather keep a winger who occasionally remembers to pass or cash in and sign three players who will also occasionally remember to pass.\n\nTough call.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2087824957032325608",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-13 09:34 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8 BREAKING: Chelsea fix Friday 5pm UK time deadline for Enzo Fern\u00e1ndez exit. \ud83d\udca3\n\nManchester City in talks with his camp for days but #CFC made it clear: \u00a3120M fee with payment terms also communicated.\n\n\u00a3120M by Friday at 5pm or Chelsea will not sell Enzo to Manchester City. \ud83c\udde6\ud83c\uddf7 https://t.co/l9epIca5cB",
+      "post": "BREAKING: Chelsea set Friday 5pm deadline for Enzo Fern\u00e1ndez exit.\n\nManchester City in talks but must pay \u00a3120M by then or the deal's off. Imagine having that much leverage and still somehow finding a way to mess it up.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2087835142975017454",
       "threads_url": null
     }
   ]
