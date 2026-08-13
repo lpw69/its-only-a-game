@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2073482797864337866",
     "2073445230393614707",
     "2073456850830336214",
     "2073655504342069623",
@@ -499,9 +498,10 @@
     "2087606921083920873",
     "2087637768297906563",
     "2087704147831255462",
-    "2087649497341944273"
+    "2087649497341944273",
+    "2087873119386046540"
   ],
-  "post_count": 1276,
+  "post_count": 1277,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -693,6 +693,14 @@
       "source": "\ud83d\udd34\ud83d\udd35 D\u00e9sir\u00e9 Dou\u00e9 wins Man of the Match Award for UEFA Super Cup Final. \u2b50\ufe0f https://t.co/4DKZF7QjUY",
       "post": "BREAKING: D\u00e9sir\u00e9 Dou\u00e9 wins Man of the Match in the UEFA Super Cup Final.\n\nSomeone's getting a very angry phone call from their manager for not playing him more often.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2087878754492440903",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-13 14:45 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udd35\ud83d\udd34\ud83e\udec2 Pedri, Gavi, Alejandro Balde and Hector Fort all went to hospital today to support Roony Bardghji after surgery. https://t.co/zzl02nxtWg",
+      "post": "BREAKING: Barcelona players visit teammate in hospital.\n\nFinally, something at the club working as it should.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2087913452828496206",
       "threads_url": null
     }
   ]
