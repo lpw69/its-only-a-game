@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2073518571716485136",
     "2073704689523458076",
     "2072612663989862421",
     "2073505110857011566",
@@ -499,9 +498,10 @@
     "2087873119386046540",
     "2087781195878748258",
     "2087915062920876538",
-    "2087903434120855805"
+    "2087903434120855805",
+    "2087902715842080979"
   ],
-  "post_count": 1280,
+  "post_count": 1281,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -725,6 +725,14 @@
       "source": "\ud83d\udea8\u26a0\ufe0f BREAKING: Savinho, not involved in Man City training today.\n\nCity sources say absence due to illness, as @SamLee reports.\n\nUnderstand Savinho has been clear once again this week: he wants to leave and join Tottenham. \u2757\ufe0f https://t.co/EACNzBP6Vu",
       "post": "BREAKING: Savinho not in Man City training today.\n\nCity say illness. Savinho say Tottenham. One of these is true and it's definitely not the illness.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2087950123703972289",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-13 19:46 UTC",
+      "source_author": "SamLee",
+      "source": "At City open training. Savinho is not here, and is said to be ill. Grealish is here, along with Haaland, Cherki, Doku, O\u2019Reilly, Anderson, Guehi https://t.co/nRvX48BnsZ",
+      "post": "TEAM NEWS: Savinho ill and missing City training.\n\nPep's already planning the 47 substitutions for the next match without him. Man's defragging the squad in his head right now.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2087989091799540107",
       "threads_url": null
     }
   ]
