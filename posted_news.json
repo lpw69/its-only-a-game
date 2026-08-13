@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2073291457335558487",
     "2073319400774766725",
     "2073323679081988248",
     "2073458225454747755",
@@ -499,9 +498,10 @@
     "2087616203200065537",
     "2086351387068154169",
     "2087632573866332167",
-    "2087644311508623519"
+    "2087644311508623519",
+    "2087606921083920873"
   ],
-  "post_count": 1272,
+  "post_count": 1273,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -661,6 +661,14 @@
       "source": "\ud83d\udea8\ud83c\udd95 Bradley Barcola is planned by Liverpool for the left wing. #LFC remain in negotiations with Paris Saint-Germain to reach an agreement until Deadline Day. LFC are confident. 0 minutes against Aston Villa tonight. \n\nShould Barcola join, 17 y/o super-talent Rio Ngumoha is expected to be used predominantly on the right wing.\n\n@SkySportDE \ud83c\uddeb\ud83c\uddf7\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
       "post": "BREAKING: Liverpool confident of signing Barcola from PSG by deadline day.\n\nMeanwhile Rio Ngumoha, 17, already planning which wing to carry them on next season. Lovely faith in youth.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2087821824990318606",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-13 08:54 UTC",
+      "source_author": "Plettigoal",
+      "source": "\ud83d\udea8\ud83e\udd81 More on the exclusive news: There is no agreement yet between Gabriel Martinelli and Galatasaray.\n\nGalatasaray\u2019s main priority is now to reach an agreement with Arsenal first. The \u20ac45m offer including add-ons was submitted in writing today.\n\nRafael Leao remains on their shortlist, but a deal would be very difficult to realise. Martinelli is internally considered Galatasaray\u2019s current top target for the wing. @SkySportDE \ud83c\udde7\ud83c\uddf7",
+      "post": "BREAKING: Galatasaray submit \u20ac45m offer for Martinelli.\n\nArsenal internally considering whether they'd rather keep a winger who occasionally remembers to pass or cash in and sign three players who will also occasionally remember to pass.\n\nTough call.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2087824957032325608",
       "threads_url": null
     }
   ]
