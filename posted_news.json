@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2073840447361810484",
     "2073836502891557356",
     "2073847480001671520",
     "2073970185984213204",
@@ -499,9 +498,10 @@
     "2087968882371838389",
     "2087943687116353744",
     "2088159939332047334",
-    "2087637788485099659"
+    "2087637788485099659",
+    "2088190042149703816"
   ],
-  "post_count": 1288,
+  "post_count": 1289,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -789,6 +789,14 @@
       "source": "\ud83d\udea8 BREAKING: Chelsea say deadline set at 5pm UK on Friday for Manchester City or any other suitors to send \u00a3120m net bid to sign Enzo Fernandez or 25yo staying this summer. #CFC say payment terms privately communicated to #MCFC + midfielder @TheAthleticFC https://t.co/jBB5zccpdf",
       "post": "BREAKING: Chelsea give Man City until 5pm Friday to bid \u00a3120m for Enzo Fernandez.\n\nOoh look at me, I'm Todd Boehly and I'm gonna sell a midfielder I paid a club record fee for, then set an arbitrary deadline like I'm flogging a sofa on Facebook Marketplace.\n\nBrilliant.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2088221170277683665",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-14 12:25 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udd35\ud83d\udd34 EXCLUSIVE: Barcelona consider Sporting striker Luis Su\u00e1rez among options \u2014 if Juli\u00e1n \u00c1lvarez deal doesn\u2019t happen.\n\nNot easy as key player for Sporting but part of Bar\u00e7a shortlist.\n\nBar\u00e7a will only consider Su\u00e1rez/more options from next week \u2014 if Juli\u00e1n deal is still off. https://t.co/LFPEuCW056",
+      "post": "EXCLUSIVE: Barcelona considering Luis Su\u00e1rez as a backup plan if the Juli\u00e1n \u00c1lvarez deal falls through.\n\nSporting's not gonna like that one bit.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2088240559853027373",
       "threads_url": null
     }
   ]
