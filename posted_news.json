@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2073713497607647691",
     "2073768132225737092",
     "2073681537044729910",
     "2073823947682980076",
@@ -499,9 +498,10 @@
     "2087902715842080979",
     "2087962977123045397",
     "2087984351698890858",
-    "2088019181325242590"
+    "2088019181325242590",
+    "2087968882371838389"
   ],
-  "post_count": 1284,
+  "post_count": 1285,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -757,6 +757,14 @@
       "source": "\ud83d\udee9\ufe0f\ud83c\uddec\ud83c\udde7 Rodri, flying back to Manchester from Madrid while talks with Barcelona continue.\n\nWorld Cup Player of the Tournament, tonight boarding on Ryanair flight to Liverpool. \u2708\ufe0f\n\n@kippaxgirlemily \ud83d\udcf8 https://t.co/RLTdmcQQQe",
       "post": "BREAKING: Rodri flying back to Manchester from Madrid while Barcelona talks continue.\n\nWorld Cup Player of the Tournament boarding a Ryanair flight to Liverpool. Even the transfer saga can't afford a proper airline.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2088182715413831801",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-14 08:48 UTC",
+      "source_author": "Plettigoal",
+      "source": "\ud83d\udea8\ud83d\udca5 Ferran Torres to Paris Saint-Germain - DONE DEAL \u2714\ufe0f\n\nFull agreement in principle now reached with FC Barcelona. Transfer fee: \u20ac50m.\n\nThe World Cup winner is set to sign a contract until 2031. Transfer set to go through, pending medical. \n\n@SkySportDE \ud83c\uddea\ud83c\uddf8 https://t.co/Nxv6WHVw40",
+      "post": "BREAKING: Ferran Torres to PSG, \u20ac50m, contract until 2031.\n\nBarcelona really said 'we need to fund our wage bill' and PSG said 'say no more, here's fifty million for a player who'll be 35 when this deal ends'.\n\nBrilliant.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2088185871346618730",
       "threads_url": null
     }
   ]
