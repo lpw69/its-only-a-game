@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2073970185984213204",
     "2074007534776566126",
     "2074024366346477706",
     "2073977446316024208",
@@ -499,9 +498,10 @@
     "2087637788485099659",
     "2088190042149703816",
     "2088224159138508808",
-    "2073823947682980076"
+    "2073823947682980076",
+    "2088295224783065301"
   ],
-  "post_count": 1291,
+  "post_count": 1292,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -813,6 +813,14 @@
       "source": "\ud83d\udea8 Exclusive: The White House made a direct call to FIFA to ask Gianni Infantino to review Folarin Balogun\u2019s red card.\n\nFIFA approached for comment and referred to the findings of its independent committee.\n\nFIFA sources insist White House influence could not affect the decision due to the powers contained in Article 27 and the independent nature of the disciplinary panel.",
       "post": "BREAKING: The White House rang FIFA about a red card.\n\nFIFA sources say don't worry, Article 27 prevents political interference. Which is a very reassuring way of saying 'yes, that absolutely just happened'.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2088280198588620883",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-14 17:10 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udd35 Chelsea have not received any official bid for Enzo Fern\u00e1ndez \u2014 as their own 5pm UK time \u2018deadline\u2019 has now passed.\n\n#CFC inform \u00a3120m verbal \u2018exit clause\u2019 made available to Enzo\u2019s camp for potential suitors at end of May is now off the table. https://t.co/7aZZiq934S",
+      "post": "BREAKING: Chelsea's 5pm deadline for Enzo Fern\u00e1ndez bids has passed with zero offers.\n\nOoh look at me, I'm Chelsea and I'm gonna set an arbitrary deadline nobody respects, then act shocked when nobody shows up.\n\nPathetic.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2088312340597129615",
       "threads_url": null
     }
   ]
