@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2073823947682980076",
     "2073840447361810484",
     "2073836502891557356",
     "2073847480001671520",
@@ -499,9 +498,10 @@
     "2088019181325242590",
     "2087968882371838389",
     "2087943687116353744",
-    "2088159939332047334"
+    "2088159939332047334",
+    "2087637788485099659"
   ],
-  "post_count": 1287,
+  "post_count": 1288,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -781,6 +781,14 @@
       "source": "\ud83d\udea8\ud83d\udd35\ud83d\udd34 Barcelona are returning with third proposal for Rodri to Manchester City.\n\nAfter \u20ac50m and \u20ac60m packages both rejected, direct club to club talks to continue half way between \u20ac60m last bid and \u20ac80m fee requested.\n\nBar\u00e7a remain confident and optimistic. https://t.co/pJKpW0kX32",
       "post": "BREAKING: Barcelona returning with third offer for Rodri.\n\nThey've rejected rejection. That's the negotiation equivalent of asking your mum again five minutes later.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2088214479255560219",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-14 11:08 UTC",
+      "source_author": "David_Ornstein",
+      "source": "\ud83d\udea8 BREAKING: Chelsea say deadline set at 5pm UK on Friday for Manchester City or any other suitors to send \u00a3120m net bid to sign Enzo Fernandez or 25yo staying this summer. #CFC say payment terms privately communicated to #MCFC + midfielder @TheAthleticFC https://t.co/jBB5zccpdf",
+      "post": "BREAKING: Chelsea give Man City until 5pm Friday to bid \u00a3120m for Enzo Fernandez.\n\nOoh look at me, I'm Todd Boehly and I'm gonna sell a midfielder I paid a club record fee for, then set an arbitrary deadline like I'm flogging a sofa on Facebook Marketplace.\n\nBrilliant.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2088221170277683665",
       "threads_url": null
     }
   ]
