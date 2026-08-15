@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2074102619107123279",
     "2074189063024697834",
     "2073544108098949308",
     "2074174424136442134",
@@ -499,9 +498,10 @@
     "2088330378129948886",
     "2088290972920688746",
     "2088362600581017798",
-    "2088347997398528250"
+    "2088347997398528250",
+    "2088529356058398842"
   ],
-  "post_count": 1298,
+  "post_count": 1299,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -869,6 +869,14 @@
       "source": "\ud83d\udea8\u2764\ufe0f\ud83e\udd0d Cristian Romero has signed his five year contract as new Atl\u00e9tico Madrid player.\n\n\u20ac40m package move plus 15% sell-on clause, now completed. \ud83c\udde6\ud83c\uddf7 https://t.co/eSXtjH4qhv",
       "post": "BREAKING: Cristian Romero signs for Atl\u00e9tico Madrid.\n\nSpurs fans currently refreshing their phones to see if this somehow gets reversed in the next 20 minutes. It won't.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2088547964587577349",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-15 10:00 UTC",
+      "source_author": "JacobsBen",
+      "source": "Barcelona's have made a third offer for Rodri and are optimistic of completing a deal. Package under discussion now \u00a360m+.\ud83c\uddea\ud83c\uddf8 https://t.co/OX1aIWogUd",
+      "post": "BREAKING: Barcelona make third offer for Rodri at \u00a360m+.\n\nOooh look at me, I'm Barcelona and I'm gonna spend three attempts to sign one midfielder while my wage bill is eating itself alive.\n\nMental.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2088566496419369148",
       "threads_url": null
     }
   ]
