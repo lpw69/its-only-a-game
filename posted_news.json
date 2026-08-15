@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2074211223281746430",
     "2073974748933976372",
     "2074312216090730841",
     "2074379418491850775",
@@ -499,9 +498,10 @@
     "2088529356058398842",
     "2088321500742836286",
     "2088556685539344573",
-    "2088581289536376896"
+    "2088581289536376896",
+    "2087811626414043415"
   ],
-  "post_count": 1302,
+  "post_count": 1303,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -901,6 +901,14 @@
       "source": "\ud83d\udd34\ud83d\udd35 Ferran Torres: \u201cParis Saint-Germain are the ideal club to win the Champions League\u201d. https://t.co/WIAqh8PXEP",
       "post": "Ferran Torres: PSG are ideal to win the Champions League.\n\nFerran Torres arriving at a club that's won it once since 1997. Brilliant.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2088626883898581279",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-15 14:33 UTC",
+      "source_author": "David_Ornstein",
+      "source": "\ud83d\udea8 Al Qadsiah in advanced talks to sign Tijjani Reijnders from Manchester City. Deal for 28yo midfielder not agreed but #AlQadsiah working to finalise with #MCFC + Netherlands international in next days @TheAthleticFC after @FabrizioRomano @yagosabuncuoglu https://t.co/L6LTL6h6LI",
+      "post": "BREAKING: Al Qadsiah in advanced talks to sign Tijjani Reijnders from Manchester City.\n\nPep's finally found a way to make a midfielder leave. Pay them enough money to never play again.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2088635248649380234",
       "threads_url": null
     }
   ]
