@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2074415587711693204",
     "2074509030593036605",
     "2074397001450496467",
     "2074412046620250517",
@@ -499,9 +498,10 @@
     "2088612554360721801",
     "2088655284415672399",
     "2088644262007120288",
-    "2088662654109819268"
+    "2088662654109819268",
+    "2088696105567506536"
   ],
-  "post_count": 1308,
+  "post_count": 1309,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -949,6 +949,14 @@
       "source": "\ud83d\udea8\ud83d\udd34 Marcus Rashford has made his official comeback at Manchester United after loan at Barcelona last season. https://t.co/egNT43bBCH",
       "post": "BREAKING: Marcus Rashford returns to Manchester United after a season at Barcelona.\n\nOoh look at me, I'm Marcus, and I'm gonna flee to Spain for a reset then come straight back because nothing changes at Old Trafford.\n\nClassic.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2088712430109237608",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-15 21:33 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83c\udf15\ud83c\uddf5\ud83c\uddf9 Jo\u00e3o F\u00e9lix receives Best Player of the Season Award for Saudi Pro League season 2025/26. \ud83c\uddf8\ud83c\udde6 https://t.co/OcJ7FxykYI",
+      "post": "Jo\u00e3o F\u00e9lix wins Saudi Pro League Player of the Season.\n\nMeanwhile in Europe, people are still arguing whether he's actually any good.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2088740972687729035",
       "threads_url": null
     }
   ]
