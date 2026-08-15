@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2074349346720567495",
     "2074415587711693204",
     "2074509030593036605",
     "2074397001450496467",
@@ -499,9 +498,10 @@
     "2088634049392681184",
     "2088612554360721801",
     "2088655284415672399",
-    "2088644262007120288"
+    "2088644262007120288",
+    "2088662654109819268"
   ],
-  "post_count": 1307,
+  "post_count": 1308,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -941,6 +941,14 @@
       "source": "\ud83d\udea8\ud83d\udfe3\ud83d\udd35 Aston Villa are working on deal to sign Zion Suzuki after Paris Saint-Germain move collapsed today! \ud83c\uddef\ud83c\uddf5\n\n#AVFC already called Parma and player\u2019s camp to match PSG proposal in excess of \u20ac30m, negotiations underway. https://t.co/dma0YaasOC",
       "post": "BREAKING: Aston Villa swooping for Zion Suzuki after PSG's deal collapsed.\n\nAbsolutely brilliant timing. Nothing says 'we're a big club now' like signing someone nobody else wanted anymore.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2088704148678295640",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-15 19:40 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udd34 Marcus Rashford has made his official comeback at Manchester United after loan at Barcelona last season. https://t.co/egNT43bBCH",
+      "post": "BREAKING: Marcus Rashford returns to Manchester United after a season at Barcelona.\n\nOoh look at me, I'm Marcus, and I'm gonna flee to Spain for a reset then come straight back because nothing changes at Old Trafford.\n\nClassic.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2088712430109237608",
       "threads_url": null
     }
   ]
