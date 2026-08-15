@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2073368054973575319",
     "2074102619107123279",
     "2074189063024697834",
     "2073544108098949308",
@@ -499,9 +498,10 @@
     "2088227168606122353",
     "2088330378129948886",
     "2088290972920688746",
-    "2088362600581017798"
+    "2088362600581017798",
+    "2088347997398528250"
   ],
-  "post_count": 1297,
+  "post_count": 1298,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -861,6 +861,14 @@
       "source": "\ud83d\udd34\ud83d\udd35\ud83d\udc4b\ud83c\udffc Ferran Torres and Mika Godts are BOTH in Paris right now, ready for medical at Paris Saint-Germain.\n\nBoth here we go, confirmed. \ud83d\udca5 https://t.co/w9kN0cywgt",
       "post": "BREAKING: Ferran Torres and Mika Godts both in Paris for PSG medicals.\n\nPSG spending money like they've just won the league. They haven't even played yet.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2088535688694370608",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-15 08:46 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\u2764\ufe0f\ud83e\udd0d Cristian Romero has signed his five year contract as new Atl\u00e9tico Madrid player.\n\n\u20ac40m package move plus 15% sell-on clause, now completed. \ud83c\udde6\ud83c\uddf7 https://t.co/eSXtjH4qhv",
+      "post": "BREAKING: Cristian Romero signs for Atl\u00e9tico Madrid.\n\nSpurs fans currently refreshing their phones to see if this somehow gets reversed in the next 20 minutes. It won't.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2088547964587577349",
       "threads_url": null
     }
   ]
