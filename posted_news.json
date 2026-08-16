@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2074512347180261780",
     "2074615475061870592",
     "2074615576278839789",
     "2074633793751671040",
@@ -499,9 +498,10 @@
     "2088819584858001436",
     "2088675485077164356",
     "2087568557781520778",
-    "2088886476214010161"
+    "2088886476214010161",
+    "2088948583282143671"
   ],
-  "post_count": 1315,
+  "post_count": 1316,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1005,6 +1005,14 @@
       "source": "\ud83d\udea8 Barcelona will not activate \u20ac80m release clause for Luis Su\u00e1rez as price considered too high.\n\n\ud83e\udd81 Sporting won\u2019t make any discounts and expect Colombian striker to stay. https://t.co/Lz6QEgEQLX",
       "post": "BREAKING: Barcelona won't pay \u20ac80m for a striker.\n\nBarcelona, famous for their financial restraint and sensible spending decisions.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2088956345538187331",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-16 14:01 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udfe3\ud83d\udd35 Aston Villa and Parma have started exchanging documents for Zion Suzuki deal.\n\nFollows agreement with the Japanese GK after #AVFC match PSG bid as deal with French club collapsed yesterday.\n\n\ud83c\uddef\ud83c\uddf5 All set for travel and medical, as @jacobsben @david_ornstein reported. https://t.co/q0xk3EyC2A",
+      "post": "BREAKING: Aston Villa sign Japanese goalkeeper after PSG's bid collapses.\n\nThey really said 'let's get someone in before we play PSG' then immediately didn't play PSG. Tactical masterclass.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2088989457462841633",
       "threads_url": null
     }
   ]
