@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2074397001450496467",
     "2074412046620250517",
     "2074530471430455514",
     "2074559129775980895",
@@ -499,9 +498,10 @@
     "2088644262007120288",
     "2088662654109819268",
     "2088696105567506536",
-    "2088747105770717532"
+    "2088747105770717532",
+    "2088666976436584933"
   ],
-  "post_count": 1310,
+  "post_count": 1311,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -965,6 +965,14 @@
       "source": "\ud83d\udea8\ud83d\udd35\ud83d\udd34 Barcelona are confident to get green light for Jo\u00e3o Cancelo\u2019s comeback and proceed with his return next week.\n\nCancelo, discussing contract termination at Al Hilal as Saudi sources reported \u2014 with Bar\u00e7a expecting him to arrive in few days. https://t.co/FfKwVcsB7P",
       "post": "BREAKING: Jo\u00e3o Cancelo heading back to Barcelona after his Saudi Arabia experiment lasted about five minutes.\n\nMan really said 'I'll take the Saudi money and then just leave' like it's a Netflix subscription.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2088893764454826364",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-16 07:57 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\u26ab\ufe0f\ud83d\udd35 Official, confirmed. Djed Spence has joined Inter on \u20ac35m package deal from Tottenham.\n\nDeal until June 2031. \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f https://t.co/FQSR9gJeOJ",
+      "post": "BREAKING: Djed Spence joins Inter for \u20ac35m.\n\nSpurs selling a player for a decent fee without completely embarrassing themselves. Write this down, it might not happen again.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2088897882997064032",
       "threads_url": null
     }
   ]
