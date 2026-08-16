@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2074530471430455514",
     "2074559129775980895",
     "2074557198227673499",
     "2074512347180261780",
@@ -499,9 +498,10 @@
     "2088696105567506536",
     "2088747105770717532",
     "2088666976436584933",
-    "2088819584858001436"
+    "2088819584858001436",
+    "2088675485077164356"
   ],
-  "post_count": 1312,
+  "post_count": 1313,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -981,6 +981,14 @@
       "source": "\ud83d\udea8\ud83d\udd35\ud83d\udd34 Barcelona are prepared to fly Jo\u00e3o Cancelo to the city early next week if green light from Al Hilal on exit will be confirmed.\n\n\ud83c\udfa5\u2795 https://t.co/jbR2s4WKwh https://t.co/o7fekIOz4d",
       "post": "BREAKING: Barcelona prepared to fly Jo\u00e3o Cancelo to the city early next week pending Al Hilal green light.\n\nSo they're getting him, but they need permission from Saudi Arabia first. That's not how it usually works, is it.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2088910772709843236",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-16 10:01 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\u26aa\ufe0f\u26ab\ufe0f Discussions between Juventus and Dibu Martinez not at advanced stages after today\u2019s call.\n\nDibu suffered from physical issues during World Cup and Juve are considering more goalkeepers.\n\nMeanwhile, Aston Villa keep advancing on Zion Suzuki deal. \ud83d\udfe3\ud83d\udd35\ud83c\uddef\ud83c\uddf5 https://t.co/ZYgVZw3P21",
+      "post": "BREAKING: Juventus and Dibu Martinez talks going nowhere.\n\nTurns out a goalkeeper with injury problems isn't the answer to your defensive chaos. Who knew.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2088929082016981406",
       "threads_url": null
     }
   ]
