@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2074901413021258051",
     "2074849087568900172",
     "2074918572187406455",
     "2074934620886364413",
@@ -499,9 +498,10 @@
     "2089120129648882021",
     "2089226214842015866",
     "2089090404595495286",
-    "2089092107663270330"
+    "2089092107663270330",
+    "2089089895813849452"
   ],
-  "post_count": 1325,
+  "post_count": 1326,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1085,6 +1085,14 @@
       "source": "\ud83d\udea8\ud83c\udde7\ud83c\uddf7 EXCL: S\u00e3o Paulo have approached Jamie Vardy to join the club as free agent!\n\nSurprise move by the Brazilian side to tempt Leicester City legend.\n\nVardy, assessing several options with final decision on his future club not made yet. https://t.co/7exdS0A4Ja",
       "post": "BREAKING: S\u00e3o Paulo approaching Jamie Vardy as a free agent.\n\nJamie Vardy hearing \"Brazil\" and thinking \"yeah, that'll be less running about.\"",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2089295223415558420",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-17 10:49 UTC",
+      "source_author": "SkySportsNews",
+      "source": "EXCLUSIVE: Amar Dedi\u0107 has arrived in the UK ahead of his \u00a329.5m move to Newcastle United \ud83d\udea8 https://t.co/BhMgOH26mU",
+      "post": "EXCLUSIVE: Amar Dedi\u0107 has arrived in the UK ahead of his \u00a329.5m move to Newcastle.\n\nNewcastle spending thirty million quid on someone. They're really committing to the whole 'sod it, throw money at it' strategy.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2089303586358632499",
       "threads_url": null
     }
   ]
