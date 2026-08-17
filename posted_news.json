@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2074813276618162185",
     "2074750581298942183",
     "2074901413021258051",
     "2074849087568900172",
@@ -499,9 +498,10 @@
     "2089030203263631401",
     "2089057119941111815",
     "2089120129648882021",
-    "2089226214842015866"
+    "2089226214842015866",
+    "2089090404595495286"
   ],
-  "post_count": 1323,
+  "post_count": 1324,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1069,6 +1069,14 @@
       "source": "\ud83d\udea8\ud83d\udd35\ud83d\udd34 Marc Casad\u00f3, next one to leave Barcelona after Tommy Marques who\u2019s joining Braga.\n\nNo talks with Al Hilal despite reports. More options open with his agent Jorge Mendes on it. https://t.co/Fj8TNaKfNt",
       "post": "BREAKING: Marc Casad\u00f3 leaving Barcelona.\n\nJorge Mendes involved means he'll end up at a club you've never heard of for a fee that makes no sense. Standard Mendes stuff.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2089266684549071245",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-17 09:01 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udfe1\ud83d\udd34\ud83c\udfc6 RC Lens beat Paris Saint-Germain in the French Super Cup final and get the trophy!\n\nWho\u2019s been your Man of the Match? https://t.co/0PYhonysLa",
+      "post": "BREAKING: Lens just beat PSG in the French Super Cup final.\n\nParis fans currently explaining how this doesn't count because it's not Ligue 1. Lovely.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2089276400637518288",
       "threads_url": null
     }
   ]
