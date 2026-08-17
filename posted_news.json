@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2074918572187406455",
     "2074934620886364413",
     "2074956676776476898",
     "2075031659489939497",
@@ -499,9 +498,10 @@
     "2089090404595495286",
     "2089092107663270330",
     "2089089895813849452",
-    "2089302137805127746"
+    "2089302137805127746",
+    "2089268348961902636"
   ],
-  "post_count": 1327,
+  "post_count": 1328,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1101,6 +1101,14 @@
       "source": "\ud83d\udea8\ud83d\udd35\ud83d\udd34 Breaking: Sergio Busquets makes first step in his new career as manager as he signs in as Barcelona B assistant coach.\n\nBusquets will work closely with Juliano Belletti while he follows the process to get his coaching license. https://t.co/8pZhZUCJIB",
       "post": "BREAKING: Sergio Busquets becomes Barcelona B assistant coach.\n\nOoh look at me, I'm Sergio, I'm gonna spend 20 years perfecting the art of a five-yard pass and then immediately start coaching without my badge.\n\nBrilliant.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2089319667664142726",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-17 14:05 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udd35\ud83d\udd34\u2708\ufe0f Jo\u00e3o Cancelo, on his way to Barcelona today\u2026\n\n\u2026and Rodri will be next, both arriving for medical then contract signing. https://t.co/kdmO8eSg3Y",
+      "post": "BREAKING: Jo\u00e3o Cancelo on his way to Barcelona today, Rodri next.\n\nMan City really said 'we've won enough, let's help everyone else now'.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2089352958848979002",
       "threads_url": null
     }
   ]
