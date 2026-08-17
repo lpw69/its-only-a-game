@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2074934620886364413",
     "2074956676776476898",
     "2075031659489939497",
     "2075102097922490406",
@@ -499,9 +498,10 @@
     "2089092107663270330",
     "2089089895813849452",
     "2089302137805127746",
-    "2089268348961902636"
+    "2089268348961902636",
+    "2088943438112694440"
   ],
-  "post_count": 1328,
+  "post_count": 1329,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1109,6 +1109,14 @@
       "source": "\ud83d\udd35\ud83d\udd34\u2708\ufe0f Jo\u00e3o Cancelo, on his way to Barcelona today\u2026\n\n\u2026and Rodri will be next, both arriving for medical then contract signing. https://t.co/kdmO8eSg3Y",
       "post": "BREAKING: Jo\u00e3o Cancelo on his way to Barcelona today, Rodri next.\n\nMan City really said 'we've won enough, let's help everyone else now'.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2089352958848979002",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-17 14:38 UTC",
+      "source_author": "David_Ornstein",
+      "source": "\ud83d\udea8 Aston Villa reach agreement with Parma to sign Zion Suzuki. Deal for 23yo #Parma goalkeeper worth \u20ac30m + future add-ons potentially taking package to \u20ac35m. 5yr contract in place with Japan \ud83c\uddef\ud83c\uddf5 international; keen on #AVFC move throughout @TheAthleticFC https://t.co/u8WxK1gvP7",
+      "post": "BREAKING: Aston Villa sign Zion Suzuki from Parma for \u20ac30m plus add-ons.\n\nEmiliano Martinez watching this unfold like a man seeing his house get sold while he's still in it.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2089361219627237843",
       "threads_url": null
     }
   ]
