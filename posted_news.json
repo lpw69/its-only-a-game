@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2075031659489939497",
     "2075102097922490406",
     "2074895170361811424",
     "2074890242448892350",
@@ -499,9 +498,10 @@
     "2089302137805127746",
     "2089268348961902636",
     "2088943438112694440",
-    "2089083707831328789"
+    "2089083707831328789",
+    "2088930845763473767"
   ],
-  "post_count": 1330,
+  "post_count": 1331,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1125,6 +1125,14 @@
       "source": "\ud83d\udea8 Emiliano Martinez from Aston Villa to Juventus off. Talks reduced price gap &amp; personal terms for 33yo goalkeeper no issue but #Juve not proceeding on deal. #AVFC will try to find solution but either way Zion Suzuki new No1. W/ @J_Tanswell @TheAthleticFC https://t.co/s74ggNpzQN",
       "post": "BREAKING: Emiliano Martinez to Juventus off.\n\nAston Villa's 33-year-old goalkeeper rejected by a club that literally cannot say no to anyone. Even Juve have standards apparently.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2089380175658340389",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-17 21:38 UTC",
+      "source_author": "David_Ornstein",
+      "source": "\ud83d\udea8 EXCL: Aston Villa receive fresh bid from Juventus for Emiliano Martinez &amp; gap between valuations now narrowing. #Juve willing to pay up to \u20ac10m (\u20ac7+3m) - #AVFC want \u20ac10m fixed. Personal terms for 33yo goalkeeper no issue. W @J_Tanswell @TheAthleticFC https://t.co/TZ9TOP5Lv9",
+      "post": "BREAKING: Juventus bidding \u20ac10m for a 33-year-old goalkeeper.\n\nThey're really committing to the long-term project, aren't they.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2089466992604614820",
       "threads_url": null
     }
   ]
