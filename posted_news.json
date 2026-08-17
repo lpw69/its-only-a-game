@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2074750581298942183",
     "2074901413021258051",
     "2074849087568900172",
     "2074918572187406455",
@@ -499,9 +498,10 @@
     "2089057119941111815",
     "2089120129648882021",
     "2089226214842015866",
-    "2089090404595495286"
+    "2089090404595495286",
+    "2089092107663270330"
   ],
-  "post_count": 1324,
+  "post_count": 1325,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1077,6 +1077,14 @@
       "source": "\ud83d\udfe1\ud83d\udd34\ud83c\udfc6 RC Lens beat Paris Saint-Germain in the French Super Cup final and get the trophy!\n\nWho\u2019s been your Man of the Match? https://t.co/0PYhonysLa",
       "post": "BREAKING: Lens just beat PSG in the French Super Cup final.\n\nParis fans currently explaining how this doesn't count because it's not Ligue 1. Lovely.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2089276400637518288",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-17 10:16 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83c\udde7\ud83c\uddf7 EXCL: S\u00e3o Paulo have approached Jamie Vardy to join the club as free agent!\n\nSurprise move by the Brazilian side to tempt Leicester City legend.\n\nVardy, assessing several options with final decision on his future club not made yet. https://t.co/7exdS0A4Ja",
+      "post": "BREAKING: S\u00e3o Paulo approaching Jamie Vardy as a free agent.\n\nJamie Vardy hearing \"Brazil\" and thinking \"yeah, that'll be less running about.\"",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2089295223415558420",
       "threads_url": null
     }
   ]
