@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2074777005309010406",
     "2074813276618162185",
     "2074750581298942183",
     "2074901413021258051",
@@ -499,9 +498,10 @@
     "2089038811133001861",
     "2089030203263631401",
     "2089057119941111815",
-    "2089120129648882021"
+    "2089120129648882021",
+    "2089226214842015866"
   ],
-  "post_count": 1322,
+  "post_count": 1323,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1061,6 +1061,14 @@
       "source": "\ud83d\udea8\ud83d\udd35\ud83d\udd34 Rodri has authorization to fly to Barcelona today, Monday ahead of move being completed.\n\nMedical booked by Barcelona and Rodri will sign a four year deal until June 2030 this week.\n\nFee worth \u20ac60m fixed, \u20ac6m easy add-ons and \u20ac10m difficult add-ons. https://t.co/lz1S3jqDJM",
       "post": "BREAKING: Rodri authorized to fly to Barcelona today ahead of move being completed.\n\nMan City's midfield about to look like a Premier League team finally remembered they need to defend.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2089260481982906560",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-17 08:22 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udd35\ud83d\udd34 Marc Casad\u00f3, next one to leave Barcelona after Tommy Marques who\u2019s joining Braga.\n\nNo talks with Al Hilal despite reports. More options open with his agent Jorge Mendes on it. https://t.co/Fj8TNaKfNt",
+      "post": "BREAKING: Marc Casad\u00f3 leaving Barcelona.\n\nJorge Mendes involved means he'll end up at a club you've never heard of for a fee that makes no sense. Standard Mendes stuff.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2089266684549071245",
       "threads_url": null
     }
   ]
