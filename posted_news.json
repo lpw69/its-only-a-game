@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2075264280442577334",
     "2075164233268932758",
     "2075209688925278390",
     "2075343606982783169",
@@ -499,9 +498,10 @@
     "2089280316607189447",
     "2089688239481274383",
     "2089263177460506900",
-    "2089754591013310558"
+    "2089754591013310558",
+    "2089464917292159227"
   ],
-  "post_count": 1339,
+  "post_count": 1340,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1197,6 +1197,14 @@
       "source": "\ud83d\udea8\ud83d\udd35\ud83d\udd34 OFFICIAL: Rodri joins Barcelona on \u20ac60m plus \u20ac15m add-ons deal from Man City. https://t.co/8mxK1FNsxz",
       "post": "BREAKING: Rodri joins Barcelona on \u20ac60m plus \u20ac15m add-ons.\n\nMan City's midfield just got significantly worse and Barcelona's wage bill just got significantly fatter. Beautiful symmetry.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2089793912877789471",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-18 21:36 UTC",
+      "source_author": "SkySportsNews",
+      "source": "\"To play for Barcelona is a dream for me\" \ud83c\udf1f\n\nRodri has landed in Barcelona for his medical ahead of his move to the Spanish side \ud83d\udcdd https://t.co/CEgHdOfWwl",
+      "post": "BREAKING: Rodri lands in Barcelona for medical.\n\nLad's gonna win the Ballon d'Or, get injured in week three, then spend six months explaining how he's still the best midfielder in the world.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2089828709520097570",
       "threads_url": null
     }
   ]
