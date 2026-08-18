@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2073863737585385537",
     "2075264280442577334",
     "2075164233268932758",
     "2075209688925278390",
@@ -499,9 +498,10 @@
     "2088180828622737518",
     "2089280316607189447",
     "2089688239481274383",
-    "2089263177460506900"
+    "2089263177460506900",
+    "2089754591013310558"
   ],
-  "post_count": 1338,
+  "post_count": 1339,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1189,6 +1189,14 @@
       "source": "\ud83d\udea8 Tottenham Hotspur accept Juventus bid for Guglielmo Vicario. Proposal sent overnight; loan + option to buy 29yo #THFC goalkeeper next summer. All parties expect signing of Italy int\u2019l by #Juve to go ahead after Martinez pursuit called off @TheAthleticFC https://t.co/ig7rP2SIOM",
       "post": "BREAKING: Tottenham accept Juventus bid for Vicario.\n\nSpurs finally selling a goalkeeper before he turns 35 and forgets how to dive. Progress.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2089756363576746106",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-18 19:17 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udd35\ud83d\udd34 OFFICIAL: Rodri joins Barcelona on \u20ac60m plus \u20ac15m add-ons deal from Man City. https://t.co/8mxK1FNsxz",
+      "post": "BREAKING: Rodri joins Barcelona on \u20ac60m plus \u20ac15m add-ons.\n\nMan City's midfield just got significantly worse and Barcelona's wage bill just got significantly fatter. Beautiful symmetry.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2089793912877789471",
       "threads_url": null
     }
   ]
