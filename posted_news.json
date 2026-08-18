@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2075236855633543185",
     "2074965051132256370",
     "2075254693186404551",
     "2074405988971516151",
@@ -499,9 +498,10 @@
     "2088930845763473767",
     "2089066257811165586",
     "2089385050127073588",
-    "2089617543321538841"
+    "2089617543321538841",
+    "2088180828622737518"
   ],
-  "post_count": 1334,
+  "post_count": 1335,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1157,6 +1157,14 @@
       "source": "\ud83d\udea8\ud83c\udf15 Pau Cubars\u00ed currently leading the votes for Golden Boy Award 2026.\n\nTuttosport release current standings waiting for final votes to take place later this year.\n\nCubars\u00ed, currently on top with Lamine Yamal second (but he can\u2019t win this year again due to regulations) and Yan Diomande third.",
       "post": "BREAKING: Pau Cubars\u00ed leading Golden Boy votes.\n\nLamine Yamal in second but can't win due to regulations, which is the most Lamine Yamal outcome possible - being too good too young for the rules.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2089665462686937499",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-18 11:54 UTC",
+      "source_author": "henrywinter",
+      "source": "Rodri calmly hopping on budget airline back from his home city of Madrid to the UK, heading back to Manchester City training (for now), gives an insight into his character \u2013 no airs or graces. Feet on the ground, no entourage, just the player voted the best at the World Cup queuing patiently with everyone else. Perhaps also an insight into a quality that people associate with the Spanish world champions - humility.",
+      "post": "BREAKING: Rodri spotted on budget airline back to Manchester City training.\n\nWorld's best player queuing with everyone else. No entourage, no fuss. Absolutely mental behaviour for a footballer in 2024.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2089682308140003370",
       "threads_url": null
     }
   ]
