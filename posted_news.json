@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2074965051132256370",
     "2075254693186404551",
     "2074405988971516151",
     "2073863737585385537",
@@ -499,9 +498,10 @@
     "2089066257811165586",
     "2089385050127073588",
     "2089617543321538841",
-    "2088180828622737518"
+    "2088180828622737518",
+    "2089280316607189447"
   ],
-  "post_count": 1335,
+  "post_count": 1336,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1165,6 +1165,14 @@
       "source": "Rodri calmly hopping on budget airline back from his home city of Madrid to the UK, heading back to Manchester City training (for now), gives an insight into his character \u2013 no airs or graces. Feet on the ground, no entourage, just the player voted the best at the World Cup queuing patiently with everyone else. Perhaps also an insight into a quality that people associate with the Spanish world champions - humility.",
       "post": "BREAKING: Rodri spotted on budget airline back to Manchester City training.\n\nWorld's best player queuing with everyone else. No entourage, no fuss. Absolutely mental behaviour for a footballer in 2024.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2089682308140003370",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-18 14:46 UTC",
+      "source_author": "David_Ornstein",
+      "source": "\ud83d\udea8 Ipswich Town sign Julio Enciso from Strasbourg on permanent basis. Package for 22yo #RCSA attacking midfielder worth in excess of \u20ac30m including add-ons + future sale clause. Medical done; 5yr contract. Abdoul Ouattara also joining #ITFC @TheAthleticFC https://t.co/Ua8B17uO3s",
+      "post": "BREAKING: Ipswich sign Julio Enciso for \u20ac30m plus add-ons.\n\nA newly promoted side spending big on a 22yo attacking midfielder. What could possibly go wrong.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2089725625959665807",
       "threads_url": null
     }
   ]
