@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2074890242448892350",
     "2075236855633543185",
     "2074965051132256370",
     "2075254693186404551",
@@ -499,9 +498,10 @@
     "2089083707831328789",
     "2088930845763473767",
     "2089066257811165586",
-    "2089385050127073588"
+    "2089385050127073588",
+    "2089617543321538841"
   ],
-  "post_count": 1333,
+  "post_count": 1334,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1149,6 +1149,14 @@
       "source": "Manchester United captain Bruno Fernandes is not for sale at any price despite Galatasaray interest \ud83d\udea8 https://t.co/pWupnPGdGk",
       "post": "BREAKING: Manchester United confirm Bruno Fernandes not for sale.\n\nGalatasaray breathing a sigh of relief that they don't have to actually spend money.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2089655117696114853",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-18 10:47 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83c\udf15 Pau Cubars\u00ed currently leading the votes for Golden Boy Award 2026.\n\nTuttosport release current standings waiting for final votes to take place later this year.\n\nCubars\u00ed, currently on top with Lamine Yamal second (but he can\u2019t win this year again due to regulations) and Yan Diomande third.",
+      "post": "BREAKING: Pau Cubars\u00ed leading Golden Boy votes.\n\nLamine Yamal in second but can't win due to regulations, which is the most Lamine Yamal outcome possible - being too good too young for the rules.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2089665462686937499",
       "threads_url": null
     }
   ]
