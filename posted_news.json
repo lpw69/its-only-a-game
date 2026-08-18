@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2074895170361811424",
     "2074890242448892350",
     "2075236855633543185",
     "2074965051132256370",
@@ -499,9 +498,10 @@
     "2088943438112694440",
     "2089083707831328789",
     "2088930845763473767",
-    "2089066257811165586"
+    "2089066257811165586",
+    "2089385050127073588"
   ],
-  "post_count": 1332,
+  "post_count": 1333,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1141,6 +1141,14 @@
       "source": "\ud83d\udea8 Barcelona strike agreement with Manchester City to sign Rodri. \u20ac76.5m package. \u20ac60m fixed &amp; above \u20ac11m of bonuses viewed as highly achievable so #MCFC can expect at least \u20ac71.5m despite Spain captain entering final 12mnths of contract @TheAthleticFC https://t.co/n3GL7VsEVQ",
       "post": "BREAKING: Barcelona strike agreement to sign Rodri from Manchester City for \u20ac76.5m.\n\nOoh look at me, I'm Barcelona and I'm gonna spend \u20ac76.5m on a midfielder entering the final year of his contract because our finances are definitely fine.\n\nMental.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2089620861523579364",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-18 10:06 UTC",
+      "source_author": "SkySportsNews",
+      "source": "Manchester United captain Bruno Fernandes is not for sale at any price despite Galatasaray interest \ud83d\udea8 https://t.co/pWupnPGdGk",
+      "post": "BREAKING: Manchester United confirm Bruno Fernandes not for sale.\n\nGalatasaray breathing a sigh of relief that they don't have to actually spend money.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2089655117696114853",
       "threads_url": null
     }
   ]
