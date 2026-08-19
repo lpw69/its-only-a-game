@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2073752608171331653",
     "2075309334297276818",
     "2075610155090104574",
     "2075493476624449737",
@@ -499,9 +498,10 @@
     "2090007773756924187",
     "2089998414637363381",
     "2089995785652060214",
-    "2090054092735271325"
+    "2090054092735271325",
+    "2090023991775838668"
   ],
-  "post_count": 1347,
+  "post_count": 1348,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1261,6 +1261,14 @@
       "source": "\ud83d\udea8\u26ab\ufe0f\ud83d\udd35 EXCLUSIVE: Inter agree deal to sign Curtis Jones from Liverpool, here we go! \ud83d\udca3\n\nVerbal agreement in place at \u20ac35m package fee from #LFC, agreement also with the player and medical being planned next. https://t.co/rh5IUbVgsb",
       "post": "BREAKING: Inter agree deal to sign Curtis Jones from Liverpool for \u20ac35m.\n\nLiverpool really said 'academy product coming good?' and decided to sell him instead of, you know, keeping him.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2090080966232719533",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-19 14:46 UTC",
+      "source_author": "David_Ornstein",
+      "source": "\ud83d\udea8 EXCL: Arsenal closing in on deal to sign Ezri Konsa from Aston Villa. 28yo defender high on #AFC target list all summer &amp; work now advancing with #AVFC to finalise after dialogue at ownership level to reduce valuation gap for England intl @TheAthleticFC https://t.co/ObmcU2Uq7T",
+      "post": "BREAKING: Arsenal closing in on Ezri Konsa deal.\n\nOoh look at me, I'm Arsenal and I'm gonna spend all summer chasing a 28-year-old defender because the valuation was too high, then panic-buy him anyway.\n\nClassic.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2090087907742867964",
       "threads_url": null
     }
   ]
