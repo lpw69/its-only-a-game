@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2075344827651133635",
     "2075348064311673071",
     "2073752608171331653",
     "2075309334297276818",
@@ -499,9 +498,10 @@
     "2089799614077505653",
     "2089959295588897124",
     "2090007773756924187",
-    "2089998414637363381"
+    "2089998414637363381",
+    "2089995785652060214"
   ],
-  "post_count": 1345,
+  "post_count": 1346,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1245,6 +1245,14 @@
       "source": "\ud83d\udea8 EXCLUSIVE: Manchester United closing in on deal to sign Carlos Baleba from Brighton &amp; Hove Albion. #MUFC offer for 22yo Cameroon midfielder ~\u00a360+5m; below #BHAFC valuation but amicable talks continue as all parties work to reach agreement @TheAthleticFC https://t.co/WmP1bD2JuT",
       "post": "EXCLUSIVE: Manchester United closing in on Carlos Baleba from Brighton for \u00a360+5m.\n\nOoh look at me, I'm United and I'm gonna sign a midfielder Brighton actually want to keep instead of the one they're desperate to shift.\n\nBrilliant.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2090027697808523713",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-19 11:54 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udd35 Jo\u00e3o Pedro puts pen to paper and signs new Chelsea deal until June 2032, documents approved.\n\nThe Brazilian stays and gets salary rise while new contract also includes option to extend beyond 2032.\n\nJo\u00e3o, key part of #CFC project. https://t.co/zgKdgIYSXG",
+      "post": "BREAKING: Jo\u00e3o Pedro signs new Chelsea deal until 2032.\n\nChelsea's strategy: sign young players to eight-year contracts so by the time they're done tinkering with the formation, at least one of them will still be here.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2090044647897026789",
       "threads_url": null
     }
   ]
