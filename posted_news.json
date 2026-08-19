@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2075348064311673071",
     "2073752608171331653",
     "2075309334297276818",
     "2075610155090104574",
@@ -499,9 +498,10 @@
     "2089959295588897124",
     "2090007773756924187",
     "2089998414637363381",
-    "2089995785652060214"
+    "2089995785652060214",
+    "2090054092735271325"
   ],
-  "post_count": 1346,
+  "post_count": 1347,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1253,6 +1253,14 @@
       "source": "\ud83d\udea8\ud83d\udd35 Jo\u00e3o Pedro puts pen to paper and signs new Chelsea deal until June 2032, documents approved.\n\nThe Brazilian stays and gets salary rise while new contract also includes option to extend beyond 2032.\n\nJo\u00e3o, key part of #CFC project. https://t.co/zgKdgIYSXG",
       "post": "BREAKING: Jo\u00e3o Pedro signs new Chelsea deal until 2032.\n\nChelsea's strategy: sign young players to eight-year contracts so by the time they're done tinkering with the formation, at least one of them will still be here.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2090044647897026789",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-19 14:18 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\u26ab\ufe0f\ud83d\udd35 EXCLUSIVE: Inter agree deal to sign Curtis Jones from Liverpool, here we go! \ud83d\udca3\n\nVerbal agreement in place at \u20ac35m package fee from #LFC, agreement also with the player and medical being planned next. https://t.co/rh5IUbVgsb",
+      "post": "BREAKING: Inter agree deal to sign Curtis Jones from Liverpool for \u20ac35m.\n\nLiverpool really said 'academy product coming good?' and decided to sell him instead of, you know, keeping him.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2090080966232719533",
       "threads_url": null
     }
   ]
