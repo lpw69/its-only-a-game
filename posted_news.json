@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2073182496728952875",
     "2075588075007132081",
     "2075617069513453764",
     "2075648991421776154",
@@ -499,9 +498,10 @@
     "2090023991775838668",
     "2090084168596074802",
     "2090072302176145454",
-    "2090071880707264641"
+    "2090071880707264641",
+    "2090005629368779118"
   ],
-  "post_count": 1351,
+  "post_count": 1352,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1293,6 +1293,14 @@
       "source": "\ud83d\udea8 Arsenal reach agreement with Aston Villa to sign Ezri Konsa. Deal for 28yo defender worth \u00a351m + add-ons. England international said goodbyes to #AVFC team-mates &amp; staff today. Set to take #AFC medical Thursday. W/ @J_Tanswell @gunnerblog @TheAthleticFC https://t.co/ObmcU2Uq7T",
       "post": "BREAKING: Arsenal sign Ezri Konsa from Aston Villa for \u00a351m.\n\nSo they've identified the problem as 'not enough England internationals at the back'. Brilliant diagnosis.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2090155113809916140",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-19 19:45 UTC",
+      "source_author": "SkySportsNews",
+      "source": "BREAKING: Manchester United are close to a full agreement with Brighton to sign Carlos Baleba \ud83d\udea8\n\nThe club already have a five-year contract ready for him to sign when the club to club deal is formally concluded \u270d\ufe0f https://t.co/9zBTqTJvKp",
+      "post": "BREAKING: Manchester United have a five-year contract ready for Carlos Baleba.\n\nThey're so confident he'll sign they've already booked his locker. Nothing says 'we've learned our lesson on recruitment' like pre-writing contracts for players who haven't agreed yet.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2090163250344407420",
       "threads_url": null
     }
   ]
