@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2075209688925278390",
     "2075343606982783169",
     "2075470323710079013",
     "2075284996621730219",
@@ -499,9 +498,10 @@
     "2089263177460506900",
     "2089754591013310558",
     "2089464917292159227",
-    "2089921043209302124"
+    "2089921043209302124",
+    "2089799614077505653"
   ],
-  "post_count": 1341,
+  "post_count": 1342,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1213,6 +1213,14 @@
       "source": "\u26aa\ufe0f\ud83d\udd25 Jos\u00e9 Mourinho: \u201cAfter the World Cup, Mbapp\u00e9 could have arrived on August 14\u2026\n\n\u2026but he came on the 12th because he wanted to be ready to play against Schalke\u201d.\n\n\u201cI like that. He trains HARD, with the same commitment and desire I want to see\u201d, told Chiringuito. https://t.co/LyDNUtmUzj",
       "post": "Mbapp\u00e9 arriving two days early to train hard.\n\nMourinho acting like this is abnormal behaviour for a professional footballer and not just, you know, turning up to work on time.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2089983366250770713",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-19 08:07 UTC",
+      "source_author": "Plettigoal",
+      "source": "\ud83d\udea8\ud83c\udd95 Galatasaray have reached a full agreement with Aleksey Batrakov.\n\nGala are now working to finalise the deal with Lokomotiv Moscow, worth around \u20ac25m guaranteed. Last details. \n\nShould the 21 y/o attacking midfielder join, a move for Can Uzun is considered unlikely.\n\n@SkySportDE \ud83c\uddf7\ud83c\uddfa",
+      "post": "BREAKING: Galatasaray agree deal for Aleksey Batrakov.\n\nCan Uzun now facing the classic Turkish football dilemma: wait around hoping you're still needed, or accept the harsh reality that you've already been replaced in a WhatsApp group chat.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2089987702578192614",
       "threads_url": null
     }
   ]
