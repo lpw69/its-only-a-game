@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2075567373336134119",
     "2075733075846160561",
     "2075840937364750346",
     "2076018108007915634",
@@ -499,9 +498,10 @@
     "2090422477109268596",
     "2090450436490756550",
     "2090428262610620611",
-    "2090417972921639026"
+    "2090417972921639026",
+    "2090451013257851188"
   ],
-  "post_count": 1362,
+  "post_count": 1363,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1381,6 +1381,14 @@
       "source": "\ud83d\udea8\ud83c\udde6\ud83c\uddf7 Xabi Alonso: \u201cEnzo Fern\u00e1ndez is a Chelsea player. He's a top, top player\u201d.\n\n\u201cWe are happy with him and he's getting ready for Monday\u201d. https://t.co/6uOfjaJ2Fh",
       "post": "BREAKING: Xabi Alonso confirms Enzo Fern\u00e1ndez is a Chelsea player.\n\nChelsea hearing 'top, top player' about someone they paid \u00a3106.8m for and getting visibly emotional.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2090526990294208871",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-20 21:43 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83c\udde7\ud83c\uddf7 Manchester City have made contact with Palmeiras for 22 year old winger Allan as main option to replace Savinho.\n\nInitial discussions took place over price; #MCFC feel there\u2019s room for negotiations as player keen on move \u2014 follows @santi_j_fm.\n\n\ud83c\udfa5\u2795 https://t.co/I3pQouCrr8 https://t.co/7ClePMjWee",
+      "post": "BREAKING: Manchester City chasing Allan from Palmeiras to replace Savinho.\n\nPep's master plan: Brazilian wingers are interchangeable. Just swap them out like faulty Nest thermostats.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2090555195940131247",
       "threads_url": null
     }
   ]
