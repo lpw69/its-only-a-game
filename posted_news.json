@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2075648991421776154",
     "2075690127683154260",
     "2075705354386579875",
     "2075705024076767471",
@@ -499,9 +498,10 @@
     "2090071880707264641",
     "2090005629368779118",
     "2090123416300912756",
-    "2090176134306476233"
+    "2090176134306476233",
+    "2090280160935428324"
   ],
-  "post_count": 1354,
+  "post_count": 1355,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1317,6 +1317,14 @@
       "source": "\ud83d\udea8\ud83d\udd35\ud83d\udd34 Barcelona director Deco: \u201cWe will be making some moves in the market\u201d. https://t.co/2CiAsQs8bd",
       "post": "BREAKING: Barcelona director Deco says they'll be making moves in the market.\n\nTranslation: we've spent all our money and now we need to sell someone's nan's house to fund it.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2090346506280902967",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-20 10:13 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8 Jos\u00e9 Mourinho when asked if he requested Yan Diomande signing:\n\u201cNo, I did not ask but I WANTED him\u201d.\n\n\u201cHe\u2019s a great player who can play on both sides\u201d, told El Chiringuito. https://t.co/cpB9i2s7UY",
+      "post": "Jos\u00e9 Mourinho: 'I didn't ask for him but I wanted him'.\n\nSo you wanted him but didn't ask. The man's negotiating with himself now.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2090381721061724306",
       "threads_url": null
     }
   ]
