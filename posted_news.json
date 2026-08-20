@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2075690127683154260",
     "2075705354386579875",
     "2075705024076767471",
     "2075830195089789128",
@@ -499,9 +498,10 @@
     "2090005629368779118",
     "2090123416300912756",
     "2090176134306476233",
-    "2090280160935428324"
+    "2090280160935428324",
+    "2090360496855584927"
   ],
-  "post_count": 1355,
+  "post_count": 1356,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1325,6 +1325,14 @@
       "source": "\ud83d\udea8 Jos\u00e9 Mourinho when asked if he requested Yan Diomande signing:\n\u201cNo, I did not ask but I WANTED him\u201d.\n\n\u201cHe\u2019s a great player who can play on both sides\u201d, told El Chiringuito. https://t.co/cpB9i2s7UY",
       "post": "Jos\u00e9 Mourinho: 'I didn't ask for him but I wanted him'.\n\nSo you wanted him but didn't ask. The man's negotiating with himself now.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2090381721061724306",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-20 10:47 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udd35\ud83d\udd34 Formal steps also completed: Jo\u00e3o Cancelo will sign his three year deal at Barcelona today. https://t.co/hc7KZuI1oP",
+      "post": "BREAKING: Jo\u00e3o Cancelo signing a three-year deal at Barcelona.\n\nOoh look at me, I'm a full-back and I'm gonna commit to a project long-term. Mental.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2090390257669964206",
       "threads_url": null
     }
   ]
