@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2075720791526670614",
     "2075567373336134119",
     "2075733075846160561",
     "2075840937364750346",
@@ -499,9 +498,10 @@
     "2090409348082118939",
     "2090422477109268596",
     "2090450436490756550",
-    "2090428262610620611"
+    "2090428262610620611",
+    "2090417972921639026"
   ],
-  "post_count": 1361,
+  "post_count": 1362,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1373,6 +1373,14 @@
       "source": "\ud83d\udea8\ud83d\udd35\ud83d\udd34 Jo\u00e3o Cancelo on beating Real Madrid: \u201cI want to beat every team, not only Real Madrid\u201d.\n\n\u201cI am competitive\u201d. https://t.co/v8MX2TMIRd",
       "post": "Jo\u00e3o Cancelo: \"I want to beat every team, not only Real Madrid.\"\n\nRight, so you're saying you're competitive. Cheers for clarifying.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2090519505240019001",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-20 19:50 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83c\udde6\ud83c\uddf7 Xabi Alonso: \u201cEnzo Fern\u00e1ndez is a Chelsea player. He's a top, top player\u201d.\n\n\u201cWe are happy with him and he's getting ready for Monday\u201d. https://t.co/6uOfjaJ2Fh",
+      "post": "BREAKING: Xabi Alonso confirms Enzo Fern\u00e1ndez is a Chelsea player.\n\nChelsea hearing 'top, top player' about someone they paid \u00a3106.8m for and getting visibly emotional.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2090526990294208871",
       "threads_url": null
     }
   ]
