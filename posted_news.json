@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2075830195089789128",
     "2075844539470999698",
     "2073901252480565351",
     "2075720791526670614",
@@ -499,9 +498,10 @@
     "2090280160935428324",
     "2090360496855584927",
     "2090158977065631947",
-    "2090409348082118939"
+    "2090409348082118939",
+    "2090422477109268596"
   ],
-  "post_count": 1358,
+  "post_count": 1359,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1349,6 +1349,14 @@
       "source": "\ud83d\udd35\ud83d\udd34\ud83d\udc4b\ud83c\udffc Jo\u00e3o Cancelo, on his way to sign at Barcelona.\n\n\ud83c\udfa5 @victor_nahe https://t.co/qRAphBh8EW",
       "post": "BREAKING: Jo\u00e3o Cancelo signing for Barcelona.\n\nAnother day, another Barcelona signing that'll either be brilliant or completely mental. No in-between.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2090444076638445710",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-20 16:02 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udd35\ud83d\udd34 Official, confirmed. Jo\u00e3o Cancelo joins Barcelona on three year contract. \ud83c\uddf5\ud83c\uddf9 https://t.co/JlJUKFPCUY",
+      "post": "BREAKING: Jo\u00e3o Cancelo joins Barcelona on three year contract.\n\nBarcelona fans currently calculating how many midfielders they need to sell to afford his wages.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2090469573623701546",
       "threads_url": null
     }
   ]
