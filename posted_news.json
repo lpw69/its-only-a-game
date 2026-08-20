@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2075617069513453764",
     "2075648991421776154",
     "2075690127683154260",
     "2075705354386579875",
@@ -499,9 +498,10 @@
     "2090072302176145454",
     "2090071880707264641",
     "2090005629368779118",
-    "2090123416300912756"
+    "2090123416300912756",
+    "2090176134306476233"
   ],
-  "post_count": 1353,
+  "post_count": 1354,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1309,6 +1309,14 @@
       "source": "\ud83d\udea8 Tottenham Hotspur working on double deal to sign Savinho &amp; Omar Marmoush from Manchester City. #THFC aiming to land both 22yo Brazil winger + 27yo Egypt forward as key targets to strengthen attack - not done but talks with #MCFC advancing @TheAthleticFC https://t.co/qeVeKoKzhG",
       "post": "BREAKING: Tottenham working on double deal for Savinho and Marmoush from Manchester City.\n\nOoh look at me, I'm Spurs and I'm gonna buy City's players to fix my attack. What could go wrong.\n\nSpursy.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2090191787604484275",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-20 07:53 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udd35\ud83d\udd34 Barcelona director Deco: \u201cWe will be making some moves in the market\u201d. https://t.co/2CiAsQs8bd",
+      "post": "BREAKING: Barcelona director Deco says they'll be making moves in the market.\n\nTranslation: we've spent all our money and now we need to sell someone's nan's house to fund it.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2090346506280902967",
       "threads_url": null
     }
   ]
