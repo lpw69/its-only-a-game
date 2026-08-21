@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2076008890731274661",
     "2076237881379582183",
     "2076203152487911752",
     "2076217497133707477",
@@ -499,9 +498,10 @@
     "2090770238958698949",
     "2090780003629687235",
     "2090806095442829434",
-    "2090809110677582064"
+    "2090809110677582064",
+    "2090801857895481814"
   ],
-  "post_count": 1372,
+  "post_count": 1373,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1461,6 +1461,14 @@
       "source": "\ud83d\udea8 OFFICIAL: FIFA suspensions following post Argentina-Spain clash, including 10 games ban for Paredes, 7 for Nahuel Molina and 1 for Pablo Gavi.\n\n\ud83c\udde6\ud83c\uddf7 Paredes: 10-game ban + $90,000 fine\n\ud83c\udde6\ud83c\uddf7 Molina: 7-game ban + $90,000 fine\n\ud83c\udde6\ud83c\uddf7 Almada: 1-game ban + $30,000 fine\n\ud83c\udde6\ud83c\uddf7 Ayala: 3-game ban + $30,000 fine\n\ud83c\uddea\ud83c\uddf8 Gavi: 1-game ban + $30,000 fine\n\nSuspensions are confirmed to be for the national team games. \u26a0\ufe0f",
       "post": "BREAKING: FIFA hands out suspensions for the Argentina-Spain clash.\n\nParedes getting 10 games for what I assume was a light jog past someone's shin. Gavi getting 1 for probably existing near an Argentine player. Lovely proportionality.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2090843918263034058",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-21 17:51 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udd34\u26aa\ufe0f Arsenal made contact with Atl\u00e9tico Madrid to discuss Juli\u00e1n \u00c1lvarez deal conditions.\n\nDirect meeting took place in London with Atl\u00e9ti director Mateu Alemany.\n\nPrice currently too high + Juli\u00e1n never opened doors to England so far as wanted to join Bar\u00e7a\u2026 but #AFC tried.\n\n\ud83c\udfa5\u2795 https://t.co/5zVWgWXqEV",
+      "post": "BREAKING: Arsenal made contact with Atl\u00e9tico Madrid about Juli\u00e1n \u00c1lvarez.\n\nPrice too high and he wanted Bar\u00e7a anyway. So they're basically asking for directions to a house that's sold and out of budget.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2090859211030958253",
       "threads_url": null
     }
   ]
