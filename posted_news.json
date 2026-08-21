@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2076184784561414599",
     "2076183671090880965",
     "2076193337871081872",
     "2076260284235186528",
@@ -499,9 +498,10 @@
     "2090346108459331969",
     "2090572150482620728",
     "2090372938100858931",
-    "2090694411076165659"
+    "2090694411076165659",
+    "2090770238958698949"
   ],
-  "post_count": 1368,
+  "post_count": 1369,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1429,6 +1429,14 @@
       "source": "\ud83d\udea8\ud83d\udd34\ud83d\udd35 Crystal Palace reach verbal agreement to sign Axel Disasi from Chelsea, here we go! \ud83e\udd85\n\nUnderstand Disasi is undergoing medical at #CPFC this morning after loan agreement between the two clubs.\n\n#CFC receive loan fee + salary covered by Palace. https://t.co/cI5LSVIN8r",
       "post": "BREAKING: Chelsea loan Axel Disasi to Crystal Palace.\n\nChelsea get a loan fee AND Palace pay his wages. Somehow this is still a worse deal than their last 47 signings.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2090752775764467885",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-21 14:19 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udd35\ud83d\udd34 Barcelona have reached a verbal agreement for Dominik Livakovi\u0107 to join from Fenerbah\u00e7e, here we go!\n\n\u20ac2m initial fee, \u20ac2m add-ons. Plan to sign Livakovi\u0107 as backup GK from June 2027 when Szczesny leaves.\n\nThis season, Livakovi\u0107 will go out on loan as reported \u2014 follows @monfortcarlos.",
+      "post": "BREAKING: Barcelona have verbally agreed Dominik Livakovi\u0107 as backup goalkeeper from June 2027.\n\nSo they're planning ahead for when Szczesny leaves. Mental planning from a club that can't afford to plan next Tuesday.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2090805930279715057",
       "threads_url": null
     }
   ]
