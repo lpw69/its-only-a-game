@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2076237881379582183",
     "2076203152487911752",
     "2076217497133707477",
     "2076357368384754001",
@@ -499,9 +498,10 @@
     "2090780003629687235",
     "2090806095442829434",
     "2090809110677582064",
-    "2090801857895481814"
+    "2090801857895481814",
+    "2090816704376959087"
   ],
-  "post_count": 1373,
+  "post_count": 1374,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1469,6 +1469,14 @@
       "source": "\ud83d\udea8\ud83d\udd34\u26aa\ufe0f Arsenal made contact with Atl\u00e9tico Madrid to discuss Juli\u00e1n \u00c1lvarez deal conditions.\n\nDirect meeting took place in London with Atl\u00e9ti director Mateu Alemany.\n\nPrice currently too high + Juli\u00e1n never opened doors to England so far as wanted to join Bar\u00e7a\u2026 but #AFC tried.\n\n\ud83c\udfa5\u2795 https://t.co/5zVWgWXqEV",
       "post": "BREAKING: Arsenal made contact with Atl\u00e9tico Madrid about Juli\u00e1n \u00c1lvarez.\n\nPrice too high and he wanted Bar\u00e7a anyway. So they're basically asking for directions to a house that's sold and out of budget.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2090859211030958253",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-21 19:15 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83c\uddfa\ud83c\udde6 OFFICIAL: Shakhtar Donetsk will play Champions League home games at Stamford Bridge this season.\n\n\u201cPlaying our Champions League home matches at Stamford Bridge is a special opportunity for Shakhtar. We are grateful to Chelsea Football Club for the opportunity to host our games at this special venue\u201d.",
+      "post": "BREAKING: Shakhtar Donetsk playing Champions League home games at Stamford Bridge.\n\nChelsea really have become everyone's second home. Next week it's just straight up a rotating fixture list.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2090880524462301361",
       "threads_url": null
     }
   ]
