@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2076217497133707477",
     "2076357368384754001",
     "2075613070982836258",
     "2076144051137454494",
@@ -499,9 +498,10 @@
     "2090809110677582064",
     "2090801857895481814",
     "2090816704376959087",
-    "2090875942822359366"
+    "2090875942822359366",
+    "2090858784172187905"
   ],
-  "post_count": 1375,
+  "post_count": 1376,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1485,6 +1485,14 @@
       "source": "\ud83d\udea8\ud83d\udca3 BREAKING: Carlos Baleba to Manchester United, here we go! Verbal agreement in place between clubs.\n\nImproved bid sent today after \u00a365m package rejected and player set to join the only club he wanted.\n\nBaleba, new #MUFC player soon. \ud83c\udde8\ud83c\uddf2 https://t.co/1ORh7pLDCk",
       "post": "BREAKING: Manchester United improve their bid for Baleba after the first one got rejected.\n\nSo they're doing the negotiation thing properly now. Character development.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2090887460725329986",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-21 21:36 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "9\ufe0f\u20e37\ufe0f\u20e37\ufe0f\u20e3 career goals for Cristiano Ronaldo who has now scored on his first appearance of the new season. https://t.co/XpUtff1N04",
+      "post": "BREAKING: Cristiano Ronaldo scores 977 career goals.\n\nAt this rate he'll hit 1000 around the time VAR finally gets a decision right.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2090915994298655161",
       "threads_url": null
     }
   ]
