@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2076260284235186528",
     "2076008890731274661",
     "2076237881379582183",
     "2076203152487911752",
@@ -499,9 +498,10 @@
     "2090694411076165659",
     "2090770238958698949",
     "2090780003629687235",
-    "2090806095442829434"
+    "2090806095442829434",
+    "2090809110677582064"
   ],
-  "post_count": 1371,
+  "post_count": 1372,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1453,6 +1453,14 @@
       "source": "\ud83d\udea8\ud83c\udde6\ud83c\uddf7 OFFICIAL: FIFA ban Leandro Paredes for 10 games after Argentina-Spain post match clash.\n\nMore follows. https://t.co/pOtgI5jIAa",
       "post": "BREAKING: Leandro Paredes banned for 10 games after post-match clash with Spain.\n\nArgentina's midfield getting smaller by the day.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2090831661386834183",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-21 16:50 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8 OFFICIAL: FIFA suspensions following post Argentina-Spain clash, including 10 games ban for Paredes, 7 for Nahuel Molina and 1 for Pablo Gavi.\n\n\ud83c\udde6\ud83c\uddf7 Paredes: 10-game ban + $90,000 fine\n\ud83c\udde6\ud83c\uddf7 Molina: 7-game ban + $90,000 fine\n\ud83c\udde6\ud83c\uddf7 Almada: 1-game ban + $30,000 fine\n\ud83c\udde6\ud83c\uddf7 Ayala: 3-game ban + $30,000 fine\n\ud83c\uddea\ud83c\uddf8 Gavi: 1-game ban + $30,000 fine\n\nSuspensions are confirmed to be for the national team games. \u26a0\ufe0f",
+      "post": "BREAKING: FIFA hands out suspensions for the Argentina-Spain clash.\n\nParedes getting 10 games for what I assume was a light jog past someone's shin. Gavi getting 1 for probably existing near an Argentine player. Lovely proportionality.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2090843918263034058",
       "threads_url": null
     }
   ]
