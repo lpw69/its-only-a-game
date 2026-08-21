@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2076193337871081872",
     "2076260284235186528",
     "2076008890731274661",
     "2076237881379582183",
@@ -499,9 +498,10 @@
     "2090372938100858931",
     "2090694411076165659",
     "2090770238958698949",
-    "2090780003629687235"
+    "2090780003629687235",
+    "2090806095442829434"
   ],
-  "post_count": 1370,
+  "post_count": 1371,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1445,6 +1445,14 @@
       "source": "\ud83d\udea8 Enzo Maresca: \u201cSavinho wanted to leave since day one, Rodri also wanted to go\u201d.\n\n\u201cIt\u2019s complicated to convince them to stay or change their stance\u201d. https://t.co/Hf6rA0cAnA",
       "post": "Enzo Maresca: 'Savinho and Rodri wanted to leave from day one'.\n\nSo they're staying then. Lovely.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2090813077201780931",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-21 16:01 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83c\udde6\ud83c\uddf7 OFFICIAL: FIFA ban Leandro Paredes for 10 games after Argentina-Spain post match clash.\n\nMore follows. https://t.co/pOtgI5jIAa",
+      "post": "BREAKING: Leandro Paredes banned for 10 games after post-match clash with Spain.\n\nArgentina's midfield getting smaller by the day.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2090831661386834183",
       "threads_url": null
     }
   ]
