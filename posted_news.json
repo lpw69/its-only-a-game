@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2076612357854306768",
     "2076678032379576794",
     "2076664871920259203",
     "2076662460749054282",
@@ -499,9 +498,10 @@
     "2090690140846821721",
     "2091150937788223622",
     "2090702457022067033",
-    "2091154588300706234"
+    "2091154588300706234",
+    "2091164595427672442"
   ],
-  "post_count": 1384,
+  "post_count": 1385,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1557,6 +1557,14 @@
       "source": "\ud83d\udfe0\u26ab\ufe0f Newly promoted Hull City beat Manchester United on their opening 2026/27 Premier League game! \ud83d\udca5\n\nSpecial day for the Tigers at home. \ud83d\udc2f\n\nWho\u2019s been your Man of the Match? https://t.co/HMVfkU0UPz",
       "post": "BREAKING: Newly promoted Hull City beat Manchester United on opening day.\n\nMan United fans already planning their excuses. It's only August.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2091203892294082834",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-22 19:10 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8 Michael Carrick: \u201cOne game doesn\u2019t change the whole direction of everything, but we need to be aware where we need to improve\u201d.\n\n\u201cWe\u2019ll stay calm, in our bubble.. it\u2019s one game\u201d. https://t.co/CMObPT8Yiu",
+      "post": "Michael Carrick: one game doesn't change everything, we need to improve, stay calm.\n\nAlso Michael Carrick: panicking slightly.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2091241567030042626",
       "threads_url": null
     }
   ]
