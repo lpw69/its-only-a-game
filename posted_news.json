@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2076609873073016974",
     "2076435898346942596",
     "2076606546511827127",
     "2076624297330680081",
@@ -499,9 +498,10 @@
     "2090882242469912882",
     "2090888771797434492",
     "2090902150360494391",
-    "2091120630951293317"
+    "2091120630951293317",
+    "2090690140846821721"
   ],
-  "post_count": 1380,
+  "post_count": 1381,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1525,6 +1525,14 @@
       "source": "\ud83d\udea8\ud83d\udd19 Marcus Rashford, ready to feature in Manchester United shirt again today. \ud83d\udd34\n\nHe\u2019s gonna wear the shirt No9. 9\ufe0f\u20e3\u2728 https://t.co/WnI7ctwBJP",
       "post": "BREAKING: Rashford wearing No9 again.\n\nMan United fans preparing their 'he's back' posts for the next 90 minutes before he inevitably gets injured.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2091130887299813776",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-22 13:59 UTC",
+      "source_author": "David_Ornstein",
+      "source": "\ud83d\udea8 Tottenham Hotspur reach agreement in principle with Manchester City to sign Savinho. Deal for 22yo Brazil winger \u00a375m + \u00a310m add-ons (\u00a35m of bonuses highly achievable). #THFC to land main target &amp; #MCFC make record sale. W/ @GuillermoRai_ @TheAthleticFC https://t.co/phndbyxbDL",
+      "post": "BREAKING: Tottenham agree \u00a375m deal for Savinho.\n\nSpurs finally get their man. City finally get their record sale. Both teams winning. Both teams are absolutely cooked.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2091163385543213332",
       "threads_url": null
     }
   ]
