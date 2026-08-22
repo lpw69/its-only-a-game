@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2076678032379576794",
     "2076664871920259203",
     "2076662460749054282",
     "2076605204120711446",
@@ -499,9 +498,10 @@
     "2091150937788223622",
     "2090702457022067033",
     "2091154588300706234",
-    "2091164595427672442"
+    "2091164595427672442",
+    "2091193134520672516"
   ],
-  "post_count": 1385,
+  "post_count": 1386,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1565,6 +1565,14 @@
       "source": "\ud83d\udea8 Michael Carrick: \u201cOne game doesn\u2019t change the whole direction of everything, but we need to be aware where we need to improve\u201d.\n\n\u201cWe\u2019ll stay calm, in our bubble.. it\u2019s one game\u201d. https://t.co/CMObPT8Yiu",
       "post": "Michael Carrick: one game doesn't change everything, we need to improve, stay calm.\n\nAlso Michael Carrick: panicking slightly.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2091241567030042626",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-22 19:42 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udd35\ud83d\udd34 Alejandro Balde\u2019s agent Jorge Mendes working on last-week exit for the left back but only in case of top club proposal.\n\nBalde\u2019s not pushing to leave; decision in the club\u2019s hands.\n\nManchester United called this week to ask for conditions.\n\n\ud83c\udfa5\u2795 https://t.co/D89LMY1NMG https://t.co/rdRwvI2DT7",
+      "post": "BREAKING: Manchester United called Barcelona about Alejandro Balde.\n\nMendes waiting for a top club offer. United must've thought they qualified.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2091249543589601687",
       "threads_url": null
     }
   ]
