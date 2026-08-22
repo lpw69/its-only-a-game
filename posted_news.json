@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2076399191354679620",
     "2076609873073016974",
     "2076435898346942596",
     "2076606546511827127",
@@ -499,9 +498,10 @@
     "2090858784172187905",
     "2090882242469912882",
     "2090888771797434492",
-    "2090902150360494391"
+    "2090902150360494391",
+    "2091120630951293317"
   ],
-  "post_count": 1379,
+  "post_count": 1380,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1517,6 +1517,14 @@
       "source": "\ud83d\udea8 Juli\u00e1n \u00c1lvarez\u2019s agent Fernando Hidalgo \u201cNever ask a liar why they lied. To explain it, they'd have to lie again\u201d. https://t.co/tdof0ladwz",
       "post": "Juli\u00e1n \u00c1lvarez's agent just quoted a philosophy book at Fabrizio Romano instead of answering a question about his client.\n\nFootball's gone soft.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2091085326911771052",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-22 11:50 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udd19 Marcus Rashford, ready to feature in Manchester United shirt again today. \ud83d\udd34\n\nHe\u2019s gonna wear the shirt No9. 9\ufe0f\u20e3\u2728 https://t.co/WnI7ctwBJP",
+      "post": "BREAKING: Rashford wearing No9 again.\n\nMan United fans preparing their 'he's back' posts for the next 90 minutes before he inevitably gets injured.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2091130887299813776",
       "threads_url": null
     }
   ]
