@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2076966180544479591",
     "2076988215425200501",
     "2076380621492932886",
     "2076942352065708271",
@@ -499,9 +498,10 @@
     "2091405071770615832",
     "2091491607241478152",
     "2091506490976694699",
-    "2091505917262963086"
+    "2091505917262963086",
+    "2091516948295065778"
   ],
-  "post_count": 1395,
+  "post_count": 1396,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1645,6 +1645,14 @@
       "source": "\ud83d\udea8\ud83d\udc4b\ud83c\udffc Erling Haaland arrives for Man City\u2019s opening 26/27 Premier League game. https://t.co/Px507hUe9L",
       "post": "BREAKING: Erling Haaland arrives for Man City's opening game of the season.\n\nOoh look at me, I'm Pep Guardiola and I'm gonna have my world-class striker available for the first match instead of mysteriously rotating him out.\n\nBrilliant.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2091566859799953680",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-23 17:40 UTC",
+      "source_author": "JacobsBen",
+      "source": "Hull City manager Sergej Jakirovic has agreed a new three-year contract, which includes a significant pay rise.\ud83d\udc2f\n\n\ud83e\udd1d @alex_crook https://t.co/pX1mjwWOCN",
+      "post": "BREAKING: Sergej Jakirovic agrees new Hull City deal with a pay rise.\n\nOoh look at me, I'm a manager at Hull City and I'm gonna negotiate myself a better contract. Optimistic.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2091581417604124849",
       "threads_url": null
     }
   ]
