@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2076611884606771298",
     "2076966180544479591",
     "2076988215425200501",
     "2076380621492932886",
@@ -499,9 +498,10 @@
     "2091217586516300007",
     "2091405071770615832",
     "2091491607241478152",
-    "2091506490976694699"
+    "2091506490976694699",
+    "2091505917262963086"
   ],
-  "post_count": 1394,
+  "post_count": 1395,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1637,6 +1637,14 @@
       "source": "\ud83d\udea8 Al Hilal pursuing deal to sign Gabriel Martinelli from Arsenal. No agreement yet but talks ongoing between clubs + with 25yo winger. #AFC want in region of \u00a360m &amp; Brazil international open to #AlHilal possibility after turning down Turkey @TheAthleticFC https://t.co/ZNLj46hwvT",
       "post": "BREAKING: Arsenal want \u00a360m for Martinelli. Al Hilal thinking about it.\n\nGabriel's decided Saudi Arabia is more appealing than staying at a club actively trying to sell him. You love to see it.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2091554359264137273",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-23 16:43 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udc4b\ud83c\udffc Erling Haaland arrives for Man City\u2019s opening 26/27 Premier League game. https://t.co/Px507hUe9L",
+      "post": "BREAKING: Erling Haaland arrives for Man City's opening game of the season.\n\nOoh look at me, I'm Pep Guardiola and I'm gonna have my world-class striker available for the first match instead of mysteriously rotating him out.\n\nBrilliant.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2091566859799953680",
       "threads_url": null
     }
   ]
