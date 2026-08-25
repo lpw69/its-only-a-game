@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2077271949776916774",
     "2077312210230218826",
     "2077331336348451001",
     "2077411859968229880",
@@ -499,9 +498,10 @@
     "2091543383617548369",
     "2092197413628907806",
     "2091495453627941183",
-    "2090843925636354156"
+    "2090843925636354156",
+    "2092297698065977584"
   ],
-  "post_count": 1409,
+  "post_count": 1410,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1757,6 +1757,14 @@
       "source": "\ud83d\udea8 Liverpool make improved second bid to sign Yankuba Minteh from Brighton &amp; Hove Albion. Latest #LFC offer worth \u00a360m (after first proposal for \u00a350m) also turned down. #BHAFC understood to want fee more in region of \u00a370m to sell 22yo winger @TheAthleticFC https://t.co/HoDb9VmH06",
       "post": "BREAKING: Liverpool bid \u00a360m for Brighton winger, Brighton say nah.\n\nLiverpool bid \u00a360m again, Brighton say nah louder.\n\nThis is how you do a transfer negotiation when you've actually got leverage.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2092294553596485943",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-25 17:51 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83c\udf33 BREAKING: Nottingham Forest reach verbal agreement to sign Liam Delap from Chelsea, here we go!\n\nFee around \u00a345m as @JPercyTelegraph reported, medical booked and #NFFC ready to proceed with formal steps.\n\nDelap said yes to Forest project after speaking to Oliver Glasner. https://t.co/KImPuy63q5",
+      "post": "BREAKING: Nottingham Forest reach verbal agreement to sign Liam Delap from Chelsea.\n\nLiam Delap choosing Forest over literally every other club because Oliver Glasner said some nice things. That's commitment to the bit.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2092308793518637147",
       "threads_url": null
     }
   ]
