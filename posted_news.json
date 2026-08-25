@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2077083124870070390",
     "2077111426599035007",
     "2077085291374874665",
     "2077150178365038933",
@@ -499,9 +498,10 @@
     "2091917530877108324",
     "2091887829404070349",
     "2091946944314605688",
-    "2091997442791145918"
+    "2091997442791145918",
+    "2091226047916450086"
   ],
-  "post_count": 1402,
+  "post_count": 1403,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1701,6 +1701,14 @@
       "source": "\ud83d\udd35\ud83d\udd25 Cole Palmer by Sky when asked how ready he feels: \u201cDid you watch the game? I am ready. I am hungry\u201d. https://t.co/CzWOjMYa30",
       "post": "Cole Palmer asked if he's ready: \"Did you watch the game? I am ready. I am hungry\".\n\nChelsea fans reading this wondering which game he's talking about.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2092165634369204244",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-25 09:01 UTC",
+      "source_author": "henrywinter",
+      "source": "Mamadou Sangare goes off to a deserved ovation from Brentford fans. In an inflated transfer market, the all-action midfield signing from Lens looks even more a snip at \u00a339m. Mali international made Ligue 1 Team of the Season 25/26, and already looks at home in the Premier League 26/27. Can play 6, 8, strong shot, athletic, physical, many strengths, still relatively young, 24. A few recruitment departments of \u201cbigger\u201d clubs will be asking themselves why they didn\u2019t push more for him. Well done, Brentford. Again. #BRETOT",
+      "post": "Mamadou Sangare getting a standing ovation at Brentford after being Ligue 1 Team of the Season and costing \u00a339m.\n\nBigger clubs wondering why they didn't push harder. That's the Brentford business model in one ovation.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2092175590845784492",
       "threads_url": null
     }
   ]
