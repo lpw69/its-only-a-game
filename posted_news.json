@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2077162433316007938",
     "2077276931561517504",
     "2077271949776916774",
     "2077312210230218826",
@@ -499,9 +498,10 @@
     "2091992464945017000",
     "2091954923772485852",
     "2091543383617548369",
-    "2092197413628907806"
+    "2092197413628907806",
+    "2091495453627941183"
   ],
-  "post_count": 1407,
+  "post_count": 1408,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1741,6 +1741,14 @@
       "source": "\ud83d\udea8\ud83d\udd35\ud83d\udd34 Barcelona have just signed all the documents for Dominik Livakovi\u0107 deal; here we go now confirmed.\n\nFenerbah\u00e7e receive \u20ac2m plus \u20ac2m possible add-ons.\n\nPlan for Livakovi\u0107 to become Bar\u00e7a backup GK from June 2027 when Szczesny leaves, if they can find a good loan move now. https://t.co/feSZ4Fw7VC",
       "post": "BREAKING: Barcelona sign Dominik Livakovi\u0107 as backup keeper arriving June 2027.\n\nThat's right. They've solved their goalkeeping crisis by booking someone for a loan move that won't materialize for two and a half years. Brilliant.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2092257605850988968",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-25 16:11 UTC",
+      "source_author": "David_Ornstein",
+      "source": "\ud83d\udea8 BREAKING: Manchester City reach agreement with Lille to sign Ayyoub Bouaddi. Deal for 18yo #LOSC midfielder worth \u20ac95m + \u20ac5m bonuses on 5+1yr contract. #MCFC land Morocco int\u2019l; key target following Rodri departure @TheAthleticFC after @FabriceHawkins https://t.co/Q7TipkndLi",
+      "post": "BREAKING: Man City agree \u20ac95m deal for 18-year-old Bouaddi from Lille.\n\nOoh look at me, I'm Pep and I'm gonna spend 100 quid on a teenager to replace the best midfielder on the planet because I've got a five-year plan and unlimited money.\n\nMental.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2092283603652940023",
       "threads_url": null
     }
   ]
