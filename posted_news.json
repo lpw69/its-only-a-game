@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2077739568552415400",
     "2077531759579709925",
     "2077701022286553378",
     "2077715627381227731",
@@ -499,9 +498,10 @@
     "2092607747397189855",
     "2092510602623144415",
     "2092632814042689767",
-    "2092674463443595663"
+    "2092674463443595663",
+    "2092519809975992742"
   ],
-  "post_count": 1425,
+  "post_count": 1426,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1885,6 +1885,14 @@
       "source": "\ud83d\udea8\ud83d\udfe3\ud83d\udd35 Nicolas Jackson to Aston Villa deal being completed as Chelsea set to accept \u00a365m package offered by #AVFC.\n\nJackson said yes to Villa project, spoke to Unai Emery and deal now at very final stages.\n\nFinal green light needed on details and then medical next. \u23f3\u231b\ufe0f https://t.co/MG8WXLdyU9",
       "post": "BREAKING: Nicolas Jackson to Aston Villa for \u00a365m.\n\nChelsea finally found someone who wants to leave.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2092722967226757197",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-26 22:20 UTC",
+      "source_author": "David_Ornstein",
+      "source": "\ud83d\udea8 Omar Marmoush granted permission to take Tottenham Hotspur medical after saying goodbyes at Manchester City today. 27yo joins #MCFC on loan with #THFC buy obligation for \u00a350m + \u00a310m (\u00a35m guaranteed) - 4+1yr contract &amp; no Frankfurt sell-on @TheAthleticFC https://t.co/RRHohysvyG",
+      "post": "BREAKING: Marmoush granted permission to take Tottenham medical after saying goodbyes at City today.\n\nSo City loaned him out with a \u00a350m buy obligation. That's just selling him with extra steps and a worse deal.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2092739080190922986",
       "threads_url": null
     }
   ]
