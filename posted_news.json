@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2077425473353613734",
     "2077162111470379037",
     "2077509163878396109",
     "2077649435375616034",
@@ -499,9 +498,10 @@
     "2057877267733184941",
     "2092334518694736236",
     "2092282830365589780",
-    "2092317301169066310"
+    "2092317301169066310",
+    "2092327180533485908"
   ],
-  "post_count": 1415,
+  "post_count": 1416,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1805,6 +1805,14 @@
       "source": "\u2b50\ufe0f OFFICIAL: Nico O\u2019Reilly has been named 2026 PFA Young Player of the Year. https://t.co/lv1V0Rhypd",
       "post": "BREAKING: Nico O'Reilly named 2026 PFA Young Player of the Year.\n\nSomeone's mum is putting that on the mantelpiece next to his GCSEs.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2092528190753575349",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-26 09:02 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udd34\ud83d\udd35 OFFICIAL: Ousmane Demb\u00e9l\u00e9 will benefit from a rest period in the next few days.\n\nIn agreement with the coach and the sports management, Ousmane will resume training on Monday with the whole group. https://t.co/Dzo9vUnKAS",
+      "post": "OFFICIAL: Ousmane Demb\u00e9l\u00e9 will benefit from a rest period in the next few days.\n\nTranslation: he's knackered.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2092538243070017651",
       "threads_url": null
     }
   ]
