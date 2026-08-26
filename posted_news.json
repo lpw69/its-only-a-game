@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2077167636572426644",
     "2077408503023403208",
     "2077425473353613734",
     "2077162111470379037",
@@ -499,9 +498,10 @@
     "2092297698065977584",
     "2092194569613902107",
     "2057877267733184941",
-    "2092334518694736236"
+    "2092334518694736236",
+    "2092282830365589780"
   ],
-  "post_count": 1413,
+  "post_count": 1414,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1789,6 +1789,14 @@
       "source": "\u2b50\ufe0f OFFICIAL: Bruno Fernandes wins PFA Player of the Year Award for season 2025/26. https://t.co/p0WvpLdRtY",
       "post": "OFFICIAL: Bruno Fernandes wins PFA Player of the Year.\n\nMan United fans celebrating like they've won the league. They haven't.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2092367031119257676",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-26 07:56 UTC",
+      "source_author": "David_Ornstein",
+      "source": "\ud83d\udea8 Liverpool holding key talks with Paris Saint-Germain today in bid to bring clarity on proposed Bradley Barcola transfer. Important meeting to establish direction of travel on potential move, with 23yo #PSG winger committed to joining #LFC @TheAthleticFC https://t.co/HoGvzCdUsL",
+      "post": "BREAKING: Liverpool holding talks with PSG over Bradley Barcola.\n\nOoh look at me, I'm Liverpool and I'm gonna spend all January trying to convince a 23yo winger to leave Paris for Merseyside in winter.\n\nSound.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2092521513807417372",
       "threads_url": null
     }
   ]
