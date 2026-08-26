@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2077503573185740938",
     "2077656730448892214",
     "2077672333532160230",
     "2077739568552415400",
@@ -499,9 +498,10 @@
     "2092546263447146991",
     "2092590117776994809",
     "2092593771133145165",
-    "2092607747397189855"
+    "2092607747397189855",
+    "2092510602623144415"
   ],
-  "post_count": 1422,
+  "post_count": 1423,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1861,6 +1861,14 @@
       "source": "\ud83d\udea8\ud83d\udd34\u26aa\ufe0f Atl\u00e9tico Madrid statement to Marca: \u201cThere is a 0% chance of selling Juli\u00e1n \u00c1lvarez to Barcelona\u201d.\n\n\u201cThe player is being portrayed as the victim, but the only victims of the Juli\u00e1n saga are US. This is about dignity\u201d. https://t.co/TFcT0gULyS",
       "post": "BREAKING: Atl\u00e9tico Madrid issue statement saying there's 0% chance of selling Juli\u00e1n \u00c1lvarez to Barcelona.\n\nThey're also upset people are calling him the victim. Which raises the question: what's the opposite of a victim in a transfer saga?",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2092652601196294611",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-26 16:59 UTC",
+      "source_author": "Plettigoal",
+      "source": "\ud83d\udea8\ud83c\udd95 J\u00fcrgen Klopp has already held three lengthy phone calls, including with Vincent Kompany, Sebastian Hoene\u00df and Niko Kovac.\n\nKlopp wants to make it clear to the clubs how closely he wants to work with them and stay in regular contact.\n\nHe has also spoken to the German U-national team coaches and told them that they are effectively a kind of national team manager too, given their huge importance to him and the Germany national team.\n\nKlopp plans further calls and will also be in the stadium on Friday for Bayern vs Stuttgart. If nothing changes, he is also expected to speak to Sky.\n\n@SkySportDE \ud83c\udde9\ud83c\uddea",
+      "post": "BREAKING: J\u00fcrgen Klopp holding three lengthy phone calls with German club managers to stay closely involved.\n\nSo he's left Liverpool and immediately started managing everyone else. Lovely.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2092658182686757246",
       "threads_url": null
     }
   ]
