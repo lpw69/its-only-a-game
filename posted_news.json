@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2077621410629894536",
     "2077503573185740938",
     "2077656730448892214",
     "2077672333532160230",
@@ -499,9 +498,10 @@
     "2092536108680704462",
     "2092546263447146991",
     "2092590117776994809",
-    "2092593771133145165"
+    "2092593771133145165",
+    "2092607747397189855"
   ],
-  "post_count": 1421,
+  "post_count": 1422,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1853,6 +1853,14 @@
       "source": "\ud83d\udea8 EXCL: Emiliano Martinez offered to Chelsea by representatives &amp; west London club considering possibility of signing 33yo goalkeeper before transfer window finishes. #AVFC open to Argentina int\u2019l exit after Zion Suzuki made No1 + #CFC keen @TheAthleticFC https://t.co/y6ZUvgNWI6",
       "post": "EXCLUSIVE: Chelsea considering signing a 33-year-old goalkeeper because their current situation wasn't chaotic enough.\n\nBoehly's transfer committee really said 'you know what this squad needs? Experience.'",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2092627416305086944",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-26 16:37 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udd34\u26aa\ufe0f Atl\u00e9tico Madrid statement to Marca: \u201cThere is a 0% chance of selling Juli\u00e1n \u00c1lvarez to Barcelona\u201d.\n\n\u201cThe player is being portrayed as the victim, but the only victims of the Juli\u00e1n saga are US. This is about dignity\u201d. https://t.co/TFcT0gULyS",
+      "post": "BREAKING: Atl\u00e9tico Madrid issue statement saying there's 0% chance of selling Juli\u00e1n \u00c1lvarez to Barcelona.\n\nThey're also upset people are calling him the victim. Which raises the question: what's the opposite of a victim in a transfer saga?",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2092652601196294611",
       "threads_url": null
     }
   ]
