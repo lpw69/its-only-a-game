@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2077836617939665032",
     "2077879958987256195",
     "2077862313328054420",
     "2078034742990057798",
@@ -499,9 +498,10 @@
     "2092878849549758692",
     "2093008009865667010",
     "2092885938728841311",
-    "2093029624011788665"
+    "2093029624011788665",
+    "2093077590294556921"
   ],
-  "post_count": 1432,
+  "post_count": 1433,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1941,6 +1941,14 @@
       "source": "\ud83d\udea8\ud83d\udca3 BREAKING! Atl\u00e9tico Madrid CEO Gil confirms Atl\u00e9tico being OPEN to selling Juli\u00e1n \u00c1lvarez \u2014 but not to Barcelona.\n\n\u201cMy dream is for Juli\u00e1n to stay at Atleti if he wants to\u201d.\n\n\u201cWe'll look for an ALTERNATIVE if he wants to leave the club, but NEVER Barcelona\u201d, told Movistar. https://t.co/9GzYqVce4y",
       "post": "BREAKING: Atl\u00e9tico Madrid open to selling Juli\u00e1n \u00c1lvarez.\n\nJust not to Barcelona. Which is essentially Atl\u00e9tico saying 'we'd rather he goes literally anywhere else, even Leeds.'",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2093083442296857034",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-27 23:06 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83c\udde6\ud83c\uddf7 Xabi Alonso: \u201cEnzo Fern\u00e1ndez was left out as it was my own decision shared with the club\u201d. https://t.co/kMqV0rPHWD",
+      "post": "BREAKING: Xabi Alonso drops the 'shared with the club' line when asked why Enzo Fern\u00e1ndez got benched.\n\nTranslation: it was absolutely his decision and he's just being nice about it.",
+      "x_url": null,
       "threads_url": null
     }
   ]
