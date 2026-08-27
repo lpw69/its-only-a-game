@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2077715627381227731",
     "2077747267889451211",
     "2077767338141601835",
     "2077879396459782555",
@@ -499,9 +498,10 @@
     "2092674463443595663",
     "2092519809975992742",
     "2092714909767229752",
-    "2093036673198146043"
+    "2093036673198146043",
+    "2092878849549758692"
   ],
-  "post_count": 1428,
+  "post_count": 1429,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1909,6 +1909,14 @@
       "source": "\ud83d\udea8\ud83d\udca3 BREAKING: Chelsea reach verbal agreement to sign Emiliano Mart\u00ednez, HERE WE GO! \ud83d\udd35\ud83c\udde6\ud83c\uddf7\n\nClub to club agreement with Aston Villa on fee worth \u00a37.5m for permanent move.\n\nDibu gave green light to #CFC yesterday and clubs agreed on terms today, as @TeleFootball reported. https://t.co/YXs62PwB2s",
       "post": "BREAKING: Chelsea sign Emiliano Mart\u00ednez for \u00a37.5m.\n\nOoh look at me, I'm Chelsea and I'm gonna spend \u00a37.5m on a goalkeeper when my actual problem is literally everything else.\n\nBrilliant.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2093042169812766772",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-27 19:05 UTC",
+      "source_author": "David_Ornstein",
+      "source": "\ud83d\udea8 BREAKING: Liverpool reach agreement in principle on terms of deal to sign Bradley Barcola from Paris Saint-Germain. Still details to finalise between #LFC &amp; #PSG but moving fast after breakthrough overnight on package ~\u00a3120m, ~\u00a3100m fixed @TheAthleticFC https://t.co/HhklnZIifL",
+      "post": "BREAKING: Liverpool agree deal for Barcola from PSG, \u00a3120m.\n\nOoh look at me, I'm Liverpool and I'm gonna spend like Chelsea now instead of selling Mohamed Salah for seventeen quid.\n\nBrilliant.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2093052360679670151",
       "threads_url": null
     }
   ]
