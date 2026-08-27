@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2077767338141601835",
     "2077879396459782555",
     "2077836617939665032",
     "2077879958987256195",
@@ -499,9 +498,10 @@
     "2092714909767229752",
     "2093036673198146043",
     "2092878849549758692",
-    "2093008009865667010"
+    "2093008009865667010",
+    "2092885938728841311"
   ],
-  "post_count": 1430,
+  "post_count": 1431,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1925,6 +1925,14 @@
       "source": "\ud83d\udea8\ud83d\udfe3\ud83d\udd35 BREAKING: Nicolas Jackson to Aston Villa, here we go! Deal now done and documents completed.\n\nChelsea get \u00a365m package for the striker who completed medical and now signs #AVFC contract.\n\nDeal done. \ud83c\uddf8\ud83c\uddf3 https://t.co/UpOE1ptbRK",
       "post": "BREAKING: Nicolas Jackson to Aston Villa, here we go.\n\nChelsea getting \u00a365m for a striker they're clearly done with. Villa paying premium prices for someone else's rebuild. Lovely stuff.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2093066419739230360",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-27 20:31 UTC",
+      "source_author": "SkySportsNews",
+      "source": "BREAKING: Liverpool have reached an outline agreement in principle with Paris Saint Germain to sign Bradley Barcola for a package worth \u00a3120m \ud83d\udea8 https://t.co/cI0CetCBRF",
+      "post": "BREAKING: Liverpool agree \u00a3120m deal for Bradley Barcola from PSG.\n\nArne Slot immediately spending money like he's got somewhere to be. Lovely.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2093073811583476131",
       "threads_url": null
     }
   ]
