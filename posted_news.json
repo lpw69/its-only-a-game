@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2077879396459782555",
     "2077836617939665032",
     "2077879958987256195",
     "2077862313328054420",
@@ -499,9 +498,10 @@
     "2093036673198146043",
     "2092878849549758692",
     "2093008009865667010",
-    "2092885938728841311"
+    "2092885938728841311",
+    "2093029624011788665"
   ],
-  "post_count": 1431,
+  "post_count": 1432,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1933,6 +1933,14 @@
       "source": "BREAKING: Liverpool have reached an outline agreement in principle with Paris Saint Germain to sign Bradley Barcola for a package worth \u00a3120m \ud83d\udea8 https://t.co/cI0CetCBRF",
       "post": "BREAKING: Liverpool agree \u00a3120m deal for Bradley Barcola from PSG.\n\nArne Slot immediately spending money like he's got somewhere to be. Lovely.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2093073811583476131",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-27 21:09 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udca3 BREAKING! Atl\u00e9tico Madrid CEO Gil confirms Atl\u00e9tico being OPEN to selling Juli\u00e1n \u00c1lvarez \u2014 but not to Barcelona.\n\n\u201cMy dream is for Juli\u00e1n to stay at Atleti if he wants to\u201d.\n\n\u201cWe'll look for an ALTERNATIVE if he wants to leave the club, but NEVER Barcelona\u201d, told Movistar. https://t.co/9GzYqVce4y",
+      "post": "BREAKING: Atl\u00e9tico Madrid open to selling Juli\u00e1n \u00c1lvarez.\n\nJust not to Barcelona. Which is essentially Atl\u00e9tico saying 'we'd rather he goes literally anywhere else, even Leeds.'",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2093083442296857034",
       "threads_url": null
     }
   ]
