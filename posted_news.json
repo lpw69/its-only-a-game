@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2078066026554515498",
     "2078112901320085681",
     "2078028815268233549",
     "2078040329165426867",
@@ -499,9 +498,10 @@
     "2093077590294556921",
     "2092885324141617374",
     "2093039802647982276",
-    "2092879113862123757"
+    "2092879113862123757",
+    "2093037325211009130"
   ],
-  "post_count": 1436,
+  "post_count": 1437,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1973,6 +1973,14 @@
       "source": "Breaking: LFC reach outline agreement with PSG to sign Bradley Barcola following breakthrough in discussions. \nBut still work to be done in terms of getting deal done. Expecting to be around \u00a3100m potentially rising to \u00a3120m. \nFrom @David_Ornstein \n\nhttps://t.co/LliDIDs6TV",
       "post": "BREAKING: Liverpool reach outline agreement with PSG to sign Bradley Barcola for \u00a3100m rising to \u00a3120m.\n\nSo they've agreed a deal but haven't agreed a deal. Football.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2093140634030968850",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-28 01:33 UTC",
+      "source_author": "David_Ornstein",
+      "source": "\ud83d\udea8 BREAKING: Chelsea reach agreement with Aston Villa to sign Emi Martinez. Permanent deal for 33yo #AVFC goalkeeper worth \u00a37.5m &amp; Argentina international to join #CFC on 2y contract + option to extend at Stamford Bridge by further 12 months @TheAthleticFC https://t.co/onMvgCFTPY",
+      "post": "BREAKING: Chelsea sign 33yo goalkeeper on a two-year deal.\n\nOoh look at me, I'm Todd Boehly and I'm gonna solve our problems by buying someone's dad.\n\nBrilliant.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2093149923269300448",
       "threads_url": null
     }
   ]
