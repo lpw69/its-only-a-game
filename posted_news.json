@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2078112901320085681",
     "2078028815268233549",
     "2078040329165426867",
     "2078152279648051596",
@@ -499,9 +498,10 @@
     "2092885324141617374",
     "2093039802647982276",
     "2092879113862123757",
-    "2093037325211009130"
+    "2093037325211009130",
+    "2093031059315163200"
   ],
-  "post_count": 1437,
+  "post_count": 1438,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -1981,6 +1981,14 @@
       "source": "\ud83d\udea8 BREAKING: Chelsea reach agreement with Aston Villa to sign Emi Martinez. Permanent deal for 33yo #AVFC goalkeeper worth \u00a37.5m &amp; Argentina international to join #CFC on 2y contract + option to extend at Stamford Bridge by further 12 months @TheAthleticFC https://t.co/onMvgCFTPY",
       "post": "BREAKING: Chelsea sign 33yo goalkeeper on a two-year deal.\n\nOoh look at me, I'm Todd Boehly and I'm gonna solve our problems by buying someone's dad.\n\nBrilliant.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2093149923269300448",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-28 02:22 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udd34\u26aa\ufe0f Atl\u00e9tico Madrid CEO Gil Mar\u00edn: \u201cWe are even more angry, we are disgusted by the lies, the lack of transparency and professionalism of Bar\u00e7a\u201d.\n\n\u201cJuli\u00e1n \u00c1lvarez will NOT be transferred to Bar\u00e7a. I give my word\u201d. https://t.co/LWJLZtfC1J",
+      "post": "BREAKING: Atl\u00e9tico Madrid CEO absolutely fuming at Barcelona over Juli\u00e1n \u00c1lvarez talks.\n\nBar\u00e7a trying to sign players by simply asking nicely and hoping nobody notices. The audacity.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2093162344625139736",
       "threads_url": null
     }
   ]
