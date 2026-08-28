@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2078152279648051596",
     "2077806572244222335",
     "2078134516254711963",
     "2078191948108529945",
@@ -499,9 +498,10 @@
     "2093037325211009130",
     "2093031059315163200",
     "2092683505041871004",
-    "2093018782990037241"
+    "2093018782990037241",
+    "2093358252410941598"
   ],
-  "post_count": 1440,
+  "post_count": 1441,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -2005,6 +2005,14 @@
       "source": "\ud83d\udd34 Manchester United #UCL fixtures. Michael Carrick's side face Bayern at Old Trafford and draw Champions League debutants Sabah and Como:\n\nH: Bayern\nA: Atletico Madrid\nH: Roma\nA: Sporting\nH: Leipzig\nA: Villarreal\nH: Sabah\nA: Como https://t.co/hveGHyeVhw",
       "post": "TEAM NEWS: Manchester United's Champions League draw includes Bayern, Atletico, Roma, Sporting, Leipzig, Villarreal, Sabah and Como.\n\nSo they're playing Como. Como. The Italian side that got promoted last season. Michael Carrick's really got them sorted hasn't he.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2093207726117761463",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-28 19:24 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udfe1\ud83d\udd34 Galatasaray reach agreement in principle to sign Rafael Le\u00e3o, here we go! \ud83d\udca3\n\nAC Milan to receive package in excess of \u20ac45m with add-ons and sell-on clause also included.\n\nLe\u00e3o accepts after Aston Villa pushing and Gala improved terms proposal today. \ud83c\uddf9\ud83c\uddf7 https://t.co/ilNJW7UNIS",
+      "post": "BREAKING: Rafael Le\u00e3o to Galatasaray after Aston Villa pushed and Gala improved their offer.\n\nAston Villa really said 'we want him' then immediately accepted getting absolutely mugged off. Lovely.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2093419502386213210",
       "threads_url": null
     }
   ]
