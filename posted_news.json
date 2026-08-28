@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2078379493056737765",
     "2078389308327973101",
     "2078389811224944771",
     "2078371799088111853",
@@ -499,9 +498,10 @@
     "2093355500544946439",
     "2093418928051466626",
     "2093371430607966489",
-    "2093430848775426087"
+    "2093430848775426087",
+    "2093461448735240406"
   ],
-  "post_count": 1447,
+  "post_count": 1448,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -2061,6 +2061,14 @@
       "source": "\ud83d\udea8\ud83d\udfe3\ud83d\udd35 BREAKING: Aston Villa reach verbal agreement on deal to sign Ibrahima Mbaye, here we go! \ud83d\udca5\n\nSenegal winger to join #AVFC from Paris Saint-Germain after leaving negotiations for Le\u00e3o; Mbaye, a long term target for the club.\n\nFee worth \u20ac55m, as @FabriceHawkins @David_Ornstein reported.",
       "post": "BREAKING: Aston Villa sign Ibrahima Mbaye from PSG for \u20ac55m.\n\nLe\u00e3o negotiations fell through so they just went \"right, we'll have the other one then\". Efficient.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2093476947993280923",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-28 23:32 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udd34\u26aa\ufe0f AS Monaco have reached verbal agreement for Mexican midfielder Erik Lira, here we go!\n\n\u20ac8m fee plus \u20ac3m add-ons to Cruz Azul with 20% sell-on clause.\n\nFinal step needed: AS Monaco to free an extra spot then deal proceeds to signatures stage. https://t.co/ZH4Ciztrcj",
+      "post": "BREAKING: AS Monaco agree deal for Erik Lira then immediately remember they need to actually have space in the squad.\n\nEuropean football at its finest.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2093481732632871157",
       "threads_url": null
     }
   ]
