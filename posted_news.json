@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2078351810641973310",
     "2078379493056737765",
     "2078389308327973101",
     "2078389811224944771",
@@ -499,9 +498,10 @@
     "2093356866982093311",
     "2093355500544946439",
     "2093418928051466626",
-    "2093371430607966489"
+    "2093371430607966489",
+    "2093430848775426087"
   ],
-  "post_count": 1446,
+  "post_count": 1447,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -2053,6 +2053,14 @@
       "source": "\ud83d\udea8\ud83e\udd87 Harvey Elliott has agreed personal terms with Valencia following positive talks today.\n\nNegotiations underway with Liverpool to get the deal done on club side. https://t.co/UFXqcrzIVZ",
       "post": "BREAKING: Harvey Elliott agrees personal terms with Valencia.\n\nLiverpool negotiating the exit of a player they've spent three years developing. Lovely work, lads.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2093451044785369105",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-28 23:13 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udfe3\ud83d\udd35 BREAKING: Aston Villa reach verbal agreement on deal to sign Ibrahima Mbaye, here we go! \ud83d\udca5\n\nSenegal winger to join #AVFC from Paris Saint-Germain after leaving negotiations for Le\u00e3o; Mbaye, a long term target for the club.\n\nFee worth \u20ac55m, as @FabriceHawkins @David_Ornstein reported.",
+      "post": "BREAKING: Aston Villa sign Ibrahima Mbaye from PSG for \u20ac55m.\n\nLe\u00e3o negotiations fell through so they just went \"right, we'll have the other one then\". Efficient.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2093476947993280923",
       "threads_url": null
     }
   ]
