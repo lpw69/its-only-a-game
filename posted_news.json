@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2078371799088111853",
     "2078404910803239269",
     "2078365507120443437",
     "2078470044183355506",
@@ -499,9 +498,10 @@
     "2093430848775426087",
     "2093461448735240406",
     "2092971008261001482",
-    "2092998107113922856"
+    "2092998107113922856",
+    "2093450445104574868"
   ],
-  "post_count": 1450,
+  "post_count": 1451,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -2085,6 +2085,14 @@
       "source": "\ud83d\udea8 EXCL: Reiss Nelson agrees deal with Arsenal to terminate contract by mutual consent. Terms ran until June 2027+1 but 26yo winger leaves #AFC now as free agent. Interest from England &amp; abroad - will assess options before deciding next step @TheAthleticFC https://t.co/7B8VV7NC6D",
       "post": "EXCLUSIVE: Reiss Nelson terminates Arsenal contract by mutual consent.\n\nArsenal letting a player leave for free while still paying his wages. That's the Arsenal special.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2093497529560359130",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-29 01:01 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\u2764\ufe0f\ud83d\udda4\ud83d\udc4b\ud83c\udffd Rafa Le\u00e3o confirms his move to Galatasaray: \u201cI am leaving tomorrow, I will always look at Milan. I love AC Milan and this will never finish\u201d.\n\n\u201cI wish all the best to Milan after so many years, I feel I am in the club\u2019s history\u201d. https://t.co/44vLFuyBTw",
+      "post": "BREAKING: Rafa Le\u00e3o leaving Milan for Galatasaray.\n\n'I will always look at Milan, I love AC Milan' he says, while walking out the door with his suitcase. Lovely parting words.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2093504229696794949",
       "threads_url": null
     }
   ]
