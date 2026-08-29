@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2078404910803239269",
     "2078365507120443437",
     "2078470044183355506",
     "2078412208686420117",
@@ -499,9 +498,10 @@
     "2093461448735240406",
     "2092971008261001482",
     "2092998107113922856",
-    "2093450445104574868"
+    "2093450445104574868",
+    "2093334159624212837"
   ],
-  "post_count": 1451,
+  "post_count": 1452,
   "posts": [
     {
       "at": "2026-08-11 13:40 UTC",
@@ -2093,6 +2093,14 @@
       "source": "\u2764\ufe0f\ud83d\udda4\ud83d\udc4b\ud83c\udffd Rafa Le\u00e3o confirms his move to Galatasaray: \u201cI am leaving tomorrow, I will always look at Milan. I love AC Milan and this will never finish\u201d.\n\n\u201cI wish all the best to Milan after so many years, I feel I am in the club\u2019s history\u201d. https://t.co/44vLFuyBTw",
       "post": "BREAKING: Rafa Le\u00e3o leaving Milan for Galatasaray.\n\n'I will always look at Milan, I love AC Milan' he says, while walking out the door with his suitcase. Lovely parting words.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2093504229696794949",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-29 01:55 UTC",
+      "source_author": "SkySportsNews",
+      "source": "\ud83d\udde3\ufe0f \"We must compete, we must win, we must rebuild the team as fast as possible.\"\n\nUnai Emery on whether this is a transition season for Aston Villa. https://t.co/Bahb6pz9PB",
+      "post": "Unai Emery: 'We must compete, we must win, we must rebuild.'\n\nTranslation: it's a transition season.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2093517901370450057",
       "threads_url": null
     }
   ]
