@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2078536596870012966",
     "2078621033393705139",
     "2078623619597398163",
     "2078622315114320289",
@@ -499,18 +498,11 @@
     "2093624968860881053",
     "2093676189789417652",
     "2093597100076310866",
-    "2092627190537961980"
+    "2092627190537961980",
+    "2093692002990748084"
   ],
-  "post_count": 1457,
+  "post_count": 1458,
   "posts": [
-    {
-      "at": "2026-08-11 20:07 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udd34\ud83d\udd35 Luis Enrique on Ferran Torres deal: \u201cI\u2019m not here to talk about the transfer market\u2026 only about the players who are currently at PSG\u201d. https://t.co/ZoJAlOKO5J",
-      "post": "BREAKING: Luis Enrique refuses to discuss Ferran Torres transfer.\n\nOoh look at me, I'm a manager and I'm gonna dodge every question about the one thing everyone wants to know.\n\nBrilliant.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2087269741425799366",
-      "threads_url": null
-    },
     {
       "at": "2026-08-12 08:37 UTC",
       "source_author": "David_Ornstein",
@@ -2101,6 +2093,14 @@
       "source": "\ud83d\udea8 EXCL: Sunderland submit offer to sign Jack Grealish from Manchester City. Bid for 30yo winger loan with #MCFC covering part of salary + possibility to become permanent next summer when contract ends. #SAFC pursuing Igor Paixao in parallel @TheAthleticFC https://t.co/RzQWmRrQ9t",
       "post": "BREAKING: Sunderland bid to loan Jack Grealish with City covering wages.\n\nSo they're essentially paying Manchester City to take their problem off their hands. Lovely stuff from the Stadium of Light.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2093716585991344346",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-29 15:45 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\u26a1\ufe0f Liverpool and Nottingham Forest share points at Anfield!\n\nVictor Munoz scores on his first home appearance in Red.\n\nWho\u2019s been your Man of the Match? https://t.co/ufNrLcp1I9",
+      "post": "BREAKING: Victor Munoz scores on his Liverpool home debut.\n\nAnfield watches a new signing bang one in on his first appearance at home. That's the dream, that is.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2093726602610008454",
       "threads_url": null
     }
   ]
