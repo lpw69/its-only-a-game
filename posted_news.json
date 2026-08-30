@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2079212676928913525",
     "2079261117797245155",
     "2079317557861831017",
     "2079175391361577033",
@@ -499,18 +498,11 @@
     "2094104212795744712",
     "2093991943919284338",
     "2093433236605075832",
-    "2092916111507345711"
+    "2092916111507345711",
+    "2093977655846547960"
   ],
-  "post_count": 1475,
+  "post_count": 1476,
   "posts": [
-    {
-      "at": "2026-08-13 12:27 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udd34\ud83d\udd35 D\u00e9sir\u00e9 Dou\u00e9 wins Man of the Match Award for UEFA Super Cup Final. \u2b50\ufe0f https://t.co/4DKZF7QjUY",
-      "post": "BREAKING: D\u00e9sir\u00e9 Dou\u00e9 wins Man of the Match in the UEFA Super Cup Final.\n\nSomeone's getting a very angry phone call from their manager for not playing him more often.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2087878754492440903",
-      "threads_url": null
-    },
     {
       "at": "2026-08-13 14:45 UTC",
       "source_author": "FabrizioRomano",
@@ -2101,6 +2093,14 @@
       "source": "City asked fans to design a new kit and after 180,000 designs were submitted, and a top 10 was put forward to a vote, the winner is\u2026 actually very nice https://t.co/5u56lDsME2",
       "post": "BREAKING: Man City asked 180,000 fans to design a new kit.\n\nThe winner is actually very nice. Must've slipped past the committee.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2094177936127770724",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-30 21:56 UTC",
+      "source_author": "SkySportsNews",
+      "source": "BREAKING: Chelsea have confirmed the signing of goalkeeper Emi Martinez from Aston Villa \ud83d\udea8\n\nThe 33-year-old has signed a three-year deal at Stamford Bridge. https://t.co/y8pPwSxujp",
+      "post": "BREAKING: Chelsea sign a 33-year-old goalkeeper on a three-year deal.\n\nOoh look at me, I'm Todd Boehly and I'm gonna solve my problems with a pensioner and a contract that outlives him.\n\nBrilliant.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2094182362762674594",
       "threads_url": null
     }
   ]
