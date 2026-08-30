@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2077681194079056111",
     "2078774848139018636",
     "2078889396128878994",
     "2078888716567797791",
@@ -499,18 +498,11 @@
     "2093781021493744094",
     "2093789999523143839",
     "2093780857517490622",
-    "2094029974445359286"
+    "2094029974445359286",
+    "2094013393485078980"
   ],
-  "post_count": 1466,
+  "post_count": 1467,
   "posts": [
-    {
-      "at": "2026-08-12 17:11 UTC",
-      "source_author": "SkySportsNews",
-      "source": "BREAKING: Chelsea have announced the signing of Pep Chavarria from La Liga side Rayo Vallecano \ud83d\udea8 https://t.co/AQ8hjBtyza",
-      "post": "BREAKING: Chelsea have signed Pep Chavarria from Rayo Vallecano.\n\nThey've finally found a player whose career trajectory matches their transfer strategy: absolutely no idea where he'll end up next.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2087587787096850933",
-      "threads_url": null
-    },
     {
       "at": "2026-08-12 18:12 UTC",
       "source_author": "FabrizioRomano",
@@ -2101,6 +2093,14 @@
       "source": "\ud83d\udd35\ud83c\udde6\ud83c\uddf7 Emiliano Mart\u00ednez starts for Chelsea on same day he\u2019s been announced as new signing. https://t.co/DNuHi4D6ge",
       "post": "BREAKING: Emiliano Mart\u00ednez announced as Chelsea signing.\n\nAlso playing for Chelsea today.\n\nBoehly's transfer window speedrun any%.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2094051683701768218",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-30 13:49 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udd34\u26aa\ufe0f\ud83d\udd77\ufe0f Juli\u00e1n \u00c1lvarez has returned to team training with Atl\u00e9tico Madrid squad today. https://t.co/OAyZLUObUj",
+      "post": "BREAKING: Juli\u00e1n \u00c1lvarez has returned to Atl\u00e9tico Madrid training.\n\nAssuming he hasn't been abducted by aliens or stuck in a lift for three weeks, this is probably fine.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2094059883830337648",
       "threads_url": null
     }
   ]
