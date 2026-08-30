@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2078888716567797791",
     "2078921487252140075",
     "2078888886185419050",
     "2079020304022544626",
@@ -499,18 +498,11 @@
     "2094029974445359286",
     "2094013393485078980",
     "2094055019305664617",
-    "2094047062039892241"
+    "2094047062039892241",
+    "2094042636000661647"
   ],
-  "post_count": 1469,
+  "post_count": 1470,
   "posts": [
-    {
-      "at": "2026-08-12 20:07 UTC",
-      "source_author": "henrywinter",
-      "source": "Leeds United have a bucket statue in celebration of Marcelo Bielsa\u2019s epic time at the club. \ud83d\udcf8 @MrTomClayton #LUFC https://t.co/MNMWNcKqym",
-      "post": "Leeds United have erected a bucket statue to celebrate Marcelo Bielsa.\n\nThis is the most Leeds thing ever. They've literally memorialised chaos.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2087632091664293957",
-      "threads_url": null
-    },
     {
       "at": "2026-08-12 22:00 UTC",
       "source_author": "FabrizioRomano",
@@ -2101,6 +2093,14 @@
       "source": "\ud83d\udd35\ud83d\udd34\ud83c\udde7\ud83c\uddf7 Gabriel Jesus will sign a two year contract at Barcelona. The agreement also includes an option to extend for extra year, until 2029.\n\nGabriel immediately said yes to Barcelona, seen by the Brazilian as a dream opportunity.\n\nArsenal authorized his travel on Monday. https://t.co/7sq4RkDZN1",
       "post": "BREAKING: Gabriel Jesus signs for Barcelona.\n\nArsenal letting a striker leave mid-season. You love to see it.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2094084548569223511",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-30 17:46 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udd35\ud83d\udd34 BREAKING: Barcelona agree deal to sign Gabriel Jesus from Arsenal, here we go!\n\nExclusive details: medical booked on Monday, #AFC to receive \u20ac10m package plus add-ons for permament deal.\n\nGabriel Jesus will travel for medical as authorized by Arsenal. https://t.co/Y4nFKERn3y",
+      "post": "BREAKING: Gabriel Jesus to Barcelona for \u20ac10m.\n\nArsenal really said 'we need to fund our title challenge' and then sold them a striker. Brilliant.",
+      "x_url": "https://x.com/ItsOnlyAGamee/status/2094119633313996972",
       "threads_url": null
     }
   ]
