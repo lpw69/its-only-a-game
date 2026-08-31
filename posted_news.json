@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2079317610924064936",
     "2079055303723667848",
     "2079268526083207265",
     "2079213783927628208",
@@ -499,18 +498,11 @@
     "2093977655846547960",
     "2094410522170962231",
     "2094397329826615449",
-    "2094309489675534528"
+    "2094309489675534528",
+    "2094441736076513620"
   ],
-  "post_count": 1479,
+  "post_count": 1480,
   "posts": [
-    {
-      "at": "2026-08-13 17:11 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\u26a0\ufe0f BREAKING: Savinho, not involved in Man City training today.\n\nCity sources say absence due to illness, as @SamLee reports.\n\nUnderstand Savinho has been clear once again this week: he wants to leave and join Tottenham. \u2757\ufe0f https://t.co/EACNzBP6Vu",
-      "post": "BREAKING: Savinho not in Man City training today.\n\nCity say illness. Savinho say Tottenham. One of these is true and it's definitely not the illness.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2087950123703972289",
-      "threads_url": null
-    },
     {
       "at": "2026-08-13 19:46 UTC",
       "source_author": "SamLee",
@@ -2100,6 +2092,14 @@
       "source_author": "SkySportsNews",
       "source": "Arsenal target Julian Alvarez returned to group training at Atletico Madrid on Sunday as the deadline for a decision over his future passed \u26bd\ufe0f https://t.co/juW3eJsMQ1",
       "post": "BREAKING: Julian Alvarez returned to Atletico Madrid training on Sunday.\n\nArsenal fans refreshing their phones like it's a Black Friday sale, completely unaware the deadline has already passed.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-31 17:16 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83c\udde6\ud83c\uddf7 BREAKING NEWS: LIONEL MESSI RETIRES FROM INTERNATIONAL FOOTBALL.\n\nMessi will not play for Argentina national team anymore. https://t.co/KaiZ5Pwrw9",
+      "post": "BREAKING: Lionel Messi retires from international football.\n\nArgentina fans currently refreshing their phones waiting for the next headline that'll make them cry.",
       "x_url": null,
       "threads_url": null
     }
