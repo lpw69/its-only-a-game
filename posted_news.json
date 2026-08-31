@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2079317557861831017",
     "2079175391361577033",
     "2079317610924064936",
     "2079055303723667848",
@@ -499,18 +498,11 @@
     "2093433236605075832",
     "2092916111507345711",
     "2093977655846547960",
-    "2094410522170962231"
+    "2094410522170962231",
+    "2094397329826615449"
   ],
-  "post_count": 1477,
+  "post_count": 1478,
   "posts": [
-    {
-      "at": "2026-08-13 15:08 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83d\udd34\ud83d\udd35 Paris Saint-Germain are set to close Ferran Torres deal with Bar\u00e7a as final round of talks happens soon.\n\nHere we go, coming next. \ud83c\uddea\ud83c\uddf8 https://t.co/0TbI60WSJx",
-      "post": "BREAKING: PSG closing in on Ferran Torres from Barcelona.\n\nBar\u00e7a selling their own players to fund new signings. It's giving financial restructuring, not it's giving project.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2087919313521131992",
-      "threads_url": null
-    },
     {
       "at": "2026-08-13 16:28 UTC",
       "source_author": "FabrizioRomano",
@@ -2100,6 +2092,14 @@
       "source_author": "FabrizioRomano",
       "source": "\ud83d\udea8\ud83d\udd34 OFFICIAL: Bradley Barcola has joined Liverpool from PSG. \u26a1\ufe0f\n\nA move revealed since May and now completed. https://t.co/kb1VNEvnAm",
       "post": "BREAKING: Bradley Barcola joins Liverpool from PSG.\n\nA move revealed since May. So they've been telling everyone about it for months and still managed to keep it secret. Brilliant.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-31 15:26 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udd34\u26aa\ufe0f BREAKING: Jonathan David to Atl\u00e9tico Madrid, here we go! Verbal agreement done with Juventus.\n\nInitial loan deal with buy option clause for the Canadian striker who\u2019s set to join Atl\u00e9ti as exclusively revealed last week.\n\nAtl\u00e9ti will cover more than 50% of the salary. https://t.co/6h9G99uuR3",
+      "post": "BREAKING: Jonathan David to Atl\u00e9tico Madrid on loan with a buy option.\n\nJuventus basically paying someone else to take him off their hands. That's a masterclass in cutting losses.",
       "x_url": null,
       "threads_url": null
     }
