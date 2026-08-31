@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2079261117797245155",
     "2079317557861831017",
     "2079175391361577033",
     "2079317610924064936",
@@ -499,18 +498,11 @@
     "2093991943919284338",
     "2093433236605075832",
     "2092916111507345711",
-    "2093977655846547960"
+    "2093977655846547960",
+    "2094410522170962231"
   ],
-  "post_count": 1476,
+  "post_count": 1477,
   "posts": [
-    {
-      "at": "2026-08-13 14:45 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udd35\ud83d\udd34\ud83e\udec2 Pedri, Gavi, Alejandro Balde and Hector Fort all went to hospital today to support Roony Bardghji after surgery. https://t.co/zzl02nxtWg",
-      "post": "BREAKING: Barcelona players visit teammate in hospital.\n\nFinally, something at the club working as it should.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2087913452828496206",
-      "threads_url": null
-    },
     {
       "at": "2026-08-13 15:08 UTC",
       "source_author": "FabrizioRomano",
@@ -2101,6 +2093,14 @@
       "source": "BREAKING: Chelsea have confirmed the signing of goalkeeper Emi Martinez from Aston Villa \ud83d\udea8\n\nThe 33-year-old has signed a three-year deal at Stamford Bridge. https://t.co/y8pPwSxujp",
       "post": "BREAKING: Chelsea sign a 33-year-old goalkeeper on a three-year deal.\n\nOoh look at me, I'm Todd Boehly and I'm gonna solve my problems with a pensioner and a contract that outlives him.\n\nBrilliant.",
       "x_url": "https://x.com/ItsOnlyAGamee/status/2094182362762674594",
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-31 15:06 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udd34 OFFICIAL: Bradley Barcola has joined Liverpool from PSG. \u26a1\ufe0f\n\nA move revealed since May and now completed. https://t.co/kb1VNEvnAm",
+      "post": "BREAKING: Bradley Barcola joins Liverpool from PSG.\n\nA move revealed since May. So they've been telling everyone about it for months and still managed to keep it secret. Brilliant.",
+      "x_url": null,
       "threads_url": null
     }
   ]
