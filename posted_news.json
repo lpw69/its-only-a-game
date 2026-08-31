@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2079055303723667848",
     "2079268526083207265",
     "2079213783927628208",
     "2079508278489251944",
@@ -499,18 +498,11 @@
     "2094410522170962231",
     "2094397329826615449",
     "2094309489675534528",
-    "2094441736076513620"
+    "2094441736076513620",
+    "2094454370754510943"
   ],
-  "post_count": 1480,
+  "post_count": 1481,
   "posts": [
-    {
-      "at": "2026-08-13 19:46 UTC",
-      "source_author": "SamLee",
-      "source": "At City open training. Savinho is not here, and is said to be ill. Grealish is here, along with Haaland, Cherki, Doku, O\u2019Reilly, Anderson, Guehi https://t.co/nRvX48BnsZ",
-      "post": "TEAM NEWS: Savinho ill and missing City training.\n\nPep's already planning the 47 substitutions for the next match without him. Man's defragging the squad in his head right now.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2087989091799540107",
-      "threads_url": null
-    },
     {
       "at": "2026-08-13 20:02 UTC",
       "source_author": "FabrizioRomano",
@@ -2100,6 +2092,14 @@
       "source_author": "FabrizioRomano",
       "source": "\ud83d\udea8\ud83c\udde6\ud83c\uddf7 BREAKING NEWS: LIONEL MESSI RETIRES FROM INTERNATIONAL FOOTBALL.\n\nMessi will not play for Argentina national team anymore. https://t.co/KaiZ5Pwrw9",
       "post": "BREAKING: Lionel Messi retires from international football.\n\nArgentina fans currently refreshing their phones waiting for the next headline that'll make them cry.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-31 17:40 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udca3 OFFICIAL: Liverpool have decided to keep Cody Gakpo at the club as they can\u2019t find a replacement.\n\n\u00a385m bid from Manchester City rejected as Gakpo has accepted to stay, ready to continue at #LFC.\n\nManchester City now focused on Ndiaye and Enzo Fern\u00e1ndez. https://t.co/zyLlkXg4xX",
+      "post": "BREAKING: Manchester City bid \u00a385m for Gakpo, Liverpool say no thanks.\n\nCity now pivoting to Ndiaye and Enzo Fern\u00e1ndez because apparently there's a queue of world-class wingers just sat waiting for them. The audacity.",
       "x_url": null,
       "threads_url": null
     }
