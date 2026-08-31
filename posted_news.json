@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2079585695434207246",
     "2079504384635859149",
     "2079633987064979570",
     "2079582520799043895",
@@ -499,18 +498,11 @@
     "2094454370754510943",
     "2094452238580126048",
     "2094467789012488451",
-    "2094490372810412339"
+    "2094490372810412339",
+    "2094453916289167863"
   ],
-  "post_count": 1484,
+  "post_count": 1485,
   "posts": [
-    {
-      "at": "2026-08-14 08:48 UTC",
-      "source_author": "Plettigoal",
-      "source": "\ud83d\udea8\ud83d\udca5 Ferran Torres to Paris Saint-Germain - DONE DEAL \u2714\ufe0f\n\nFull agreement in principle now reached with FC Barcelona. Transfer fee: \u20ac50m.\n\nThe World Cup winner is set to sign a contract until 2031. Transfer set to go through, pending medical. \n\n@SkySportDE \ud83c\uddea\ud83c\uddf8 https://t.co/Nxv6WHVw40",
-      "post": "BREAKING: Ferran Torres to PSG, \u20ac50m, contract until 2031.\n\nBarcelona really said 'we need to fund our wage bill' and PSG said 'say no more, here's fifty million for a player who'll be 35 when this deal ends'.\n\nBrilliant.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2088185871346618730",
-      "threads_url": null
-    },
     {
       "at": "2026-08-14 09:29 UTC",
       "source_author": "FabrizioRomano",
@@ -2100,6 +2092,14 @@
       "source_author": "FabrizioRomano",
       "source": "\ud83d\udea8\u26aa\ufe0f\ud83d\udd35 BREAKING: Manchester City agree deal to sign Iliman Ndiaye from Everton, here we go!\n\nClub to club agreement in place and green light for medical tests \u2014 fee worth \u00a365m package. Personal terms also in place.\n\nExclusive story revealed today, now confirmed. https://t.co/cLwpBCRlYV",
       "post": "BREAKING: Manchester City agree \u00a365m deal for Iliman Ndiaye from Everton.\n\nEverton selling their best player to City. Everton fans currently deciding which mid-table club to support next season.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-08-31 21:04 UTC",
+      "source_author": "David_Ornstein",
+      "source": "\ud83d\udea8 BREAKING: Cody Gakpo to stay at Liverpool. Manchester City had \u00a375m + \u00a35m bid rejected by #LFC &amp; pursuit over - confirmed between all sides in direct communication. #MCFC now fully focused on attempting to sign Enzo Fernandez from Chelsea @TheAthleticFC https://t.co/r47xBCrALk",
+      "post": "BREAKING: City bid \u00a375m + \u00a35m for Gakpo. Liverpool say no.\n\nCity now pivoting to Enzo at Chelsea, a player who cost \u00a3106m two years ago. Nothing says 'we've got this sorted' like chasing someone else's financial disaster.",
       "x_url": null,
       "threads_url": null
     }
