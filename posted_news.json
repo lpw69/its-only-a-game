@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2079992117900755313",
     "2079853981245792271",
     "2079966184691179750",
     "2079621027001172063",
@@ -499,18 +498,11 @@
     "2094818550682636771",
     "2094817074807775322",
     "2094845321926812073",
-    "2094872204806603120"
+    "2094872204806603120",
+    "2094520718092308864"
   ],
-  "post_count": 1500,
+  "post_count": 1501,
   "posts": [
-    {
-      "at": "2026-08-15 11:49 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\u2764\ufe0f\ud83d\udc99\ud83c\uddea\ud83c\uddf8 Official, confirmed. Paris Saint-Germain sign Ferran Torres from Barcelona for \u20ac50m fee.\n\nContract until June 2031. \u2728 https://t.co/XLengX5ErY",
-      "post": "EXCLUSIVE: Paris Saint-Germain sign Ferran Torres from Barcelona for \u20ac50m.\n\nBarcelona really said 'we need to raise funds' and immediately sold one of their best attacking talents to their biggest rival. Financial masterclass.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2088593863695102397",
-      "threads_url": null
-    },
     {
       "at": "2026-08-15 14:00 UTC",
       "source_author": "FabrizioRomano",
@@ -2100,6 +2092,14 @@
       "source_author": "FabrizioRomano",
       "source": "\ud83d\udea8\ud83c\udde6\ud83c\uddf7 Enzo Fern\u00e1ndez has completed a medical as new Manchester City player.\n\n\u00a3125m move entering into documents and formal steps next with Man City and Chelsea. https://t.co/WoDoBxMHeZ",
       "post": "BREAKING: Enzo Fern\u00e1ndez to Manchester City for \u00a3125m.\n\nChelsea fans currently googling what a midfielder does, given they've just sold theirs for more than the GDP of a small nation.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-01 21:53 UTC",
+      "source_author": "David_Ornstein",
+      "source": "\ud83d\udea8 Tottenham Hotspur reach agreement with Chelsea to sign Tosin Adarabioyo. Permanent move from #CFC; personal terms done + permission granted to take #THFC medical. Mykhailo Mudryk loan agreed between clubs - personals still need finalising @TheAthleticFC https://t.co/hxaY6EXFWN",
+      "post": "BREAKING: Tottenham sign Tosin from Chelsea, Chelsea loan out Mudryk.\n\nSo they're both actively trying to fix their mess at the same time. Efficient chaos.",
       "x_url": null,
       "threads_url": null
     }
