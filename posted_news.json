@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2079832316088635769",
     "2079470974739636244",
     "2079595148099387652",
     "2079809918693961958",
@@ -499,18 +498,11 @@
     "2094505063888671112",
     "2094072990388437302",
     "2094750677092147525",
-    "2094490120866975927"
+    "2094490120866975927",
+    "2094443151805341756"
   ],
-  "post_count": 1490,
+  "post_count": 1491,
   "posts": [
-    {
-      "at": "2026-08-14 15:02 UTC",
-      "source_author": "JacobsBen",
-      "source": "\ud83d\udea8 Exclusive: The White House made a direct call to FIFA to ask Gianni Infantino to review Folarin Balogun\u2019s red card.\n\nFIFA approached for comment and referred to the findings of its independent committee.\n\nFIFA sources insist White House influence could not affect the decision due to the powers contained in Article 27 and the independent nature of the disciplinary panel.",
-      "post": "BREAKING: The White House rang FIFA about a red card.\n\nFIFA sources say don't worry, Article 27 prevents political interference. Which is a very reassuring way of saying 'yes, that absolutely just happened'.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2088280198588620883",
-      "threads_url": null
-    },
     {
       "at": "2026-08-14 17:10 UTC",
       "source_author": "FabrizioRomano",
@@ -2100,6 +2092,14 @@
       "source_author": "David_Ornstein",
       "source": "\ud83d\udea8 EXCL: Manchester City reach agreement in principle to sign Iliman Ndiaye. Deal for 26yo attacker \u00a365m package + in process of being finalised; medical expected Tuesday morning. At paperwork stage before Senegal int\u2019l joins #MCFC from #EFC @TheAthleticFC https://t.co/trypfCitdV",
       "post": "BREAKING: Manchester City sign Iliman Ndiaye for \u00a365m.\n\nEverton fans in the pub right now explaining how they're actually delighted to lose their best player to their rivals. \"It's good business, innit.\"",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-01 13:32 UTC",
+      "source_author": "BBCSport",
+      "source": "Lionel Messi has announced his retirement from the Argentina national team \ud83c\udde6\ud83c\uddf7\n\nWhat an incredible international career \ud83d\udc4f\ud83d\udc4f https://t.co/UbbxZQ8XAT",
+      "post": "BREAKING: Lionel Messi retires from Argentina.\n\nSpend your whole career being the best player on earth, then leave while you're still the best player on earth. Absolutely mad behaviour.",
       "x_url": null,
       "threads_url": null
     }
