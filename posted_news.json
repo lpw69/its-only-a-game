@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2079947056588665146",
     "2079669921735217298",
     "2079971357320692033",
     "2079992117900755313",
@@ -499,18 +498,11 @@
     "2094787171437691144",
     "2094814377752830314",
     "2094814268042453369",
-    "2094818550682636771"
+    "2094818550682636771",
+    "2094817074807775322"
   ],
-  "post_count": 1497,
+  "post_count": 1498,
   "posts": [
-    {
-      "at": "2026-08-15 08:46 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\u2764\ufe0f\ud83e\udd0d Cristian Romero has signed his five year contract as new Atl\u00e9tico Madrid player.\n\n\u20ac40m package move plus 15% sell-on clause, now completed. \ud83c\udde6\ud83c\uddf7 https://t.co/eSXtjH4qhv",
-      "post": "BREAKING: Cristian Romero signs for Atl\u00e9tico Madrid.\n\nSpurs fans currently refreshing their phones to see if this somehow gets reversed in the next 20 minutes. It won't.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2088547964587577349",
-      "threads_url": null
-    },
     {
       "at": "2026-08-15 10:00 UTC",
       "source_author": "JacobsBen",
@@ -2100,6 +2092,14 @@
       "source_author": "FabrizioRomano",
       "source": "\ud83d\udea8\ud83d\udd35 Enzo Fern\u00e1ndez to Manchester City in a record British deal for \u00a3125m. Here we go! \ud83c\udde6\ud83c\uddf7 https://t.co/b5QGFpsZo0",
       "post": "BREAKING: Enzo Fern\u00e1ndez to Manchester City for \u00a3125m, record British deal.\n\nCity's midfield now has more depth than most Premier League squads have players. Lovely stuff.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-01 19:25 UTC",
+      "source_author": "SkySportsNews",
+      "source": "BREAKING: Manchester City agree British record-equalling \u00a3125m deal with Chelsea to sign Enzo Fernandez \ud83d\udea8\ud83c\udde6\ud83c\uddf7 https://t.co/Ctq4cis4aW",
+      "post": "BREAKING: Manchester City agree British record-equalling \u00a3125m deal with Chelsea to sign Enzo Fernandez.\n\nChelsea really said 'we've spent enough money on midfielders' then immediately proved themselves wrong.",
       "x_url": null,
       "threads_url": null
     }
