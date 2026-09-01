@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2079669921735217298",
     "2079971357320692033",
     "2079992117900755313",
     "2079853981245792271",
@@ -499,18 +498,11 @@
     "2094814377752830314",
     "2094814268042453369",
     "2094818550682636771",
-    "2094817074807775322"
+    "2094817074807775322",
+    "2094845321926812073"
   ],
-  "post_count": 1498,
+  "post_count": 1499,
   "posts": [
-    {
-      "at": "2026-08-15 10:00 UTC",
-      "source_author": "JacobsBen",
-      "source": "Barcelona's have made a third offer for Rodri and are optimistic of completing a deal. Package under discussion now \u00a360m+.\ud83c\uddea\ud83c\uddf8 https://t.co/OX1aIWogUd",
-      "post": "BREAKING: Barcelona make third offer for Rodri at \u00a360m+.\n\nOooh look at me, I'm Barcelona and I'm gonna spend three attempts to sign one midfielder while my wage bill is eating itself alive.\n\nMental.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2088566496419369148",
-      "threads_url": null
-    },
     {
       "at": "2026-08-15 10:40 UTC",
       "source_author": "FabrizioRomano",
@@ -2100,6 +2092,14 @@
       "source_author": "SkySportsNews",
       "source": "BREAKING: Manchester City agree British record-equalling \u00a3125m deal with Chelsea to sign Enzo Fernandez \ud83d\udea8\ud83c\udde6\ud83c\uddf7 https://t.co/Ctq4cis4aW",
       "post": "BREAKING: Manchester City agree British record-equalling \u00a3125m deal with Chelsea to sign Enzo Fernandez.\n\nChelsea really said 'we've spent enough money on midfielders' then immediately proved themselves wrong.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-01 20:01 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udfe2\u26aa\ufe0f BREAKING: Dani Ceballos to Real Betis, here we go! He\u2019s back at the club on a three year contract.\n\nDeal in place until June 2029, joining as free agent after leaving Real Madrid. https://t.co/OUrGyGJIJA",
+      "post": "BREAKING: Dani Ceballos to Real Betis on a free transfer.\n\nReal Madrid really saw a player they developed, let him leave for nothing, and thought 'yeah that's fine'. Brilliant.",
       "x_url": null,
       "threads_url": null
     }
