@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2079814476514071019",
     "2079895526946869402",
     "2079957139951390914",
     "2079947056588665146",
@@ -499,18 +498,11 @@
     "2094443151805341756",
     "2094771602520985871",
     "2094773558874399171",
-    "2094787171437691144"
+    "2094787171437691144",
+    "2094814377752830314"
   ],
-  "post_count": 1494,
+  "post_count": 1495,
   "posts": [
-    {
-      "at": "2026-08-14 21:38 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83c\uddee\ud83c\uddf9 Italian striker Ciro Immobile has now retired from professional football with immediate effect.\n\nFollows his decision to leave Paris FC. https://t.co/qHJAvdV6zm",
-      "post": "BREAKING: Ciro Immobile retires from professional football.\n\nParis FC's loss is absolutely everyone else's gain.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2088379819415499090",
-      "threads_url": null
-    },
     {
       "at": "2026-08-15 07:41 UTC",
       "source_author": "David_Ornstein",
@@ -2100,6 +2092,14 @@
       "source_author": "FabrizioRomano",
       "source": "\ud83d\udea8\ud83d\udd34\u26aa\ufe0f Claudio Echeverri to Benfica, here we go! Verbal agreement done with Man City.\n\nInitial loan with 100% salary covered and buy option clause included.\n\nEcheverri travels today, as @CLMerlo reports. https://t.co/vm1Ydjt4Hj",
       "post": "BREAKING: Man City loan out Echeverri to Benfica with a buy option.\n\nThey're gonna let him develop somewhere else, then buy him back for more money. Genius.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-01 17:29 UTC",
+      "source_author": "David_Ornstein",
+      "source": "\ud83d\udea8 EXCLUSIVE: Manchester City reach agreement with Chelsea to sign Enzo Fernandez. Package for 25yo midfielder work \u00a3125m so matches British transfer record. Argentina int\u2019l granted permission by #CFC to undergo medical &amp; complete #MCFC move @TheAthleticFC https://t.co/Y1bjwO8qsw",
+      "post": "BREAKING: Manchester City sign Enzo Fernandez for \u00a3125m.\n\nChelsea fans currently checking if Todd Boehly was actually trying to sell him or if this is just how their club operates now.",
       "x_url": null,
       "threads_url": null
     }
