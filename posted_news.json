@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2079853981245792271",
     "2079966184691179750",
     "2079621027001172063",
     "2079998746495004932",
@@ -499,18 +498,11 @@
     "2094817074807775322",
     "2094845321926812073",
     "2094872204806603120",
-    "2094520718092308864"
+    "2094520718092308864",
+    "2094883343695278527"
   ],
-  "post_count": 1501,
+  "post_count": 1502,
   "posts": [
-    {
-      "at": "2026-08-15 14:00 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udd34\ud83d\udd35 Ferran Torres: \u201cParis Saint-Germain are the ideal club to win the Champions League\u201d. https://t.co/WIAqh8PXEP",
-      "post": "Ferran Torres: PSG are ideal to win the Champions League.\n\nFerran Torres arriving at a club that's won it once since 1997. Brilliant.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2088626883898581279",
-      "threads_url": null
-    },
     {
       "at": "2026-08-15 14:33 UTC",
       "source_author": "David_Ornstein",
@@ -2100,6 +2092,14 @@
       "source_author": "David_Ornstein",
       "source": "\ud83d\udea8 Tottenham Hotspur reach agreement with Chelsea to sign Tosin Adarabioyo. Permanent move from #CFC; personal terms done + permission granted to take #THFC medical. Mykhailo Mudryk loan agreed between clubs - personals still need finalising @TheAthleticFC https://t.co/hxaY6EXFWN",
       "post": "BREAKING: Tottenham sign Tosin from Chelsea, Chelsea loan out Mudryk.\n\nSo they're both actively trying to fix their mess at the same time. Efficient chaos.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-01 23:19 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udd35 EXCLUSIVE: Chelsea agree deal in principle to sign Lamine Camara from AS Monaco, here we go! \ud83d\udca3\n\nFee worth \u20ac55m and authorization to travel for medical.\n\nInitial agreement done now running in order to complete medical and formal steps in time. https://t.co/DuCBSuZBiN",
+      "post": "BREAKING: Chelsea agree \u20ac55m deal for Lamine Camara from Monaco.\n\nOoh look at me, I'm Chelsea and I'm gonna spend fifty-five million on a player I've never watched play. What could go wrong?\n\nBrilliant.",
       "x_url": null,
       "threads_url": null
     }
