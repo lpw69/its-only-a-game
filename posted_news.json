@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2079595148099387652",
     "2079809918693961958",
     "2079814476514071019",
     "2079895526946869402",
@@ -499,18 +498,11 @@
     "2094750677092147525",
     "2094490120866975927",
     "2094443151805341756",
-    "2094771602520985871"
+    "2094771602520985871",
+    "2094773558874399171"
   ],
-  "post_count": 1492,
+  "post_count": 1493,
   "posts": [
-    {
-      "at": "2026-08-14 18:11 UTC",
-      "source_author": "David_Ornstein",
-      "source": "\ud83d\udea8 Arsenal interested in Jarell Quansah as consider options for defence. #Bayer04 do not want to sell 23yo &amp; #LFC\u2019s \u20ac70m buy-back option expired so no pressure. England int\u2019l open to #AFC possibility if situation evolves @TheAthleticFC post @RobDorsettSky https://t.co/l79ui4iPYh",
-      "post": "BREAKING: Arsenal interested in Jarell Quansah.\n\nLiverpool let his buy-back option expire. Absolutely textbook stuff.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2088327582249075056",
-      "threads_url": null
-    },
     {
       "at": "2026-08-14 19:39 UTC",
       "source_author": "FabrizioRomano",
@@ -2100,6 +2092,14 @@
       "source_author": "FabrizioRomano",
       "source": "\ud83d\udd35\ud83d\udd34\ud83e\udd19\ud83c\udffd Official, confirmed. Gabriel Jesus joins Barcelona from Arsenal. \ud83c\udde7\ud83c\uddf7\n\n\u20ac14m package plus 20% sell-on clause. https://t.co/VFea4R96PQ",
       "post": "OFFICIAL: Gabriel Jesus joins Barcelona from Arsenal.\n\n\u20ac14m plus 20% sell-on clause. Arsenal really said 'we'll take whatever's left in the petty cash' and called it a deal.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-01 14:56 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udd10 Barcelona currently consider their market closed in terms of incomings - following the arrival of Gabriel Jesus. https://t.co/07BhSJF1De",
+      "post": "BREAKING: Barcelona consider their market closed following Gabriel Jesus arrival.\n\nSo they've identified their one problem, solved it, and are now done shopping. Brilliant.",
       "x_url": null,
       "threads_url": null
     }
