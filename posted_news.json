@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2079694311935918099",
     "2079832316088635769",
     "2079470974739636244",
     "2079595148099387652",
@@ -499,18 +498,11 @@
     "2094497057994137646",
     "2094505063888671112",
     "2094072990388437302",
-    "2094750677092147525"
+    "2094750677092147525",
+    "2094490120866975927"
   ],
-  "post_count": 1489,
+  "post_count": 1490,
   "posts": [
-    {
-      "at": "2026-08-14 14:40 UTC",
-      "source_author": "Plettigoal",
-      "source": "\ud83d\udea8\u23f3 Newcastle United are in advanced negotiations with SL Benfica over Amar Dedic. Transfer fee: around \u20ac30-35m.\n\nDedic has agreed personal terms on a contract until 2031. #NUFC \n\nThe 23 y/o right-back has a strong relationship with Matthias Jaissle, having played 52 games under him at RB Salzburg. @SkySportDE \ud83c\udde7\ud83c\udde6",
-      "post": "BREAKING: Newcastle spending \u20ac30-35m on a right-back they've never seen play.\n\nAt least Jaissle knows him from Salzburg. That's basically the same as Premier League experience.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2088274515424137470",
-      "threads_url": null
-    },
     {
       "at": "2026-08-14 15:02 UTC",
       "source_author": "JacobsBen",
@@ -2100,6 +2092,14 @@
       "source_author": "FabrizioRomano",
       "source": "\ud83d\udea8\u26aa\ufe0f\ud83d\udfe2 Celtic have agreed loan deal to sign Shim Mheuka from Chelsea, medical now completed.\n\nSeason long loan for the striker joining from #CFC. https://t.co/CAqp8fOh42",
       "post": "BREAKING: Chelsea have loaned out Shim Mheuka to Celtic.\n\nAnother striker, another loan deal, another Chelsea player who'll probably be world class somewhere else while they sign seven more for \u00a380m next summer.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-01 12:46 UTC",
+      "source_author": "David_Ornstein",
+      "source": "\ud83d\udea8 EXCL: Manchester City reach agreement in principle to sign Iliman Ndiaye. Deal for 26yo attacker \u00a365m package + in process of being finalised; medical expected Tuesday morning. At paperwork stage before Senegal int\u2019l joins #MCFC from #EFC @TheAthleticFC https://t.co/trypfCitdV",
+      "post": "BREAKING: Manchester City sign Iliman Ndiaye for \u00a365m.\n\nEverton fans in the pub right now explaining how they're actually delighted to lose their best player to their rivals. \"It's good business, innit.\"",
       "x_url": null,
       "threads_url": null
     }
