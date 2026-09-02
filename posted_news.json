@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2080237132732354874",
     "2080264564000633301",
     "2080239356552335581",
     "2080297731797500325",
@@ -499,18 +498,11 @@
     "2094917521589592509",
     "2094680852009509234",
     "2094723550426943625",
-    "2094410076375134516"
+    "2094410076375134516",
+    "2095117497418633567"
   ],
-  "post_count": 1508,
+  "post_count": 1509,
   "posts": [
-    {
-      "at": "2026-08-15 21:33 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83c\udf15\ud83c\uddf5\ud83c\uddf9 Jo\u00e3o F\u00e9lix receives Best Player of the Season Award for Saudi Pro League season 2025/26. \ud83c\uddf8\ud83c\udde6 https://t.co/OcJ7FxykYI",
-      "post": "Jo\u00e3o F\u00e9lix wins Saudi Pro League Player of the Season.\n\nMeanwhile in Europe, people are still arguing whether he's actually any good.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2088740972687729035",
-      "threads_url": null
-    },
     {
       "at": "2026-08-16 07:41 UTC",
       "source_author": "FabrizioRomano",
@@ -2100,6 +2092,14 @@
       "source_author": "JamesPearceLFC",
       "source": "Liverpool have announced the signing of Bradley Barcola from PSG in a \u00a3123m deal - \u00a3106m guaranteed with a further \u00a317m in add-ons. \nThe France international has penned a five-year contract and will wear the No 29 shirt.\nhttps://t.co/lwKIjwqoDu",
       "post": "BREAKING: Liverpool sign Bradley Barcola for \u00a3123m.\n\nOoh look at me, I'm FSG and I'm gonna spend like Chelsea now but pretend it's different because Arne said so.\n\nMental.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-02 17:26 UTC",
+      "source_author": "JacobsBen",
+      "source": "Chelsea spent around \u00a3328m this window as they looked for proven Premier League quality along with squad depth and balance.\n\nThey generated around \u00a3519m in player sales and loan fees, which is believed to be a record.\n\nIn selling Enzo Fernandez for \u00a3125m, Chelsea became the first club to make a profit on a \u00a3100m player.\n\nMissing out on Lamine Camara was an unexpected and dramatic end to the window, but a saga caused by Monaco.\n\n10 first-team players arrived this summer, while Reece James is expected to play a leading role in midfield this season.\ud83d\udd35",
+      "post": "BREAKING: Chelsea sold Enzo Fernandez for \u00a3125m and made a profit on a \u00a3100m player.\n\nThey also spent \u00a3328m, sold \u00a3519m worth, and still missed out on Lamine Camara. Only Chelsea could lose a transfer saga to Monaco and call it a successful window.",
       "x_url": null,
       "threads_url": null
     }
