@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2080264564000633301",
     "2080239356552335581",
     "2080297731797500325",
     "2080336083582177361",
@@ -499,18 +498,11 @@
     "2094680852009509234",
     "2094723550426943625",
     "2094410076375134516",
-    "2095117497418633567"
+    "2095117497418633567",
+    "2094917201887142004"
   ],
-  "post_count": 1509,
+  "post_count": 1510,
   "posts": [
-    {
-      "at": "2026-08-16 07:41 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83d\udd35\ud83d\udd34 Barcelona are confident to get green light for Jo\u00e3o Cancelo\u2019s comeback and proceed with his return next week.\n\nCancelo, discussing contract termination at Al Hilal as Saudi sources reported \u2014 with Bar\u00e7a expecting him to arrive in few days. https://t.co/FfKwVcsB7P",
-      "post": "BREAKING: Jo\u00e3o Cancelo heading back to Barcelona after his Saudi Arabia experiment lasted about five minutes.\n\nMan really said 'I'll take the Saudi money and then just leave' like it's a Netflix subscription.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2088893764454826364",
-      "threads_url": null
-    },
     {
       "at": "2026-08-16 07:57 UTC",
       "source_author": "FabrizioRomano",
@@ -2100,6 +2092,14 @@
       "source_author": "JacobsBen",
       "source": "Chelsea spent around \u00a3328m this window as they looked for proven Premier League quality along with squad depth and balance.\n\nThey generated around \u00a3519m in player sales and loan fees, which is believed to be a record.\n\nIn selling Enzo Fernandez for \u00a3125m, Chelsea became the first club to make a profit on a \u00a3100m player.\n\nMissing out on Lamine Camara was an unexpected and dramatic end to the window, but a saga caused by Monaco.\n\n10 first-team players arrived this summer, while Reece James is expected to play a leading role in midfield this season.\ud83d\udd35",
       "post": "BREAKING: Chelsea sold Enzo Fernandez for \u00a3125m and made a profit on a \u00a3100m player.\n\nThey also spent \u00a3328m, sold \u00a3519m worth, and still missed out on Lamine Camara. Only Chelsea could lose a transfer saga to Monaco and call it a successful window.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-02 17:53 UTC",
+      "source_author": "SkySportsNews",
+      "source": "BREAKING: Manchester City sign Enzo Fernandez from Chelsea for a Premier League record-equalling fee of \u00a3125m \ud83d\udd35 https://t.co/UedMsv1HkX",
+      "post": "BREAKING: Manchester City sign Enzo Fernandez from Chelsea for \u00a3125m.\n\nChelsea fans watching their own midfield get recycled back into the league at a premium. Lovely.",
       "x_url": null,
       "threads_url": null
     }
