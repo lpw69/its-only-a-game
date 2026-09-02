@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2080038322999627939",
     "2080237132732354874",
     "2080264564000633301",
     "2080239356552335581",
@@ -499,18 +498,11 @@
     "2094910524420956487",
     "2094917521589592509",
     "2094680852009509234",
-    "2094723550426943625"
+    "2094723550426943625",
+    "2094410076375134516"
   ],
-  "post_count": 1507,
+  "post_count": 1508,
   "posts": [
-    {
-      "at": "2026-08-15 19:40 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83d\udd34 Marcus Rashford has made his official comeback at Manchester United after loan at Barcelona last season. https://t.co/egNT43bBCH",
-      "post": "BREAKING: Marcus Rashford returns to Manchester United after a season at Barcelona.\n\nOoh look at me, I'm Marcus, and I'm gonna flee to Spain for a reset then come straight back because nothing changes at Old Trafford.\n\nClassic.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2088712430109237608",
-      "threads_url": null
-    },
     {
       "at": "2026-08-15 21:33 UTC",
       "source_author": "FabrizioRomano",
@@ -2100,6 +2092,14 @@
       "source_author": "David_Ornstein",
       "source": "\ud83d\udea8 EXCL: Sunderland reach agreement with Lyon to sign Malick Fofana. 21yo winger given permission to travel for medical &amp; complete permanent transfer from #OlympiqueLyonnais to #SAFC. Paperwork stage for Belgium int\u2019l to move on 5yr contract @TheAthleticFC https://t.co/zGVGu8X4kM",
       "post": "EXCLUSIVE: Sunderland sign Malick Fofana from Lyon on a 5-year deal.\n\nA 21-year-old winger committing five years to the Stadium of Light. Either he's brilliant or he's never heard of Sunderland's last 10 years.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-02 15:17 UTC",
+      "source_author": "JamesPearceLFC",
+      "source": "Liverpool have announced the signing of Bradley Barcola from PSG in a \u00a3123m deal - \u00a3106m guaranteed with a further \u00a317m in add-ons. \nThe France international has penned a five-year contract and will wear the No 29 shirt.\nhttps://t.co/lwKIjwqoDu",
+      "post": "BREAKING: Liverpool sign Bradley Barcola for \u00a3123m.\n\nOoh look at me, I'm FSG and I'm gonna spend like Chelsea now but pretend it's different because Arne said so.\n\nMental.",
       "x_url": null,
       "threads_url": null
     }
