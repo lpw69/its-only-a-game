@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2080711024370504071",
     "2080589042043748534",
     "2080582069025923123",
     "2080650841623601414",
@@ -499,18 +498,11 @@
     "2095551923608789443",
     "2095466659787981233",
     "2094756193285583332",
-    "2095567942075183418"
+    "2095567942075183418",
+    "2095554563059151154"
   ],
-  "post_count": 1526,
+  "post_count": 1527,
   "posts": [
-    {
-      "at": "2026-08-17 11:53 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83d\udd35\ud83d\udd34 Breaking: Sergio Busquets makes first step in his new career as manager as he signs in as Barcelona B assistant coach.\n\nBusquets will work closely with Juliano Belletti while he follows the process to get his coaching license. https://t.co/8pZhZUCJIB",
-      "post": "BREAKING: Sergio Busquets becomes Barcelona B assistant coach.\n\nOoh look at me, I'm Sergio, I'm gonna spend 20 years perfecting the art of a five-yard pass and then immediately start coaching without my badge.\n\nBrilliant.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2089319667664142726",
-      "threads_url": null
-    },
     {
       "at": "2026-08-17 14:05 UTC",
       "source_author": "FabrizioRomano",
@@ -2100,6 +2092,14 @@
       "source_author": "FabrizioRomano",
       "source": "\ud83d\udea8\u274c Richarlison has been left out of Tottenham Premier League squad. https://t.co/ItAMJUp7CQ",
       "post": "BREAKING: Richarlison left out of Tottenham's Premier League squad.\n\nSpurs really said 'we've got too many good players, let's make it harder for ourselves'. Classic.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-03 23:17 UTC",
+      "source_author": "JacobsBen",
+      "source": "Gabriel Martinelli has signed a four-year contract at Al-Hilal and will wear No.7.\ud83d\udd35 https://t.co/BIupvh77sQ",
+      "post": "BREAKING: Gabriel Martinelli signs for Al-Hilal on a four-year deal, gets No.7.\n\nArsenal fans in shambles. Martinelli in Saudi Arabia. Everyone wins.",
       "x_url": null,
       "threads_url": null
     }
