@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2080556336841195630",
     "2080711024370504071",
     "2080589042043748534",
     "2080582069025923123",
@@ -499,18 +498,11 @@
     "2095560329472454690",
     "2095551923608789443",
     "2095466659787981233",
-    "2094756193285583332"
+    "2094756193285583332",
+    "2095567942075183418"
   ],
-  "post_count": 1525,
+  "post_count": 1526,
   "posts": [
-    {
-      "at": "2026-08-17 10:49 UTC",
-      "source_author": "SkySportsNews",
-      "source": "EXCLUSIVE: Amar Dedi\u0107 has arrived in the UK ahead of his \u00a329.5m move to Newcastle United \ud83d\udea8 https://t.co/BhMgOH26mU",
-      "post": "EXCLUSIVE: Amar Dedi\u0107 has arrived in the UK ahead of his \u00a329.5m move to Newcastle.\n\nNewcastle spending thirty million quid on someone. They're really committing to the whole 'sod it, throw money at it' strategy.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2089303586358632499",
-      "threads_url": null
-    },
     {
       "at": "2026-08-17 11:53 UTC",
       "source_author": "FabrizioRomano",
@@ -2100,6 +2092,14 @@
       "source_author": "David_Ornstein",
       "source": "\ud83d\udea8 BREAKING: Crystal Palace working to hijack Sunderland move for Malick Fofana. Pierre Sage spoke to 21yo in bid to sway deal for #CPFC on same terms #SAFC struck with #OlympiqueLyonnais; not closed but situation advancing @TheAthleticFC after @Santi_J_FM https://t.co/9OR0QSgSar",
       "post": "BREAKING: Crystal Palace working to hijack Sunderland's Malick Fofana deal.\n\nPierre Sage basically saying 'same wages, better weather, also we're not Sunderland' and hoping it lands.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-03 21:47 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\u274c Richarlison has been left out of Tottenham Premier League squad. https://t.co/ItAMJUp7CQ",
+      "post": "BREAKING: Richarlison left out of Tottenham's Premier League squad.\n\nSpurs really said 'we've got too many good players, let's make it harder for ourselves'. Classic.",
       "x_url": null,
       "threads_url": null
     }
