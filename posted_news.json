@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2080763657256829417",
     "2080998434505474268",
     "2080759836329799917",
     "2080911175189925923",
@@ -499,18 +498,11 @@
     "2095856516397924782",
     "2095892767939424688",
     "2095099660721377652",
-    "2095955022676631601"
+    "2095955022676631601",
+    "2094928924434112599"
   ],
-  "post_count": 1535,
+  "post_count": 1536,
   "posts": [
-    {
-      "at": "2026-08-18 14:46 UTC",
-      "source_author": "David_Ornstein",
-      "source": "\ud83d\udea8 Ipswich Town sign Julio Enciso from Strasbourg on permanent basis. Package for 22yo #RCSA attacking midfielder worth in excess of \u20ac30m including add-ons + future sale clause. Medical done; 5yr contract. Abdoul Ouattara also joining #ITFC @TheAthleticFC https://t.co/Ua8B17uO3s",
-      "post": "BREAKING: Ipswich sign Julio Enciso for \u20ac30m plus add-ons.\n\nA newly promoted side spending big on a 22yo attacking midfielder. What could possibly go wrong.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2089725625959665807",
-      "threads_url": null
-    },
     {
       "at": "2026-08-18 16:00 UTC",
       "source_author": "FabrizioRomano",
@@ -2100,6 +2092,14 @@
       "source_author": "FabrizioRomano",
       "source": "\ud83d\udd34\ud83d\udd2b Alexander Isak with a brace in 9 mins has already reached last season\u2019s goal amount \u2014 3 PL goals scored so far. https://t.co/ctThKV5f87",
       "post": "BREAKING: Alexander Isak scores twice in 9 minutes, matches his entire last season's PL tally in one game.\n\nNewcastle fans currently checking if this is real or if they've finally lost it.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-04 21:36 UTC",
+      "source_author": "David_Ornstein",
+      "source": "\ud83d\udea8 Folarin Balogun transfer from Monaco to Everton off. Deal for 25yo #ASMonaco striker renegotiated after issues during medical &amp; deal sheet submitted; but USA international decided not to proceed + left #EFC training ground without signing @TheAthleticFC https://t.co/uXjWE3Nd95",
+      "post": "BREAKING: Folarin Balogun walks out of Everton medical.\n\nEverton fans about to experience what every other club already knows: sometimes the player just looks at your medical results and goes 'nah'.",
       "x_url": null,
       "threads_url": null
     }
