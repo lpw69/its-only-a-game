@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2080589042043748534",
     "2080582069025923123",
     "2080650841623601414",
     "2080813218184692059",
@@ -499,18 +498,11 @@
     "2095466659787981233",
     "2094756193285583332",
     "2095567942075183418",
-    "2095554563059151154"
+    "2095554563059151154",
+    "2095626769160126957"
   ],
-  "post_count": 1527,
+  "post_count": 1528,
   "posts": [
-    {
-      "at": "2026-08-17 14:05 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udd35\ud83d\udd34\u2708\ufe0f Jo\u00e3o Cancelo, on his way to Barcelona today\u2026\n\n\u2026and Rodri will be next, both arriving for medical then contract signing. https://t.co/kdmO8eSg3Y",
-      "post": "BREAKING: Jo\u00e3o Cancelo on his way to Barcelona today, Rodri next.\n\nMan City really said 'we've won enough, let's help everyone else now'.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2089352958848979002",
-      "threads_url": null
-    },
     {
       "at": "2026-08-17 14:38 UTC",
       "source_author": "David_Ornstein",
@@ -2100,6 +2092,14 @@
       "source_author": "JacobsBen",
       "source": "Gabriel Martinelli has signed a four-year contract at Al-Hilal and will wear No.7.\ud83d\udd35 https://t.co/BIupvh77sQ",
       "post": "BREAKING: Gabriel Martinelli signs for Al-Hilal on a four-year deal, gets No.7.\n\nArsenal fans in shambles. Martinelli in Saudi Arabia. Everyone wins.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-04 12:08 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\u274c OFFICIAL: Federico Chiesa and Wataru Endo have been left out of Liverpool Champions League squad. https://t.co/rmBAjNDvra",
+      "post": "OFFICIAL: Federico Chiesa and Wataru Endo left out of Liverpool's Champions League squad.\n\nTwo signings, zero European football. Liverpool fans going again.",
       "x_url": null,
       "threads_url": null
     }
