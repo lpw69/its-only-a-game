@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2080719134375944221",
     "2080901863579258989",
     "2080727574464922027",
     "2080683868693082562",
@@ -499,18 +498,11 @@
     "2095626769160126957",
     "2095684241551991008",
     "2095762785850560888",
-    "2095749196305568197"
+    "2095749196305568197",
+    "2095856516397924782"
   ],
-  "post_count": 1531,
+  "post_count": 1532,
   "posts": [
-    {
-      "at": "2026-08-18 07:50 UTC",
-      "source_author": "David_Ornstein",
-      "source": "\ud83d\udea8 Barcelona strike agreement with Manchester City to sign Rodri. \u20ac76.5m package. \u20ac60m fixed &amp; above \u20ac11m of bonuses viewed as highly achievable so #MCFC can expect at least \u20ac71.5m despite Spain captain entering final 12mnths of contract @TheAthleticFC https://t.co/n3GL7VsEVQ",
-      "post": "BREAKING: Barcelona strike agreement to sign Rodri from Manchester City for \u20ac76.5m.\n\nOoh look at me, I'm Barcelona and I'm gonna spend \u20ac76.5m on a midfielder entering the final year of his contract because our finances are definitely fine.\n\nMental.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2089620861523579364",
-      "threads_url": null
-    },
     {
       "at": "2026-08-18 10:06 UTC",
       "source_author": "SkySportsNews",
@@ -2100,6 +2092,14 @@
       "source_author": "FabrizioRomano",
       "source": "\ud83d\udea8\ud83c\udf15 Final 30 nominees for the Ballon d\u2019Or 2026 will be released on Tuesday. https://t.co/LshbkpdYxn",
       "post": "BREAKING: 30 Ballon d'Or nominees dropping Tuesday.\n\nArsenal fans already preparing their 47-slide PowerPoint on why Saka should've made it.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-04 15:06 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83e\ude75 OFFICIAL: Manchester City captains announced by Enzo Maresca.\n\n\u00a9\ufe0f Ruben Dias\n\u00a9\ufe0f Erling Haaland\n\u00a9\ufe0f Marc Guehi \n\u00a9\ufe0f Gianluigi Donnarumma https://t.co/Qz4L67NAJ8",
+      "post": "OFFICIAL: Manchester City captains announced by Enzo Maresca.\n\nRuben Dias, Erling Haaland, Marc Guehi and Gianluigi Donnarumma.\n\nSo they've got four of them now. Just in case one loses the armband mid-match.",
       "x_url": null,
       "threads_url": null
     }
