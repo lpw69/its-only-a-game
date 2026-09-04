@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2080813218184692059",
     "2080719134375944221",
     "2080901863579258989",
     "2080727574464922027",
@@ -499,18 +498,11 @@
     "2095554563059151154",
     "2095626769160126957",
     "2095684241551991008",
-    "2095762785850560888"
+    "2095762785850560888",
+    "2095749196305568197"
   ],
-  "post_count": 1530,
+  "post_count": 1531,
   "posts": [
-    {
-      "at": "2026-08-17 21:38 UTC",
-      "source_author": "David_Ornstein",
-      "source": "\ud83d\udea8 EXCL: Aston Villa receive fresh bid from Juventus for Emiliano Martinez &amp; gap between valuations now narrowing. #Juve willing to pay up to \u20ac10m (\u20ac7+3m) - #AVFC want \u20ac10m fixed. Personal terms for 33yo goalkeeper no issue. W @J_Tanswell @TheAthleticFC https://t.co/TZ9TOP5Lv9",
-      "post": "BREAKING: Juventus bidding \u20ac10m for a 33-year-old goalkeeper.\n\nThey're really committing to the long-term project, aren't they.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2089466992604614820",
-      "threads_url": null
-    },
     {
       "at": "2026-08-18 07:50 UTC",
       "source_author": "David_Ornstein",
@@ -2100,6 +2092,14 @@
       "source_author": "FabrizioRomano",
       "source": "\ud83d\udd34\ud83d\udc4b\ud83c\udffc Luis Enrique: \u201cBarcola grew enormously in Paris, but he also helped the team grow enormously\u201d.\n\n\u201cHe wanted more playing time than I could guarantee him\u201d.\n\n\u201cIn the end, I think everyone is a winner with that transfer. I truly wish him all the best\u201d. https://t.co/aWhKCxk7z7",
       "post": "Luis Enrique on Barcola leaving: 'Everyone is a winner'.\n\nTranslation: He wanted to play more than I was willing to let him. No hard feelings though, genuinely.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-04 13:50 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83c\udf15 Final 30 nominees for the Ballon d\u2019Or 2026 will be released on Tuesday. https://t.co/LshbkpdYxn",
+      "post": "BREAKING: 30 Ballon d'Or nominees dropping Tuesday.\n\nArsenal fans already preparing their 47-slide PowerPoint on why Saka should've made it.",
       "x_url": null,
       "threads_url": null
     }
