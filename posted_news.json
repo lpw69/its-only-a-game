@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2080727574464922027",
     "2080683868693082562",
     "2080763657256829417",
     "2080998434505474268",
@@ -499,18 +498,11 @@
     "2095762785850560888",
     "2095749196305568197",
     "2095856516397924782",
-    "2095892767939424688"
+    "2095892767939424688",
+    "2095099660721377652"
   ],
-  "post_count": 1533,
+  "post_count": 1534,
   "posts": [
-    {
-      "at": "2026-08-18 10:47 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83c\udf15 Pau Cubars\u00ed currently leading the votes for Golden Boy Award 2026.\n\nTuttosport release current standings waiting for final votes to take place later this year.\n\nCubars\u00ed, currently on top with Lamine Yamal second (but he can\u2019t win this year again due to regulations) and Yan Diomande third.",
-      "post": "BREAKING: Pau Cubars\u00ed leading Golden Boy votes.\n\nLamine Yamal in second but can't win due to regulations, which is the most Lamine Yamal outcome possible - being too good too young for the rules.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2089665462686937499",
-      "threads_url": null
-    },
     {
       "at": "2026-08-18 11:54 UTC",
       "source_author": "henrywinter",
@@ -2100,6 +2092,14 @@
       "source_author": "FabrizioRomano",
       "source": "1\ufe0f\u20e3\ud83c\udde6\ud83c\uddf7 Official: Emiliano Dibu Mart\u00ednez takes shirt number 1 at Chelsea following Robert Sanchez exit. https://t.co/gne6gc8fpc",
       "post": "BREAKING: Dibu Mart\u00ednez officially takes number 1 at Chelsea.\n\nRobert Sanchez watched this unfold and realised he'd been replaced by a bloke who's won a World Cup. Lovely timing.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-04 18:35 UTC",
+      "source_author": "David_Ornstein",
+      "source": "\ud83d\udea8 Excl: Players making 1st Champions League appearance this season to wear \u2018debut patch\u2019 on shirt as part of new 6yr UEFA/Fanatics contract. Patch then goes into signed Topps trading card - same in NBA poised be auctioned next week for ~$5m @TheAthleticFC https://t.co/VAmg5Efp2c",
+      "post": "BREAKING: UEFA and Fanatics have invented a way to monetise a player's first Champions League game by stitching a patch onto their shirt, then auctioning it as a trading card.\n\nFootball has officially run out of things to sell. Next they'll be charging for sweat.",
       "x_url": null,
       "threads_url": null
     }
