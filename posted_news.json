@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2080901863579258989",
     "2080727574464922027",
     "2080683868693082562",
     "2080763657256829417",
@@ -499,18 +498,11 @@
     "2095684241551991008",
     "2095762785850560888",
     "2095749196305568197",
-    "2095856516397924782"
+    "2095856516397924782",
+    "2095892767939424688"
   ],
-  "post_count": 1532,
+  "post_count": 1533,
   "posts": [
-    {
-      "at": "2026-08-18 10:06 UTC",
-      "source_author": "SkySportsNews",
-      "source": "Manchester United captain Bruno Fernandes is not for sale at any price despite Galatasaray interest \ud83d\udea8 https://t.co/pWupnPGdGk",
-      "post": "BREAKING: Manchester United confirm Bruno Fernandes not for sale.\n\nGalatasaray breathing a sigh of relief that they don't have to actually spend money.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2089655117696114853",
-      "threads_url": null
-    },
     {
       "at": "2026-08-18 10:47 UTC",
       "source_author": "FabrizioRomano",
@@ -2100,6 +2092,14 @@
       "source_author": "FabrizioRomano",
       "source": "\ud83d\udea8\ud83e\ude75 OFFICIAL: Manchester City captains announced by Enzo Maresca.\n\n\u00a9\ufe0f Ruben Dias\n\u00a9\ufe0f Erling Haaland\n\u00a9\ufe0f Marc Guehi \n\u00a9\ufe0f Gianluigi Donnarumma https://t.co/Qz4L67NAJ8",
       "post": "OFFICIAL: Manchester City captains announced by Enzo Maresca.\n\nRuben Dias, Erling Haaland, Marc Guehi and Gianluigi Donnarumma.\n\nSo they've got four of them now. Just in case one loses the armband mid-match.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-04 17:08 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "1\ufe0f\u20e3\ud83c\udde6\ud83c\uddf7 Official: Emiliano Dibu Mart\u00ednez takes shirt number 1 at Chelsea following Robert Sanchez exit. https://t.co/gne6gc8fpc",
+      "post": "BREAKING: Dibu Mart\u00ednez officially takes number 1 at Chelsea.\n\nRobert Sanchez watched this unfold and realised he'd been replaced by a bloke who's won a World Cup. Lovely timing.",
       "x_url": null,
       "threads_url": null
     }
