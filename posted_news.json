@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2081132996162097184",
     "2080371250942108110",
     "2081181846579134614",
     "2081327338642378769",
@@ -499,18 +498,11 @@
     "2096124418883981666",
     "2095983177311596712",
     "2096215333900013978",
-    "2096263490507800957"
+    "2096263490507800957",
+    "2096283828562034866"
   ],
-  "post_count": 1546,
+  "post_count": 1547,
   "posts": [
-    {
-      "at": "2026-08-19 14:18 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\u26ab\ufe0f\ud83d\udd35 EXCLUSIVE: Inter agree deal to sign Curtis Jones from Liverpool, here we go! \ud83d\udca3\n\nVerbal agreement in place at \u20ac35m package fee from #LFC, agreement also with the player and medical being planned next. https://t.co/rh5IUbVgsb",
-      "post": "BREAKING: Inter agree deal to sign Curtis Jones from Liverpool for \u20ac35m.\n\nLiverpool really said 'academy product coming good?' and decided to sell him instead of, you know, keeping him.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2090080966232719533",
-      "threads_url": null
-    },
     {
       "at": "2026-08-19 14:46 UTC",
       "source_author": "David_Ornstein",
@@ -2100,6 +2092,14 @@
       "source_author": "FabrizioRomano",
       "source": "\u26aa\ufe0f\ud83c\uddfa\ud83c\udde6 Mykhaylo Mudryk, back in professional game after two year ban. https://t.co/6mZycbEwb0",
       "post": "BREAKING: Mykhaylo Mudryk back in professional football after two year ban.\n\nTwo years away from the game and somehow still fresher than half the Premier League right now.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-05 22:55 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8 Diego Simeone when asked why Juli\u00e1n \u00c1lvarez didn\u2019t train after the game with the subs: \u201cAre you really asking this question?\u201d.\n\n\u201cI have nothing to say\u201d. https://t.co/1jbElOSVcd",
+      "post": "BREAKING: Diego Simeone asked a straightforward question about team selection.\n\nSimeone's response: 'Are you really asking this question?' followed by complete radio silence.\n\nSo that's a no then.",
       "x_url": null,
       "threads_url": null
     }
