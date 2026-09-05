@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2080998434505474268",
     "2080759836329799917",
     "2080911175189925923",
     "2080918474696860109",
@@ -499,18 +498,11 @@
     "2095892767939424688",
     "2095099660721377652",
     "2095955022676631601",
-    "2094928924434112599"
+    "2094928924434112599",
+    "2096036975874584687"
   ],
-  "post_count": 1536,
+  "post_count": 1537,
   "posts": [
-    {
-      "at": "2026-08-18 16:00 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83d\udd35\ud83d\udd34 \u201cI am so, so happy. It\u2019s a dream\u201d.\n\nRodri has signed with Barcelona until June 2030. https://t.co/NmP2sYKilK",
-      "post": "BREAKING: Rodri signs for Barcelona until 2030.\n\nOoh look at me, I'm Barcelona and I'm gonna sign a world-class midfielder when my entire midfield is held together with sellotape and prayers.\n\nMental.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2089744251890676107",
-      "threads_url": null
-    },
     {
       "at": "2026-08-18 16:48 UTC",
       "source_author": "David_Ornstein",
@@ -2100,6 +2092,14 @@
       "source_author": "David_Ornstein",
       "source": "\ud83d\udea8 Folarin Balogun transfer from Monaco to Everton off. Deal for 25yo #ASMonaco striker renegotiated after issues during medical &amp; deal sheet submitted; but USA international decided not to proceed + left #EFC training ground without signing @TheAthleticFC https://t.co/uXjWE3Nd95",
       "post": "BREAKING: Folarin Balogun walks out of Everton medical.\n\nEverton fans about to experience what every other club already knows: sometimes the player just looks at your medical results and goes 'nah'.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-05 11:53 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udc10 AS Monaco manager Filipe Luis after beating PSG: \u201cFor me, Luis Enrique is not just the best manager in the world. He\u2019s one of the best EVER\u201d.\n\n\u201cI can only learn a lot from him\u201d. https://t.co/Z0nqr6UOVz",
+      "post": "BREAKING: AS Monaco manager Filipe Luis beats PSG then immediately starts writing Luis Enrique a thank you card.\n\nThe man just won and still managed to make it about someone else. Lovely stuff.",
       "x_url": null,
       "threads_url": null
     }
