@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2080759836329799917",
     "2080911175189925923",
     "2080918474696860109",
     "2081016115346526220",
@@ -499,18 +498,11 @@
     "2095099660721377652",
     "2095955022676631601",
     "2094928924434112599",
-    "2096036975874584687"
+    "2096036975874584687",
+    "2096040946487968011"
   ],
-  "post_count": 1537,
+  "post_count": 1538,
   "posts": [
-    {
-      "at": "2026-08-18 16:48 UTC",
-      "source_author": "David_Ornstein",
-      "source": "\ud83d\udea8 Tottenham Hotspur accept Juventus bid for Guglielmo Vicario. Proposal sent overnight; loan + option to buy 29yo #THFC goalkeeper next summer. All parties expect signing of Italy int\u2019l by #Juve to go ahead after Martinez pursuit called off @TheAthleticFC https://t.co/ig7rP2SIOM",
-      "post": "BREAKING: Tottenham accept Juventus bid for Vicario.\n\nSpurs finally selling a goalkeeper before he turns 35 and forgets how to dive. Progress.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2089756363576746106",
-      "threads_url": null
-    },
     {
       "at": "2026-08-18 19:17 UTC",
       "source_author": "FabrizioRomano",
@@ -2100,6 +2092,14 @@
       "source_author": "FabrizioRomano",
       "source": "\ud83d\udea8\ud83d\udc10 AS Monaco manager Filipe Luis after beating PSG: \u201cFor me, Luis Enrique is not just the best manager in the world. He\u2019s one of the best EVER\u201d.\n\n\u201cI can only learn a lot from him\u201d. https://t.co/Z0nqr6UOVz",
       "post": "BREAKING: AS Monaco manager Filipe Luis beats PSG then immediately starts writing Luis Enrique a thank you card.\n\nThe man just won and still managed to make it about someone else. Lovely stuff.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-05 13:05 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udc40\ud83c\udfc6 Luis Enrique on 0 wins in 3 games this season in Ligue1 so far: \u201cIf you want to bet on who will be champions, let\u2019s bet\u2026 but I\u2019m saying nothing!\u201d. https://t.co/A4CJEa3YBa",
+      "post": "BREAKING: Luis Enrique on 0 wins in 3 Ligue1 games: 'If you want to bet on who will be champions, let's bet... but I'm saying nothing!'\n\nTranslation: 'Please stop asking me about this.'",
       "x_url": null,
       "threads_url": null
     }
