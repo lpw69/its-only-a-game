@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2080911175189925923",
     "2080918474696860109",
     "2081016115346526220",
     "2080985151698341950",
@@ -499,18 +498,11 @@
     "2095955022676631601",
     "2094928924434112599",
     "2096036975874584687",
-    "2096040946487968011"
+    "2096040946487968011",
+    "2094910434478326212"
   ],
-  "post_count": 1538,
+  "post_count": 1539,
   "posts": [
-    {
-      "at": "2026-08-18 19:17 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83d\udd35\ud83d\udd34 OFFICIAL: Rodri joins Barcelona on \u20ac60m plus \u20ac15m add-ons deal from Man City. https://t.co/8mxK1FNsxz",
-      "post": "BREAKING: Rodri joins Barcelona on \u20ac60m plus \u20ac15m add-ons.\n\nMan City's midfield just got significantly worse and Barcelona's wage bill just got significantly fatter. Beautiful symmetry.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2089793912877789471",
-      "threads_url": null
-    },
     {
       "at": "2026-08-18 21:36 UTC",
       "source_author": "SkySportsNews",
@@ -2100,6 +2092,14 @@
       "source_author": "FabrizioRomano",
       "source": "\ud83d\udc40\ud83c\udfc6 Luis Enrique on 0 wins in 3 games this season in Ligue1 so far: \u201cIf you want to bet on who will be champions, let\u2019s bet\u2026 but I\u2019m saying nothing!\u201d. https://t.co/A4CJEa3YBa",
       "post": "BREAKING: Luis Enrique on 0 wins in 3 Ligue1 games: 'If you want to bet on who will be champions, let's bet... but I'm saying nothing!'\n\nTranslation: 'Please stop asking me about this.'",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-05 13:29 UTC",
+      "source_author": "David_Ornstein",
+      "source": "\ud83d\udea8 Lamine Camara from AS Monaco to Chelsea collapses. #CFC say full written agreement found for 22yo midfielder to join before #ASMonaco reneged following renegotiation of Folarin Balogun transfer to Everton. Senegal international\u2019s move off @TheAthleticFC https://t.co/l2TyjsmAqB",
+      "post": "BREAKING: Chelsea's Lamine Camara deal collapses after Monaco reneges following Balogun's Everton move.\n\nSo they had a full written agreement and still couldn't get it over the line. That's a new one.",
       "x_url": null,
       "threads_url": null
     }
