@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2080918474696860109",
     "2081016115346526220",
     "2080985151698341950",
     "2080926031909716066",
@@ -499,18 +498,11 @@
     "2094928924434112599",
     "2096036975874584687",
     "2096040946487968011",
-    "2094910434478326212"
+    "2094910434478326212",
+    "2096103279436480874"
   ],
-  "post_count": 1539,
+  "post_count": 1540,
   "posts": [
-    {
-      "at": "2026-08-18 21:36 UTC",
-      "source_author": "SkySportsNews",
-      "source": "\"To play for Barcelona is a dream for me\" \ud83c\udf1f\n\nRodri has landed in Barcelona for his medical ahead of his move to the Spanish side \ud83d\udcdd https://t.co/CEgHdOfWwl",
-      "post": "BREAKING: Rodri lands in Barcelona for medical.\n\nLad's gonna win the Ballon d'Or, get injured in week three, then spend six months explaining how he's still the best midfielder in the world.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2089828709520097570",
-      "threads_url": null
-    },
     {
       "at": "2026-08-19 07:50 UTC",
       "source_author": "FabrizioRomano",
@@ -2100,6 +2092,14 @@
       "source_author": "David_Ornstein",
       "source": "\ud83d\udea8 Lamine Camara from AS Monaco to Chelsea collapses. #CFC say full written agreement found for 22yo midfielder to join before #ASMonaco reneged following renegotiation of Folarin Balogun transfer to Everton. Senegal international\u2019s move off @TheAthleticFC https://t.co/l2TyjsmAqB",
       "post": "BREAKING: Chelsea's Lamine Camara deal collapses after Monaco reneges following Balogun's Everton move.\n\nSo they had a full written agreement and still couldn't get it over the line. That's a new one.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-05 14:01 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udd35\ud83d\udd34 Lamine Yamal has been added to Barcelona captains for this season.\n\nDecision made by Hansi Flick and by the players voting, reports @mundodeportivo. https://t.co/WaLk68ehAt",
+      "post": "BREAKING: Lamine Yamal added to Barcelona captains.\n\nLad's 17. Hansi Flick really said 'you know what this dressing room needs? A teenager telling grown men what to do.'",
       "x_url": null,
       "threads_url": null
     }
