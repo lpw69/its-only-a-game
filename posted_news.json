@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2081015438545244583",
     "2081094490266509798",
     "2080759422591119621",
     "2081132996162097184",
@@ -499,18 +498,11 @@
     "2096103279436480874",
     "2096207454933508460",
     "2096084656915661288",
-    "2096124418883981666"
+    "2096124418883981666",
+    "2095983177311596712"
   ],
-  "post_count": 1543,
+  "post_count": 1544,
   "posts": [
-    {
-      "at": "2026-08-19 10:11 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83d\udd34 Manchester United are set to sign Carlos Baleba from Brighton as new midfielder!\n\nOfficial bid over \u20ac70m plus \u20ac6m add-ons sent to Brighton, as per @David_Ornstein.\n\nNo club to club agreement yet but #MUFC to send new bid.\n\nBaleba, pushing since August 2025 to join United. https://t.co/pINmzs2TNI",
-      "post": "BREAKING: Manchester United bidding \u20ac70m plus add-ons for Brighton midfielder Carlos Baleba.\n\nOoh look at me, I'm United and I'm gonna spend a fortune on a player who's been pushing to leave since August. What could possibly go wrong.\n\nPathetic.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2090018906513834487",
-      "threads_url": null
-    },
     {
       "at": "2026-08-19 10:46 UTC",
       "source_author": "David_Ornstein",
@@ -2100,6 +2092,14 @@
       "source_author": "FabrizioRomano",
       "source": "\ud83d\udea8\ud83d\udd35 Enzo Maresca on Enzo Fern\u00e1ndez saying he joined a \u201cbig club\u201d: \u201cMy view is that he was in a big club at Chelsea and he joins a big club at Man City\u201d. https://t.co/lG96GCZVMb",
       "post": "BREAKING: Enzo Maresca says Enzo Fern\u00e1ndez left a big club to join a big club.\n\nSo Chelsea fans are massive then.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-05 19:10 UTC",
+      "source_author": "BBCSport",
+      "source": "Alexia Putellas will get used to the English weather soon (probably) \ud83d\ude05\ud83e\udd76 https://t.co/YYHj9GLotq",
+      "post": "Alexia Putellas heading to England then.\n\nGirl's about to discover that 'English weather' is a polite way of saying 'it rains sideways and the sun is a myth'.",
       "x_url": null,
       "threads_url": null
     }
