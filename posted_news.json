@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2080371250942108110",
     "2081181846579134614",
     "2081327338642378769",
     "2081338435495690431",
@@ -499,18 +498,11 @@
     "2095983177311596712",
     "2096215333900013978",
     "2096263490507800957",
-    "2096283828562034866"
+    "2096283828562034866",
+    "2096267402786803773"
   ],
-  "post_count": 1547,
+  "post_count": 1548,
   "posts": [
-    {
-      "at": "2026-08-19 14:46 UTC",
-      "source_author": "David_Ornstein",
-      "source": "\ud83d\udea8 EXCL: Arsenal closing in on deal to sign Ezri Konsa from Aston Villa. 28yo defender high on #AFC target list all summer &amp; work now advancing with #AVFC to finalise after dialogue at ownership level to reduce valuation gap for England intl @TheAthleticFC https://t.co/ObmcU2Uq7T",
-      "post": "BREAKING: Arsenal closing in on Ezri Konsa deal.\n\nOoh look at me, I'm Arsenal and I'm gonna spend all summer chasing a 28-year-old defender because the valuation was too high, then panic-buy him anyway.\n\nClassic.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2090087907742867964",
-      "threads_url": null
-    },
     {
       "at": "2026-08-19 16:45 UTC",
       "source_author": "FabrizioRomano",
@@ -2100,6 +2092,14 @@
       "source_author": "FabrizioRomano",
       "source": "\ud83d\udea8 Diego Simeone when asked why Juli\u00e1n \u00c1lvarez didn\u2019t train after the game with the subs: \u201cAre you really asking this question?\u201d.\n\n\u201cI have nothing to say\u201d. https://t.co/1jbElOSVcd",
       "post": "BREAKING: Diego Simeone asked a straightforward question about team selection.\n\nSimeone's response: 'Are you really asking this question?' followed by complete radio silence.\n\nSo that's a no then.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-06 13:13 UTC",
+      "source_author": "JacobsBen",
+      "source": "Ben Chilwell scores the winner on his debut as Crystal Palace win 3-2 at Fulham.\ud83e\udd85 https://t.co/z0ghd56Cx5",
+      "post": "BREAKING: Ben Chilwell scores the winner on his Palace debut.\n\nFulham fans have gone from \"who's this?\" to \"why is he better than our defenders?\" in 90 minutes. Lovely stuff.",
       "x_url": null,
       "threads_url": null
     }
