@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2081181846579134614",
     "2081327338642378769",
     "2081338435495690431",
     "2080243932701569489",
@@ -499,18 +498,11 @@
     "2096215333900013978",
     "2096263490507800957",
     "2096283828562034866",
-    "2096267402786803773"
+    "2096267402786803773",
+    "2096309159662690452"
   ],
-  "post_count": 1548,
+  "post_count": 1549,
   "posts": [
-    {
-      "at": "2026-08-19 16:45 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udd34\u26aa\ufe0f\ud83d\udcf8 Juli\u00e1n \u00c1lvarez, posing with new Atl\u00e9tico Madrid kit for season 2026/27. https://t.co/gQFm3gyH2A",
-      "post": "BREAKING: Juli\u00e1n \u00c1lvarez posing in Atl\u00e9tico Madrid kit for 2026/27.\n\nMan's already planning his wardrobe two years in advance. That's the level of commitment we're talking about.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2090118011017719842",
-      "threads_url": null
-    },
     {
       "at": "2026-08-19 17:46 UTC",
       "source_author": "FabrizioRomano",
@@ -2100,6 +2092,14 @@
       "source_author": "JacobsBen",
       "source": "Ben Chilwell scores the winner on his debut as Crystal Palace win 3-2 at Fulham.\ud83e\udd85 https://t.co/z0ghd56Cx5",
       "post": "BREAKING: Ben Chilwell scores the winner on his Palace debut.\n\nFulham fans have gone from \"who's this?\" to \"why is he better than our defenders?\" in 90 minutes. Lovely stuff.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-06 14:23 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\u26aa\ufe0f\ud83c\uddf5\ud83c\uddf9 De Zerbi on Mateus Fernandes benched today: \u201cThis stadium is England football and Gallagher he knows better this type of game\u201d.\n\n\u201cMateus will become for sure in my time at Tottenham one of the best players\u201d, says via @AlasdairGold. https://t.co/K64Bzcc1Ku",
+      "post": "De Zerbi benches Mateus Fernandes because 'this stadium is England football and Gallagher knows it better'.\n\nThen immediately says Mateus will be one of his best players at Tottenham.\n\nSo he's either wrong now or will be wrong later. Lovely.",
       "x_url": null,
       "threads_url": null
     }
