@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2081338435495690431",
     "2080243932701569489",
     "2081340262857486576",
     "2081187825832051117",
@@ -499,18 +498,11 @@
     "2096283828562034866",
     "2096267402786803773",
     "2096309159662690452",
-    "2096595770396844101"
+    "2096595770396844101",
+    "2096627867849220172"
   ],
-  "post_count": 1550,
+  "post_count": 1551,
   "posts": [
-    {
-      "at": "2026-08-19 19:13 UTC",
-      "source_author": "David_Ornstein",
-      "source": "\ud83d\udea8 Arsenal reach agreement with Aston Villa to sign Ezri Konsa. Deal for 28yo defender worth \u00a351m + add-ons. England international said goodbyes to #AVFC team-mates &amp; staff today. Set to take #AFC medical Thursday. W/ @J_Tanswell @gunnerblog @TheAthleticFC https://t.co/ObmcU2Uq7T",
-      "post": "BREAKING: Arsenal sign Ezri Konsa from Aston Villa for \u00a351m.\n\nSo they've identified the problem as 'not enough England internationals at the back'. Brilliant diagnosis.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2090155113809916140",
-      "threads_url": null
-    },
     {
       "at": "2026-08-19 19:45 UTC",
       "source_author": "SkySportsNews",
@@ -2100,6 +2092,14 @@
       "source_author": "FabrizioRomano",
       "source": "\ud83d\udea8\ud83d\udfe3 Burnley have agreed to sign Jamie Vardy on one year deal!\n\nSurprise signing completed and new chapter in England after one season at Cremonese for Vardy. https://t.co/ua7DhG408m",
       "post": "BREAKING: Jamie Vardy joins Burnley on a one-year deal.\n\nOne season at Cremonese and he's decided the Premier League needs him back. Confidence you love to see.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-06 18:19 UTC",
+      "source_author": "JacobsBen",
+      "source": "Chelsea are the first team in Premier League history to score inside five minutes in their opening three games.\ud83d\udca8 https://t.co/ABphkwU2X1",
+      "post": "Chelsea are the first team in Premier League history to score in the opening five minutes of their first three games.\n\nThey've found a way to be efficient AND chaotic at the same time. Incredible.",
       "x_url": null,
       "threads_url": null
     }
