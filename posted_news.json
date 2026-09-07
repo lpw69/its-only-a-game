@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2081453698962592146",
     "2081456040554475599",
     "2081463093184352331",
     "2081491136405795155",
@@ -499,18 +498,11 @@
     "2096650239637622883",
     "2096624772230570089",
     "2096666490241954127",
-    "2096840894943006950"
+    "2096840894943006950",
+    "2096870082194370816"
   ],
-  "post_count": 1555,
+  "post_count": 1556,
   "posts": [
-    {
-      "at": "2026-08-20 10:47 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83d\udd35\ud83d\udd34 Formal steps also completed: Jo\u00e3o Cancelo will sign his three year deal at Barcelona today. https://t.co/hc7KZuI1oP",
-      "post": "BREAKING: Jo\u00e3o Cancelo signing a three-year deal at Barcelona.\n\nOoh look at me, I'm a full-back and I'm gonna commit to a project long-term. Mental.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2090390257669964206",
-      "threads_url": null
-    },
     {
       "at": "2026-08-20 11:56 UTC",
       "source_author": "JacobsBen",
@@ -2100,6 +2092,14 @@
       "source_author": "FabrizioRomano",
       "source": "\ud83d\udd35\ud83d\udd34 Raphinha on Instagram: \u201cBar\u00e7a, more than a club\u201d. https://t.co/HrPmNl0Q95",
       "post": "BREAKING: Raphinha posts 'Bar\u00e7a, more than a club' on Instagram.\n\nRaphinha five minutes into his Barcelona contract realising he's signed up for constant philosophical essays about the institution rather than just playing football.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-07 14:17 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8 Reece James: \u201cWe'll see where we are at the end of the season\u201d. \ud83d\udd35\ud83d\udc40\n\n\u201cWe know what we have to do and we have to focus on ourselves and not let other teams distract us\u201d. https://t.co/lFUIsxHSsO",
+      "post": "BREAKING: Reece James says Chelsea will 'see where we are at the end of the season'.\n\nTranslation: we're miles off and we're hoping nobody notices until May.",
       "x_url": null,
       "threads_url": null
     }
