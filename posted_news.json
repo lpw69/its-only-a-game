@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2081456040554475599",
     "2081463093184352331",
     "2081491136405795155",
     "2081656011115442478",
@@ -499,18 +498,11 @@
     "2096624772230570089",
     "2096666490241954127",
     "2096840894943006950",
-    "2096870082194370816"
+    "2096870082194370816",
+    "2096875692193386895"
   ],
-  "post_count": 1556,
+  "post_count": 1557,
   "posts": [
-    {
-      "at": "2026-08-20 11:56 UTC",
-      "source_author": "JacobsBen",
-      "source": "Talks between Spurs and Manchester City for a double deal for both Savinho and Omar Marmoush are already advanced, as @David_Ornstein called.\n\n#MCFC prepared to sell for around \u00a3150m as they seek funds to bolster their midfield.\ud83d\udc55\n\nhttps://t.co/3VDy4L8hKP",
-      "post": "BREAKING: Man City selling Savinho and Marmoush to Spurs for \u00a3150m combined.\n\nPep's midfield so broken he'd rather fund Tottenham's rebuild than fix it himself. Brilliant.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2090407589465272567",
-      "threads_url": null
-    },
     {
       "at": "2026-08-20 14:21 UTC",
       "source_author": "FabrizioRomano",
@@ -2100,6 +2092,14 @@
       "source_author": "FabrizioRomano",
       "source": "\ud83d\udea8 Reece James: \u201cWe'll see where we are at the end of the season\u201d. \ud83d\udd35\ud83d\udc40\n\n\u201cWe know what we have to do and we have to focus on ourselves and not let other teams distract us\u201d. https://t.co/lFUIsxHSsO",
       "post": "BREAKING: Reece James says Chelsea will 'see where we are at the end of the season'.\n\nTranslation: we're miles off and we're hoping nobody notices until May.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-07 15:53 UTC",
+      "source_author": "SkySportsNews",
+      "source": "Arsenal\u2019s start to the season analysed, with their defensive xG numbers putting them on course to concede just 11 league goals this season \u2935\ufe0f https://t.co/DBmZgkHkUt",
+      "post": "Arsenal's defensive xG numbers suggest they're on course to concede 11 goals all season.\n\nThey'll still find a way to bottle it by March.",
       "x_url": null,
       "threads_url": null
     }
