@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2081726276260274196",
     "2081639646325256369",
     "2081684333455126638",
     "2081742376830214343",
@@ -499,18 +498,11 @@
     "2097018443060883468",
     "2096655412128833652",
     "2096921073048551699",
-    "2096921800865194350"
+    "2096921800865194350",
+    "2097012842234794016"
   ],
-  "post_count": 1564,
+  "post_count": 1565,
   "posts": [
-    {
-      "at": "2026-08-21 08:18 UTC",
-      "source_author": "Plettigoal",
-      "source": "\ud83d\udea8\ud83d\udd1b Deal still on for Fabio Vieira and his permanent move to Hamburger SV.\n\n@SkySportDE \ud83c\uddf5\ud83c\uddf9 https://t.co/6AwkvYNMDr",
-      "post": "BREAKING: Fabio Vieira heading to Hamburg on a permanent deal.\n\nArsenal's idea of permanently moving someone out: actually doing it. Mental.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2090715244385690050",
-      "threads_url": null
-    },
     {
       "at": "2026-08-21 08:59 UTC",
       "source_author": "FabrizioRomano",
@@ -2100,6 +2092,14 @@
       "source_author": "FabrizioRomano",
       "source": "\ud83d\udea8\ud83d\udc40 Mbapp\u00e9 when asked about those who say PSG won the Champions League twice because he left: \u201cI do not care\u201d.\n\n\u201cThese headlines sell, and speaking about me sells very well\u2026\u201d. https://t.co/7q3XMy2cxj",
       "post": "Mbapp\u00e9: 'I don't care what people say about PSG winning the Champions League twice since I left'.\n\nAlso Mbapp\u00e9: writes a 50-word statement about it.",
+      "x_url": null,
+      "threads_url": null
+    },
+    {
+      "at": "2026-09-07 23:31 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udd34\u26ab\ufe0f Kylian Mbapp\u00e9 when asked about facing Inter: \u201cI liked AC Milan when I was a kid. I prefer AC Milan!\u201d.\n\n\u201cBut Inter deserve respect too\u201d, told Sky. https://t.co/7K4TnMS6IY",
+      "post": "Mbapp\u00e9 asked about facing Inter: 'I liked AC Milan as a kid, I prefer AC Milan'.\n\nThen immediately: 'But Inter deserve respect too'.\n\nSir, you've already chosen. Stop hedging.",
       "x_url": null,
       "threads_url": null
     }
