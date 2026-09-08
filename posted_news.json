@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2081850938701025406",
     "2081824159454126177",
     "2082030270018949234",
     "2081851759106957358",
@@ -499,26 +498,11 @@
     "2094885995204190518",
     "2094778921250156920",
     "2097282550712737895",
-    "2097330626617602515"
+    "2097330626617602515",
+    "2097342406110724425"
   ],
-  "post_count": 1572,
+  "post_count": 1573,
   "posts": [
-    {
-      "at": "2026-08-21 17:51 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83d\udd34\u26aa\ufe0f Arsenal made contact with Atl\u00e9tico Madrid to discuss Juli\u00e1n \u00c1lvarez deal conditions.\n\nDirect meeting took place in London with Atl\u00e9ti director Mateu Alemany.\n\nPrice currently too high + Juli\u00e1n never opened doors to England so far as wanted to join Bar\u00e7a\u2026 but #AFC tried.\n\n\ud83c\udfa5\u2795 https://t.co/5zVWgWXqEV",
-      "post": "BREAKING: Arsenal made contact with Atl\u00e9tico Madrid about Juli\u00e1n \u00c1lvarez.\n\nPrice too high and he wanted Bar\u00e7a anyway. So they're basically asking for directions to a house that's sold and out of budget.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2090859211030958253",
-      "threads_url": null
-    },
-    {
-      "at": "2026-08-21 19:15 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83c\uddfa\ud83c\udde6 OFFICIAL: Shakhtar Donetsk will play Champions League home games at Stamford Bridge this season.\n\n\u201cPlaying our Champions League home matches at Stamford Bridge is a special opportunity for Shakhtar. We are grateful to Chelsea Football Club for the opportunity to host our games at this special venue\u201d.",
-      "post": "BREAKING: Shakhtar Donetsk playing Champions League home games at Stamford Bridge.\n\nChelsea really have become everyone's second home. Next week it's just straight up a rotating fixture list.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2090880524462301361",
-      "threads_url": null
-    },
     {
       "at": "2026-08-21 19:43 UTC",
       "source_author": "FabrizioRomano",
@@ -2102,7 +2086,30 @@
       "post": "BREAKING: Lionel Messi among 30 nominees for Ballon d'Or 2026.\n\nSo they're just letting anyone in now.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdB_J6rm5lM"
+    },
+    {
+      "at": "2026-09-08 16:47 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83c\uddf2\ud83c\udde6 Breaking: Sofyan Amrabat leaves Morocco national team.\n\n\u201cUnder this coach, I\u2019m not gonna continue\u201d. https://t.co/3ZMqJnYER7",
+      "post": "BREAKING: Sofyan Amrabat leaves Morocco national team.\n\n'Under this coach, I'm not gonna continue' he says, which is a polite way of saying the whole thing's a mess.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdCJkY0mx5F"
+    },
+    {
+      "at": "2026-09-08 16:47 UTC",
+      "kind": "offer",
+      "source_author": "https://matchedbettingblog.com/new-customer-offers/",
+      "source": "Grosvenor: Double the Odds up to \u00a3100 (est \u00a375)",
+      "post": "Grosvenor's doubling odds up to \u00a3100 this week.\n\nBack a winner, lay it off, and you're looking at roughly \u00a375 locked in before the ball even rolls.\n\nFull walkthrough: link in bio.\n\n18+ | begambleaware.org",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdCJnKqm8_6"
     }
   ],
-  "offers_posted": []
+  "offers_posted": [
+    {
+      "key": "grosvenor",
+      "at": "2026-09-08"
+    }
+  ],
+  "last_offer_date": "2026-09-08"
 }
