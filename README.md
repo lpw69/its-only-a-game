@@ -4,6 +4,8 @@ Automated content engine for [@ItsOnlyAGamee](https://www.threads.com/@ItsOnlyAG
 
 Pulls breaking sports news from Fabrizio Romano, David Ornstein, BBC Sport and Sky Sports News every few hours, runs each item through a Paddy Power / Aldi-flavoured prompt, and pushes the resulting one-liner takes to Typefully as drafts ready to publish or schedule.
 
+Publishing is **Threads-only** (the account's X profile is suspended, so the X platform is disabled in the Typefully payload).
+
 ## Architecture
 
 ```
@@ -11,6 +13,34 @@ Apify (X scraper) → Claude Haiku (voice) → style validator → Claude Sonnet
 ```
 
 Single Python script, single GitHub Actions workflow.
+
+## Matched betting offer posts (monetization)
+
+Once per day (first run at/after 16:00 UTC), the pipe posts one matched betting
+offer post alongside the banter: a current bookmaker new-customer offer, the
+rough profit lockable from it, and "Full walkthrough: link in bio" — so **keep
+the OddsMonkey affiliate link in the Threads bio**.
+
+How it's sourced, fully automated:
+
+1. `fetch_offers` pulls a public offers page (Team Profit's welcome offers
+   list, falling back to Matched Betting Blog) and strips it to text.
+2. **Claude Sonnet** extracts the live sign-up offers as structured JSON
+   (bookmaker, offer, estimated profit — the page's own figure, or 75% of the
+   free bet value). LLM extraction instead of CSS selectors, so site redesigns
+   don't break it.
+3. The highest-value offer not featured in the last 21 days is picked
+   (`offers_posted` in `posted_news.json` tracks this).
+4. Haiku writes the hook in the account voice, the style validator runs, plus
+   offer-specific bans: no "guaranteed", "risk-free", "no risk" or "free money"
+   (ASA has upheld complaints against exactly those claims in matched betting
+   promotion). The footer appends "18+ | begambleaware.org" to every offer post.
+5. The same Sonnet fact gate checks every figure in the hook against the
+   extracted offer before publishing. Anything that can't pass is dropped —
+   the slot just retries on the next run of the day.
+
+If the offer sites are down or list nothing fresh, no offer post goes out that
+day. The banter posts are unaffected.
 
 ## Fact checking
 
@@ -48,12 +78,12 @@ Stereotypes only fire when the news pattern triggers them. No forced jokes.
 
 ## Telegram notifications
 
-Every published tweet's live X URL is sent to a Telegram group. After the post
-goes out via Typefully, the pipe polls the draft for its live X permalink
-(`x_published_url` — publishing is async and X can lag Threads, so it waits up to
-~2 min), then sends the post text plus the X link to the group. If the X URL isn't
+Every published post's live Threads URL is sent to a Telegram group. After the
+post goes out via Typefully, the pipe polls the draft for its live Threads
+permalink (`threads_published_url` — publishing is async, so it waits up to
+~2 min), then sends the post text plus the link to the group. If the URL isn't
 ready in time it falls back to the Typefully deep link so a message always goes
-out. (The Threads permalink is still recorded in `posted_news.json` for auditing.)
+out. The permalink is also recorded in `posted_news.json` for auditing.
 
 Set two secrets to enable it (if unset, the pipe just skips the notification):
 

@@ -19,7 +19,7 @@ Required secrets:
   GITHUB_TOKEN                  (auto-provided by Actions)
 """
 
-import os, re, sys, json, time, random, datetime, subprocess, requests
+import os, re, sys, json, time, html, random, datetime, subprocess, requests
 import anthropic
 
 # --- env ---
@@ -61,9 +61,27 @@ CTA_EVERY_N = 2  # Every 2nd post gets a CTA. 50/50 split.
 CTA_LINES = [
     f"Btw, found a way to make easy cash with bookie bonuses. Literally paid for my house deposit. This is the tool I used: {GUIDE_URL}",
     f"P.S. Please don't tell me you're still losing money on accas? This changed everything for me: {GUIDE_URL}",
-    f"P.S. There's a tool that turns bookie sign-up offers into guaranteed cash. Mates have made a few grand off it already: {GUIDE_URL}",
+    f"P.S. There's a tool that turns bookie sign-up offers into cash you lock in before kick-off. Mates have made a few grand off it already: {GUIDE_URL}",
     f"Btw, still blows my mind more people don't do this. Bookies literally hand you free money and most people just gamble it back. Tool here: {GUIDE_URL}",
 ]
+
+# --- matched betting offer posts (auto-sourced, max one per day) ---
+# Public pages that list current UK new-customer sign-up offers. Tried in order;
+# the first page that yields at least one extractable offer wins.
+OFFER_SOURCES = [
+    "https://www.teamprofit.com/welcome-offers-list",
+    "https://matchedbettingblog.com/new-customer-offers/",
+]
+OFFER_SLOT_HOUR_UTC = 16   # first run at/after this UTC hour each day attempts the offer post
+OFFER_REUSE_DAYS    = 21   # don't feature the same bookmaker again within this window
+OFFER_MODEL         = "claude-sonnet-5"
+# Appended verbatim to every offer post: the funnel line plus the ad-compliance line.
+# ASA has upheld complaints against "guaranteed"/"risk-free" in matched betting promos,
+# so those words are banned from the generated hook (OFFER_BANNED_TERMS below).
+OFFER_FOOTER        = "Full walkthrough: link in bio.\n\n18+ | begambleaware.org"
+OFFER_HOOK_MAX      = 210  # hook + footer must stay under X's 280 cap
+OFFER_BANNED_TERMS  = ["guarantee", "risk-free", "risk free", "no risk", "free money",
+                       "can't lose", "cannot lose", "cant lose"]
 
 
 # --- voice profile, distilled from Paddy Power + Aldi scrape ---
@@ -233,6 +251,7 @@ def save_posted_log(log):
     # Keep an audit trail of what actually went out (the source news + the post text),
     # so a human can review what the account is publishing without watching the feed.
     log["posts"] = log.get("posts", [])[-200:]
+    log["offers_posted"] = log.get("offers_posted", [])[-60:]
     with open(POSTED_LOG, "w") as f:
         json.dump(log, f, indent=2)
 
@@ -479,6 +498,231 @@ def generate_post_from_news(news_item):
     return None
 
 
+# --- matched betting offers ---
+
+OFFER_EXTRACT_SYSTEM = """You extract UK bookmaker new-customer sign-up offers from the text of a matched betting site's offers page.
+
+Respond with valid JSON only, no code fences:
+{"offers": [{"bookmaker": "...", "offer": "...", "free_bet_value_gbp": 0, "est_profit_gbp": 0}]}
+
+Rules:
+- Only include SPORTS betting sign-up offers for NEW customers that the page presents as currently live. Skip casino, bingo, slots and lottery offers, and skip anything marked expired or ended.
+- "offer" is the shorthand as the page states it, e.g. "Bet £10, get £30 in free bets".
+- est_profit_gbp: use the page's own stated expected/estimated profit for that offer if it gives one; otherwise estimate it as 75% of the free bet value, rounded to the nearest pound.
+- Every figure must come from the page text. Use no outside knowledge, and never invent offers or numbers.
+- Max 8 offers, highest est_profit_gbp first. If the page has no usable offers, return {"offers": []}."""
+
+OFFER_SYSTEM_PROMPT = """You write the hook for "It's Only a Game", a UK sports account with a Paddy Power / Aldi UK voice: deadpan, chronically online, slightly cocky, no club allegiance.
+
+This post is not a news reaction. It's a matched betting offer post: you tell followers about a bookmaker's new-customer sign-up offer and the profit they can lock in from it by backing and laying. You are given the offer details. A footer with the walkthrough link and the 18+ line is appended automatically, so do NOT write your own footer, link, or "link in bio" line.
+
+HARD RULES (output is auto-rejected if you break any)
+1. MAX 200 CHARACTERS. Two lines, with \\n\\n between them.
+2. Use ONLY the bookmaker, offer and figures you are given. Never invent fixtures, odds, teams or numbers.
+3. NEVER say "guaranteed", "risk-free", "no risk", "free money" or "can't lose". The honest frame: the profit is locked in before kick-off IF you follow the back-and-lay steps. "Locked in", "whatever happens", "win or lose the bet" are all fine.
+4. NO em dashes, NO en dashes, NO hashtags, no "mate".
+5. Mention the bookmaker by name, the offer, and the rough profit figure in pounds.
+6. Frame the timing naturally around the football period you are told (this weekend / this week) without naming any specific fixture.
+
+Tone: the account being canny, not an advert. Deadpan. Example shape (do not copy verbatim):
+"Bet365 chucking £30 in free bets at new customers this weekend.\\n\\nLay it off at the exchange and that's about £23 in your pocket whatever the football does."
+
+OUTPUT: valid JSON only, no code fences: {"post": "the hook text"}"""
+
+
+def fetch_offer_page(url):
+    """Fetch an offers page and strip it to plain text for LLM extraction."""
+    try:
+        r = requests.get(
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"},
+            timeout=30,
+        )
+    except requests.RequestException as e:
+        print(f"  Offer page fetch error ({url}): {e}")
+        return None
+    if r.status_code != 200:
+        print(f"  Offer page HTTP {r.status_code}: {url}")
+        return None
+    text = re.sub(r"(?is)<(script|style|noscript|svg)[^>]*>.*?</\1>", " ", r.text)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = html.unescape(text)
+    text = re.sub(r"\s+", " ", text).strip()
+    if len(text) < 500:
+        print(f"  Offer page too thin after stripping ({len(text)} chars): {url}")
+        return None
+    return text[:30000]
+
+
+def extract_offers(page_text, source_url):
+    """LLM-extract structured offers from page text. Survives site redesigns,
+    unlike CSS selectors. Returns a (possibly empty) list of offer dicts."""
+    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+    try:
+        response = client.messages.create(
+            model=OFFER_MODEL,
+            max_tokens=1500,
+            thinking={"type": "disabled"},
+            system=OFFER_EXTRACT_SYSTEM,
+            messages=[{"role": "user", "content": f"Page: {source_url}\n\n{page_text}"}],
+        )
+        raw = next((b.text for b in response.content if b.type == "text"), "").strip()
+        raw = re.sub(r"^```(?:json)?\s*|\s*```$", "", raw)
+        offers = json.loads(raw).get("offers", [])
+    except (anthropic.APIError, json.JSONDecodeError, AttributeError) as e:
+        print(f"  Offer extraction error: {e}")
+        return []
+    clean = []
+    for o in offers:
+        try:
+            bookmaker = str(o["bookmaker"]).strip()
+            offer = str(o["offer"]).strip()
+            profit = int(round(float(o["est_profit_gbp"])))
+        except (KeyError, TypeError, ValueError):
+            continue
+        if bookmaker and offer and 5 <= profit <= 100:
+            clean.append({"bookmaker": bookmaker, "offer": offer, "est_profit_gbp": profit})
+    return clean
+
+
+def fetch_offers():
+    for url in OFFER_SOURCES:
+        page = fetch_offer_page(url)
+        if not page:
+            continue
+        offers = extract_offers(page, url)
+        if offers:
+            print(f"  Extracted {len(offers)} offer(s) from {url}")
+            return offers, url
+    return [], None
+
+
+def offer_key(offer):
+    return re.sub(r"[^a-z0-9]", "", offer["bookmaker"].lower())
+
+
+def validate_offer_hook(hook):
+    ok, problems = validate_post(hook)
+    if len(hook) > OFFER_HOOK_MAX:
+        problems.append(f"hook is {len(hook)} chars, max {OFFER_HOOK_MAX} (footer is appended after it)")
+    lower = hook.lower()
+    for term in OFFER_BANNED_TERMS:
+        if term in lower:
+            problems.append(f"contains banned claim wording: '{term}'")
+    if "bio" in lower or "http" in lower:
+        problems.append("hook must not contain a link or 'link in bio' (footer handles that)")
+    return len(problems) == 0, problems
+
+
+def generate_offer_post(offer, source_url):
+    """Generate the offer hook, style-check it, then fact-gate it against the
+    extracted offer data. Returns the full post (hook + footer) or None."""
+    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+    weekday = datetime.datetime.utcnow().weekday()
+    period = "this weekend's football" if weekday >= 4 else "this week's football"
+    base_msg = (
+        f"Bookmaker: {offer['bookmaker']}\n"
+        f"Offer: {offer['offer']}\n"
+        f"Locked-in profit if backed and laid correctly: about £{offer['est_profit_gbp']}\n"
+        f"Timing frame: {period}\n\n"
+        f"Write the hook. Output the JSON object."
+    )
+    feedback = ""
+    for attempt in range(3):
+        msg = base_msg
+        if feedback:
+            msg = (
+                f"YOUR PREVIOUS ATTEMPT FAILED THESE CHECKS:\n{feedback}\n\n"
+                f"Rewrite the hook with all problems fixed.\n\n" + msg
+            )
+        response = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=400,
+            system=OFFER_SYSTEM_PROMPT,
+            messages=[{"role": "user", "content": msg}],
+        )
+        raw = response.content[0].text.strip()
+        raw = re.sub(r"^```(?:json)?\s*|\s*```$", "", raw)
+        try:
+            hook = json.loads(raw)["post"]
+        except (json.JSONDecodeError, KeyError) as e:
+            print(f"  Offer hook parse error attempt {attempt + 1}: {e}")
+            continue
+        ok, problems = validate_offer_hook(hook)
+        if not ok:
+            print(f"  Offer hook style failed (attempt {attempt + 1}):")
+            for p in problems:
+                print(f"    - {p}")
+            feedback = "\n".join(f"- {p}" for p in problems)
+            continue
+        # Same fact gate as news posts: every figure in the hook must be
+        # supported by the extracted offer, or the post is regenerated/dropped.
+        source_item = {
+            "author": re.sub(r"^www\.", "", source_url.split("/")[2]),
+            "text": (
+                f"Current new-customer offer listed on {source_url}:\n"
+                f"Bookmaker: {offer['bookmaker']}\n"
+                f"Offer: {offer['offer']}\n"
+                f"Estimated locked-in profit from backing and laying it: £{offer['est_profit_gbp']}"
+            ),
+        }
+        fact_ok, reason = fact_check_post(hook, source_item)
+        if fact_ok:
+            return f"{hook}\n\n{OFFER_FOOTER}"
+        print(f"  Offer hook fact-check rejected (attempt {attempt + 1}): {reason}")
+        feedback = f"- factually inconsistent with the offer details: {reason}"
+    return None
+
+
+def maybe_post_offer(posted_log):
+    """At most one offer post per day, on the first run at/after the slot hour.
+    Failures (page down, no fresh offers, hook rejected) leave last_offer_date
+    unset so the next run of the day retries."""
+    now = datetime.datetime.utcnow()
+    today = now.strftime("%Y-%m-%d")
+    if now.hour < OFFER_SLOT_HOUR_UTC:
+        return
+    if posted_log.get("last_offer_date") == today:
+        return
+    print(f"\n{'-'*55}")
+    print("  Offer slot: sourcing matched betting offers...")
+    offers, source_url = fetch_offers()
+    if not offers:
+        print("  No offers extracted from any source. Skipping offer post.")
+        return
+    cutoff = (now - datetime.timedelta(days=OFFER_REUSE_DAYS)).strftime("%Y-%m-%d")
+    recent_keys = {e["key"] for e in posted_log.get("offers_posted", []) if e.get("at", "") >= cutoff}
+    offer = next((o for o in offers if offer_key(o) not in recent_keys), None)
+    if not offer:
+        print(f"  All extracted offers already featured in the last {OFFER_REUSE_DAYS} days. Skipping.")
+        return
+    print(f"  Featuring: {offer['bookmaker']}: {offer['offer']} (~£{offer['est_profit_gbp']})")
+    post = generate_offer_post(offer, source_url)
+    if not post:
+        print("  No valid offer post, skipping.")
+        return
+    preview = post.replace("\n", " ")[:100]
+    print(f"  Offer post ({len(post)} chars): {preview}...")
+    tid = push_to_typefully(post)  # no CTA reply: the post itself is the funnel
+    if not tid:
+        print("  Failed to push offer post to Typefully.")
+        return
+    print(f"    Typefully draft: {tid}")
+    posted_log["last_offer_date"] = today
+    posted_log.setdefault("offers_posted", []).append({"key": offer_key(offer), "at": today})
+    urls = get_published_urls(tid)
+    notify_published(post, urls)
+    posted_log.setdefault("posts", []).append({
+        "at": now.strftime("%Y-%m-%d %H:%M UTC"),
+        "kind": "offer",
+        "source_author": source_url,
+        "source": f"{offer['bookmaker']}: {offer['offer']} (est £{offer['est_profit_gbp']})",
+        "post": post,
+        "x_url": urls.get("x"),
+        "threads_url": urls.get("threads"),
+    })
+
+
 # --- typefully ---
 
 def get_typefully_social_set():
@@ -507,18 +751,13 @@ def push_to_typefully(post_text, cta_text=None):
     if not social_set_id:
         return None
 
-    # CTA only goes to Threads (Auto-Plug handles X CTAs separately)
-    posts_x = [{"text": post_text}]
+    # Threads only: the X account is suspended, so publishing there would fail the draft.
     posts_threads = [{"text": post_text}]
     if cta_text:
         posts_threads.append({"text": cta_text})
 
     payload = {
         "platforms": {
-            "x": {
-                "enabled": True,
-                "posts": posts_x,
-            },
             "threads": {
                 "enabled": True,
                 "posts": posts_threads,
@@ -528,9 +767,9 @@ def push_to_typefully(post_text, cta_text=None):
     }
 
     # Log exactly what we're sending
-    print(f"    Typefully payload: {len(posts_x)} post(s) to X, {len(posts_threads)} post(s) to Threads")
+    print(f"    Typefully payload: {len(posts_threads)} post(s) to Threads")
     if cta_text:
-        print(f"    CTA to Threads only: {cta_text[:80]}...")
+        print(f"    CTA reply attached: {cta_text[:80]}...")
 
     r = requests.post(
         f"https://api.typefully.com/v2/social-sets/{social_set_id}/drafts",
@@ -555,7 +794,6 @@ def push_to_typefully(post_text, cta_text=None):
         print("  Retrying without CTA...")
         fallback_payload = {
             "platforms": {
-                "x": {"enabled": True, "posts": [{"text": post_text}]},
                 "threads": {"enabled": True, "posts": [{"text": post_text}]},
             },
             "publish_at": "now",
@@ -585,12 +823,12 @@ PUBLISH_POLL_INTERVAL = 6  # seconds — up to ~2 min waiting for the async live
 
 
 def get_published_urls(draft_id):
-    """Poll Typefully for the live X permalink of a just-published draft.
+    """Poll Typefully for the live Threads permalink of a just-published draft.
 
-    Publishing is async (the create call returns before the post is live), and X
-    can lag Threads, so we poll the draft until the X URL appears. Returns a dict
-    with 'x' and 'threads' (threads kept for the audit log) plus a Typefully
-    'fallback' deep link."""
+    Publishing is async (the create call returns before the post is live), so we
+    poll the draft until the Threads URL appears. Any URL seen along the way is
+    kept even if polling times out, so the audit log records whatever exists.
+    Returns a dict with 'threads' and 'x' plus a Typefully 'fallback' deep link."""
     social_set_id = get_typefully_social_set()
     fallback = f"https://typefully.com/?d={draft_id}&a={social_set_id}" if social_set_id else ""
     if not social_set_id:
@@ -598,6 +836,8 @@ def get_published_urls(draft_id):
 
     url = f"https://api.typefully.com/v2/social-sets/{social_set_id}/drafts/{draft_id}"
     headers = {"Authorization": f"Bearer {TYPEFULLY_API_KEY}"}
+    x_seen = None
+    th_seen = None
     for attempt in range(PUBLISH_POLL_ATTEMPTS):
         try:
             r = requests.get(url, headers=headers, timeout=15)
@@ -608,16 +848,16 @@ def get_published_urls(draft_id):
         if r.status_code == 200:
             d = r.json()
             fallback = d.get("private_url") or fallback
-            x_url = d.get("x_published_url")
-            th_url = d.get("threads_published_url")
-            if x_url:
-                return {"x": x_url, "threads": th_url, "fallback": fallback}
+            x_seen = d.get("x_published_url") or x_seen
+            th_seen = d.get("threads_published_url") or th_seen
+            if th_seen:
+                return {"x": x_seen, "threads": th_seen, "fallback": fallback}
         else:
             print(f"    URL poll HTTP {r.status_code}: {r.text[:150]}")
         time.sleep(PUBLISH_POLL_INTERVAL)
 
-    print("    X URL not ready after polling; using Typefully fallback link.")
-    return {"x": None, "threads": None, "fallback": fallback}
+    print("    Threads URL not ready after polling; using Typefully fallback link.")
+    return {"x": x_seen, "threads": th_seen, "fallback": fallback}
 
 
 def send_to_telegram(text):
@@ -641,16 +881,16 @@ def send_to_telegram(text):
 
 
 def notify_published(post, urls):
-    """Send the published tweet's live X URL (with the post text) to Telegram."""
-    if urls.get("x"):
-        link = urls["x"]
+    """Send the published post's live Threads URL (with the post text) to Telegram."""
+    if urls.get("threads"):
+        link = urls["threads"]
     elif urls.get("fallback"):
-        link = f"{urls['fallback']} (X URL not ready yet)"
+        link = f"{urls['fallback']} (Threads URL not ready yet)"
     else:
         link = ""
     body = post + ("\n\n" + link if link else "")
     if send_to_telegram(body):
-        print("    Sent X URL to Telegram.")
+        print("    Sent post URL to Telegram.")
 
 
 # --- commit ---
@@ -688,16 +928,14 @@ def main():
     used_ids = set(posted_log.get("news_ids", []))
 
     raw_items = fetch_news(SEED_HANDLES)
-    if not raw_items:
-        print("\nNo news returned. Exiting cleanly.")
-        sys.exit(0)
-
-    usable = filter_usable_news(raw_items, used_ids)
-    print(f"\nUsable news items: {len(usable)}")
-
+    usable = []
+    if raw_items:
+        usable = filter_usable_news(raw_items, used_ids)
+        print(f"\nUsable news items: {len(usable)}")
+    else:
+        print("\nNo news returned.")
     if not usable:
-        print("Nothing fresh to react to. Exiting cleanly.")
-        sys.exit(0)
+        print("Nothing fresh to react to; still checking the offer slot.")
 
     drafts_pushed = 0
 
@@ -743,6 +981,8 @@ def main():
             })
         else:
             print("    Failed to push to Typefully.")
+
+    maybe_post_offer(posted_log)
 
     save_posted_log(posted_log)
     commit_state()
