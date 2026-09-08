@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2081710728604504450",
     "2081850938701025406",
     "2081824159454126177",
     "2082030270018949234",
@@ -499,18 +498,11 @@
     "2097209619646959714",
     "2094885995204190518",
     "2094778921250156920",
-    "2097282550712737895"
+    "2097282550712737895",
+    "2097330626617602515"
   ],
-  "post_count": 1571,
+  "post_count": 1572,
   "posts": [
-    {
-      "at": "2026-08-21 16:50 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8 OFFICIAL: FIFA suspensions following post Argentina-Spain clash, including 10 games ban for Paredes, 7 for Nahuel Molina and 1 for Pablo Gavi.\n\n\ud83c\udde6\ud83c\uddf7 Paredes: 10-game ban + $90,000 fine\n\ud83c\udde6\ud83c\uddf7 Molina: 7-game ban + $90,000 fine\n\ud83c\udde6\ud83c\uddf7 Almada: 1-game ban + $30,000 fine\n\ud83c\udde6\ud83c\uddf7 Ayala: 3-game ban + $30,000 fine\n\ud83c\uddea\ud83c\uddf8 Gavi: 1-game ban + $30,000 fine\n\nSuspensions are confirmed to be for the national team games. \u26a0\ufe0f",
-      "post": "BREAKING: FIFA hands out suspensions for the Argentina-Spain clash.\n\nParedes getting 10 games for what I assume was a light jog past someone's shin. Gavi getting 1 for probably existing near an Argentine player. Lovely proportionality.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2090843918263034058",
-      "threads_url": null
-    },
     {
       "at": "2026-08-21 17:51 UTC",
       "source_author": "FabrizioRomano",
@@ -2102,6 +2094,14 @@
       "post": "BREAKING: Lewis Hall signing a new Newcastle contract because he's impressed by Matthias Jaissle.\n\nNewcastle's strategy of hiring managers nobody's heard of to keep players happy. Inspired stuff.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdB6Mdqm8T4"
+    },
+    {
+      "at": "2026-09-08 15:16 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83c\udf15 OFFICIAL: Lionel Messi, among 30 nominees for Ballon d\u2019Or 2026.",
+      "post": "BREAKING: Lionel Messi among 30 nominees for Ballon d'Or 2026.\n\nSo they're just letting anyone in now.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdB_J6rm5lM"
     }
   ],
   "offers_posted": []
