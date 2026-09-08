@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2081639646325256369",
     "2081684333455126638",
     "2081742376830214343",
     "2081789426389119006",
@@ -499,18 +498,11 @@
     "2096655412128833652",
     "2096921073048551699",
     "2096921800865194350",
-    "2097012842234794016"
+    "2097012842234794016",
+    "2096735271878291634"
   ],
-  "post_count": 1565,
+  "post_count": 1566,
   "posts": [
-    {
-      "at": "2026-08-21 08:59 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\u26aa\ufe0f BREAKING: Tottenham reach verbal agreement with Manchester City to sign Savinho, here we go!\n\nClub to club verbal agreement in place tonight with S\u00e1vio set to travel for medical at #THFC.\n\nFee will be over \u00a375m, details to follow.\n\nSeparate talks for Omar Marmoush continue. https://t.co/QlbwCrXdUC",
-      "post": "BREAKING: Tottenham reach verbal agreement to sign Savinho from Manchester City for \u00a375m.\n\nOoh look at me, I'm Spurs and I'm gonna spend 75 quid on a winger when I should be getting a striker.\n\nSpursy.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2090725373755736194",
-      "threads_url": null
-    },
     {
       "at": "2026-08-21 10:13 UTC",
       "source_author": "Plettigoal",
@@ -2102,6 +2094,15 @@
       "post": "Mbapp\u00e9 asked about facing Inter: 'I liked AC Milan as a kid, I prefer AC Milan'.\n\nThen immediately: 'But Inter deserve respect too'.\n\nSir, you've already chosen. Stop hedging.",
       "x_url": null,
       "threads_url": null
+    },
+    {
+      "at": "2026-09-08 09:39 UTC",
+      "source_author": "BBCSport",
+      "source": "\ud83d\udde3\ufe0f \u201cHe\u2019s extremely lucky to stay on the pitch!\u201d\n\nShould Gabriel have been sent off against Chelsea? \ud83e\uddd0 https://t.co/tZrGL8zhxT",
+      "post": "BREAKING: Gabriel didn't get sent off.\n\nArsenal fans already writing the three-part Twitter thread about how the ref bottled it anyway.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdBYnKsG1nh"
     }
-  ]
+  ],
+  "offers_posted": []
 }
