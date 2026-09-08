@@ -507,6 +507,7 @@ Respond with valid JSON only, no code fences:
 
 Rules:
 - Only include SPORTS betting sign-up offers for NEW customers that the page presents as currently live. Skip casino, bingo, slots and lottery offers, and skip anything marked expired or ended.
+- Only include classic bet-and-get offers ("bet £X, get £Y in free bets"), where laying the qualifying bet and the free bets locks in the profit regardless of results. Skip odds boosts, "double the odds" promos, price boosts, refund/money-back offers and anything whose payout depends on the bet winning or losing — the profit maths for those doesn't fit this post format.
 - "offer" is the shorthand as the page states it, e.g. "Bet £10, get £30 in free bets".
 - est_profit_gbp: use the page's own stated expected/estimated profit for that offer if it gives one; otherwise estimate it as 75% of the free bet value, rounded to the nearest pound.
 - Every figure must come from the page text. Use no outside knowledge, and never invent offers or numbers.
