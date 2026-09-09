@@ -76,7 +76,9 @@ OFFER_MODEL         = "claude-sonnet-5"
 # Appended verbatim to every offer post: the funnel line plus the ad-compliance line.
 # ASA has upheld complaints against "guaranteed"/"risk-free" in matched betting promos,
 # so those words are banned from the generated hook (OFFER_BANNED_TERMS below).
-OFFER_FOOTER        = "Full walkthrough: link in bio.\n\n18+ | begambleaware.org"
+# "GambleAware" is deliberately written without the .org: a bare domain auto-links on
+# Threads and hijacks the post's preview card with a GambleAware thumbnail.
+OFFER_FOOTER        = "Full walkthrough: link in bio.\n\n18+ | GambleAware"
 OFFER_HOOK_MAX      = 210  # hook + footer must stay under X's 280 cap
 OFFER_BANNED_TERMS  = ["guarantee", "risk-free", "risk free", "no risk", "free money",
                        "can't lose", "cannot lose", "cant lose"]

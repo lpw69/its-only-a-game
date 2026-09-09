@@ -34,7 +34,7 @@ How it's sourced, fully automated:
 4. Haiku writes the hook in the account voice, the style validator runs, plus
    offer-specific bans: no "guaranteed", "risk-free", "no risk" or "free money"
    (ASA has upheld complaints against exactly those claims in matched betting
-   promotion). The footer appends "18+ | begambleaware.org" to every offer post.
+   promotion). The footer appends a plain-text "18+ | GambleAware" line to every offer post (no URL, so Threads renders no preview card).
 5. The same Sonnet fact gate checks every figure in the hook against the
    extracted offer before publishing. Anything that can't pass is dropped —
    the slot just retries on the next run of the day.
