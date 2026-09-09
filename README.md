@@ -34,7 +34,7 @@ How it's sourced, fully automated:
 4. Haiku writes the hook in the account voice, the style validator runs, plus
    offer-specific bans: no "guaranteed", "risk-free", "no risk" or "free money"
    (ASA has upheld complaints against exactly those claims in matched betting
-   promotion). The footer appends "18+ | begambleaware.org" to every offer post.
+   promotion). The footer appends a plain-text "18+ | GambleAware" line to every offer post (no URL, so Threads renders no preview card).
 5. The same Sonnet fact gate checks every figure in the hook against the
    extracted offer before publishing. Anything that can't pass is dropped —
    the slot just retries on the next run of the day.
@@ -76,21 +76,13 @@ Modelled on Paddy Power's sports-reactive deadpan crossed with Aldi UK's chronic
 
 Stereotypes only fire when the news pattern triggers them. No forced jokes.
 
-## Telegram notifications
+## Post auditing
 
-Every published post's live Threads URL is sent to a Telegram group. After the
-post goes out via Typefully, the pipe polls the draft for its live Threads
-permalink (`threads_published_url` — publishing is async, so it waits up to
-~2 min), then sends the post text plus the link to the group. If the URL isn't
-ready in time it falls back to the Typefully deep link so a message always goes
-out. The permalink is also recorded in `posted_news.json` for auditing.
-
-Set two secrets to enable it (if unset, the pipe just skips the notification):
-
-1. `TELEGRAM_BOT_TOKEN` — create a bot with [@BotFather](https://t.me/BotFather).
-2. `TELEGRAM_CHAT_ID` — add the bot to your group, then read the group's chat ID
-   (e.g. from `https://api.telegram.org/bot<token>/getUpdates` after posting a
-   message in the group). Group IDs are negative numbers.
+After each post goes out via Typefully, the pipe polls the draft for its live
+Threads permalink (`threads_published_url` — publishing is async, so it waits
+up to ~2 min) and records it alongside the source and post text in
+`posted_news.json`, so you can review what the account is publishing without
+watching the feed.
 
 ## Files
 
@@ -107,8 +99,6 @@ Set in Settings → Secrets and variables → Actions:
 | `APIFY_API_TOKEN` | Apify token (for the X tweet scraper) |
 | `TYPEFULLY_API_KEY` | Typefully API key |
 | `TYPEFULLY_GAME_SOCIAL_SET_ID` | The Typefully social set ID for `@ItsOnlyAGamee` (currently `302659`) |
-| `TELEGRAM_BOT_TOKEN` | Bot token from @BotFather, used to send each published tweet's URL |
-| `TELEGRAM_CHAT_ID` | ID of the Telegram group to post URLs into (negative number for groups) |
 
 ## Running
 

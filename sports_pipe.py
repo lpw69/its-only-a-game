@@ -27,8 +27,6 @@ ANTHROPIC_API_KEY        = os.environ["ANTHROPIC_API_KEY"]
 APIFY_API_TOKEN          = os.environ["APIFY_API_TOKEN"]
 TYPEFULLY_API_KEY        = os.environ["TYPEFULLY_API_KEY"]
 TYPEFULLY_SOCIAL_SET_ID  = os.environ.get("TYPEFULLY_GAME_SOCIAL_SET_ID", "")
-TELEGRAM_BOT_TOKEN       = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-TELEGRAM_CHAT_ID         = os.environ.get("TELEGRAM_CHAT_ID", "")
 
 # --- config ---
 SEED_HANDLES        = [
@@ -78,7 +76,9 @@ OFFER_MODEL         = "claude-sonnet-5"
 # Appended verbatim to every offer post: the funnel line plus the ad-compliance line.
 # ASA has upheld complaints against "guaranteed"/"risk-free" in matched betting promos,
 # so those words are banned from the generated hook (OFFER_BANNED_TERMS below).
-OFFER_FOOTER        = "Full walkthrough: link in bio.\n\n18+ | begambleaware.org"
+# "GambleAware" is deliberately written without the .org: a bare domain auto-links on
+# Threads and hijacks the post's preview card with a GambleAware thumbnail.
+OFFER_FOOTER        = "Full walkthrough: link in bio.\n\n18+ | GambleAware"
 OFFER_HOOK_MAX      = 210  # hook + footer must stay under X's 280 cap
 OFFER_BANNED_TERMS  = ["guarantee", "risk-free", "risk free", "no risk", "free money",
                        "can't lose", "cannot lose", "cant lose"]
@@ -507,6 +507,7 @@ Respond with valid JSON only, no code fences:
 
 Rules:
 - Only include SPORTS betting sign-up offers for NEW customers that the page presents as currently live. Skip casino, bingo, slots and lottery offers, and skip anything marked expired or ended.
+- Only include classic bet-and-get offers ("bet £X, get £Y in free bets"), where laying the qualifying bet and the free bets locks in the profit regardless of results. Skip odds boosts, "double the odds" promos, price boosts, refund/money-back offers and anything whose payout depends on the bet winning or losing — the profit maths for those doesn't fit this post format.
 - "offer" is the shorthand as the page states it, e.g. "Bet £10, get £30 in free bets".
 - est_profit_gbp: use the page's own stated expected/estimated profit for that offer if it gives one; otherwise estimate it as 75% of the free bet value, rounded to the nearest pound.
 - Every figure must come from the page text. Use no outside knowledge, and never invent offers or numbers.
@@ -711,7 +712,6 @@ def maybe_post_offer(posted_log):
     posted_log["last_offer_date"] = today
     posted_log.setdefault("offers_posted", []).append({"key": offer_key(offer), "at": today})
     urls = get_published_urls(tid)
-    notify_published(post, urls)
     posted_log.setdefault("posts", []).append({
         "at": now.strftime("%Y-%m-%d %H:%M UTC"),
         "kind": "offer",
@@ -816,7 +816,7 @@ def push_to_typefully(post_text, cta_text=None):
     return None
 
 
-# --- telegram notify (send every published tweet's live URL to a group) ---
+# --- published-URL polling (records the Threads permalink in the audit log) ---
 
 PUBLISH_POLL_ATTEMPTS = 20
 PUBLISH_POLL_INTERVAL = 6  # seconds — up to ~2 min waiting for the async live URL
@@ -858,39 +858,6 @@ def get_published_urls(draft_id):
 
     print("    Threads URL not ready after polling; using Typefully fallback link.")
     return {"x": x_seen, "threads": th_seen, "fallback": fallback}
-
-
-def send_to_telegram(text):
-    """Send a plain-text message to the configured Telegram group."""
-    if not (TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID):
-        print("    Telegram not configured (TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID unset); skipping.")
-        return False
-    try:
-        r = requests.post(
-            f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
-            json={"chat_id": TELEGRAM_CHAT_ID, "text": text, "disable_web_page_preview": False},
-            timeout=15,
-        )
-    except requests.RequestException as e:
-        print(f"    Telegram send error: {e}")
-        return False
-    if r.status_code == 200:
-        return True
-    print(f"    Telegram error {r.status_code}: {r.text[:200]}")
-    return False
-
-
-def notify_published(post, urls):
-    """Send the published post's live Threads URL (with the post text) to Telegram."""
-    if urls.get("threads"):
-        link = urls["threads"]
-    elif urls.get("fallback"):
-        link = f"{urls['fallback']} (Threads URL not ready yet)"
-    else:
-        link = ""
-    body = post + ("\n\n" + link if link else "")
-    if send_to_telegram(body):
-        print("    Sent post URL to Telegram.")
 
 
 # --- commit ---
@@ -967,9 +934,8 @@ def main():
             print(f"    Typefully draft: {tid}")
             posted_log["news_ids"].append(news["id"])
 
-            # Every published tweet: fetch its live URL and send it to Telegram.
+            # Fetch the live Threads permalink for the audit log.
             urls = get_published_urls(tid)
-            notify_published(post, urls)
 
             posted_log.setdefault("posts", []).append({
                 "at": datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
