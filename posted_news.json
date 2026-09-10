@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2082507297981366382",
     "2081410758747857320",
     "2082536647409778829",
     "2082628654270406844",
@@ -499,26 +498,11 @@
     "2097928305701687606",
     "2097979339102928896",
     "2097776360403960124",
-    "2098001302693261449"
+    "2098001302693261449",
+    "2098024831610400995"
   ],
-  "post_count": 1596,
+  "post_count": 1597,
   "posts": [
-    {
-      "at": "2026-08-24 19:18 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\u26ab\ufe0f\u26aa\ufe0f BREAKING: Newcastle reach verbal agreement with Man City for Nico Gonz\u00e1lez, here we go!\n\nUnderstand fee will be \u00a347m plus \u00a33m add-ons, green light from the player after progress revealed overnight.\n\nNico, ready to join #NUFC project where he will be a key player. https://t.co/GvVKLCT96n",
-      "post": "BREAKING: Newcastle spending 50 quid on a Man City player.\n\nNever thought I'd see the day Pep lets one of his actually go without a fight. Nico must've asked very nicely.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2091968327333884064",
-      "threads_url": null
-    },
-    {
-      "at": "2026-08-24 19:50 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83d\udd35\u26aa\ufe0f Al Hilal are getting closer to Gabriel Martinelli deal done after club to club talks with Arsenal at final stages.\n\nFee around \u00a350/55m discussed and #AFC prepared to accept and sell Martinelli.\n\nTalks on personal terms ongoing, Gabriel to make final decision soon. \ud83c\udde7\ud83c\uddf7 https://t.co/8NfvHfv75l",
-      "post": "BREAKING: Arsenal selling Gabriel Martinelli to Al Hilal for \u00a350-55m.\n\nSo they're gonna spend it on another left-back who won't play, yeah?",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2091976339268202902",
-      "threads_url": null
-    },
     {
       "at": "2026-08-24 21:42 UTC",
       "source_author": "FabrizioRomano",
@@ -2104,6 +2088,23 @@
       "post": "Bar\u00e7a director Deco: we're grateful to Rashford but Gordon brings more of what we need.\n\nTranslation: we got bored. Mental.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdHDJXxG_mW"
+    },
+    {
+      "at": "2026-09-10 17:14 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83c\udf15 Declan Rice tells Sky Sports on the Ballon d\u2019Or: \u201cSecond year in a row nominated, I'm very proud. You know who I want to win!\u201d.\n\n\u201cI'd love to see Harry Kane win it. I wish him all the best in that\u201d. https://t.co/9UQPRjhhig",
+      "post": "BREAKING: Declan Rice nominates Harry Kane for Ballon d'Or.\n\nKane currently at Bayern Munich having the time of his life. Rice at Arsenal wondering if loyalty votes count.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdHWQCnmhuU"
+    },
+    {
+      "at": "2026-09-10 17:14 UTC",
+      "kind": "offer",
+      "source_author": "https://matchedbettingblog.com/new-customer-offers/",
+      "source": "Betfair: Bet \u00a310, Get \u00a350 in Free Bets (est \u00a338)",
+      "post": "Betfair's doing \u00a350 in free bets when you stake a tenner this week.\n\nBack and lay it properly and you're locking in about \u00a338 before a ball's even kicked.\n\nFull walkthrough: link in bio.\n\n18+ | GambleAware",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdHWS2rgREk"
     }
   ],
   "offers_posted": [
@@ -2114,7 +2115,11 @@
     {
       "key": "betfred",
       "at": "2026-09-09"
+    },
+    {
+      "key": "betfair",
+      "at": "2026-09-10"
     }
   ],
-  "last_offer_date": "2026-09-09"
+  "last_offer_date": "2026-09-10"
 }
