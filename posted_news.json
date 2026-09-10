@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2081817917570588842",
     "2082405607156388128",
     "2082454208138121449",
     "2082507297981366382",
@@ -499,18 +498,11 @@
     "2097772204502990918",
     "2097792488148750374",
     "2097791319657595098",
-    "2097928305701687606"
+    "2097928305701687606",
+    "2097979339102928896"
   ],
-  "post_count": 1593,
+  "post_count": 1594,
   "posts": [
-    {
-      "at": "2026-08-23 17:40 UTC",
-      "source_author": "JacobsBen",
-      "source": "Hull City manager Sergej Jakirovic has agreed a new three-year contract, which includes a significant pay rise.\ud83d\udc2f\n\n\ud83e\udd1d @alex_crook https://t.co/pX1mjwWOCN",
-      "post": "BREAKING: Sergej Jakirovic agrees new Hull City deal with a pay rise.\n\nOoh look at me, I'm a manager at Hull City and I'm gonna negotiate myself a better contract. Optimistic.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2091581417604124849",
-      "threads_url": null
-    },
     {
       "at": "2026-08-23 19:10 UTC",
       "source_author": "FabrizioRomano",
@@ -2104,6 +2096,14 @@
       "post": "Rodri: 'I don't want to get into the Ballon d'Or debate'.\n\nRodri two seconds later: 'But I hope it's a Spanish player'.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdG03Mvm52Y"
+    },
+    {
+      "at": "2026-09-10 12:57 UTC",
+      "source_author": "SkySportsNews",
+      "source": "\"You know who I want to win!\"\n\nWho does Declan Rice want to see win the Ballon d\u2019Or? \ud83c\udfc6 https://t.co/kmjRGRlSnZ",
+      "post": "BREAKING: Declan Rice has an opinion on the Ballon d'Or.\n\nMore at 11.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdG4znqG3ET"
     }
   ],
   "offers_posted": [
