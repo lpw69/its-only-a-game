@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2082754874639294643",
     "2082790162333880730",
     "2082774976717816043",
     "2082817690553475075",
@@ -499,26 +498,11 @@
     "2098353407417339953",
     "2098389615048614264",
     "2094891860292424002",
-    "2098351919190188392"
+    "2098351919190188392",
+    "2098397032515842117"
   ],
-  "post_count": 1607,
+  "post_count": 1608,
   "posts": [
-    {
-      "at": "2026-08-25 19:19 UTC",
-      "source_author": "SkySportsNews",
-      "source": "\"There will never be a bad goalkeeper that wins the Premier League\" \ud83d\udde3\ufe0f \n\nJamie O\u2019Hara questions Chelsea sticking with S\u00e1nchez and debates who should be their starting goalkeeper. \ud83d\udd35 https://t.co/RT60M5yTbv",
-      "post": "Jamie O'Hara: 'There will never be a bad goalkeeper that wins the Premier League'\n\nChelsea: 'Say no more, we're keeping S\u00e1nchez'",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2092331091260825707",
-      "threads_url": null
-    },
-    {
-      "at": "2026-08-25 19:50 UTC",
-      "source_author": "Plettigoal",
-      "source": "\ud83d\udea8\ud83e\udde8 EXCL | Enzo Fernandez is one of Manchester City\u2019s desired transfer targets for the summer. Strongly wanted by Enzo Maresca. #MCFC \n\nInitial talks behind the scenes have already taken place. The two Enzos share a top and very trusting relationship. @SkySportDE \ud83c\udde6\ud83c\uddf7 https://t.co/elBeptxhYY",
-      "post": "BREAKING: Manchester City want Enzo Fernandez. Enzo Maresca wants Enzo Fernandez. Two Enzos, one Enzo.\n\nThis is what peak recruitment looks like.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2092338749816598887",
-      "threads_url": null
-    },
     {
       "at": "2026-08-25 21:42 UTC",
       "source_author": "FabrizioRomano",
@@ -2105,6 +2089,23 @@
       "post": "Joao Pedro wins Player of the Month after four goal contributions in August.\n\nChelsea's recruitment team currently refreshing their emails to see if they accidentally signed someone good.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdJs05yG_8w"
+    },
+    {
+      "at": "2026-09-11 17:17 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udd35 Breaking: Pedro Neto signs new deal at Chelsea valid until June 2032 plus option for further season.\n\nThe Portuguese winger was a target for several clubs this summer as #CFC now reward him with new deal. https://t.co/OegPv9vFDn",
+      "post": "BREAKING: Pedro Neto signs new Chelsea deal until 2032.\n\nThat's 8 years. Chelsea's new strategy: sign players on contracts so long they forget what it felt like to win something.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdJ7WQcGvVD"
+    },
+    {
+      "at": "2026-09-11 17:17 UTC",
+      "kind": "offer",
+      "source_author": "https://matchedbettingblog.com/new-customer-offers/",
+      "source": "BetVictor: Bet \u00a310, Get \u00a350 in Free Bets (est \u00a338)",
+      "post": "BetVictor's doing \u00a350 in free bets when you stick a tenner on this weekend's football.\n\nBack and lay it properly and you're walking away with about \u00a338 locked in whatever happens.\n\nFull walkthrough: link in bio.\n\n18+ | GambleAware",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdJ7YzgmqF2"
     }
   ],
   "offers_posted": [
@@ -2119,7 +2120,11 @@
     {
       "key": "betfair",
       "at": "2026-09-10"
+    },
+    {
+      "key": "betvictor",
+      "at": "2026-09-11"
     }
   ],
-  "last_offer_date": "2026-09-10"
+  "last_offer_date": "2026-09-11"
 }
