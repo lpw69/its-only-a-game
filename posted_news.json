@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2083432541596323893",
     "2083480403348684978",
     "2082446293561979346",
     "2083294533379305507",
@@ -499,26 +498,11 @@
     "2098512688942907697",
     "2098559507722805378",
     "2098520060654395874",
-    "2098644594313326686"
+    "2098644594313326686",
+    "2097427884780499187"
   ],
-  "post_count": 1619,
+  "post_count": 1620,
   "posts": [
-    {
-      "at": "2026-08-26 19:22 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83d\udd35\u26aa\ufe0f Real Sociedad reached full verbal agreement with Barcelona for Hector Fort, here we go!\n\nFee worth \u20ac8m plus 50% sell-on clause and buy back clause around \u20ac20m for Bar\u00e7a to mantain future control on the player.\n\nFort said yes to Real Sociedad. \ud83c\uddea\ud83c\uddf8 https://t.co/5qLqhkAV4T",
-      "post": "BREAKING: Barcelona sell a young defender to Real Sociedad.\n\nBar\u00e7a insert buy-back clause worth \u20ac20m. They're basically renting him out and hoping he gets good enough to buy back at double the price.\n\nOnly club that can lose money on a player twice.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2092694272026046513",
-      "threads_url": null
-    },
-    {
-      "at": "2026-08-26 21:16 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83d\udfe3\ud83d\udd35 Nicolas Jackson to Aston Villa deal being completed as Chelsea set to accept \u00a365m package offered by #AVFC.\n\nJackson said yes to Villa project, spoke to Unai Emery and deal now at very final stages.\n\nFinal green light needed on details and then medical next. \u23f3\u231b\ufe0f https://t.co/MG8WXLdyU9",
-      "post": "BREAKING: Nicolas Jackson to Aston Villa for \u00a365m.\n\nChelsea finally found someone who wants to leave.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2092722967226757197",
-      "threads_url": null
-    },
     {
       "at": "2026-08-26 22:20 UTC",
       "source_author": "David_Ornstein",
@@ -2106,6 +2090,23 @@
       "post": "Mbapp\u00e9 explaining that PSG had no other stars.\n\nSo he's admitting he was playing with 10 invisible men for a year. Lovely.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdML4asm93W"
+    },
+    {
+      "at": "2026-09-12 16:30 UTC",
+      "source_author": "SamLee",
+      "source": "Ait-Nouri sets up Haaland for a measured finish into the bottom corner in the 91st minute that signals home time for a lot of the Porto fans, although the City support have been told to stay in their seats for 40 mins after the final whistle.",
+      "post": "BREAKING: Haaland scores in the 91st minute.\n\nCity fans told to stay in their seats for 40 minutes after the whistle. Porto fans heading home. Make of that what you will.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdMa2pBG7n0"
+    },
+    {
+      "at": "2026-09-12 16:30 UTC",
+      "kind": "offer",
+      "source_author": "https://matchedbettingblog.com/new-customer-offers/",
+      "source": "BetMGM: Bet \u00a310, Get \u00a340 in Free Bets (est \u00a330)",
+      "post": "BetMGM doing \u00a340 in free bets on a \u00a310 stake this weekend.\n\nBack and lay that properly and you're looking at about \u00a330 locked in before kick-off, whatever happens.\n\nFull walkthrough: link in bio.\n\n18+ | GambleAware",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdMa4_Em89s"
     }
   ],
   "offers_posted": [
@@ -2124,7 +2125,11 @@
     {
       "key": "betvictor",
       "at": "2026-09-11"
+    },
+    {
+      "key": "betmgm",
+      "at": "2026-09-12"
     }
   ],
-  "last_offer_date": "2026-09-11"
+  "last_offer_date": "2026-09-12"
 }
