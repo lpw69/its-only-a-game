@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2083582461364060247",
     "2083591747964162260",
     "2083812542829474079",
     "2083547949401837842",
@@ -499,26 +498,11 @@
     "2098880613591957894",
     "2098954417244385772",
     "2098920734261149965",
-    "2099020796400132405"
+    "2099020796400132405",
+    "2099150875868401930"
   ],
-  "post_count": 1630,
+  "post_count": 1631,
   "posts": [
-    {
-      "at": "2026-08-28 00:56 UTC",
-      "source_author": "JamesPearceLFC",
-      "source": "Breaking: LFC reach outline agreement with PSG to sign Bradley Barcola following breakthrough in discussions. \nBut still work to be done in terms of getting deal done. Expecting to be around \u00a3100m potentially rising to \u00a3120m. \nFrom @David_Ornstein \n\nhttps://t.co/LliDIDs6TV",
-      "post": "BREAKING: Liverpool reach outline agreement with PSG to sign Bradley Barcola for \u00a3100m rising to \u00a3120m.\n\nSo they've agreed a deal but haven't agreed a deal. Football.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2093140634030968850",
-      "threads_url": null
-    },
-    {
-      "at": "2026-08-28 01:33 UTC",
-      "source_author": "David_Ornstein",
-      "source": "\ud83d\udea8 BREAKING: Chelsea reach agreement with Aston Villa to sign Emi Martinez. Permanent deal for 33yo #AVFC goalkeeper worth \u00a37.5m &amp; Argentina international to join #CFC on 2y contract + option to extend at Stamford Bridge by further 12 months @TheAthleticFC https://t.co/onMvgCFTPY",
-      "post": "BREAKING: Chelsea sign 33yo goalkeeper on a two-year deal.\n\nOoh look at me, I'm Todd Boehly and I'm gonna solve our problems by buying someone's dad.\n\nBrilliant.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2093149923269300448",
-      "threads_url": null
-    },
     {
       "at": "2026-08-28 02:22 UTC",
       "source_author": "FabrizioRomano",
@@ -2107,6 +2091,23 @@
       "post": "BREAKING: Mikel Arteta questions penalty decision in Arsenal's 2-0 win at Sunderland.\n\nArsenal fans nodding along until they remember they won 2-0 and he's still complaining. Classic.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdO1bnYGwm0"
+    },
+    {
+      "at": "2026-09-13 17:04 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udd35\ud83d\udd34\ud83e\udec2 Lamine Yamal and Raphinha have generated 19 G/A in 6 games in all competitions so far.\n\n8 goals, 3 assists for Raphinha. \ud83c\udde7\ud83c\uddf7\n\n6 goals, 2 assists for Lamine. \ud83c\uddea\ud83c\uddf8 https://t.co/ys3ge11Uvx",
+      "post": "BREAKING: Lamine Yamal and Raphinha have 19 G/A in 6 games.\n\nBarcelona's two-man highlights reel while the rest of the team watches from the bench. Lovely stuff.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdPDhOJmioa"
+    },
+    {
+      "at": "2026-09-13 17:04 UTC",
+      "kind": "offer",
+      "source_author": "https://matchedbettingblog.com/new-customer-offers/",
+      "source": "Bet UK: Bet \u00a310, Get \u00a340 in Free Bets (est \u00a330)",
+      "post": "Bet UK doing \u00a340 in free bets when you stick a tenner on this weekend's football.\n\nBack and lay it at the exchange and you're looking at roughly \u00a330 locked in whatever happens.\n\nFull walkthrough: link in bio.\n\n18+ | GambleAware",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdPDjo6GrLB"
     }
   ],
   "offers_posted": [
@@ -2129,7 +2130,11 @@
     {
       "key": "betmgm",
       "at": "2026-09-12"
+    },
+    {
+      "key": "betuk",
+      "at": "2026-09-13"
     }
   ],
-  "last_offer_date": "2026-09-12"
+  "last_offer_date": "2026-09-13"
 }
