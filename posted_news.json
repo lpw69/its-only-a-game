@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2083153595931775328",
     "2083577832224006456",
     "2083539727009906967",
     "2083582461364060247",
@@ -499,18 +498,11 @@
     "2098828259207106981",
     "2098397535396089978",
     "2098873427561980380",
-    "2098880613591957894"
+    "2098880613591957894",
+    "2098954417244385772"
   ],
-  "post_count": 1627,
+  "post_count": 1628,
   "posts": [
-    {
-      "at": "2026-08-27 23:06 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83c\udde6\ud83c\uddf7 Xabi Alonso: \u201cEnzo Fern\u00e1ndez was left out as it was my own decision shared with the club\u201d. https://t.co/kMqV0rPHWD",
-      "post": "BREAKING: Xabi Alonso drops the 'shared with the club' line when asked why Enzo Fern\u00e1ndez got benched.\n\nTranslation: it was absolutely his decision and he's just being nice about it.",
-      "x_url": null,
-      "threads_url": null
-    },
     {
       "at": "2026-08-27 23:46 UTC",
       "source_author": "SamLee",
@@ -2107,6 +2099,14 @@
       "post": "BREAKING: Arsenal on a winning run.\n\nParade cancellation department currently on standby.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdOmev-G9vK"
+    },
+    {
+      "at": "2026-09-13 13:19 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\ude05\ud83c\uddee\ud83c\uddf9 Roberto De Zerbi: \u201cIn Italy, for example, I would be the best coach in the world\u2026 because I achieved two clean sheets in the last two matches!\u201d. https://t.co/qgz499fJxC",
+      "post": "De Zerbi saying two clean sheets would make him the best coach in Italy.\n\nMean. Absolutely vicious.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdOpwSCm70h"
     }
   ],
   "offers_posted": [
