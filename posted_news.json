@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2083549880413208717",
     "2083575331168846154",
     "2083153595931775328",
     "2083577832224006456",
@@ -499,18 +498,11 @@
     "2098654065727078544",
     "2098795136935190850",
     "2098828259207106981",
-    "2098397535396089978"
+    "2098397535396089978",
+    "2098873427561980380"
   ],
-  "post_count": 1625,
+  "post_count": 1626,
   "posts": [
-    {
-      "at": "2026-08-27 20:31 UTC",
-      "source_author": "SkySportsNews",
-      "source": "BREAKING: Liverpool have reached an outline agreement in principle with Paris Saint Germain to sign Bradley Barcola for a package worth \u00a3120m \ud83d\udea8 https://t.co/cI0CetCBRF",
-      "post": "BREAKING: Liverpool agree \u00a3120m deal for Bradley Barcola from PSG.\n\nArne Slot immediately spending money like he's got somewhere to be. Lovely.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2093073811583476131",
-      "threads_url": null
-    },
     {
       "at": "2026-08-27 21:09 UTC",
       "source_author": "FabrizioRomano",
@@ -2107,6 +2099,14 @@
       "post": "BREAKING: Pedro Neto signs new Chelsea deal until summer 2032.\n\nThat's eight years. Eight. Chelsea really said 'let's make sure he can't leave even if we're terrible' and just locked him in forever.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdNHsU1D60x"
+    },
+    {
+      "at": "2026-09-13 12:42 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udd34\u26aa\ufe0f\ud83e\udd0f\ud83c\udffc First goal as Arsenal player for Bruno Guimar\u00e3es\u2026 and a new celebration. https://t.co/UZf2UINEyI",
+      "post": "BREAKING: Bruno Guimar\u00e3es scores for Arsenal.\n\nCelebration so new he hasn't worked out what it means yet.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdOli1RG0ov"
     }
   ],
   "offers_posted": [
