@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2083547949401837842",
     "2083686636630560861",
     "2083822609058169193",
     "2083755732214645211",
@@ -499,18 +498,11 @@
     "2099020796400132405",
     "2099150875868401930",
     "2098983004798681201",
-    "2099165047050125609"
+    "2099165047050125609",
+    "2099180577731522959"
   ],
-  "post_count": 1633,
+  "post_count": 1634,
   "posts": [
-    {
-      "at": "2026-08-28 05:23 UTC",
-      "source_author": "JacobsBen",
-      "source": "\ud83d\udd34 Manchester United #UCL fixtures. Michael Carrick's side face Bayern at Old Trafford and draw Champions League debutants Sabah and Como:\n\nH: Bayern\nA: Atletico Madrid\nH: Roma\nA: Sporting\nH: Leipzig\nA: Villarreal\nH: Sabah\nA: Como https://t.co/hveGHyeVhw",
-      "post": "TEAM NEWS: Manchester United's Champions League draw includes Bayern, Atletico, Roma, Sporting, Leipzig, Villarreal, Sabah and Como.\n\nSo they're playing Como. Como. The Italian side that got promoted last season. Michael Carrick's really got them sorted hasn't he.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2093207726117761463",
-      "threads_url": null
-    },
     {
       "at": "2026-08-28 19:24 UTC",
       "source_author": "FabrizioRomano",
@@ -2108,6 +2100,14 @@
       "post": "VAR has now seen everything. A player kicks another player on the floor and somehow walks away clean.\n\nAt this point we're just making it up as we go.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdPMG8Yj61Q"
+    },
+    {
+      "at": "2026-09-13 18:47 UTC",
+      "source_author": "JacobsBen",
+      "source": "Al-Hilal have made an official complaint to the Saudi Football Federation after sections of Al-Taawoun fans chanted Diogo Jota\u2019s name to taunt Ruben Neves. Hilal won the game 6-0.\n\nCristiano Ronaldo has since called for lifetime bans for those responsible.",
+      "post": "Al-Taawoun fans chant Diogo Jota's name to wind up Ruben Neves. Al-Hilal complain to the federation. Cristiano Ronaldo demands lifetime bans.\n\nLads are playing 4D chess at a 6-0 thrashing.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdPPRCRDyi3"
     }
   ],
   "offers_posted": [
