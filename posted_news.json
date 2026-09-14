@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2083434928750911575",
     "2083932621730468314",
     "2083920881361776799",
     "2083962640955535549",
@@ -499,26 +498,11 @@
     "2094729747779510305",
     "2099232118081486884",
     "2099201760493555840",
-    "2099187717225509120"
+    "2099187717225509120",
+    "2099253637402722476"
   ],
-  "post_count": 1640,
+  "post_count": 1641,
   "posts": [
-    {
-      "at": "2026-08-28 23:13 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83d\udfe3\ud83d\udd35 BREAKING: Aston Villa reach verbal agreement on deal to sign Ibrahima Mbaye, here we go! \ud83d\udca5\n\nSenegal winger to join #AVFC from Paris Saint-Germain after leaving negotiations for Le\u00e3o; Mbaye, a long term target for the club.\n\nFee worth \u20ac55m, as @FabriceHawkins @David_Ornstein reported.",
-      "post": "BREAKING: Aston Villa sign Ibrahima Mbaye from PSG for \u20ac55m.\n\nLe\u00e3o negotiations fell through so they just went \"right, we'll have the other one then\". Efficient.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2093476947993280923",
-      "threads_url": null
-    },
-    {
-      "at": "2026-08-28 23:32 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83d\udd34\u26aa\ufe0f AS Monaco have reached verbal agreement for Mexican midfielder Erik Lira, here we go!\n\n\u20ac8m fee plus \u20ac3m add-ons to Cruz Azul with 20% sell-on clause.\n\nFinal step needed: AS Monaco to free an extra spot then deal proceeds to signatures stage. https://t.co/ZH4Ciztrcj",
-      "post": "BREAKING: AS Monaco agree deal for Erik Lira then immediately remember they need to actually have space in the squad.\n\nEuropean football at its finest.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2093481732632871157",
-      "threads_url": null
-    },
     {
       "at": "2026-08-29 00:05 UTC",
       "source_author": "David_Ornstein",
@@ -2108,6 +2092,23 @@
       "post": "Enzo Maresca dancing to the away end at full-time.\n\nChelsea have found a manager who's actually enjoying himself. Give it three weeks.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdRaU4nm9Hu"
+    },
+    {
+      "at": "2026-09-14 16:00 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83c\udf15 Lamine Yamal: \u201cKylian Mbapp\u00e9 and I, we are the two BEST in the world\u2026\n\n\u2026but I think I AM the one who deserves to win the Ballon d\u2019Or\u201d, told Movistar. \ud83d\udd25\u261d\ud83c\udffd https://t.co/ymjg1k8lIH",
+      "post": "BREAKING: Lamine Yamal tells Movistar he and Mbapp\u00e9 are the two best in the world.\n\nThen immediately explains why it's actually just him. Confidence.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdRhA57Gz7I"
+    },
+    {
+      "at": "2026-09-14 16:00 UTC",
+      "kind": "offer",
+      "source_author": "https://matchedbettingblog.com/new-customer-offers/",
+      "source": "Paddy Power: Bet \u00a35, get \u00a340 free bet (est \u00a330)",
+      "post": "Paddy Power doing \u00a340 in free bets on a \u00a35 stake this week.\n\nBack it, lay it at the exchange, and you're looking at about \u00a330 locked in whatever happens with the football.\n\nFull walkthrough: link in bio.\n\n18+ | GambleAware",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdRhDrom4yF"
     }
   ],
   "offers_posted": [
@@ -2134,7 +2135,11 @@
     {
       "key": "betuk",
       "at": "2026-09-13"
+    },
+    {
+      "key": "paddypower",
+      "at": "2026-09-14"
     }
   ],
-  "last_offer_date": "2026-09-13"
+  "last_offer_date": "2026-09-14"
 }
