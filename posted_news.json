@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2084233964181438826",
     "2084240266861387869",
     "2084276217037897744",
     "2084350848331608139",
@@ -499,26 +498,11 @@
     "2099739993807929528",
     "2099801983225909360",
     "2099762138696851538",
-    "2099776483208097913"
+    "2099776483208097913",
+    "2099870650064097559"
   ],
-  "post_count": 1653,
+  "post_count": 1654,
   "posts": [
-    {
-      "at": "2026-08-29 18:48 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83d\udca3 BREAKING: Liverpool reach verbal agreement to sign Bradley Barcola, HERE WE GO! \ud83d\udd34\n\nInitial fee worth \u00a3100m plus add-ons \u2014 up to \u20ac140m possible total package for PSG.\n\nDocuments to be exchanged in 24 hours.\n\n#LFC get their top target: never in doubt and now done. https://t.co/ruDJAbIhtK",
-      "post": "BREAKING: Liverpool reach verbal agreement to sign Bradley Barcola from PSG for \u00a3100m plus add-ons.\n\nNever in doubt they said. Except for the 47 times they were definitely in doubt. Still, at least they got there eventually.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2093772794710593608",
-      "threads_url": null
-    },
-    {
-      "at": "2026-08-29 21:19 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\u26aa\ufe0f Roberto De Zerbi confirms Richarlison, Pape Sarr and Kevin Danso asked to LEAVE Spurs.\n\n\u201cRicharlison he said too many times that he wanted to leave. Danso came to me two days ago and said he wanted to leave, Sarr too\u201d, says via @AlasdairGold. https://t.co/5pQ9jX1hV1",
-      "post": "BREAKING: Three Spurs players asked to leave.\n\nRicharlison said it too many times. Danso and Sarr just walked in and said it. De Zerbi's basically running a Lost & Found at this point.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2093810794089816284",
-      "threads_url": null
-    },
     {
       "at": "2026-08-29 21:49 UTC",
       "source_author": "FabrizioRomano",
@@ -2109,6 +2093,23 @@
       "post": "EXCLUSIVE: Mourinho called Rodri, expressed desire, treated him well.\n\nRodri then called back to say thanks but no thanks.\n\nMourinho's been practicing that conversation since Thursday.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdT_CLjm0i-"
+    },
+    {
+      "at": "2026-09-15 17:47 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83d\udd34 JJ Gabriel has formally asked to leave Manchester United by terminating his contract.\n\n15 year old wonderkid, wanted by all the top clubs in the world \u2014 not only in England. \ud83d\udc40\n\nJJ asked for immediate termination, as @TimesSport reported.\n\nManchester United still hopeful to change the stance and keep JJ Gabriel but player side pushing for an exit.",
+      "post": "BREAKING: 15-year-old JJ Gabriel asking to leave Manchester United.\n\nMan United hoping to change his mind. Kid's probably just seen the last three years of football they've played.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdUSBjjGHzS"
+    },
+    {
+      "at": "2026-09-15 17:47 UTC",
+      "kind": "offer",
+      "source_author": "https://matchedbettingblog.com/new-customer-offers/",
+      "source": "QuinnBet: Bet \u00a310, get up to \u00a325 free bet (est \u00a319)",
+      "post": "QuinnBet's doing up to \u00a325 in free bets for new customers this week.\n\nBack and lay it properly and you're locking in about \u00a319 whatever happens on the pitch.\n\nFull walkthrough: link in bio.\n\n18+ | GambleAware",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdUSED8GkLU"
     }
   ],
   "offers_posted": [
@@ -2139,7 +2140,11 @@
     {
       "key": "paddypower",
       "at": "2026-09-14"
+    },
+    {
+      "key": "quinnbet",
+      "at": "2026-09-15"
     }
   ],
-  "last_offer_date": "2026-09-14"
+  "last_offer_date": "2026-09-15"
 }
