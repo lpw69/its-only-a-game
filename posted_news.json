@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2084381964715303218",
     "2084654547482333677",
     "2084610665675624829",
     "2084016209880641840",
@@ -499,26 +498,11 @@
     "2100122009858400365",
     "2099861782760223050",
     "2099969956590813306",
-    "2100132957788733531"
+    "2100132957788733531",
+    "2099575119454576656"
   ],
-  "post_count": 1662,
+  "post_count": 1663,
   "posts": [
-    {
-      "at": "2026-08-30 18:02 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udd35\u26a1\ufe0f Chelsea beat Brighton and get three wins in three games under Xabi Alonso! \ud83c\uddea\ud83c\uddf8\n\nCole Palmer, Jo\u00e3o Pedro and Morgan Rogers deliver again.\n\nWho\u2019s been your Man of the Match? https://t.co/X85ixr2aTJ",
-      "post": "BREAKING: Chelsea win three in a row under Xabi Alonso.\n\nThey've found a manager who can actually organise them. Give it two weeks, they'll sack him anyway.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2094123698768986295",
-      "threads_url": null
-    },
-    {
-      "at": "2026-08-30 18:47 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83d\udc4b\ud83c\udffc BREAKING: Karim Benzema has decided to leave Al Hilal with mutual contract termination agreed today.\n\nBenzema to announce his decision on future soon; options include retirement or playing in another Saudi club. No European return. https://t.co/OxILuZBvKR",
-      "post": "BREAKING: Karim Benzema leaving Al Hilal after deciding mutual termination is best for everyone.\n\nRetirement or another Saudi club next. Europe? Nah. The man's had enough of chasing a ball.",
-      "x_url": "https://x.com/ItsOnlyAGamee/status/2094134921367531711",
-      "threads_url": null
-    },
     {
       "at": "2026-08-30 19:19 UTC",
       "source_author": "David_Ornstein",
@@ -2110,6 +2094,23 @@
       "post": "Haaland caught offside 25 times in four years.\n\nDominic Calvert-Lewin: 76 times.\n\nEverton have truly found their striker.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdWjkrjm9Ih"
+    },
+    {
+      "at": "2026-09-16 17:45 UTC",
+      "source_author": "Plettigoal",
+      "source": "\ud83d\udea8\ud83c\udd95 J\u00fcrgen Klopp is planning to name an XXL squad on Thursday for the four Nations League games.\n\nHe wants to see as many players as possible. The exact number of players has not been decided yet. There are set to be two blocks of players for the four matches. Clubs have already been informed.\n\nPlayers are now being contacted one by one. \n\n@berger_pj @SkySportDE \ud83c\udde9\ud83c\uddea",
+      "post": "BREAKING: J\u00fcrgen Klopp naming an XXL squad for four Nations League games because apparently he wants to see everyone at once.\n\nClubs informed. Players being called one by one. It's like a group chat but make it football.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdW2jskmQZZ"
+    },
+    {
+      "at": "2026-09-16 17:45 UTC",
+      "kind": "offer",
+      "source_author": "https://matchedbettingblog.com/new-customer-offers/",
+      "source": "Coral: Bet \u00a35, Get \u00a330 in Free Bets (est \u00a323)",
+      "post": "Coral's doing \u00a330 in free bets when you bet a fiver this week.\n\nBack and lay it properly and you're looking at about \u00a323 locked in whatever the football does.\n\nFull walkthrough: link in bio.\n\n18+ | GambleAware",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdW2m6cmkXD"
     }
   ],
   "offers_posted": [
@@ -2144,7 +2145,11 @@
     {
       "key": "quinnbet",
       "at": "2026-09-15"
+    },
+    {
+      "key": "coral",
+      "at": "2026-09-16"
     }
   ],
-  "last_offer_date": "2026-09-15"
+  "last_offer_date": "2026-09-16"
 }
