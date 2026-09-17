@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2084602172335895006",
     "2084694052037861702",
     "2084678081621442669",
     "2084740846117683447",
@@ -499,18 +498,11 @@
     "2100155984111087846",
     "2100177175479460225",
     "2100404160436834533",
-    "2100414042833617236"
+    "2100414042833617236",
+    "2100373425504006650"
   ],
-  "post_count": 1667,
+  "post_count": 1668,
   "posts": [
-    {
-      "at": "2026-08-31 15:06 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83d\udd34 OFFICIAL: Bradley Barcola has joined Liverpool from PSG. \u26a1\ufe0f\n\nA move revealed since May and now completed. https://t.co/kb1VNEvnAm",
-      "post": "BREAKING: Bradley Barcola joins Liverpool from PSG.\n\nA move revealed since May. So they've been telling everyone about it for months and still managed to keep it secret. Brilliant.",
-      "x_url": null,
-      "threads_url": null
-    },
     {
       "at": "2026-08-31 15:26 UTC",
       "source_author": "FabrizioRomano",
@@ -2111,6 +2103,14 @@
       "post": "Messi lifts another trophy and somewhere in Argentina a man is still explaining to his family why he left.\n\nNever gets old.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdY5P4zm_GR"
+    },
+    {
+      "at": "2026-09-17 13:29 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udd35\ud83d\udd34\ud83c\udf15 Raphinha to Lamine Yamal: \u201cYou are a phenomenon! You\u2019re my Ballon d\u2019Or\u201d. https://t.co/GJGNshCx5h",
+      "post": "Raphinha telling Lamine Yamal he's his Ballon d'Or.\n\nThat's what happens when you're 17 and already better than everyone else at your club. Lovely.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdY-HPwG2oa"
     }
   ],
   "offers_posted": [
