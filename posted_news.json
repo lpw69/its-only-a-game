@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2084678081621442669",
     "2084740846117683447",
     "2084902495223001412",
     "2084902377769853213",
@@ -499,18 +498,11 @@
     "2100404160436834533",
     "2100414042833617236",
     "2100373425504006650",
-    "2100564487501734164"
+    "2100564487501734164",
+    "2100394361695395951"
   ],
-  "post_count": 1669,
+  "post_count": 1670,
   "posts": [
-    {
-      "at": "2026-08-31 16:13 UTC",
-      "source_author": "SkySportsNews",
-      "source": "Arsenal target Julian Alvarez returned to group training at Atletico Madrid on Sunday as the deadline for a decision over his future passed \u26bd\ufe0f https://t.co/juW3eJsMQ1",
-      "post": "BREAKING: Julian Alvarez returned to Atletico Madrid training on Sunday.\n\nArsenal fans refreshing their phones like it's a Black Friday sale, completely unaware the deadline has already passed.",
-      "x_url": null,
-      "threads_url": null
-    },
     {
       "at": "2026-08-31 17:16 UTC",
       "source_author": "FabrizioRomano",
@@ -2111,6 +2103,14 @@
       "post": "BREAKING: Mbapp\u00e9 wishes a talented young player well.\n\nThat's it. That's the news. We've reached peak footballer quotes.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdZEyyAG6gB"
+    },
+    {
+      "at": "2026-09-17 15:00 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udc97\ud83c\udde6\ud83c\uddf7 Lionel Messi, the fastest player in MLS history to reach 100 goals for his club in all competitions.\n\n155 G/A in 114 games. 100 goals, 55 assists. https://t.co/iaWG0ndzss",
+      "post": "BREAKING: Lionel Messi becomes fastest player in MLS history to 100 goals.\n\nMeanwhile, the rest of MLS is still working out how to defend.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdZIh5BG02F"
     }
   ],
   "offers_posted": [
