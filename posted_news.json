@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2084916371637272887",
     "2084995780507582674",
     "2084920821592510464",
     "2085016276586397889",
@@ -499,18 +498,11 @@
     "2100394002474221993",
     "2100600090645664073",
     "2099855985414226212",
-    "2100827159833047043"
+    "2100827159833047043",
+    "2100905705356034253"
   ],
-  "post_count": 1676,
+  "post_count": 1677,
   "posts": [
-    {
-      "at": "2026-08-31 21:58 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83d\udca3 Enzo Fern\u00e1ndez and Manchester City: club to club negotiations ongoing. \ud83c\udde6\ud83c\uddf7 https://t.co/5RdLFSLA6q",
-      "post": "BREAKING: Enzo Fern\u00e1ndez and Manchester City in club to club negotiations.\n\nChelsea fans currently refreshing their phones like they've just found out their ex is texting someone new.",
-      "x_url": null,
-      "threads_url": null
-    },
     {
       "at": "2026-08-31 23:04 UTC",
       "source_author": "David_Ornstein",
@@ -2112,6 +2104,14 @@
       "post": "BREAKING: Harry Kane says 73 goals speak for themselves, then immediately speaks about himself for three paragraphs.\n\nThe goals have unionised and are filing a complaint.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdbbKk_m1uT"
+    },
+    {
+      "at": "2026-09-18 12:59 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83c\uddf5\ud83c\uddf9 BREAKING: Cristiano Ronaldo will continue with Portugal national team! \ud83d\udca3\n\nHe\u2019s been called up for the upcoming games by new head coach Jorge Jesus. https://t.co/Lujp43GTkf",
+      "post": "BREAKING: Cristiano Ronaldo continues with Portugal.\n\nJorge Jesus calling him up. So Portugal's new plan is 'let's see if experience can fix this'.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdbfYbNG2Oy"
     }
   ],
   "offers_posted": [
