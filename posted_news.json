@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2084947435000910314",
     "2084917063626141734",
     "2085049823460274637",
     "2084981980148461625",
@@ -499,18 +498,11 @@
     "2100905705356034253",
     "2100916476983103811",
     "2100951523312197961",
-    "2099188937847722103"
+    "2099188937847722103",
+    "2100953957258453405"
   ],
-  "post_count": 1680,
+  "post_count": 1681,
   "posts": [
-    {
-      "at": "2026-09-01 13:32 UTC",
-      "source_author": "BBCSport",
-      "source": "Lionel Messi has announced his retirement from the Argentina national team \ud83c\udde6\ud83c\uddf7\n\nWhat an incredible international career \ud83d\udc4f\ud83d\udc4f https://t.co/UbbxZQ8XAT",
-      "post": "BREAKING: Lionel Messi retires from Argentina.\n\nSpend your whole career being the best player on earth, then leave while you're still the best player on earth. Absolutely mad behaviour.",
-      "x_url": null,
-      "threads_url": null
-    },
     {
       "at": "2026-09-01 14:21 UTC",
       "source_author": "FabrizioRomano",
@@ -2112,6 +2104,14 @@
       "post": "BREAKING: Man City derby where a Foden red card and a controversial goal somehow both happened.\n\nSam Lee calling it 'pitch perfect' is one way to spin playing most of a derby with 10 men. Brave vocabulary.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdcGHYID6eW"
+    },
+    {
+      "at": "2026-09-18 21:18 UTC",
+      "source_author": "JacobsBen",
+      "source": "\ud83d\udea8 JJ Gabriel is in Barcelona for talks.\n\nBarcelona and Real Madrid viewed as the most viable contenders if Gabriel goes abroad. https://t.co/3V0AGGugCX",
+      "post": "BREAKING: JJ Gabriel in Barcelona for talks.\n\nReal Madrid also interested. So he's either joining Barcelona or joining Barcelona's annoying neighbours. Tough choice.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdcYfIXEnrN"
     }
   ],
   "offers_posted": [
