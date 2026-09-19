@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2085114769938256219",
     "2085025398501396604",
     "2085280268596731973",
     "2085283429784945015",
@@ -499,18 +498,11 @@
     "2101191130612130069",
     "2101030899382940054",
     "2100929220113318038",
-    "2101078724602970599"
+    "2101078724602970599",
+    "2101079994218996069"
   ],
-  "post_count": 1686,
+  "post_count": 1687,
   "posts": [
-    {
-      "at": "2026-09-01 18:48 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83d\udd35 Enzo Fern\u00e1ndez to Manchester City in a record British deal for \u00a3125m. Here we go! \ud83c\udde6\ud83c\uddf7 https://t.co/b5QGFpsZo0",
-      "post": "BREAKING: Enzo Fern\u00e1ndez to Manchester City for \u00a3125m, record British deal.\n\nCity's midfield now has more depth than most Premier League squads have players. Lovely stuff.",
-      "x_url": null,
-      "threads_url": null
-    },
     {
       "at": "2026-09-01 19:25 UTC",
       "source_author": "SkySportsNews",
@@ -2112,6 +2104,14 @@
       "post": "BREAKING: Harry Kane decides not to engage in Ballon d'Or chat.\n\nMeanwhile every pundit on Earth is going to spend the next six weeks explaining why he should have won it anyway.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdeHtAIG0eB"
+    },
+    {
+      "at": "2026-09-19 13:55 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udd35\ud83d\udd34 Raphinha: \u201cMy personal goal is to win Bar\u00e7a the Champions League and another La Liga title\u201d, told RAC1. https://t.co/9tflgR2f6c",
+      "post": "BREAKING: Raphinha sets personal goal to win Barcelona the Champions League.\n\nBar\u00e7a's last one was 2015. He's got time.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdeKrWUm7Or"
     }
   ],
   "offers_posted": [
