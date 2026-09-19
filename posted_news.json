@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2084981980148461625",
     "2085058878589280358",
     "2084992974505509092",
     "2085114769938256219",
@@ -499,18 +498,11 @@
     "2099188937847722103",
     "2100953957258453405",
     "2100154834926100583",
-    "2101191130612130069"
+    "2101191130612130069",
+    "2101030899382940054"
   ],
-  "post_count": 1683,
+  "post_count": 1684,
   "posts": [
-    {
-      "at": "2026-09-01 15:33 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83d\udd34\u26aa\ufe0f Claudio Echeverri to Benfica, here we go! Verbal agreement done with Man City.\n\nInitial loan with 100% salary covered and buy option clause included.\n\nEcheverri travels today, as @CLMerlo reports. https://t.co/vm1Ydjt4Hj",
-      "post": "BREAKING: Man City loan out Echeverri to Benfica with a buy option.\n\nThey're gonna let him develop somewhere else, then buy him back for more money. Genius.",
-      "x_url": null,
-      "threads_url": null
-    },
     {
       "at": "2026-09-01 17:29 UTC",
       "source_author": "David_Ornstein",
@@ -2112,6 +2104,14 @@
       "post": "BREAKING: Barcelona sign 16 year old Portuguese midfielder Dany Freire.\n\nOoh look at me, I'm Barcelona and I'm gonna sign teenagers on long contracts because that's worked brilliantly for us.\n\nBrilliant.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/Ddd81zwG68n"
+    },
+    {
+      "at": "2026-09-19 12:03 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8 OFFICIAL: Harry Kane makes history as FASTEST player ever to score 100 Bundesliga goals.\n\nIt only took him 98 games. \ud83d\udd34\u26aa\ufe0f\ud83c\udde9\ud83c\uddea https://t.co/YhyvEn7CMT",
+      "post": "BREAKING: Harry Kane becomes fastest player ever to 100 Bundesliga goals in 98 games.\n\nLeft Tottenham to finally win something. Brilliant.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/Ddd9yM_GxvZ"
     }
   ],
   "offers_posted": [
