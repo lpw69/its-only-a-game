@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2085058878589280358",
     "2084992974505509092",
     "2085114769938256219",
     "2085025398501396604",
@@ -499,18 +498,11 @@
     "2100953957258453405",
     "2100154834926100583",
     "2101191130612130069",
-    "2101030899382940054"
+    "2101030899382940054",
+    "2100929220113318038"
   ],
-  "post_count": 1684,
+  "post_count": 1685,
   "posts": [
-    {
-      "at": "2026-09-01 17:29 UTC",
-      "source_author": "David_Ornstein",
-      "source": "\ud83d\udea8 EXCLUSIVE: Manchester City reach agreement with Chelsea to sign Enzo Fernandez. Package for 25yo midfielder work \u00a3125m so matches British transfer record. Argentina int\u2019l granted permission by #CFC to undergo medical &amp; complete #MCFC move @TheAthleticFC https://t.co/Y1bjwO8qsw",
-      "post": "BREAKING: Manchester City sign Enzo Fernandez for \u00a3125m.\n\nChelsea fans currently checking if Todd Boehly was actually trying to sell him or if this is just how their club operates now.",
-      "x_url": null,
-      "threads_url": null
-    },
     {
       "at": "2026-09-01 17:49 UTC",
       "source_author": "FabrizioRomano",
@@ -2112,6 +2104,14 @@
       "post": "BREAKING: Harry Kane becomes fastest player ever to 100 Bundesliga goals in 98 games.\n\nLeft Tottenham to finally win something. Brilliant.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/Ddd9yM_GxvZ"
+    },
+    {
+      "at": "2026-09-19 12:30 UTC",
+      "source_author": "SkySportsNews",
+      "source": "\ud83d\udde3\ufe0f \"Most of the time it's been the opposite.\" \n\nAndoni Iraola admits Liverpool will have an advantage over Bournemouth due to their recent Europa League travels. https://t.co/45gUB1VgI4",
+      "post": "Andoni Iraola admitting Liverpool's Europa League travels give them the advantage over Bournemouth.\n\nThat's like saying \"sorry lads, we're tired from winning too much.\" Brilliant.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdeA9nBm_lT"
     }
   ],
   "offers_posted": [
