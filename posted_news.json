@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2085475147692061073",
     "2085625992169828731",
     "2085049778006577507",
     "2085703710160625871",
@@ -499,26 +498,11 @@
     "2101346467361235237",
     "2101467745330008265",
     "2100501940069106079",
-    "2101409919559762131"
+    "2101409919559762131",
+    "2101560236884783181"
   ],
-  "post_count": 1697,
+  "post_count": 1698,
   "posts": [
-    {
-      "at": "2026-09-02 15:17 UTC",
-      "source_author": "JamesPearceLFC",
-      "source": "Liverpool have announced the signing of Bradley Barcola from PSG in a \u00a3123m deal - \u00a3106m guaranteed with a further \u00a317m in add-ons. \nThe France international has penned a five-year contract and will wear the No 29 shirt.\nhttps://t.co/lwKIjwqoDu",
-      "post": "BREAKING: Liverpool sign Bradley Barcola for \u00a3123m.\n\nOoh look at me, I'm FSG and I'm gonna spend like Chelsea now but pretend it's different because Arne said so.\n\nMental.",
-      "x_url": null,
-      "threads_url": null
-    },
-    {
-      "at": "2026-09-02 17:26 UTC",
-      "source_author": "JacobsBen",
-      "source": "Chelsea spent around \u00a3328m this window as they looked for proven Premier League quality along with squad depth and balance.\n\nThey generated around \u00a3519m in player sales and loan fees, which is believed to be a record.\n\nIn selling Enzo Fernandez for \u00a3125m, Chelsea became the first club to make a profit on a \u00a3100m player.\n\nMissing out on Lamine Camara was an unexpected and dramatic end to the window, but a saga caused by Monaco.\n\n10 first-team players arrived this summer, while Reece James is expected to play a leading role in midfield this season.\ud83d\udd35",
-      "post": "BREAKING: Chelsea sold Enzo Fernandez for \u00a3125m and made a profit on a \u00a3100m player.\n\nThey also spent \u00a3328m, sold \u00a3519m worth, and still missed out on Lamine Camara. Only Chelsea could lose a transfer saga to Monaco and call it a successful window.",
-      "x_url": null,
-      "threads_url": null
-    },
     {
       "at": "2026-09-02 17:53 UTC",
       "source_author": "SkySportsNews",
@@ -2112,6 +2096,23 @@
       "post": "BREAKING: Raphinha's already on 14 goals in mid-September.\n\nArsenal fans currently refreshing their laptops to see if there's still time to panic-buy a Brazilian winger.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdgxpbFG79e"
+    },
+    {
+      "at": "2026-09-20 17:00 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udd35\ud83d\udd34 Rodri: \u201cPep Guardiola used to tell me something, always. There's no system that beats keeping the ball on your own\u201d.\n\n\u201cWe had to be more calm and not lose balls. That was it\u201d. https://t.co/YDW2kBpgY2",
+      "post": "Rodri revealing Pep's master tactical philosophy: don't lose the ball.\n\nTurns out you don't need to be a genius, just need a midfield that costs 300 million quid and the patience of a man with infinite substitutions.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdhEowlGts2"
+    },
+    {
+      "at": "2026-09-20 17:00 UTC",
+      "kind": "offer",
+      "source_author": "https://matchedbettingblog.com/new-customer-offers/",
+      "source": "Spreadex: Bet \u00a310, Get \u00a330 in Free Bets (est \u00a323)",
+      "post": "Spreadex doing \u00a330 in free bets on a \u00a310 stake this weekend.\n\nBack and lay it properly and you're looking at roughly \u00a323 locked in whatever happens with the football.\n\nFull walkthrough: link in bio.\n\n18+ | GambleAware",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdhErN6mja8"
     }
   ],
   "offers_posted": [
@@ -2154,7 +2155,11 @@
     {
       "key": "skybet",
       "at": "2026-09-17"
+    },
+    {
+      "key": "spreadex",
+      "at": "2026-09-20"
     }
   ],
-  "last_offer_date": "2026-09-17"
+  "last_offer_date": "2026-09-20"
 }
