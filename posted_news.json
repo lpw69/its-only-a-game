@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2085846235517165892",
     "2085841302617268247",
     "2085969257062674618",
     "2085986869968601156",
@@ -499,18 +498,11 @@
     "2101830138862178595",
     "2101952143762628860",
     "2101989203957445020",
-    "2100503117674561583"
+    "2100503117674561583",
+    "2101992035372683422"
   ],
-  "post_count": 1708,
+  "post_count": 1709,
   "posts": [
-    {
-      "at": "2026-09-03 17:18 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83c\uddf8\ud83c\udde6 Ollie Watkins after his Saudi Pro League debut: \u201cThe standard today was as good as the Premier League to be honest\u201d. https://t.co/jMamNfD88x",
-      "post": "BREAKING: Ollie Watkins says Saudi Pro League standard is as good as the Premier League.\n\nOllie Watkins also says a lot of things.",
-      "x_url": null,
-      "threads_url": null
-    },
     {
       "at": "2026-09-03 17:50 UTC",
       "source_author": "FabrizioRomano",
@@ -2113,6 +2105,14 @@
       "post": "BREAKING: Vitaly Janelt nominated for Germany's Nations League squad by J\u00fcrgen Klopp.\n\nBrentford midfielder finally getting the nod at 28. Better late than never, I suppose.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdjqgRIGmNT"
+    },
+    {
+      "at": "2026-09-21 18:55 UTC",
+      "source_author": "SkySportsNews",
+      "source": "Sunderland captain Granit Xhaka has withdrawn from the Switzerland squad after facing scrutiny for allegedly using fake documents during the COVID-19 pandemic. https://t.co/nGzPd9OPvQ",
+      "post": "BREAKING: Granit Xhaka withdraws from Switzerland squad over allegations of using fake COVID documents.\n\nSunderland's captain allegedly committed document fraud during a pandemic. The irony of being caught breaking the rules while everyone else was following them is exquisite.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/Ddj2il-j3mg"
     }
   ],
   "offers_posted": [
