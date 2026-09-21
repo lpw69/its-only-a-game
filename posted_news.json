@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2085740003456364795",
     "2085738546917229036",
     "2085773356729606432",
     "2085839780550516868",
@@ -499,18 +498,11 @@
     "2100905485402525760",
     "2101720739195801932",
     "2101684111999934778",
-    "2101922050705183179"
+    "2101922050705183179",
+    "2101830138862178595"
   ],
-  "post_count": 1704,
+  "post_count": 1705,
   "posts": [
-    {
-      "at": "2026-09-03 12:16 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83e\udd0d\ud83c\udfe1 Luka Modri\u0107 on Marca\u2019s newspaper: \u201cReal Madrid is my home and I\u2019d like to come back one day\u201d. https://t.co/1yEYUPW3qo",
-      "post": "BREAKING: Luka Modri\u0107 says Real Madrid is his home and he'd like to come back one day.\n\nTranslation: he's bored at wherever he is now.",
-      "x_url": null,
-      "threads_url": null
-    },
     {
       "at": "2026-09-03 12:52 UTC",
       "source_author": "FabrizioRomano",
@@ -2113,6 +2105,14 @@
       "post": "BREAKING: Cole Palmer withdrawing from England squad for load management. Rashford expected to pull out with hip issue. Kobbie Mainoo also likely out.\n\nEngland's medical team really said 'let's get everyone fit for the important stuff' then realised there is no important stuff.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdjYi0TG_YA"
+    },
+    {
+      "at": "2026-09-21 15:07 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\u2728\ud83c\udde6\ud83c\uddf7 Lionel Messi has now reached 930 career goals\u2026 by scoring his 75th free kick goal.\n\n101 goals wearing Inter Miami shirt. \ud83c\uddfa\ud83c\uddf8 https://t.co/V0xe1dUK2X",
+      "post": "BREAKING: Messi hits 930 career goals.\n\nMeanwhile, Haaland's still doing his maths homework to work out how many he'll need.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/Ddjcd41mykS"
     }
   ],
   "offers_posted": [
