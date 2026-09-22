@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2086095678602691051",
     "2086130182948098461",
     "2086087709685125369",
     "2086114134463062499",
@@ -499,18 +498,11 @@
     "2101728060236059047",
     "2101754971968377269",
     "2101964342803550714",
-    "2102107170091200840"
+    "2102107170091200840",
+    "2101737826098217399"
   ],
-  "post_count": 1714,
+  "post_count": 1715,
   "posts": [
-    {
-      "at": "2026-09-03 23:17 UTC",
-      "source_author": "JacobsBen",
-      "source": "Gabriel Martinelli has signed a four-year contract at Al-Hilal and will wear No.7.\ud83d\udd35 https://t.co/BIupvh77sQ",
-      "post": "BREAKING: Gabriel Martinelli signs for Al-Hilal on a four-year deal, gets No.7.\n\nArsenal fans in shambles. Martinelli in Saudi Arabia. Everyone wins.",
-      "x_url": null,
-      "threads_url": null
-    },
     {
       "at": "2026-09-04 12:08 UTC",
       "source_author": "FabrizioRomano",
@@ -2114,6 +2106,14 @@
       "post": "David Ornstein dropping a 'Me vs Gary Neville' video Saturday.\n\nTwo grown men about to argue about football for 10 minutes. Could've just followed each other on X like normal people.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdkQKr9j8G_"
+    },
+    {
+      "at": "2026-09-22 00:05 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\u26a0\ufe0f Fede Valverde has suffered a severe trauma to his left ankle.\n\nValverde will be subjected to new tests in the next few hours, Real Madrid confirm. https://t.co/KxhARhf9t6",
+      "post": "BREAKING: Fede Valverde severe ankle trauma.\n\nReal Madrid fans currently refreshing their phones every 3 seconds waiting for test results. The next few hours are going to feel like a season.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdkZ_YQD04B"
     }
   ],
   "offers_posted": [
