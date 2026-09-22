@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2086234299951354235",
     "2085376698753655092",
     "2086317549134958932",
     "2085116221196820748",
@@ -499,18 +498,11 @@
     "2102292310830817423",
     "2102013041021763782",
     "2102284761993457753",
-    "2102260820344295706"
+    "2102260820344295706",
+    "2100361901809045994"
   ],
-  "post_count": 1720,
+  "post_count": 1721,
   "posts": [
-    {
-      "at": "2026-09-04 17:08 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "1\ufe0f\u20e3\ud83c\udde6\ud83c\uddf7 Official: Emiliano Dibu Mart\u00ednez takes shirt number 1 at Chelsea following Robert Sanchez exit. https://t.co/gne6gc8fpc",
-      "post": "BREAKING: Dibu Mart\u00ednez officially takes number 1 at Chelsea.\n\nRobert Sanchez watched this unfold and realised he'd been replaced by a bloke who's won a World Cup. Lovely timing.",
-      "x_url": null,
-      "threads_url": null
-    },
     {
       "at": "2026-09-04 18:35 UTC",
       "source_author": "David_Ornstein",
@@ -2114,6 +2106,14 @@
       "post": "Morgan Gibbs-White cut his holiday short to answer England's call after Cole Palmer pulled out.\n\nTuchel's now got to actually play him, or we're just watching a bloke sit in a airport lounge for four games.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/Ddmca95D67m"
+    },
+    {
+      "at": "2026-09-22 19:45 UTC",
+      "source_author": "JacobsBen",
+      "source": "The transaction for just over 25% of Chelsea is worth around \u00a3950m.\ud83d\udcb7",
+      "post": "BREAKING: Chelsea stake valued at \u00a3950m.\n\nThat's roughly what it costs to buy a quarter of a football club these days. The other three-quarters will cost you a nervous breakdown and three new managers.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdmhDQUD2pa"
     }
   ],
   "offers_posted": [
