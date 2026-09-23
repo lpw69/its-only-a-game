@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2086427942746243086",
     "2086729765004976618",
     "2086742378539282709",
     "2086711897294807319",
@@ -499,18 +498,11 @@
     "2102783005794226421",
     "2102768000814244126",
     "2102798265125384264",
-    "2102794864429846833"
+    "2102794864429846833",
+    "2102813508471558609"
   ],
-  "post_count": 1735,
+  "post_count": 1736,
   "posts": [
-    {
-      "at": "2026-09-06 13:13 UTC",
-      "source_author": "JacobsBen",
-      "source": "Ben Chilwell scores the winner on his debut as Crystal Palace win 3-2 at Fulham.\ud83e\udd85 https://t.co/z0ghd56Cx5",
-      "post": "BREAKING: Ben Chilwell scores the winner on his Palace debut.\n\nFulham fans have gone from \"who's this?\" to \"why is he better than our defenders?\" in 90 minutes. Lovely stuff.",
-      "x_url": null,
-      "threads_url": null
-    },
     {
       "at": "2026-09-06 14:23 UTC",
       "source_author": "FabrizioRomano",
@@ -2114,6 +2106,14 @@
       "post": "Virgil van Dijk needed a holiday, a chat with Xavi, and ten seconds to decide his future.\n\nMost people need therapy for that kind of decision-making. He needed a break and a pep talk.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdpLOgBgdwr"
+    },
+    {
+      "at": "2026-09-23 21:50 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8 Rodri: \u201cReal Madrid really tried hard. They wanted to sign me, we had direct talks and they came with everything they had to make it happen\u201d.\n\n\u201cThey made my decision difficult. I am grateful. Speaking with Florentino P\u00e9rez too? I am not gonna say that\u201d, told COPE. https://t.co/hCEceO7Wk0",
+      "post": "BREAKING: Rodri admits Real Madrid tried everything to sign him.\n\nFlorentino P\u00e9rez apparently didn't try hard enough to get a phone call back. Lovely.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdpUIaiARh4"
     }
   ],
   "offers_posted": [
