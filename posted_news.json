@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2086742378539282709",
     "2086711897294807319",
     "2086765887000854903",
     "2086069796039246070",
@@ -499,18 +498,11 @@
     "2102798265125384264",
     "2102794864429846833",
     "2102813508471558609",
-    "2102726387270320247"
+    "2102726387270320247",
+    "2102780623580475753"
   ],
-  "post_count": 1737,
+  "post_count": 1738,
   "posts": [
-    {
-      "at": "2026-09-06 17:42 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83d\udfe3 Burnley have agreed to sign Jamie Vardy on one year deal!\n\nSurprise signing completed and new chapter in England after one season at Cremonese for Vardy. https://t.co/ua7DhG408m",
-      "post": "BREAKING: Jamie Vardy joins Burnley on a one-year deal.\n\nOne season at Cremonese and he's decided the Premier League needs him back. Confidence you love to see.",
-      "x_url": null,
-      "threads_url": null
-    },
     {
       "at": "2026-09-06 18:19 UTC",
       "source_author": "JacobsBen",
@@ -2114,6 +2106,14 @@
       "post": "BREAKING: Manchester United record \u00a3677.6m revenue and still manage a \u00a343m loss.\n\nThat's the Glazer special right there. Making money hand over fist while the team gets worse. Brilliant.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdpX3qpARse"
+    },
+    {
+      "at": "2026-09-23 23:40 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83c\uddf5\ud83c\uddf9 Cristiano Ronaldo will start for Portugal tomorrow against Wales, Jorge Jesus confirms.\n\n\u201cHe\u2019s our SYMBOL\u201d, Jesus has announced. https://t.co/9DDmtlidg1",
+      "post": "BREAKING: Cristiano Ronaldo will start for Portugal tomorrow against Wales.\n\nJorge Jesus calling him the SYMBOL. That's one way of saying \"we've got no one else\".",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdpguZ0j7c3"
     }
   ],
   "offers_posted": [
