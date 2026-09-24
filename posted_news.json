@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2086069796039246070",
     "2085697602813628430",
     "2086812776375161214",
     "2086855309956428066",
@@ -499,18 +498,11 @@
     "2102726387270320247",
     "2102780623580475753",
     "2103020357905227997",
-    "2102971290470531295"
+    "2102971290470531295",
+    "2102831796660400405"
   ],
-  "post_count": 1740,
+  "post_count": 1741,
   "posts": [
-    {
-      "at": "2026-09-06 20:54 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udd35\u26f3\ufe0f Morgan Rogers hits Thierry Henry\u2019s corner flag celebration at Emirates Stadium against Arsenal.\n\nHe\u2019s the first player to score against the Gunners this season. https://t.co/0XHSVGNYWv",
-      "post": "BREAKING: Morgan Rogers becomes the first player to score against Arsenal this season.\n\nArsenal's defensive record so good it took until now to concede. That's either elite or a dead rubber. Given it's Arsenal, probably both.",
-      "x_url": null,
-      "threads_url": null
-    },
     {
       "at": "2026-09-06 22:55 UTC",
       "source_author": "FabrizioRomano",
@@ -2114,6 +2106,14 @@
       "post": "Rodri on Flick: \"We train very hard in the gym, I was surprised.\"\n\nTranslation: Pep let us play football. This man makes us do burpees.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/Ddq7kxNmwN5"
+    },
+    {
+      "at": "2026-09-24 21:51 UTC",
+      "source_author": "SkySportsNews",
+      "source": "\ud83d\udde3\ufe0f \"I know what I do to be here!\"\n\nCristiano Ronaldo on if he considered retiring after the World Cup. https://t.co/WGO4yFxKZs",
+      "post": "Ronaldo on retirement after the World Cup: 'I know what I do to be here!'\n\nTranslation: 'I'm still scoring bangers and I'm not ready to admit I'm not.'",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/Ddr5I_fgW0n"
     }
   ],
   "offers_posted": [
