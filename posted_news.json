@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2087434156665917858",
     "2087457486370386153",
     "2087412513839223264",
     "2087443662355505292",
@@ -499,18 +498,11 @@
     "2103588262145323486",
     "2103508564224463194",
     "2103565305347756433",
-    "2103936358574137385"
+    "2103936358574137385",
+    "2103958061312266663"
   ],
-  "post_count": 1760,
+  "post_count": 1761,
   "posts": [
-    {
-      "at": "2026-09-08 16:47 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8\ud83c\uddf2\ud83c\udde6 Breaking: Sofyan Amrabat leaves Morocco national team.\n\n\u201cUnder this coach, I\u2019m not gonna continue\u201d. https://t.co/3ZMqJnYER7",
-      "post": "BREAKING: Sofyan Amrabat leaves Morocco national team.\n\n'Under this coach, I'm not gonna continue' he says, which is a polite way of saying the whole thing's a mess.",
-      "x_url": null,
-      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdCJkY0mx5F"
-    },
     {
       "at": "2026-09-08 16:47 UTC",
       "kind": "offer",
@@ -2114,6 +2106,14 @@
       "post": "Luka Modri\u0107 scores at 41 years old.\n\nMeanwhile, your 28-year-old midfielder is asking for a rest day because his legs feel heavy.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/Ddy3UYXGwFF"
+    },
+    {
+      "at": "2026-09-27 15:10 UTC",
+      "source_author": "SkySportsNews",
+      "source": "England lost their opening Nations League game to Spain, as the world champions extend their unbeaten run to 39 games \u26bd\ufe0f https://t.co/5d13FgVCtn",
+      "post": "FULL-TIME: England lose their Nations League opener to Spain.\n\nSpain now on 39 games unbeaten. England on 'maybe next time'.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/Ddy5nIpm2Uo"
     }
   ],
   "offers_posted": [
