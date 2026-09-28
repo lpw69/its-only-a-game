@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2086351387068154169",
     "2087632573866332167",
     "2087644311508623519",
     "2087606921083920873",
@@ -499,26 +498,11 @@
     "2103849323981045860",
     "2104159079836918108",
     "2104026026506403964",
-    "2104363911604519353"
+    "2104363911604519353",
+    "2104428134242353556"
   ],
-  "post_count": 1769,
+  "post_count": 1770,
   "posts": [
-    {
-      "at": "2026-09-09 12:29 UTC",
-      "source_author": "SkySportsNews",
-      "source": "BREAKING: The Premier League's Key Match Incident Panel has concluded that there was one missed VAR intervention at Villa Park. They believed Arsenal should've been awarded a penalty for Ian Maatsen's challenge on Bruno Guimar\u00e3es \ud83d\udea8 https://t.co/mci2pQTb0a",
-      "post": "BREAKING: Premier League's Key Match Incident Panel says Arsenal should've had a penalty for Maatsen's challenge on Bruno at Villa Park.\n\nSo VAR missed it live, the panel caught it after, and Arsenal still get nothing. Truly the technology we needed.",
-      "x_url": null,
-      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdEQ1Xbmxmd"
-    },
-    {
-      "at": "2026-09-09 13:57 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8 BREAKING: Lionel Messi becomes new owner of La Liga 2 side CD Eldense. \ud83c\uddea\ud83c\uddf8\n\nMessi buys 100% of the club\u2019s currently established in La Liga 2 in Spain \u2014 follows the investment made in Catalunya side UD Cornell\u00e1.\n\n\ud83c\udfa5\u2795 https://t.co/TQeEVFTS51 https://t.co/jyhQIOXg9X",
-      "post": "BREAKING: Lionel Messi becomes owner of La Liga 2 side CD Eldense.\n\nMessi's gone full Football Manager 2025. Next he'll be managing them from his sofa, selling their best player to fund a new training cone.",
-      "x_url": null,
-      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdEa61qm1Ia"
-    },
     {
       "at": "2026-09-09 14:37 UTC",
       "source_author": "SkySportsNews",
@@ -2114,6 +2098,23 @@
       "post": "BREAKING: Messi on 76 free kick goals, two away from the record.\n\nMan's going to spend the next three years taking free kicks from ridiculous angles just to get there. The ball will be 40 yards out, he'll dust it off anyway.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/Dd1ft6bG6-6"
+    },
+    {
+      "at": "2026-09-28 16:46 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83e\udec2Martin \u00d8degaard: \u201cFor me, Cristiano Ronaldo is a role model in every way\u201d.\n\n\u201cHe was very kind to me and helped me a lot as a player at Real Madrid. I will not forget that\u201d.\n\n\u201cIt\u2019s every kid\u2019s dream to play with him. The feeling of being around him and playing with him was amazing\u201d.",
+      "post": "Martin \u00d8degaard says Cristiano Ronaldo was very kind to him and helped him loads at Real Madrid.\n\nThat's nice. Cristiano's probably already forgotten about it and moved on to being a role model to someone else's son by now.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/Dd1pVruGswQ"
+    },
+    {
+      "at": "2026-09-28 16:46 UTC",
+      "kind": "offer",
+      "source_author": "https://matchedbettingblog.com/new-customer-offers/",
+      "source": "Unibet: Bet \u00a320, Get \u00a340 in Free Bets (est \u00a330)",
+      "post": "Unibet's doing \u00a340 in free bets when you bet \u00a320 this week.\n\nLay it at the exchange and you're looking at about \u00a330 locked in whatever happens on the pitch.\n\nFull walkthrough: link in bio.\n\n18+ | GambleAware",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/Dd1pYGLmuwV"
     }
   ],
   "offers_posted": [
@@ -2168,7 +2169,11 @@
     {
       "key": "fanteam",
       "at": "2026-09-27"
+    },
+    {
+      "key": "unibet",
+      "at": "2026-09-28"
     }
   ],
-  "last_offer_date": "2026-09-27"
+  "last_offer_date": "2026-09-28"
 }
