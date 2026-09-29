@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2087962977123045397",
     "2087984351698890858",
     "2088019181325242590",
     "2087968882371838389",
@@ -499,18 +498,11 @@
     "2104451040418439548",
     "2104897719525364165",
     "2104754862261162487",
-    "2104635543539548396"
+    "2104635543539548396",
+    "2100495637951242316"
   ],
-  "post_count": 1781,
+  "post_count": 1782,
   "posts": [
-    {
-      "at": "2026-09-10 12:57 UTC",
-      "source_author": "SkySportsNews",
-      "source": "\"You know who I want to win!\"\n\nWho does Declan Rice want to see win the Ballon d\u2019Or? \ud83c\udfc6 https://t.co/kmjRGRlSnZ",
-      "post": "BREAKING: Declan Rice has an opinion on the Ballon d'Or.\n\nMore at 11.",
-      "x_url": null,
-      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdG4znqG3ET"
-    },
     {
       "at": "2026-09-10 13:52 UTC",
       "source_author": "henrywinter",
@@ -2114,6 +2106,14 @@
       "post": "BREAKING: Injured England player shows up to watch England play.\n\nTuchel moved. Absolutely moved. The bar is underground.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/Dd4J5UxmoAt"
+    },
+    {
+      "at": "2026-09-29 16:31 UTC",
+      "source_author": "Plettigoal",
+      "source": "\ud83d\udea8\ud83c\udde9\ud83c\uddea J\u00fcrgen Klopp nominates 44 players. Two squads, as reported.",
+      "post": "BREAKING: J\u00fcrgen Klopp nominates 44 players for two squads.\n\nHe's either building a football team or auditioning for a boy band. No in between.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/Dd4MbWLmpoD"
     }
   ],
   "offers_posted": [
