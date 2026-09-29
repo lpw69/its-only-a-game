@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2087984351698890858",
     "2088019181325242590",
     "2087968882371838389",
     "2087943687116353744",
@@ -499,18 +498,11 @@
     "2104897719525364165",
     "2104754862261162487",
     "2104635543539548396",
-    "2100495637951242316"
+    "2100495637951242316",
+    "2104983337882571041"
   ],
-  "post_count": 1782,
+  "post_count": 1783,
   "posts": [
-    {
-      "at": "2026-09-10 13:52 UTC",
-      "source_author": "henrywinter",
-      "source": "Ezri Konsa looks like he\u2019s been in Arsenal\u2019s defence for years, not 146 minutes. Closing down Napoli counters, denying Alisson Santos. Happy to go man to man with Alisson for physicality and pace. And joining attack, winning a corner. Only \u00a355m (51+4). Why didn\u2019t more clubs go for him? Age? Only 28, got a good four more years in him at least. He\u2019d walk into most PL defences. Konsa clearly wanted Arsenal. #AFC",
-      "post": "BREAKING: Ezri Konsa has played 146 minutes for Arsenal.\n\nLooks like he's been there for five years. Which raises the question: what were the other 19 Premier League clubs doing for \u00a355m?",
-      "x_url": null,
-      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdG_G5EG_LB"
-    },
     {
       "at": "2026-09-10 14:27 UTC",
       "source_author": "FabrizioRomano",
@@ -2114,6 +2106,14 @@
       "post": "BREAKING: J\u00fcrgen Klopp nominates 44 players for two squads.\n\nHe's either building a football team or auditioning for a boy band. No in between.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/Dd4MbWLmpoD"
+    },
+    {
+      "at": "2026-09-29 18:52 UTC",
+      "source_author": "David_Ornstein",
+      "source": "\ud83d\udea8 Premier League confirms Manchester City ruled guilty of every charge related to financial rule breaches across 9 seasons + majority of charges on #ManCity failure to co-operate with probe. Situation discussed w/ @JamesHorncastle @kvlmason @TheAthleticFC https://t.co/eqQJBGqzSu",
+      "post": "BREAKING: Manchester City ruled guilty of every financial rule breach charge across 9 seasons, plus majority of charges on failing to cooperate.\n\nSo they've basically admitted to cheating AND being difficult about it. Beautiful.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/Dd4coGFGTIi"
     }
   ],
   "offers_posted": [
