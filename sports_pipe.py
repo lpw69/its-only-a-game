@@ -86,6 +86,11 @@ OFFER_FOOTER        = "Full walkthrough: link in bio.\n\n18+ | GambleAware"
 OFFER_HOOK_MAX      = 210  # hook + footer must stay under X's 280 cap
 OFFER_BANNED_TERMS  = ["guarantee", "risk-free", "risk free", "no risk", "free money",
                        "can't lose", "cannot lose", "cant lose"]
+# Every Nth offer post carries a reply with the exact extraction steps. A reply
+# gets Threads' full 500-char budget, so the walkthrough lives there, not in
+# the main post.
+OFFER_WALKTHROUGH_EVERY_N = 5
+OFFER_WALKTHROUGH_MAX     = 480
 
 
 # --- voice profile, distilled from Paddy Power + Aldi scrape ---
@@ -537,6 +542,109 @@ Tone: the account being canny, not an advert. Deadpan. Example shape (do not cop
 OUTPUT: valid JSON only, no code fences: {"post": "the hook text"}"""
 
 
+OFFER_WALKTHROUGH_SYSTEM = """You write the reply post under an "It's Only a Game" matched betting offer post: the exact steps to extract the cash from the bookmaker sign-up offer you are given. Same voice (deadpan UK, plain English), but this one is useful first, funny second.
+
+HARD RULES (output is auto-rejected if you break any)
+1. MAX 450 CHARACTERS. Numbered steps, one per line, \\n between steps.
+2. Use ONLY the bookmaker, offer and figures you are given, plus the STANDARD METHOD FACTS below. Never invent odds, fixtures, or numbers.
+3. NEVER say "guaranteed", "risk-free", "no risk", "free money" or "can't lose". Honest frame: small known cost at the qualifying step, most of the free bet value comes out as cash.
+4. NO links and NO "link in bio" (the main post handles that). No em dashes, no en dashes, no hashtags, no "mate".
+
+STANDARD METHOD FACTS (safe to state; adapt figures to the offer you are given)
+- Sign up, deposit, place the qualifying back bet at the bookie.
+- Lay the same result at an exchange (Betfair or Smarkets) so the outcomes cancel; the qualifying step costs roughly a pound or two.
+- When the free bets land, back something at longer odds with them and lay that too; roughly 75-80% of the free bet value comes out as withdrawable cash whichever side wins.
+- Exact lay stakes depend on live odds; an odds-matching tool works them out.
+
+Example shape (do not copy verbatim; substitute the real figures):
+"1. Sign up, deposit, stick £10 on any match.\\n2. Lay the same result on Smarkets, costs you about a quid.\\n3. £30 in free bets land. Back longer odds with them, lay again.\\n4. About £23 comes out whichever way it goes. The matcher tool does the stakes for you."
+
+OUTPUT: valid JSON only, no code fences: {"post": "the steps text"}"""
+
+
+def validate_offer_walkthrough(text):
+    problems = []
+    if len(text) > OFFER_WALKTHROUGH_MAX:
+        problems.append(f"is {len(text)} chars, max {OFFER_WALKTHROUGH_MAX}")
+    if "—" in text or "–" in text:
+        problems.append("contains em/en dash")
+    if "#" in text:
+        problems.append("contains hashtag")
+    lower = text.lower()
+    for term in OFFER_BANNED_TERMS:
+        if term in lower:
+            problems.append(f"contains banned claim wording: '{term}'")
+    if "http" in lower or "bio" in lower:
+        problems.append("must not contain a link or 'link in bio' (main post handles that)")
+    return len(problems) == 0, problems
+
+
+def generate_offer_walkthrough(offer, source_url):
+    """Generate the step-by-step extraction reply, style-check it, then
+    fact-gate it against the offer plus the standard method facts. Returns the
+    reply text or None (the offer post still goes out without it)."""
+    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+    base_msg = (
+        f"Bookmaker: {offer['bookmaker']}\n"
+        f"Offer: {offer['offer']}\n"
+        f"Rough cash out if the steps are followed: about £{offer['est_profit_gbp']}\n\n"
+        f"Write the steps reply. Output the JSON object."
+    )
+    # The fact gate is told the standard method facts alongside the offer, so
+    # generic mechanics (laying at an exchange, the rough qualifying cost, the
+    # 75-80% conversion) count as supported while invented figures still fail.
+    source_item = {
+        "author": re.sub(r"^www\.", "", source_url.split("/")[2]),
+        "text": (
+            f"Current new-customer offer listed on {source_url}:\n"
+            f"Bookmaker: {offer['bookmaker']}\n"
+            f"Offer: {offer['offer']}\n"
+            f"Estimated cash extracted by backing and laying it: £{offer['est_profit_gbp']}\n\n"
+            "Standard matched betting method, true for any bet-and-get offer: sign up and "
+            "deposit; place the qualifying back bet at the bookmaker; lay the same result "
+            "at a betting exchange (Betfair or Smarkets) so the outcomes cancel, which "
+            "costs roughly a pound or two; when the free bets land, back longer odds with "
+            "them and lay that too, converting roughly 75-80% of the free bet value into "
+            "withdrawable cash whichever side wins; exact lay stakes depend on live odds, "
+            "which an odds-matching tool calculates."
+        ),
+    }
+    feedback = ""
+    for attempt in range(3):
+        msg = base_msg
+        if feedback:
+            msg = (
+                f"YOUR PREVIOUS ATTEMPT FAILED THESE CHECKS:\n{feedback}\n\n"
+                f"Rewrite the steps with all problems fixed.\n\n" + msg
+            )
+        response = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=500,
+            system=OFFER_WALKTHROUGH_SYSTEM,
+            messages=[{"role": "user", "content": msg}],
+        )
+        raw = response.content[0].text.strip()
+        raw = re.sub(r"^```(?:json)?\s*|\s*```$", "", raw)
+        try:
+            steps = json.loads(raw)["post"]
+        except (json.JSONDecodeError, KeyError) as e:
+            print(f"  Walkthrough parse error attempt {attempt + 1}: {e}")
+            continue
+        ok, problems = validate_offer_walkthrough(steps)
+        if not ok:
+            print(f"  Walkthrough style failed (attempt {attempt + 1}):")
+            for p in problems:
+                print(f"    - {p}")
+            feedback = "\n".join(f"- {p}" for p in problems)
+            continue
+        fact_ok, reason = fact_check_post(steps, source_item)
+        if fact_ok:
+            return steps
+        print(f"  Walkthrough fact-check rejected (attempt {attempt + 1}): {reason}")
+        feedback = f"- factually inconsistent with the offer/method: {reason}"
+    return None
+
+
 def fetch_offer_page(url):
     """Fetch an offers page and strip it to plain text for LLM extraction."""
     try:
@@ -720,16 +828,29 @@ def maybe_post_offer(posted_log):
         return
     preview = post.replace("\n", " ")[:100]
     print(f"  Offer post ({len(post)} chars): {preview}...")
-    tid = push_to_typefully(post)  # no CTA reply: the post itself is the funnel
+    # Every Nth offer post carries a reply with the exact extraction steps.
+    # A failed walkthrough never blocks the offer post itself.
+    walkthrough = None
+    if (len(posted_log.get("offers_posted", [])) + 1) % OFFER_WALKTHROUGH_EVERY_N == 0:
+        print("  Walkthrough post: generating extraction steps...")
+        walkthrough = generate_offer_walkthrough(offer, source_url)
+        if walkthrough:
+            print(f"    Steps reply ({len(walkthrough)} chars) attached.")
+        else:
+            print("    No valid walkthrough; posting the offer without it.")
+    tid = push_to_typefully(post, cta_text=walkthrough)
     if not tid:
         print("  Failed to push offer post to Typefully.")
         return
     print(f"    Typefully draft: {tid}")
     slots_done.append(slot)
     hook = post.removesuffix("\n\n" + OFFER_FOOTER)
-    posted_log.setdefault("offers_posted", []).append({"key": offer_key(offer), "at": today, "hook": hook})
+    entry = {"key": offer_key(offer), "at": today, "hook": hook}
+    if walkthrough:
+        entry["walkthrough"] = walkthrough
+    posted_log.setdefault("offers_posted", []).append(entry)
     urls = get_published_urls(tid)
-    posted_log.setdefault("posts", []).append({
+    audit = {
         "at": now.strftime("%Y-%m-%d %H:%M UTC"),
         "kind": "offer",
         "source_author": source_url,
@@ -737,7 +858,10 @@ def maybe_post_offer(posted_log):
         "post": post,
         "x_url": urls.get("x"),
         "threads_url": urls.get("threads"),
-    })
+    }
+    if walkthrough:
+        audit["walkthrough"] = walkthrough
+    posted_log.setdefault("posts", []).append(audit)
 
 
 # --- typefully ---

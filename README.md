@@ -42,6 +42,11 @@ How it's sourced, fully automated:
 5. The same Sonnet fact gate checks every figure in the hook against the
    extracted offer before publishing. Anything that can't pass is dropped —
    the slot just retries on the next run of the day.
+6. Every 5th offer post carries a reply with the exact extraction steps
+   (qualifying back bet, lay at the exchange, convert the free bets), using
+   that offer's real figures. The reply gets Threads' 500-char budget, is
+   style-checked and fact-gated like everything else, and a failed
+   walkthrough never blocks the offer post itself.
 
 If the offer sites are down or list nothing fresh, no offer post goes out that
 day. The banter posts are unaffected.
