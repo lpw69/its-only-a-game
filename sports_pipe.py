@@ -70,8 +70,12 @@ OFFER_SOURCES = [
     "https://www.teamprofit.com/welcome-offers-list",
     "https://matchedbettingblog.com/new-customer-offers/",
 ]
-OFFER_SLOT_HOUR_UTC = 16   # first run at/after this UTC hour each day attempts the offer post
-OFFER_REUSE_DAYS    = 21   # don't feature the same bookmaker again within this window
+# One offer post per slot, attempted by the first run at/after each slot hour
+# (max one per run, so a missed midday slot never causes a double-ad run).
+OFFER_SLOT_HOURS_UTC = [12, 19]
+# Sign-up offers are evergreen, so a bookmaker can return weekly with a fresh
+# hook; ~14 extractable bookmakers over 7 days is what sustains two slots a day.
+OFFER_REUSE_DAYS    = 7
 OFFER_MODEL         = "claude-sonnet-5"
 # Appended verbatim to every offer post: the funnel line plus the ad-compliance line.
 # ASA has upheld complaints against "guaranteed"/"risk-free" in matched betting promos,
@@ -252,6 +256,8 @@ def save_posted_log(log):
     # so a human can review what the account is publishing without watching the feed.
     log["posts"] = log.get("posts", [])[-200:]
     log["offers_posted"] = log.get("offers_posted", [])[-60:]
+    slots = log.get("offer_slots", {})
+    log["offer_slots"] = {d: slots[d] for d in sorted(slots)[-3:]}
     with open(POSTED_LOG, "w") as f:
         json.dump(log, f, indent=2)
 
@@ -511,7 +517,7 @@ Rules:
 - "offer" is the shorthand as the page states it, e.g. "Bet £10, get £30 in free bets".
 - est_profit_gbp: use the page's own stated expected/estimated profit for that offer if it gives one; otherwise estimate it as 75% of the free bet value, rounded to the nearest pound.
 - Every figure must come from the page text. Use no outside knowledge, and never invent offers or numbers.
-- Max 8 offers, highest est_profit_gbp first. If the page has no usable offers, return {"offers": []}."""
+- Max 15 offers, highest est_profit_gbp first. If the page has no usable offers, return {"offers": []}."""
 
 OFFER_SYSTEM_PROMPT = """You write the hook for "It's Only a Game", a UK sports account with a Paddy Power / Aldi UK voice: deadpan, chronically online, slightly cocky, no club allegiance.
 
@@ -615,7 +621,7 @@ def validate_offer_hook(hook):
     return len(problems) == 0, problems
 
 
-def generate_offer_post(offer, source_url):
+def generate_offer_post(offer, source_url, prev_hook=None):
     """Generate the offer hook, style-check it, then fact-gate it against the
     extracted offer data. Returns the full post (hook + footer) or None."""
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
@@ -628,6 +634,11 @@ def generate_offer_post(offer, source_url):
         f"Timing frame: {period}\n\n"
         f"Write the hook. Output the JSON object."
     )
+    if prev_hook:
+        base_msg = (
+            f"An earlier post already covered this bookmaker with this hook:\n{prev_hook}\n\n"
+            f"Write a noticeably different angle, not a rephrase.\n\n" + base_msg
+        )
     feedback = ""
     for attempt in range(3):
         msg = base_msg
@@ -676,17 +687,20 @@ def generate_offer_post(offer, source_url):
 
 
 def maybe_post_offer(posted_log):
-    """At most one offer post per day, on the first run at/after the slot hour.
-    Failures (page down, no fresh offers, hook rejected) leave last_offer_date
-    unset so the next run of the day retries."""
+    """Up to one offer post per slot in OFFER_SLOT_HOURS_UTC, attempted by the
+    first run at/after each slot hour; at most one offer post per run. Failures
+    (page down, no fresh offers, hook rejected) leave the slot unmarked so the
+    day's next run retries it."""
     now = datetime.datetime.utcnow()
     today = now.strftime("%Y-%m-%d")
-    if now.hour < OFFER_SLOT_HOUR_UTC:
-        return
-    if posted_log.get("last_offer_date") == today:
+    posted_log.pop("last_offer_date", None)  # legacy single-slot marker
+    slots_done = posted_log.setdefault("offer_slots", {}).setdefault(today, [])
+    slot = next((h for h in sorted(OFFER_SLOT_HOURS_UTC)
+                 if now.hour >= h and h not in slots_done), None)
+    if slot is None:
         return
     print(f"\n{'-'*55}")
-    print("  Offer slot: sourcing matched betting offers...")
+    print(f"  Offer slot {slot}:00 UTC: sourcing matched betting offers...")
     offers, source_url = fetch_offers()
     if not offers:
         print("  No offers extracted from any source. Skipping offer post.")
@@ -698,7 +712,9 @@ def maybe_post_offer(posted_log):
         print(f"  All extracted offers already featured in the last {OFFER_REUSE_DAYS} days. Skipping.")
         return
     print(f"  Featuring: {offer['bookmaker']}: {offer['offer']} (~£{offer['est_profit_gbp']})")
-    post = generate_offer_post(offer, source_url)
+    prev = next((e for e in reversed(posted_log.get("offers_posted", []))
+                 if e["key"] == offer_key(offer) and e.get("hook")), None)
+    post = generate_offer_post(offer, source_url, prev_hook=prev["hook"] if prev else None)
     if not post:
         print("  No valid offer post, skipping.")
         return
@@ -709,8 +725,9 @@ def maybe_post_offer(posted_log):
         print("  Failed to push offer post to Typefully.")
         return
     print(f"    Typefully draft: {tid}")
-    posted_log["last_offer_date"] = today
-    posted_log.setdefault("offers_posted", []).append({"key": offer_key(offer), "at": today})
+    slots_done.append(slot)
+    hook = post.removesuffix("\n\n" + OFFER_FOOTER)
+    posted_log.setdefault("offers_posted", []).append({"key": offer_key(offer), "at": today, "hook": hook})
     urls = get_published_urls(tid)
     posted_log.setdefault("posts", []).append({
         "at": now.strftime("%Y-%m-%d %H:%M UTC"),

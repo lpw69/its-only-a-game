@@ -16,10 +16,11 @@ Single Python script, single GitHub Actions workflow.
 
 ## Matched betting offer posts (monetization)
 
-Once per day (first run at/after 16:00 UTC), the pipe posts one matched betting
-offer post alongside the banter: a current bookmaker new-customer offer, the
-rough profit lockable from it, and "Full walkthrough: link in bio" — so **keep
-the OddsMonkey affiliate link in the Threads bio**.
+Twice per day (first run at/after 12:00 UTC and 19:00 UTC, one per slot, max
+one per run), the pipe posts a matched betting offer post alongside the banter:
+a current bookmaker new-customer offer, the rough profit lockable from it, and
+"Full walkthrough: link in bio" — so **keep the OddsMonkey affiliate link in
+the Threads bio**.
 
 How it's sourced, fully automated:
 
@@ -29,8 +30,11 @@ How it's sourced, fully automated:
    (bookmaker, offer, estimated profit — the page's own figure, or 75% of the
    free bet value). LLM extraction instead of CSS selectors, so site redesigns
    don't break it.
-3. The highest-value offer not featured in the last 21 days is picked
-   (`offers_posted` in `posted_news.json` tracks this).
+3. The highest-value offer not featured in the last 7 days is picked
+   (`offers_posted` in `posted_news.json` tracks this). Sign-up offers are
+   evergreen, so a bookmaker can return weekly — the generator is shown the
+   previous hook it wrote for that bookmaker and told to take a different
+   angle, so repeats don't read as reposts.
 4. Haiku writes the hook in the account voice, the style validator runs, plus
    offer-specific bans: no "guaranteed", "risk-free", "no risk" or "free money"
    (ASA has upheld complaints against exactly those claims in matched betting
