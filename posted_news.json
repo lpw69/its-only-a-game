@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2088295224783065301",
     "2088206227943670109",
     "2088227168606122353",
     "2088330378129948886",
@@ -499,18 +498,11 @@
     "2105071638773477635",
     "2102450525598064979",
     "2105079428212732142",
-    "2105090150002749497"
+    "2105090150002749497",
+    "2105315135032119646"
   ],
-  "post_count": 1791,
+  "post_count": 1792,
   "posts": [
-    {
-      "at": "2026-09-11 12:21 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udea8 Patrick Dorgu, UEFA Man of the Match for Man United-Sabah. https://t.co/YziHvnwEr8",
-      "post": "BREAKING: Patrick Dorgu named UEFA Man of the Match for Man United-Sabah.\n\nMan United fans right now frantically Googling who this lad is.",
-      "x_url": null,
-      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdJZekjG74T"
-    },
     {
       "at": "2026-09-11 12:51 UTC",
       "source_author": "FabrizioRomano",
@@ -2113,6 +2105,14 @@
       "post": "Vini Jr needs confidence after losing a World Cup.\n\nTurns out winning every trophy except the one that matters is actually quite tough on the psyche. Who knew.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/Dd60XDsmv1d"
+    },
+    {
+      "at": "2026-09-30 18:35 UTC",
+      "source_author": "JacobsBen",
+      "source": "Some interesting context in the Manchester City verdict is an allusion to 2009/10.\n\nThe panel say City had \"real concern\" their total losses for that year would eclipse a record set by Chelsea in 2006 of \u00a3140m. \"The Club was adamant it should not break [it].\"\n\nThis led to concerns \"large losses\" were also on the horizon for the next five years, and fears the club would not be FFP compliant.\n\nThe panel say it was against this backdrop that the \"disguised funding scheme\" was born. \"The Club devised a plan to disguise shareholder funding as \u2018commercial partner revenue.\u2019\"",
+      "post": "BREAKING: Manchester City's defence to the 115 charges basically boils down to 'we couldn't let Chelsea look worse than us'.\n\nSo they invented fake sponsorships instead. Brilliant problem-solving.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/Dd6_av5GfuT"
     }
   ],
   "offers_posted": [
