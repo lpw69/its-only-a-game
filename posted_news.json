@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2087811626414043415",
     "2088634049392681184",
     "2088612554360721801",
     "2088655284415672399",
@@ -499,26 +498,11 @@
     "2104964053994995969",
     "2105643934588301395",
     "2105349826506330423",
-    "2105460699229241646"
+    "2105460699229241646",
+    "2105605633076863048"
   ],
-  "post_count": 1802,
+  "post_count": 1803,
   "posts": [
-    {
-      "at": "2026-09-11 23:15 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udd35\ud83d\udd34\u2b50\ufe0f OFFICIAL: Raphinha wins La Liga Player of the Month Award for August. \ud83c\udde7\ud83c\uddf7\n\n6 goal contributions. 5 goals scored in 3 games. https://t.co/ItMbGkAuNp",
-      "post": "BREAKING: Raphinha wins La Liga Player of the Month for August.\n\n5 goals in 3 games. Barcelona's Brazilian winger suddenly remembering he's quite good at football.",
-      "x_url": null,
-      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdKkZ0Tj52L"
-    },
-    {
-      "at": "2026-09-12 11:35 UTC",
-      "source_author": "SkySportsNews",
-      "source": "\"It's going to be hard and we will have to be at our best\" \n\nCould Xabi Alonso's Chelsea face a difficult challenge when they take on Hull City this weekend? https://t.co/6UoPumzfLN",
-      "post": "BREAKING: Xabi Alonso says Chelsea will have to be at their best to beat Hull City.\n\nHull City. At their best.",
-      "x_url": null,
-      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdL5B6BmyuA"
-    },
     {
       "at": "2026-09-12 11:43 UTC",
       "source_author": "FabrizioRomano",
@@ -2112,6 +2096,23 @@
       "post": "BREAKING: Cristiano Ronaldo lands in Madrid at 2am and removes himself from Portugal squad.\n\nMan's treating international duty like a group chat he can just leave.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/Dd9OyFtm709"
+    },
+    {
+      "at": "2026-10-01 16:43 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8\ud83c\uddf5\ud83c\uddf9 UEFA confirm Rafael Le\u00e3o has been listed as Portugal No7 for the next two games following Cristiano leaving. https://t.co/GXCxdVVJiG",
+      "post": "BREAKING: Rafael Le\u00e3o named Portugal No7 after Cristiano left.\n\nOoh look at me, I'm Rafael, and I'm gonna inherit the most cursed shirt in football history because my predecessor only won five Ballon d'Ors.\n\nSound.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/Dd9XWVaGrrX"
+    },
+    {
+      "at": "2026-10-01 16:43 UTC",
+      "kind": "offer",
+      "source_author": "https://matchedbettingblog.com/new-customer-offers/",
+      "source": "Betfred: Bet \u00a310, Get \u00a350 in Free Bets (est \u00a338)",
+      "post": "Betfred doing \u00a350 in free bets when you bet a tenner this week.\n\nBack and lay it properly and you're looking at about \u00a338 locked in whatever the football does.\n\nFull walkthrough: link in bio.\n\n18+ | GambleAware",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/Dd9XYriGrJM"
     }
   ],
   "offers_posted": [
@@ -2170,7 +2171,11 @@
     {
       "key": "unibet",
       "at": "2026-09-28"
+    },
+    {
+      "key": "betfred",
+      "at": "2026-10-01"
     }
   ],
-  "last_offer_date": "2026-09-28"
+  "last_offer_date": "2026-10-01"
 }
