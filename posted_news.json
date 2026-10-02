@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2088948583282143671",
     "2088982244987658503",
     "2089007852325106042",
     "2089038811133001861",
@@ -499,26 +498,11 @@
     "2105634953719423001",
     "2105721049472020496",
     "2100513356620656923",
-    "2105776538952376417"
+    "2105776538952376417",
+    "2105322776835866782"
   ],
-  "post_count": 1815,
+  "post_count": 1816,
   "posts": [
-    {
-      "at": "2026-09-13 12:42 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udd34\u26aa\ufe0f\ud83e\udd0f\ud83c\udffc First goal as Arsenal player for Bruno Guimar\u00e3es\u2026 and a new celebration. https://t.co/UZf2UINEyI",
-      "post": "BREAKING: Bruno Guimar\u00e3es scores for Arsenal.\n\nCelebration so new he hasn't worked out what it means yet.",
-      "x_url": null,
-      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdOli1RG0ov"
-    },
-    {
-      "at": "2026-09-13 12:50 UTC",
-      "source_author": "BBCSport",
-      "source": "The winning run continues for Arsenal \ud83d\udcaf https://t.co/SNCbK34ErU",
-      "post": "BREAKING: Arsenal on a winning run.\n\nParade cancellation department currently on standby.",
-      "x_url": null,
-      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdOmev-G9vK"
-    },
     {
       "at": "2026-09-13 13:19 UTC",
       "source_author": "FabrizioRomano",
@@ -2112,6 +2096,23 @@
       "post": "Vitinha praising Jorge Jesus for 'making effect' on the team.\n\nThat's either Portuguese for brilliant coaching or a very kind way of saying 'at least he showed up'.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/Dd_3KiLG1pM"
+    },
+    {
+      "at": "2026-10-02 16:16 UTC",
+      "source_author": "JacobsBen",
+      "source": "Fake news as in a dedicated section and quote from the actual judgement... https://t.co/YiQFZ21Xrp",
+      "post": "Can't even see what the news is about because the link's broken.\n\nThis is peak sports Twitter engagement.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/Dd_5Jt7GlGD"
+    },
+    {
+      "at": "2026-10-02 16:16 UTC",
+      "kind": "offer",
+      "source_author": "https://matchedbettingblog.com/new-customer-offers/",
+      "source": "Betfair: Bet \u00a310, get \u00a350 in free bets (est \u00a338)",
+      "post": "Betfair doing \u00a350 in free bets when you bet \u00a310 this weekend.\n\nBack and lay it properly and you're looking at about \u00a338 locked in whatever happens on the pitch.\n\nFull walkthrough: link in bio.\n\n18+ | GambleAware",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/Dd_5MF4msBz"
     }
   ],
   "offers_posted": [
@@ -2174,7 +2175,11 @@
     {
       "key": "betfred",
       "at": "2026-10-01"
+    },
+    {
+      "key": "betfair",
+      "at": "2026-10-02"
     }
   ],
-  "last_offer_date": "2026-10-01"
+  "last_offer_date": "2026-10-02"
 }
