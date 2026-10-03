@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2089066257811165586",
     "2089385050127073588",
     "2089617543321538841",
     "2088180828622737518",
@@ -499,27 +498,11 @@
     "2106122065258401841",
     "2106113622699074036",
     "2105976432921022959",
-    "2106278451854426505"
+    "2106278451854426505",
+    "2106288392094826674"
   ],
-  "post_count": 1831,
+  "post_count": 1832,
   "posts": [
-    {
-      "at": "2026-09-14 16:00 UTC",
-      "kind": "offer",
-      "source_author": "https://matchedbettingblog.com/new-customer-offers/",
-      "source": "Paddy Power: Bet \u00a35, get \u00a340 free bet (est \u00a330)",
-      "post": "Paddy Power doing \u00a340 in free bets on a \u00a35 stake this week.\n\nBack it, lay it at the exchange, and you're looking at about \u00a330 locked in whatever happens with the football.\n\nFull walkthrough: link in bio.\n\n18+ | GambleAware",
-      "x_url": null,
-      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdRhDrom4yF"
-    },
-    {
-      "at": "2026-09-14 16:22 UTC",
-      "source_author": "JacobsBen",
-      "source": "BREAKING: Pro Ref acknowledge \u201can error of judgement\u201d in Erling Haaland\u2019s Manchester derby winner.\n\n\u201cFollowing the incident in the 60th minute of Sunday's Premier League fixture between Manchester United and Manchester City at Old Trafford, we can provide clarification regarding Erling Haaland\u2019s awarded goal.\n \n\u201cThe on-field decision was offside against Erling Haaland \u2013 that was checked by VAR and he was found to be in an onside position.\n \n\u201cIn the same attack, it was established that Enzo Fernandez did not play the ball and therefore that makes any offside offence subjective, however, on this occasion, the VAR did not recognise the likely impact of his position and should have recommended an on-field review.\n \n\u201cContact has been made with Manchester United this evening to acknowledge what we deem is an error of judgement. A review of the incident will take place.\u201d",
-      "post": "BREAKING: Pro Ref acknowledges an error of judgement on Haaland's derby winner.\n\nSo they got it wrong, they're admitting it now, and Manchester United get a phone call this evening. Brilliant work lads.",
-      "x_url": null,
-      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdRjerxm5Oc"
-    },
     {
       "at": "2026-09-14 17:02 UTC",
       "source_author": "FabrizioRomano",
@@ -2112,6 +2095,23 @@
       "post": "BREAKING: Manchester City found guilty of financial rules breaches between 2009 and 2018.\n\nTurns out when you're spending like a state, other clubs tend to lose their best players to you. Funny how that works.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DeCWrCbGyR-"
+    },
+    {
+      "at": "2026-10-03 17:38 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\u2b50\ufe0f\ud83c\uddeb\ud83c\uddf7 Zinedine Zidane on Jeremy Jacquet: \u201cHe\u2019s very, very, very good\u201d. https://t.co/v1rqeV9ryw",
+      "post": "Zinedine Zidane saying someone is 'very, very, very good'.\n\nThat's three verys. He's never given anyone three verys before. Jeremy Jacquet just became the greatest player alive.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DeCnQGTGMJi"
+    },
+    {
+      "at": "2026-10-03 17:38 UTC",
+      "kind": "offer",
+      "source_author": "https://matchedbettingblog.com/new-customer-offers/",
+      "source": "BetVictor: Bet \u00a310, Get \u00a350 in Free Bets (est \u00a338)",
+      "post": "BetVictor's got \u00a350 in free bets for a \u00a310 stake this weekend.\n\nBack and lay it properly and you're looking at roughly \u00a338 locked in whatever the football does.\n\nFull walkthrough: link in bio.\n\n18+ | GambleAware",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DeCnSuEGveu"
     }
   ],
   "offers_posted": [
@@ -2178,7 +2178,11 @@
     {
       "key": "betfair",
       "at": "2026-10-02"
+    },
+    {
+      "key": "betvictor",
+      "at": "2026-10-03"
     }
   ],
-  "last_offer_date": "2026-10-02"
+  "last_offer_date": "2026-10-03"
 }
