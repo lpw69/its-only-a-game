@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2090084168596074802",
     "2090072302176145454",
     "2090071880707264641",
     "2090005629368779118",
@@ -499,18 +498,11 @@
     "2106735323892027587",
     "2106741435525669371",
     "2106735948868317534",
-    "2106433495040180419"
+    "2106433495040180419",
+    "2106736322039652570"
   ],
-  "post_count": 1848,
+  "post_count": 1849,
   "posts": [
-    {
-      "at": "2026-09-16 12:49 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udd34\u2728 Alexis Mac Allister: \u201cI am feeling really good and I am feeling the love of the fans which is really important for me\u201d. https://t.co/MNCWJ0REmr",
-      "post": "Alexis Mac Allister: 'I'm feeling the love of the fans'.\n\nTranslation: 'Please don't boo me again.'",
-      "x_url": null,
-      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdWUvUHmyo1"
-    },
     {
       "at": "2026-09-16 13:31 UTC",
       "source_author": "Plettigoal",
@@ -2112,6 +2104,14 @@
       "post": "BREAKING: Bruno Fernandes calls for respect for Cristiano Ronaldo.\n\nTranslation: 'Please stop asking me about him every single interview for the next decade.'",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DeFqEWPj7Bb"
+    },
+    {
+      "at": "2026-10-04 22:22 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udd25\ud83c\uddeb\ud83c\uddf7 Zinedine Zidane: \u201cFrance has the same madness and demands as Real Madrid. I love that\u201d.\n\n\u201cWhen I was at Real Madrid, it never stopped but I loved that\u201d. https://t.co/UwHHydKwHD",
+      "post": "Zidane says France has the same madness and demands as Real Madrid.\n\nSo he's either complimenting one or insulting the other. Possibly both.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DeFsl2oj5Cy"
     }
   ],
   "offers_posted": [
