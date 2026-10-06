@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2090450436490756550",
     "2090428262610620611",
     "2090417972921639026",
     "2090451013257851188",
@@ -499,18 +498,11 @@
     "2107128787934531882",
     "2107109500075327880",
     "2107058995676712975",
-    "2107209370924634620"
+    "2107209370924634620",
+    "2107115514934014003"
   ],
-  "post_count": 1859,
+  "post_count": 1860,
   "posts": [
-    {
-      "at": "2026-09-17 15:00 UTC",
-      "source_author": "FabrizioRomano",
-      "source": "\ud83d\udc97\ud83c\udde6\ud83c\uddf7 Lionel Messi, the fastest player in MLS history to reach 100 goals for his club in all competitions.\n\n155 G/A in 114 games. 100 goals, 55 assists. https://t.co/iaWG0ndzss",
-      "post": "BREAKING: Lionel Messi becomes fastest player in MLS history to 100 goals.\n\nMeanwhile, the rest of MLS is still working out how to defend.",
-      "x_url": null,
-      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdZIh5BG02F"
-    },
     {
       "at": "2026-09-17 17:45 UTC",
       "kind": "offer",
@@ -2112,6 +2104,14 @@
       "post": "Michael Olise with two goals and an assist in 30 minutes tonight.\n\nThat's 12 goals, 5 assists in 11 games across club and country. He's either found a cheat code or everyone else has just given up.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DeIfL2-mZAf"
+    },
+    {
+      "at": "2026-10-06 00:52 UTC",
+      "source_author": "BBCSport",
+      "source": "Instead of catching a flight, Cadillac F1 driver Valtteri Bottas is cycling from Sepang in Malaysia to Singapore for next weekend's Grand Prix \ud83d\udeb2\ud83c\udfc1\n\nThe route he's taking is over 350km long! \ud83d\udc4f https://t.co/MxYjYry3ld",
+      "post": "BREAKING: Valtteri Bottas cycling 350km from Malaysia to Singapore instead of flying.\n\nOoh look at me, I'm a Formula 1 driver and I'm gonna arrive at the Grand Prix absolutely knackered on a Halfords bike.\n\nMental.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DeIilpQGru3"
     }
   ],
   "offers_posted": [
