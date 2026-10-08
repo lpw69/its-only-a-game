@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2091217586516300007",
     "2091405071770615832",
     "2091491607241478152",
     "2091506490976694699",
@@ -499,18 +498,11 @@
     "2107722592065093632",
     "2107747868840759352",
     "2108141192072544383",
-    "2108144347418177568"
+    "2108144347418177568",
+    "2108202607105774017"
   ],
-  "post_count": 1890,
+  "post_count": 1891,
   "posts": [
-    {
-      "at": "2026-09-20 18:17 UTC",
-      "source_author": "JamesPearceLFC",
-      "source": "Liverpool have kept three successive Premier League clean sheets for the first time since the start of the title-winning campaign of 2024-25.",
-      "post": "BREAKING: Liverpool have kept three successive Premier League clean sheets for the first time since 2024-25 title win.\n\nSo they've gone from defensive imperious to defensive imperious again. Absolutely thrilling stuff.",
-      "x_url": null,
-      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdhNY-KnZqa"
-    },
     {
       "at": "2026-09-20 21:05 UTC",
       "source_author": "JacobsBen",
@@ -2111,6 +2103,14 @@
       "post": "BREAKING: Arsenal closing in on Declan Rice new deal.\n\nMikel Arteta convinced him to stay by promising to blow another title race in April. Rice: say no more, I'm signing.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DePMijuG0Yq"
+    },
+    {
+      "at": "2026-10-08 15:38 UTC",
+      "source_author": "SkySportsNews",
+      "source": "BREAKING: Granit Xhaka has been fined \u00a3136,265, suspended for two years, for forging a COVID-19 certificate \ud83d\udea8 https://t.co/Mb0zHlVRZ6",
+      "post": "BREAKING: Granit Xhaka fined \u00a3136,265 and suspended for two years for forging a COVID certificate.\n\nMeanwhile Arsenal fans still can't figure out why he keeps getting away with his disciplinary record on the pitch.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DePRirFGy0w"
     }
   ],
   "offers_posted": [
