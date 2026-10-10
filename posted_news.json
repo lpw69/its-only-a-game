@@ -1,6 +1,5 @@
 {
   "news_ids": [
-    "2057877267733184941",
     "2092334518694736236",
     "2092282830365589780",
     "2092317301169066310",
@@ -499,18 +498,11 @@
     "2108863166419456367",
     "2108448839770460476",
     "2107700829113192690",
-    "2108804630453035479"
+    "2108804630453035479",
+    "2108892705367470580"
   ],
-  "post_count": 1911,
+  "post_count": 1912,
   "posts": [
-    {
-      "at": "2026-09-22 19:45 UTC",
-      "source_author": "JacobsBen",
-      "source": "The transaction for just over 25% of Chelsea is worth around \u00a3950m.\ud83d\udcb7",
-      "post": "BREAKING: Chelsea stake valued at \u00a3950m.\n\nThat's roughly what it costs to buy a quarter of a football club these days. The other three-quarters will cost you a nervous breakdown and three new managers.",
-      "x_url": null,
-      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DdmhDQUD2pa"
-    },
     {
       "at": "2026-09-22 20:16 UTC",
       "source_author": "FabrizioRomano",
@@ -2111,6 +2103,14 @@
       "post": "BREAKING: Raphinha signs new Barcelona deal until 2030.\n\nOoh look at me, I'm Barcelona and I'm gonna lock a winger down for six years because that's definitely how you stop the bleeding.\n\nPathetic.",
       "x_url": null,
       "threads_url": "https://www.threads.com/@itsonlyagameee/post/DeUgEIWG6yY"
+    },
+    {
+      "at": "2026-10-10 18:02 UTC",
+      "source_author": "FabrizioRomano",
+      "source": "\ud83d\udea8 OFFICIAL: Cristiano Ronaldo has been provisionally suspended by Portuguese Federation after disciplinary case opened.\n\nCristiano Ronaldo has been \u201cprovisionally suspended\u201d, now waiting for the final verdict and decisions about the case.\n\nIt was Cristiano himself to suggest a punishment in a public statement after he apologised for leaving Portugal\u2019s camp.\n\nThe official statement from the Portuguese Federation \u2935\ufe0f\n\n\u201cThe initiation of disciplinary proceedings against Cristiano Ronaldo, by deliberation of the Non-Professional Section, of October 9, 2026, with the purpose of the investigation of any disciplinary relevance of the facts participated on October 7\u201d.\n\n\u201cWithout prejudice to the automatic preventive suspension to which he was subject until the date of establishment, the non-automatic preventive suspension of the player was determined and the urgent nature was attributed to the process\u201d.",
+      "post": "BREAKING: Cristiano Ronaldo provisionally suspended by Portuguese Federation.\n\nMan's so used to being the main character he's now writing his own punishment. Humble.",
+      "x_url": null,
+      "threads_url": "https://www.threads.com/@itsonlyagameee/post/DeUrlbsGP1h"
     }
   ],
   "offers_posted": [
